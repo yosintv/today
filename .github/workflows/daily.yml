@@ -2,14 +2,18 @@ name: Daily SEO Patro Update
 
 on:
   schedule:
-    - cron: '15 18 * * *'
-  workflow_dispatch:
+    # 23:00 (11 PM) NST is 17:15 UTC
+    - cron: '15 17 * * *'
+  workflow_dispatch: # Allows manual trigger for testing
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    
+    # Required to allow GitHub Actions to save files to your repository
     permissions:
       contents: write
+    
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
@@ -22,10 +26,11 @@ jobs:
       - name: Generate SEO Pages
         run: python 100.py 
 
-      - name: Commit and Push
+      - name: Commit and Push Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          # Adds all new .html files, sitemap.xml, and updates index.html
           git add . 
-          git commit -m "Updated SEO Patro: $(date)" || exit 0
+          git commit -m "Auto Update Patro: $(date)" || exit 0
           git push
