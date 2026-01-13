@@ -1,0 +1,30 @@
+name: Daily Calendar Update
+
+on:
+  schedule:
+    # 00:00 NPT is 18:15 UTC (6:15 PM)
+    - cron: '15 18 * * *'
+  workflow_dispatch: # Allows manual trigger for testing
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Generate Today Index
+        run: python generate_index.py
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add index.html
+          git commit -m "Update today's date: $(date)" || exit 0
+          git push
