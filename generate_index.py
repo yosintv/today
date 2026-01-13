@@ -8,18 +8,18 @@ SITE_URL = "https://yosintv.github.io/today"
 SITE_TITLE = "Nepali Calendar Today"
 TIMEZONE = ZoneInfo("Asia/Kathmandu")
 BASE_PATH = Path(".")
-# ==========================================
+# =========================================
 
 NEPALI_NUM = str.maketrans("0123456789", "०१२३४५६७८९")
 
 def to_nepali_num(text):
     return str(text).translate(NEPALI_NUM)
 
-# -------- Current Date --------
+# -------- Current NPT Date --------
 now = datetime.now(TIMEZONE)
 today_ad = now.strftime("%Y-%m-%d")
-api_month = now.strftime("%Y%m")          # ✅ 202601
-API_FILE = f"date/{api_month}.json"       # ✅ auto
+api_month = now.strftime("%Y%m")           # 202601
+API_FILE = f"date/{api_month}.json"
 
 print("NPT time:", now)
 print("Using API:", API_FILE)
@@ -29,19 +29,27 @@ api_path = Path(API_FILE)
 if not api_path.exists():
     raise FileNotFoundError(f"API file not found: {API_FILE}")
 
-data = json.loads(api_path.read_text(encoding="utf-8"))
+raw = json.loads(api_path.read_text(encoding="utf-8"))
 
-if not isinstance(data, list) or len(data) != 1:
-    raise ValueError("Invalid API format: expected array with one object")
+# ✅ SUPPORT BOTH FORMATS
+if isinstance(raw, list):
+    data = raw[0]
+elif isinstance(raw, dict):
+    data = raw
+else:
+    raise ValueError("Invalid API format")
 
-days = data[0]["days"]
+days = data.get("days", [])
+if not days:
+    raise ValueError("No days found in API")
 
-today = next((d for d in days if d["ad"] == today_ad), None)
+# -------- Find Today --------
+today = next((d for d in days if d.get("ad") == today_ad), None)
 if not today:
     raise ValueError("Today's date not found in API")
 
 # -------- BS Date --------
-bs_date = today["bs"]               # 2082-09-29
+bs_date = today["bs"]            # 2082-09-29
 bs_year, bs_month, bs_day = bs_date.split("-")
 bs_page = f"{bs_date}.html"
 
@@ -51,7 +59,7 @@ if today.get("event"):
     for e in today["event"].split(","):
         event_html += f'<span class="badge">{e.strip()}</span>'
 
-# -------- SEO Schema --------
+# -------- Schema (SEO) --------
 schema = {
     "@context": "https://schema.org",
     "@type": "Event",
@@ -72,7 +80,7 @@ html = f"""<!DOCTYPE html>
 <meta charset="utf-8">
 <title>{to_nepali_num(bs_date)} | Nepali Calendar Today</title>
 
-<meta name="description" content="Today Nepali date {to_nepali_num(bs_date)} with events and highlights">
+<meta name="description" content="Today Nepali date {to_nepali_num(bs_date)} with events">
 <link rel="canonical" href="{SITE_URL}/{bs_page}">
 
 <meta property="og:title" content="Nepali Date Today {to_nepali_num(bs_date)}">
@@ -116,7 +124,7 @@ body {{
   <h1>आजको मिति</h1>
   <h2>{to_nepali_num(bs_year)}-{to_nepali_num(bs_month)}-{to_nepali_num(bs_day)}</h2>
   <p class="small">{today["day"]} | AD {today_ad}</p>
-  <div>{event_html or "<span class='small'>No events today</span>"}</div>
+  <div>{event_html or "<span class='small'>आज कुनै विशेष कार्यक्रम छैन</span>"}</div>
 </div>
 </body>
 </html>
@@ -138,4 +146,4 @@ index_html = f"""<!DOCTYPE html>
 
 (BASE_PATH / "index.html").write_text(index_html, encoding="utf-8")
 
-print("Generated page:", bs_page)
+print("✅ Generated:", bs_page)
