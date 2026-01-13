@@ -4,161 +4,134 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 from pathlib import Path
 
-# ================= CONFIG LOAD =================
-CONFIG_FILE = "config.yml"
-
-with open(CONFIG_FILE, "r", encoding="utf-8") as f:
+# ================= CONFIG =================
+with open("config.yml", "r", encoding="utf-8") as f:
     config = yaml.safe_load(f)
 
-TIMEZONE = config.get("timezone", "Asia/Kathmandu")
+TZ = ZoneInfo(config.get("timezone", "Asia/Kathmandu"))
 DATA_FOLDER = Path(config.get("data_folder", "date"))
-OUTPUT_FILE = config.get("output_file", "index.html")
 SITE_TITLE = config.get("site_title", "Nepali Calendar Today")
 
-TZ = ZoneInfo(TIMEZONE)
-
-# ================= CURRENT TIME (NPT) =================
+# ================= TIME =================
 now = datetime.now(TZ)
-year_month = now.strftime("%Y%m")          # e.g. 202601
-today_ad = now.strftime("%Y-%m-%d")        # e.g. 2026-01-13
+year_month = now.strftime("%Y%m")
+today_ad = now.strftime("%Y-%m-%d")
 
 json_file = DATA_FOLDER / f"{year_month}.json"
 
-print("===================================")
-print("Nepali Time:", now)
-print("Looking for JSON:", json_file)
-print("===================================")
+print("NPT:", now)
+print("JSON:", json_file)
 
-# ================= SAFE FALLBACK =================
-if not json_file.exists():
-    print("JSON file NOT found. Writing fallback index.html")
-
-    fallback_html = f"""<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>{SITE_TITLE}</title>
-</head>
-<body>
-<h2>Calendar data not available</h2>
-<p>Please check back later.</p>
-</body>
-</html>
-"""
-
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write(fallback_html)
-
-    exit(0)
-
-# ================= LOAD JSON (AUTO-DETECT FORMAT) =================
+# ================= LOAD JSON (SAFE) =================
 with open(json_file, "r", encoding="utf-8") as f:
     raw = json.load(f)
 
-if isinstance(raw, list):
-    if len(raw) == 0:
-        raise ValueError("Calendar JSON array is empty")
-    data = raw[0]
-elif isinstance(raw, dict):
-    data = raw
-else:
-    raise ValueError("Unsupported calendar JSON format")
+data = raw[0] if isinstance(raw, list) else raw
+days = data["days"]
+month = data["month_info"]
 
-# ================= EXTRACT DATA =================
-month_info = data.get("month_info", {})
-days = data.get("days", [])
+# ================= FIND TODAY =================
+today = next((d for d in days if d["ad"] == today_ad), None)
 
-ad_month = month_info.get("ad_month", "")
-ad_year = month_info.get("ad_year", "")
-bs_months = ", ".join(month_info.get("bs_months", []))
+if not today:
+    raise ValueError("Today's date not found in JSON")
 
-# ================= BUILD TABLE ROWS =================
-rows_html = ""
+# ================= NEPALI NUMERALS =================
+NEP_NUM = str.maketrans("0123456789", "०१२३४५६७८९")
 
-for d in days:
-    ad = d.get("ad", "")
-    bs = d.get("bs", "")
-    day = d.get("day", "")
-    event = d.get("event") or ""
+def nep(s):
+    return s.translate(NEP_NUM)
 
-    row_class = "today" if ad == today_ad else ""
+# ================= EVENT BADGE =================
+def badge(event):
+    if not event:
+        return ""
+    e = event.lower()
+    if any(x in e for x in ["puja", "lhosar", "ekadashi", "shivaratri"]):
+        c = "festival"
+    elif any(x in e for x in ["world", "international", "day"]):
+        c = "international"
+    else:
+        c = "national"
+    return f'<span class="badge {c}">{event}</span>'
 
-    rows_html += f"""
-    <tr class="{row_class}">
-        <td>{ad}</td>
-        <td>{bs}</td>
-        <td>{day}</td>
-        <td>{event}</td>
-    </tr>
-    """
+# ================= BS PAGE NAME =================
+bs_page = today["bs"].replace(" ", "-") + ".html"   # 2082-10-18.html
 
-# ================= FINAL HTML =================
-html_output = f"""<!DOCTYPE html>
-<html lang="en">
+# ================= HTML =================
+html = f"""<!DOCTYPE html>
+<html lang="ne">
 <head>
 <meta charset="UTF-8">
-<title>{SITE_TITLE}</title>
+<title>{SITE_TITLE} | {today['bs']}</title>
+
+<meta name="description"
+content="Nepali calendar today {today['bs']} ({today['ad']}) with festivals and events.">
+
+<link rel="canonical" href="/{bs_page}">
+
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Nepali Calendar Today",
+  "startDate": "{today['ad']}",
+  "eventStatus": "https://schema.org/EventScheduled"
+}}
+</script>
+
 <style>
-body {{
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
-}}
-.container {{
-    max-width: 1000px;
-    margin: auto;
-    background: #ffffff;
-    padding: 20px;
-}}
-table {{
-    width: 100%;
-    border-collapse: collapse;
-}}
-th, td {{
-    border: 1px solid #cccccc;
-    padding: 8px;
-    text-align: left;
-}}
-th {{
-    background: #222;
-    color: #ffffff;
-}}
-.today {{
-    background: #fff3cd;
-    font-weight: bold;
-}}
+body{{font-family:Arial;background:#f4f4f4}}
+.container{{max-width:900px;margin:auto;background:#fff;padding:20px}}
+.today{{background:#fff3cd;padding:15px;border-radius:6px}}
+.badge{{padding:4px 8px;border-radius:4px;font-size:13px}}
+.festival{{background:#ff9800;color:#fff}}
+.international{{background:#2196f3;color:#fff}}
+.national{{background:#4caf50;color:#fff}}
 </style>
 </head>
+
 <body>
-
 <div class="container">
-    <h1>{SITE_TITLE}</h1>
 
-    <p>
-        <strong>AD:</strong> {ad_month} {ad_year} |
-        <strong>BS:</strong> {bs_months}
-    </p>
+<h1>{SITE_TITLE}</h1>
 
-    <table>
-        <tr>
-            <th>AD Date</th>
-            <th>BS Date</th>
-            <th>Day</th>
-            <th>Event</th>
-        </tr>
-        {rows_html}
-    </table>
-
-    <p style="margin-top:10px;color:#777;">
-        Updated: {now.strftime('%Y-%m-%d %H:%M')} (NPT)
-    </p>
+<div class="today">
+<h2>आजको मिति</h2>
+<p>
+<strong>{nep(today['bs'])}</strong><br>
+{today['day']}<br>
+AD: {today['ad']}
+</p>
+{badge(today['event'])}
 </div>
 
+<p style="color:#777;margin-top:10px">
+Updated {now.strftime('%Y-%m-%d %H:%M')} (NPT)
+</p>
+
+</div>
 </body>
 </html>
 """
 
-# ================= WRITE index.html =================
-with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-    f.write(html_output)
+# ================= WRITE BS PAGE =================
+Path(bs_page).write_text(html, encoding="utf-8")
 
-print("✅ index.html generated successfully")
+# ================= INDEX REDIRECT =================
+index_html = f"""<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="refresh" content="0; url=/{bs_page}">
+<link rel="canonical" href="/{bs_page}">
+<title>{SITE_TITLE}</title>
+</head>
+<body>
+Redirecting to today’s Nepali date…
+</body>
+</html>
+"""
+
+Path("index.html").write_text(index_html, encoding="utf-8")
+
+print("✅ Generated:", bs_page)
