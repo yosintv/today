@@ -1,0 +1,4 @@
+timezone: Asia/Kathmandu
+data_folder: date
+output_file: index.html
+site_title: "Nepali Calendar Today"
