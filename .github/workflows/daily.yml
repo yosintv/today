@@ -2,29 +2,31 @@ name: Daily Calendar Update
 
 on:
   schedule:
-    # 00:00 NPT is 18:15 UTC (6:15 PM)
+    # 00:00 NPT (Nepal Time) is 18:15 UTC
     - cron: '15 18 * * *'
-  workflow_dispatch: # Allows manual trigger for testing
+  workflow_dispatch: # Allows you to click "Run Workflow" manually to test
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # Updated to v4 for better performance
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      - name: Generate Today Index
-        run: python generate_index.py
+      - name: Generate All Pages and Sitemap
+        # Ensure this filename matches your python script name (e.g., generate_patro.py)
+        run: python generate_patro.py 
 
-      - name: Commit and Push
+      - name: Commit and Push Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add index.html
-          git commit -m "Update today's date: $(date)" || exit 0
+          # THIS IS THE KEY FIX: "git add ." adds all files, not just index.html
+          git add . 
+          git commit -m "Auto Update: Generated all date pages and sitemap - $(date)" || exit 0
           git push
