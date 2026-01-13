@@ -75,7 +75,7 @@ def get_html_template(target_day, all_days, month_label, ad_month):
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="{DOMAIN}/{target_day['bs']}.html">
     
-    <link rel="icon" type="image/png" href="https://favicon.io/favicon.ico">
+    <link rel="icon" type="image/png" href="/favicon.ico">
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="{DOMAIN}/{target_day['bs']}.html">
