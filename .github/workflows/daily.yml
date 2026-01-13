@@ -2,14 +2,12 @@ name: Daily Calendar Update
 
 on:
   schedule:
-    # 00:00 Nepal Time (NPT) is 18:15 UTC
     - cron: '15 18 * * *'
-  workflow_dispatch: # Allows manual run button
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    # Crucial for allowing the script to push changes
     permissions:
       contents: write
     
@@ -29,7 +27,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          # 'git add .' captures index.html, sitemap.xml, and all 2082-xx-xx.html files
           git add . 
-          git commit -m "Auto Update: $(date)" || exit 0
+          git commit -m "Updated short-URL pages: $(date)" || exit 0
           git push
