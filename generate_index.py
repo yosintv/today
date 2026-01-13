@@ -4,11 +4,10 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 # ================= CONFIG =================
-API_FILE = "date/202512.json"   # your API JSON
 SITE_URL = "https://yosintv.github.io/today"
 SITE_TITLE = "Nepali Calendar Today"
 TIMEZONE = ZoneInfo("Asia/Kathmandu")
-BASE_PATH = Path(".")  # IMPORTANT for GitHub Pages sub-repo
+BASE_PATH = Path(".")
 # ==========================================
 
 NEPALI_NUM = str.maketrans("0123456789", "०१२३४५६७८९")
@@ -16,14 +15,21 @@ NEPALI_NUM = str.maketrans("0123456789", "०१२३४५६७८९")
 def to_nepali_num(text):
     return str(text).translate(NEPALI_NUM)
 
-# Current Nepali date (matched from API)
+# -------- Current Date --------
 now = datetime.now(TIMEZONE)
 today_ad = now.strftime("%Y-%m-%d")
+api_month = now.strftime("%Y%m")          # ✅ 202601
+API_FILE = f"date/{api_month}.json"       # ✅ auto
 
 print("NPT time:", now)
+print("Using API:", API_FILE)
 
 # -------- Load API --------
-data = json.loads(Path(API_FILE).read_text(encoding="utf-8"))
+api_path = Path(API_FILE)
+if not api_path.exists():
+    raise FileNotFoundError(f"API file not found: {API_FILE}")
+
+data = json.loads(api_path.read_text(encoding="utf-8"))
 
 if not isinstance(data, list) or len(data) != 1:
     raise ValueError("Invalid API format: expected array with one object")
@@ -34,17 +40,18 @@ today = next((d for d in days if d["ad"] == today_ad), None)
 if not today:
     raise ValueError("Today's date not found in API")
 
-bs_date = today["bs"]  # 2082-09-29
+# -------- BS Date --------
+bs_date = today["bs"]               # 2082-09-29
+bs_year, bs_month, bs_day = bs_date.split("-")
 bs_page = f"{bs_date}.html"
 
-bs_year, bs_month, bs_day = bs_date.split("-")
-
-# -------- HTML PAGE --------
+# -------- Events --------
 event_html = ""
 if today.get("event"):
     for e in today["event"].split(","):
         event_html += f'<span class="badge">{e.strip()}</span>'
 
+# -------- SEO Schema --------
 schema = {
     "@context": "https://schema.org",
     "@type": "Event",
@@ -58,6 +65,7 @@ schema = {
     }
 }
 
+# -------- HTML --------
 html = f"""<!DOCTYPE html>
 <html lang="ne">
 <head>
@@ -90,11 +98,10 @@ body {{
   border-radius: 14px;
   box-shadow: 0 10px 30px rgba(0,0,0,.08);
 }}
-h1 {{ margin: 0 0 8px }}
 .badge {{
   display: inline-block;
   background: #2563eb;
-  color: white;
+  color: #fff;
   padding: 6px 10px;
   border-radius: 999px;
   font-size: 13px;
@@ -109,17 +116,15 @@ h1 {{ margin: 0 0 8px }}
   <h1>आजको मिति</h1>
   <h2>{to_nepali_num(bs_year)}-{to_nepali_num(bs_month)}-{to_nepali_num(bs_day)}</h2>
   <p class="small">{today["day"]} | AD {today_ad}</p>
-
   <div>{event_html or "<span class='small'>No events today</span>"}</div>
 </div>
 </body>
 </html>
 """
 
-# -------- WRITE BS PAGE --------
+# -------- WRITE FILES --------
 (BASE_PATH / bs_page).write_text(html, encoding="utf-8")
 
-# -------- INDEX REDIRECT --------
 index_html = f"""<!DOCTYPE html>
 <html>
 <head>
@@ -127,12 +132,10 @@ index_html = f"""<!DOCTYPE html>
 <link rel="canonical" href="{SITE_URL}/{bs_page}">
 <title>{SITE_TITLE}</title>
 </head>
-<body>
-Redirecting to today’s Nepali date…
-</body>
+<body>Redirecting…</body>
 </html>
 """
 
 (BASE_PATH / "index.html").write_text(index_html, encoding="utf-8")
 
-print("Generated:", bs_page)
+print("Generated page:", bs_page)
