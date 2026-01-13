@@ -20,25 +20,24 @@ def generate_sitemap(all_days):
         ET.SubElement(u, "changefreq").text = "monthly"
         
     tree = ET.ElementTree(urlset)
-    # Using a string to ensure proper formatting
     tree.write("sitemap.xml", encoding='utf-8', xml_declaration=True)
 
 def get_html_layout(target_day, data, today_ad, bs_month_name, bs_year):
-    """Returns the exact HTML design provided, customized for a specific day."""
+    """Generates the full HTML for a specific day, populating its unique data."""
     
-    # Meta Info
-    title = f"Nepali Date Today: {target_day['bs']} | {target_day['ad']} - Nepali Patro"
-    description = f"Check today's Nepali date (Aaja ko gate): {target_day['bs']}. Get full Nepali calendar for {bs_month_name} {bs_year} with events and holidays."
+    # Dynamic Meta Info based on the day clicked
+    title = f"Nepali Date: {target_day['bs']} | {target_day['ad']} - {target_day['event'] if target_day.get('event') else 'Nepali Patro'}"
+    description = f"Today's date details: BS {target_day['bs']} and AD {target_day['ad']}. Day: {target_day['day']}. Event: {target_day['event'] if target_day.get('event') else 'No specific event'}."
 
-    # Build Calendar Days for HTML (Linking to their respective .html files)
+    # Build Calendar Days (The Grid)
     calendar_html = ""
     for day in data['days']:
-        # Highlight the 'active' day being viewed
-        is_active = "ring-4 ring-red-500 shadow-lg" if day['bs'] == target_day['bs'] else "hover:bg-gray-50"
+        # Highlight the day currently being viewed
+        is_viewing = "ring-4 ring-red-500 shadow-lg" if day['bs'] == target_day['bs'] else "hover:bg-gray-50"
         event_dot = '<span class="block w-1.5 h-1.5 bg-red-500 rounded-full mx-auto mt-1"></span>' if day.get('event') else ''
         
         calendar_html += f"""
-        <a href="{day['bs']}.html" class="p-4 border border-gray-100 rounded-xl text-center {is_active} transition-all block text-inherit no-underline">
+        <a href="{day['bs']}.html" class="p-4 border border-gray-100 rounded-xl text-center {is_viewing} transition-all block text-inherit no-underline">
             <div class="text-xs text-gray-400 font-medium">{day['day'][:3]}</div>
             <div class="text-xl font-bold text-gray-800 bs-date-val">{day['bs'].split('-')[-1]}</div>
             <div class="text-xs text-gray-500 ad-date-val hidden">{day['ad'].split('-')[-1]}</div>
@@ -54,27 +53,25 @@ def get_html_layout(target_day, data, today_ad, bs_month_name, bs_year):
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{title}</title>
         <meta name="description" content="{description}">
-        <meta name="keywords" content="Nepali date today, Today Nepali date, Nepali calendar {bs_month_name} {bs_year}, Aaja ko gate, Aaja ko tarikh, Aaja k gate ho?, Nepali patro">
+        <meta name="keywords" content="Nepali date today, {target_day['bs']}, {target_day['ad']}, Aaja ko gate, Nepali calendar {bs_month_name}">
         <script src="https://cdn.tailwindcss.com"></script>
-        <meta property="og:title" content="{title}">
-        <meta property="og:description" content="{description}">
-        <meta property="og:url" content="https://today.singhyogendra.com.np/{target_day['bs']}.html">
-        <meta property="og:type" content="website">
     </head>
     <body class="bg-slate-50 text-slate-900 antialiased">
         <header class="max-w-4xl mx-auto px-4 py-10 text-center">
             <h1 class="text-4xl font-extrabold text-slate-800 tracking-tight mb-2"><a href="/">Nepali Patro</a></h1>
             <p class="text-slate-500">Your daily digital calendar for Nepal</p>
         </header>
+
         <main class="max-w-4xl mx-auto px-4">
             <div class="bg-white rounded-3xl shadow-xl overflow-hidden mb-10 border border-slate-100">
-                <div class="bg-red-600 p-6 text-white text-center">
-                    <h2 class="text-lg font-medium opacity-90">Aaja ko Gate (Today's Date)</h2>
-                    <div class="text-6xl font-black my-2">{target_day['bs']}</div>
-                    <p class="text-xl opacity-90">{target_day['ad']} | {target_day['day']}</p>
+                <div class="bg-red-600 p-8 text-white text-center">
+                    <h2 class="text-lg font-medium opacity-90 uppercase tracking-widest">Selected Date</h2>
+                    <div class="text-7xl font-black my-2">{target_day['bs']}</div>
+                    <p class="text-2xl opacity-90">{target_day['ad']} | {target_day['day']}</p>
                 </div>
-                {f'<div class="p-4 bg-yellow-50 text-center text-yellow-800 font-bold border-b border-yellow-100">✨ {target_day["event"]}</div>' if target_day.get('event') else ''}
+                {f'<div class="p-5 bg-yellow-50 text-center text-yellow-900 font-bold border-b border-yellow-100 text-xl tracking-tight">✨ {target_day["event"]}</div>' if target_day.get('event') else ''}
             </div>
+
             <section class="bg-white p-6 rounded-3xl shadow-sm border border-slate-100 mb-10">
                 <div class="flex flex-col sm:flex-row justify-between items-center mb-6 gap-4">
                     <h3 class="text-2xl font-bold text-slate-800">{bs_month_name} {bs_year} / {data['month_info']['ad_month']}</h3>
@@ -87,34 +84,27 @@ def get_html_layout(target_day, data, today_ad, bs_month_name, bs_year):
                     {calendar_html}
                 </div>
             </section>
-            <section class="prose prose-slate max-w-none mb-10">
-                <h2 class="text-2xl font-bold mb-4">Frequently Asked Questions (FAQ)</h2>
-                <div class="space-y-4">
-                    <div class="bg-white p-4 rounded-xl shadow-sm border">
-                        <p class="font-bold">Aaja k gate ho? (What is the Nepali date today?)</p>
-                        <p class="text-slate-600">Aaja ko gate {target_day['bs']} ho.</p>
-                    </div>
-                    <div class="bg-white p-4 rounded-xl shadow-sm border">
-                        <p class="font-bold">Aaja ko tarikh k ho? (What is the English date today?)</p>
-                        <p class="text-slate-600">Today's English date (tarikh) is {target_day['ad']}.</p>
-                    </div>
-                </div>
+
+            <section class="prose prose-slate max-w-none mb-10 bg-white p-6 rounded-3xl border border-slate-100">
+                <h2 class="text-xl font-bold mb-4">Date Information</h2>
+                <p>The Nepali date (BS) for this day is <strong>{target_day['bs']}</strong>. On the English calendar (AD), it is <strong>{target_day['ad']}</strong>. The day of the week is <strong>{target_day['day']}</strong>.</p>
             </section>
         </main>
+
         <footer class="text-center py-10 text-slate-400 text-sm">
-            <p>© 2026 Today Singh Yogendra. All Rights Reserved.</p>
-            <p>Nepali Date Today | Today Nepali Date | Nepali Patro</p>
+            <p>© 2026 today.singhyogendra.com.np</p>
         </footer>
+
         <script>
-            const toggleBS = document.getElementById('toggleBS'), toggleAD = document.getElementById('toggleAD');
-            const bsVals = document.querySelectorAll('.bs-date-val'), adVals = document.querySelectorAll('.ad-date-val');
-            toggleAD.addEventListener('click', () => {{
-                toggleAD.classList.add('bg-white', 'shadow-sm', 'font-bold'); toggleBS.classList.remove('bg-white', 'shadow-sm', 'font-bold');
-                bsVals.forEach(el => el.classList.add('hidden')); adVals.forEach(el => el.classList.remove('hidden'));
+            const tBS = document.getElementById('toggleBS'), tAD = document.getElementById('toggleAD');
+            const bsV = document.querySelectorAll('.bs-date-val'), adV = document.querySelectorAll('.ad-date-val');
+            tAD.addEventListener('click', () => {{
+                tAD.classList.add('bg-white', 'shadow-sm', 'font-bold'); tBS.classList.remove('bg-white', 'shadow-sm', 'font-bold');
+                bsV.forEach(el => el.classList.add('hidden')); adV.forEach(el => el.classList.remove('hidden'));
             }});
-            toggleBS.addEventListener('click', () => {{
-                toggleBS.classList.add('bg-white', 'shadow-sm', 'font-bold'); toggleAD.classList.remove('bg-white', 'shadow-sm', 'font-bold');
-                adVals.forEach(el => el.classList.add('hidden')); bsVals.forEach(el => el.classList.remove('hidden'));
+            tBS.addEventListener('click', () => {{
+                tBS.classList.add('bg-white', 'shadow-sm', 'font-bold'); tAD.classList.remove('bg-white', 'shadow-sm', 'font-bold');
+                adV.forEach(el => el.classList.add('hidden')); bsV.forEach(el => el.classList.remove('hidden'));
             }});
         </script>
     </body>
@@ -138,23 +128,23 @@ def generate_html():
     bs_month_name = data['month_info']['bs_months'][0].split()[0]
     bs_year = data['month_info']['bs_months'][0].split()[1]
 
-    # 1. Generate Sitemap
+    # Generate sitemap.xml
     generate_sitemap(data['days'])
 
-    # 2. Generate all individual Day Pages
+    # Create ALL individual day pages and index.html
     for day in data['days']:
-        html_output = get_html_layout(day, data, today_ad, bs_month_name, bs_year)
+        content = get_html_layout(day, data, today_ad, bs_month_name, bs_year)
         
-        # Save specific date page (e.g., 2082-09-28.html)
+        # This creates 2082-08-15.html, etc.
         with open(f"{day['bs']}.html", "w", encoding="utf-8") as f:
-            f.write(html_output)
+            f.write(content)
         
-        # 3. Save as index.html if it matches the current AD date
+        # This creates the homepage
         if day['ad'] == today_ad:
             with open("index.html", "w", encoding="utf-8") as f:
-                f.write(html_output)
+                f.write(content)
 
-    print(f"Generated {len(data['days'])} pages and sitemap.xml")
+    print(f"Generated index.html + {len(data['days'])} pages.")
 
 if __name__ == "__main__":
     generate_html()
