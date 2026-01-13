@@ -2,31 +2,34 @@ name: Daily Calendar Update
 
 on:
   schedule:
-    # 00:00 NPT (Nepal Time) is 18:15 UTC
+    # 00:00 Nepal Time (NPT) is 18:15 UTC
     - cron: '15 18 * * *'
-  workflow_dispatch: # Allows you to click "Run Workflow" manually to test
+  workflow_dispatch: # Allows manual run button
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Crucial for allowing the script to push changes
+    permissions:
+      contents: write
+    
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v4 # Updated to v4 for better performance
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      - name: Generate All Pages and Sitemap
-        # Ensure this filename matches your python script name (e.g., generate_patro.py)
+      - name: Generate All Pages
         run: python generate_patro.py 
 
       - name: Commit and Push Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          # THIS IS THE KEY FIX: "git add ." adds all files, not just index.html
+          # 'git add .' captures index.html, sitemap.xml, and all 2082-xx-xx.html files
           git add . 
-          git commit -m "Auto Update: Generated all date pages and sitemap - $(date)" || exit 0
+          git commit -m "Auto Update: $(date)" || exit 0
           git push
