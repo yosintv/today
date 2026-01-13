@@ -1,0 +1,38 @@
+{
+  "month_info": {
+    "ad_month": "February",
+    "ad_year": 2026,
+    "bs_months": ["Magh 2082", "Falgun 2082"],
+    "total_days": 28
+  },
+  "days": [
+    { "ad": "2026-02-01", "bs": "2082-10-18", "day": "Sunday", "event": "Shree Swasthani Brata Samapti" },
+    { "ad": "2026-02-02", "bs": "2082-10-19", "day": "Monday", "event": "World Wetlands Day" },
+    { "ad": "2026-02-03", "bs": "2082-10-20", "day": "Tuesday", "event": null },
+    { "ad": "2026-02-04", "bs": "2082-10-21", "day": "Wednesday", "event": "World Cancer Day" },
+    { "ad": "2026-02-05", "bs": "2082-10-22", "day": "Thursday", "event": null },
+    { "ad": "2026-02-06", "bs": "2082-10-23", "day": "Friday", "event": null },
+    { "ad": "2026-02-07", "bs": "2082-10-24", "day": "Saturday", "event": null },
+    { "ad": "2026-02-08", "bs": "2082-10-25", "day": "Sunday", "event": null },
+    { "ad": "2026-02-09", "bs": "2082-10-26", "day": "Monday", "event": "Gorakhkali Puja" },
+    { "ad": "2026-02-10", "bs": "2082-10-27", "day": "Tuesday", "event": null },
+    { "ad": "2026-02-11", "bs": "2082-10-28", "day": "Wednesday", "event": "Intl. Day of Women and Girls in Science" },
+    { "ad": "2026-02-12", "bs": "2082-10-29", "day": "Thursday", "event": null },
+    { "ad": "2026-02-13", "bs": "2082-11-01", "day": "Friday", "event": "Falgun Sakranti, World Radio Day" },
+    { "ad": "2026-02-14", "bs": "2082-11-02", "day": "Saturday", "event": "Valentine's Day" },
+    { "ad": "2026-02-15", "bs": "2082-11-03", "day": "Sunday", "event": "Maha Shivaratri, Nepal Army Day" },
+    { "ad": "2026-02-16", "bs": "2082-11-04", "day": "Monday", "event": null },
+    { "ad": "2026-02-17", "bs": "2082-11-05", "day": "Tuesday", "event": null },
+    { "ad": "2026-02-18", "bs": "2082-11-06", "day": "Wednesday", "event": "Gyalpo Lhosar" },
+    { "ad": "2026-02-19", "bs": "2082-11-07", "day": "Thursday", "event": "Prajatantra Diwas (Democracy Day)" },
+    { "ad": "2026-02-20", "bs": "2082-11-08", "day": "Friday", "event": "World Day of Social Justice" },
+    { "ad": "2026-02-21", "bs": "2082-11-09", "day": "Saturday", "event": "Intl. Mother Language Day" },
+    { "ad": "2026-02-22", "bs": "2082-11-10", "day": "Sunday", "event": null },
+    { "ad": "2026-02-23", "bs": "2082-11-11", "day": "Monday", "event": null },
+    { "ad": "2026-02-24", "bs": "2082-11-12", "day": "Tuesday", "event": null },
+    { "ad": "2026-02-25", "bs": "2082-11-13", "day": "Wednesday", "event": null },
+    { "ad": "2026-02-26", "bs": "2082-11-14", "day": "Thursday", "event": null },
+    { "ad": "2026-02-27", "bs": "2082-11-15", "day": "Friday", "event": "Amalaki Ekadashi" },
+    { "ad": "2026-02-28", "bs": "2082-11-16", "day": "Saturday", "event": null }
+  ]
+}
