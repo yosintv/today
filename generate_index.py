@@ -4,7 +4,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 # ================= CONFIG =================
-SITE_URL = "https://today.singhyogendra.com.np/"
+SITE_URL = "https://today.singhyogendra.com.np"
 SITE_TITLE = "Nepali Calendar Today"
 TIMEZONE = ZoneInfo("Asia/Kathmandu")
 BASE_PATH = Path(".")
@@ -18,7 +18,7 @@ def to_nepali_num(text):
 # -------- Current NPT Date --------
 now = datetime.now(TIMEZONE)
 today_ad = now.strftime("%Y-%m-%d")
-api_month = now.strftime("%Y%m")           # 202601
+api_month = now.strftime("%Y%m")              # e.g. 202601
 API_FILE = f"date/{api_month}.json"
 
 print("NPT time:", now)
@@ -31,7 +31,7 @@ if not api_path.exists():
 
 raw = json.loads(api_path.read_text(encoding="utf-8"))
 
-# ✅ SUPPORT BOTH FORMATS
+# Support BOTH formats: {} or [{}]
 if isinstance(raw, list):
     data = raw[0]
 elif isinstance(raw, dict):
@@ -53,13 +53,13 @@ bs_date = today["bs"]            # 2082-09-29
 bs_year, bs_month, bs_day = bs_date.split("-")
 bs_page = f"{bs_date}.html"
 
-# -------- Events --------
+# -------- Events as Badges --------
 event_html = ""
 if today.get("event"):
     for e in today["event"].split(","):
         event_html += f'<span class="badge">{e.strip()}</span>'
 
-# -------- Schema (SEO) --------
+# -------- SEO Schema --------
 schema = {
     "@context": "https://schema.org",
     "@type": "Event",
@@ -73,14 +73,14 @@ schema = {
     }
 }
 
-# -------- HTML --------
+# -------- HTML Page --------
 html = f"""<!DOCTYPE html>
 <html lang="ne">
 <head>
 <meta charset="utf-8">
 <title>{to_nepali_num(bs_date)} | Nepali Calendar Today</title>
 
-<meta name="description" content="Today Nepali date {to_nepali_num(bs_date)} with events">
+<meta name="description" content="Today Nepali date {to_nepali_num(bs_date)} with events and highlights">
 <link rel="canonical" href="{SITE_URL}/{bs_page}">
 
 <meta property="og:title" content="Nepali Date Today {to_nepali_num(bs_date)}">
@@ -115,7 +115,10 @@ body {{
   font-size: 13px;
   margin: 4px 4px 0 0;
 }}
-.small {{ color: #555; font-size: 14px }}
+.small {{
+  color: #555;
+  font-size: 14px;
+}}
 </style>
 </head>
 
@@ -130,7 +133,7 @@ body {{
 </html>
 """
 
-# -------- WRITE FILES --------
+# -------- Write Files --------
 (BASE_PATH / bs_page).write_text(html, encoding="utf-8")
 
 index_html = f"""<!DOCTYPE html>
