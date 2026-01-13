@@ -73,6 +73,46 @@
         { "ad": "2026-02-27", "bs": "2082-11-15", "day": "Friday", "event": "Amalaki Ekadashi" },
         { "ad": "2026-02-28", "bs": "2082-11-16", "day": "Saturday", "event": null }
       ]
-    }
+    },
+
+{
+  "month": "March",
+  "ad_year": 2026,
+  "bs_months": ["Falgun 2082", "Chaitra 2082"],
+  "days": [
+    { "ad": "2026-03-01", "bs": "2082-11-17", "day": "Sunday", "event": "Pradosh Brata" },
+    { "ad": "2026-03-02", "bs": "2082-11-18", "day": "Monday", "event": "Holi (Hilly Region)" },
+    { "ad": "2026-03-03", "bs": "2082-11-19", "day": "Tuesday", "event": "Holi (Terai Region)" },
+    { "ad": "2026-03-04", "bs": "2082-11-20", "day": "Wednesday", "event": null },
+    { "ad": "2026-03-05", "bs": "2082-11-21", "day": "Thursday", "event": "Nepalese General Election (Scheduled)" },
+    { "ad": "2026-03-06", "bs": "2082-11-22", "day": "Friday", "event": "Nala Matsyendranath Snan" },
+    { "ad": "2026-03-07", "bs": "2082-11-23", "day": "Saturday", "event": null },
+    { "ad": "2026-03-08", "bs": "2082-11-24", "day": "Sunday", "event": "International Women's Day" },
+    { "ad": "2026-03-09", "bs": "2082-11-25", "day": "Monday", "event": null },
+    { "ad": "2026-03-10", "bs": "2082-11-26", "day": "Tuesday", "event": null },
+    { "ad": "2026-03-11", "bs": "2082-11-27", "day": "Wednesday", "event": "Shitalastami" },
+    { "ad": "2026-03-12", "bs": "2082-11-28", "day": "Thursday", "event": null },
+    { "ad": "2026-03-13", "bs": "2082-11-29", "day": "Friday", "event": null },
+    { "ad": "2026-03-14", "bs": "2082-11-30", "day": "Saturday", "event": "Pi Day" },
+    { "ad": "2026-03-15", "bs": "2082-12-01", "day": "Sunday", "event": "Chaitra Sakranti, Paapmochani Ekadashi" },
+    { "ad": "2026-03-16", "bs": "2082-12-02", "day": "Monday", "event": null },
+    { "ad": "2026-03-17", "bs": "2082-12-03", "day": "Tuesday", "event": "Pishach Chaturdasi (Pasachare)" },
+    { "ad": "2026-03-18", "bs": "2082-12-04", "day": "Wednesday", "event": "Ghode Jatra (KTM Valley)" },
+    { "ad": "2026-03-19", "bs": "2082-12-05", "day": "Thursday", "event": null },
+    { "ad": "2026-03-20", "bs": "2082-12-06", "day": "Friday", "event": null },
+    { "ad": "2026-03-21", "bs": "2082-12-07", "day": "Saturday", "event": "Ramjan Edul Fikra (Eid al-Fitr)" },
+    { "ad": "2026-03-22", "bs": "2082-12-08", "day": "Sunday", "event": "World Water Day" },
+    { "ad": "2026-03-23", "bs": "2082-12-09", "day": "Monday", "event": null },
+    { "ad": "2026-03-24", "bs": "2082-12-10", "day": "Tuesday", "event": "World TB Day" },
+    { "ad": "2026-03-25", "bs": "2082-12-11", "day": "Wednesday", "event": null },
+    { "ad": "2026-03-26", "bs": "2082-12-12", "day": "Thursday", "event": "Chaite Dashain" },
+    { "ad": "2026-03-27", "bs": "2082-12-13", "day": "Friday", "event": "Ram Nawami" },
+    { "ad": "2026-03-28", "bs": "2082-12-14", "day": "Saturday", "event": null },
+    { "ad": "2026-03-29", "bs": "2082-12-15", "day": "Sunday", "event": "Kamada Ekadashi" },
+    { "ad": "2026-03-30", "bs": "2082-12-16", "day": "Monday", "event": null },
+    { "ad": "2026-03-31", "bs": "2082-12-17", "day": "Tuesday", "event": "Mahabir Jayanti" }
+  ]
+}
+    
   ]
 }
