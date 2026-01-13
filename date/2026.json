@@ -39,7 +39,6 @@
     { "ad": "2026-04-30", "bs": "2083-01-17", "day": "Thursday", "event": null }
   ]
 },
-    
 {
   "month": "March",
   "ad_year": 2026,
@@ -78,7 +77,6 @@
     { "ad": "2026-03-31", "bs": "2082-12-17", "day": "Tuesday", "event": "Mahabir Jayanti" }
   ]
 },
-    
     {
       "month": "January",
       "ad_year": 2026,
@@ -152,6 +150,5 @@
         { "ad": "2026-02-28", "bs": "2082-11-16", "day": "Saturday", "event": null }
       ]
     }
-    
   ]
 }
