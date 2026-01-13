@@ -3,265 +3,310 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nepali Date Today: 2082-10-21 | 2026-02-04 - Nepali Patro</title>
-    <meta name="description" content="Aaja ko gate: 2082-10-21. English Date: 2026-02-04. Full Nepali calendar for Magh 2082 / Falgun 2082 / February with festivals and holidays.">
+    <title>Nepali Date Today: 2082-10-21 | 2026-02-04 | World Cancer Day - Nepali Patro</title>
+    <meta name="description" content="Find Nepali date today (Aaja ko gate): 2082-10-21. Today Nepali date, Nepali calendar Magh 2082 / Falgun 2082 2026, Aaja ko tarikh, and events.">
+    <meta name="keywords" content="Nepali date today, Today Nepali date, Nepali calendar Magh 2082 / Falgun 2082 2026, Aaja ko gate, Aaja ko tarikh, Aaja k gate ho?, Nepali patro">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [{"@type": "Question", "name": "Aaja k gate ho? (What is the Nepali date today?)", "acceptedAnswer": {"@type": "Answer", "text": "Aaja ko gate 2082-10-21 ho (Wednesday)."}}, {"@type": "Question", "name": "What is today's English date?", "acceptedAnswer": {"@type": "Answer", "text": "Today is 2026-02-04 (AD)."}}, {"@type": "Question", "name": "Is there any event today (2082-10-21)?", "acceptedAnswer": {"@type": "Answer", "text": "World Cancer Day"}}, {"@type": "Question", "name": "Which Nepali month is it now?", "acceptedAnswer": {"@type": "Answer", "text": "It is currently Magh 2082 ."}}, {"@type": "Question", "name": "What is the next big festival?", "acceptedAnswer": {"@type": "Answer", "text": "The next event is World Cancer Day on 2082-10-21."}}, {"@type": "Question", "name": "How to convert BS to AD?", "acceptedAnswer": {"@type": "Answer", "text": "You can use our daily updated calendar to find accurate conversion for any date in 2082/2083."}}, {"@type": "Question", "name": "How many days in February 2026?", "acceptedAnswer": {"@type": "Answer", "text": "There are 28 days in this calendar block."}}, {"@type": "Question", "name": "Is today a public holiday in Nepal?", "acceptedAnswer": {"@type": "Answer", "text": "Public holidays usually coincide with major events. Check the red dots on our calendar grid."}}, {"@type": "Question", "name": "Where can I find tomorrow's Nepali date?", "acceptedAnswer": {"@type": "Answer", "text": "You can click on the next box in our grid to see details for tomorrow."}}, {"@type": "Question", "name": "Who provides this Nepali Patro?", "acceptedAnswer": {"@type": "Answer", "text": "This service is provided by Singh Yogendra to help users track Nepali dates and festivals."}}]
-    }
-    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
 </head>
 <body class="bg-slate-50 text-slate-900 antialiased">
-    <header class="max-w-4xl mx-auto px-4 py-8 text-center">
-        <h1 class="text-3xl font-black text-slate-800 tracking-tight"><a href="https://today.singhyogendra.com.np">NEPALI PATRO</a></h1>
+    <header class="max-w-4xl mx-auto px-4 py-6 text-center">
+        <h1 class="text-2xl font-black text-slate-800"><a href="https://today.singhyogendra.com.np">NEPALI PATRO</a></h1>
     </header>
 
     <main class="max-w-4xl mx-auto px-4">
-        <div class="bg-white rounded-[2rem] shadow-2xl overflow-hidden mb-8 border border-slate-100">
-            <div class="bg-red-600 p-8 text-white text-center">
-                <p class="text-sm font-bold uppercase tracking-widest opacity-80 mb-2">Aaja ko Nepali Date</p>
-                <div class="text-7xl font-black mb-4 tracking-tighter">2082-10-21</div>
-                <div class="flex flex-wrap justify-center gap-4 text-lg opacity-90 font-medium">
-                    <span>2026-02-04</span> | <span>Wednesday</span>
+        <div class="bg-white rounded-[2rem] shadow-xl overflow-hidden mb-8 border border-slate-100">
+            <div class="bg-red-600 p-6 sm:p-10 text-white text-center">
+                <p class="text-xs font-bold uppercase tracking-widest opacity-80 mb-2">Aaja ko Nepali Date</p>
+                <div class="text-5xl sm:text-8xl font-black mb-4 tracking-tighter">2082-10-21</div>
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6 text-lg sm:text-2xl opacity-95 font-medium">
+                    <span>2026-02-04</span>
+                    <span class="hidden sm:block text-red-400">|</span>
+                    <span>Wednesday</span>
                 </div>
             </div>
             
             <div class="grid grid-cols-2 divide-x divide-slate-100 border-b border-slate-100">
                 <div class="p-4 text-center">
-                    <p class="text-[10px] font-bold text-slate-400 uppercase">Nepal Time (NPT)</p>
-                    <div id="npt-clock" class="text-xl font-mono font-bold text-red-600">--:--:--</div>
+                    <p class="text-[10px] font-bold text-slate-400 uppercase">Nepal Time</p>
+                    <div id="npt-clock" class="text-lg sm:text-xl font-mono font-bold text-red-600">--:--:--</div>
                 </div>
                 <div class="p-4 text-center">
-                    <p class="text-[10px] font-bold text-slate-400 uppercase">Your Local Time</p>
-                    <div id="local-clock" class="text-xl font-mono font-bold text-slate-800">--:--:--</div>
+                    <p class="text-[10px] font-bold text-slate-400 uppercase">Local Time</p>
+                    <div id="local-clock" class="text-lg sm:text-xl font-mono font-bold text-slate-800">--:--:--</div>
                 </div>
             </div>
-            <div class="p-6 bg-yellow-50 text-center text-yellow-800 font-bold text-xl italic">✨ World Cancer Day</div>
+            <div class="p-6 bg-yellow-50 text-center text-yellow-800 font-bold text-lg sm:text-xl italic">✨ World Cancer Day</div>
         </div>
 
-        <section class="bg-white p-6 rounded-[2rem] shadow-sm border border-slate-100 mb-8">
-            <div class="flex justify-between items-center mb-6">
-                <h3 class="text-xl font-black text-slate-800 uppercase tracking-tight">Magh 2082 / Falgun 2082 / February</h3>
-                <div class="flex bg-slate-100 p-1 rounded-full">
-                    <button id="toggleBS" class="px-4 py-1.5 rounded-full bg-white shadow-sm text-xs font-bold">BS</button>
-                    <button id="toggleAD" class="px-4 py-1.5 rounded-full text-xs font-medium">AD</button>
-                </div>
+        <section class="mb-8">
+            <h3 class="text-xl font-black text-slate-800 mb-4 flex items-center gap-2 uppercase tracking-tight">
+                <span class="w-2 h-6 bg-red-600 rounded-full"></span> Upcoming Events
+            </h3>
+            <div class="space-y-3">
+                
+                <a href="https://today.singhyogendra.com.np/2082-10-18.html" class="bg-white p-4 rounded-2xl border border-slate-100 flex flex-wrap justify-between items-center shadow-sm hover:border-red-300 transition-colors">
+                    <div class="flex flex-col">
+                        <span class="font-bold text-slate-800">Shree Swasthani Brata Samapti</span>
+                        <span class="text-xs text-slate-400 font-medium">2082-10-18 (2026-02-01)</span>
+                    </div>
+                    <div class="bg-red-50 text-red-600 px-3 py-1 rounded-full text-xs font-black mt-2 sm:mt-0">
+                        In 19 Days
+                    </div>
+                </a>
+                <a href="https://today.singhyogendra.com.np/2082-10-19.html" class="bg-white p-4 rounded-2xl border border-slate-100 flex flex-wrap justify-between items-center shadow-sm hover:border-red-300 transition-colors">
+                    <div class="flex flex-col">
+                        <span class="font-bold text-slate-800">World Wetlands Day</span>
+                        <span class="text-xs text-slate-400 font-medium">2082-10-19 (2026-02-02)</span>
+                    </div>
+                    <div class="bg-red-50 text-red-600 px-3 py-1 rounded-full text-xs font-black mt-2 sm:mt-0">
+                        In 20 Days
+                    </div>
+                </a>
+                <a href="https://today.singhyogendra.com.np/2082-10-21.html" class="bg-white p-4 rounded-2xl border border-slate-100 flex flex-wrap justify-between items-center shadow-sm hover:border-red-300 transition-colors">
+                    <div class="flex flex-col">
+                        <span class="font-bold text-slate-800">World Cancer Day</span>
+                        <span class="text-xs text-slate-400 font-medium">2082-10-21 (2026-02-04)</span>
+                    </div>
+                    <div class="bg-red-50 text-red-600 px-3 py-1 rounded-full text-xs font-black mt-2 sm:mt-0">
+                        In 22 Days
+                    </div>
+                </a>
+                <a href="https://today.singhyogendra.com.np/2082-10-26.html" class="bg-white p-4 rounded-2xl border border-slate-100 flex flex-wrap justify-between items-center shadow-sm hover:border-red-300 transition-colors">
+                    <div class="flex flex-col">
+                        <span class="font-bold text-slate-800">Gorakhkali Puja</span>
+                        <span class="text-xs text-slate-400 font-medium">2082-10-26 (2026-02-09)</span>
+                    </div>
+                    <div class="bg-red-50 text-red-600 px-3 py-1 rounded-full text-xs font-black mt-2 sm:mt-0">
+                        In 27 Days
+                    </div>
+                </a>
+                <a href="https://today.singhyogendra.com.np/2082-10-28.html" class="bg-white p-4 rounded-2xl border border-slate-100 flex flex-wrap justify-between items-center shadow-sm hover:border-red-300 transition-colors">
+                    <div class="flex flex-col">
+                        <span class="font-bold text-slate-800">Intl. Day of Women and Girls in Science</span>
+                        <span class="text-xs text-slate-400 font-medium">2082-10-28 (2026-02-11)</span>
+                    </div>
+                    <div class="bg-red-50 text-red-600 px-3 py-1 rounded-full text-xs font-black mt-2 sm:mt-0">
+                        In 29 Days
+                    </div>
+                </a>
+                <a href="https://today.singhyogendra.com.np/2082-11-01.html" class="bg-white p-4 rounded-2xl border border-slate-100 flex flex-wrap justify-between items-center shadow-sm hover:border-red-300 transition-colors">
+                    <div class="flex flex-col">
+                        <span class="font-bold text-slate-800">Falgun Sakranti, World Radio Day</span>
+                        <span class="text-xs text-slate-400 font-medium">2082-11-01 (2026-02-13)</span>
+                    </div>
+                    <div class="bg-red-50 text-red-600 px-3 py-1 rounded-full text-xs font-black mt-2 sm:mt-0">
+                        In 31 Days
+                    </div>
+                </a>
+                <a href="https://today.singhyogendra.com.np/2082-11-02.html" class="bg-white p-4 rounded-2xl border border-slate-100 flex flex-wrap justify-between items-center shadow-sm hover:border-red-300 transition-colors">
+                    <div class="flex flex-col">
+                        <span class="font-bold text-slate-800">Valentine's Day</span>
+                        <span class="text-xs text-slate-400 font-medium">2082-11-02 (2026-02-14)</span>
+                    </div>
+                    <div class="bg-red-50 text-red-600 px-3 py-1 rounded-full text-xs font-black mt-2 sm:mt-0">
+                        In 32 Days
+                    </div>
+                </a>
+                <a href="https://today.singhyogendra.com.np/2082-11-03.html" class="bg-white p-4 rounded-2xl border border-slate-100 flex flex-wrap justify-between items-center shadow-sm hover:border-red-300 transition-colors">
+                    <div class="flex flex-col">
+                        <span class="font-bold text-slate-800">Maha Shivaratri, Nepal Army Day</span>
+                        <span class="text-xs text-slate-400 font-medium">2082-11-03 (2026-02-15)</span>
+                    </div>
+                    <div class="bg-red-50 text-red-600 px-3 py-1 rounded-full text-xs font-black mt-2 sm:mt-0">
+                        In 33 Days
+                    </div>
+                </a>
+                <a href="https://today.singhyogendra.com.np/2082-11-06.html" class="bg-white p-4 rounded-2xl border border-slate-100 flex flex-wrap justify-between items-center shadow-sm hover:border-red-300 transition-colors">
+                    <div class="flex flex-col">
+                        <span class="font-bold text-slate-800">Gyalpo Lhosar</span>
+                        <span class="text-xs text-slate-400 font-medium">2082-11-06 (2026-02-18)</span>
+                    </div>
+                    <div class="bg-red-50 text-red-600 px-3 py-1 rounded-full text-xs font-black mt-2 sm:mt-0">
+                        In 36 Days
+                    </div>
+                </a>
+                <a href="https://today.singhyogendra.com.np/2082-11-07.html" class="bg-white p-4 rounded-2xl border border-slate-100 flex flex-wrap justify-between items-center shadow-sm hover:border-red-300 transition-colors">
+                    <div class="flex flex-col">
+                        <span class="font-bold text-slate-800">Prajatantra Diwas (Democracy Day)</span>
+                        <span class="text-xs text-slate-400 font-medium">2082-11-07 (2026-02-19)</span>
+                    </div>
+                    <div class="bg-red-50 text-red-600 px-3 py-1 rounded-full text-xs font-black mt-2 sm:mt-0">
+                        In 37 Days
+                    </div>
+                </a>
             </div>
-            <div class="grid grid-cols-7 gap-2">
-        <a href="https://today.singhyogendra.com.np/2082-10-18.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        </section>
+
+        <section class="bg-white p-4 sm:p-8 rounded-[2rem] shadow-sm border border-slate-100 mb-8">
+            <h3 class="text-xl font-black text-slate-800 mb-6 uppercase text-center sm:text-left">Magh 2082 / Falgun 2082 2026</h3>
+            <div class="grid grid-cols-7 gap-1 sm:gap-3">
+        <a href="https://today.singhyogendra.com.np/2082-10-18.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Sun</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">18</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">01</div>
-            <span class="block w-1.5 h-1.5 bg-red-500 rounded-full mx-auto mt-1"></span>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">18</div>
+            <span class="block w-1 h-1 bg-red-500 rounded-full mx-auto mt-1"></span>
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-10-19.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-10-19.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Mon</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">19</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">02</div>
-            <span class="block w-1.5 h-1.5 bg-red-500 rounded-full mx-auto mt-1"></span>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">19</div>
+            <span class="block w-1 h-1 bg-red-500 rounded-full mx-auto mt-1"></span>
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-10-20.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-10-20.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Tue</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">20</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">03</div>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">20</div>
             
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-10-21.html" class="p-4 border border-gray-100 rounded-xl text-center ring-4 ring-red-500 shadow-lg bg-red-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-10-21.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center ring-4 ring-red-500 shadow-lg bg-red-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Wed</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">21</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">04</div>
-            <span class="block w-1.5 h-1.5 bg-red-500 rounded-full mx-auto mt-1"></span>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">21</div>
+            <span class="block w-1 h-1 bg-red-500 rounded-full mx-auto mt-1"></span>
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-10-22.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-10-22.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Thu</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">22</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">05</div>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">22</div>
             
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-10-23.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-10-23.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Fri</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">23</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">06</div>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">23</div>
             
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-10-24.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-10-24.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Sat</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">24</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">07</div>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">24</div>
             
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-10-25.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-10-25.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Sun</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">25</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">08</div>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">25</div>
             
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-10-26.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-10-26.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Mon</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">26</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">09</div>
-            <span class="block w-1.5 h-1.5 bg-red-500 rounded-full mx-auto mt-1"></span>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">26</div>
+            <span class="block w-1 h-1 bg-red-500 rounded-full mx-auto mt-1"></span>
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-10-27.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-10-27.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Tue</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">27</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">10</div>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">27</div>
             
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-10-28.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-10-28.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Wed</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">28</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">11</div>
-            <span class="block w-1.5 h-1.5 bg-red-500 rounded-full mx-auto mt-1"></span>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">28</div>
+            <span class="block w-1 h-1 bg-red-500 rounded-full mx-auto mt-1"></span>
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-10-29.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-10-29.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Thu</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">29</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">12</div>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">29</div>
             
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-11-01.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-11-01.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Fri</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">01</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">13</div>
-            <span class="block w-1.5 h-1.5 bg-red-500 rounded-full mx-auto mt-1"></span>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">01</div>
+            <span class="block w-1 h-1 bg-red-500 rounded-full mx-auto mt-1"></span>
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-11-02.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-11-02.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Sat</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">02</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">14</div>
-            <span class="block w-1.5 h-1.5 bg-red-500 rounded-full mx-auto mt-1"></span>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">02</div>
+            <span class="block w-1 h-1 bg-red-500 rounded-full mx-auto mt-1"></span>
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-11-03.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-11-03.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Sun</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">03</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">15</div>
-            <span class="block w-1.5 h-1.5 bg-red-500 rounded-full mx-auto mt-1"></span>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">03</div>
+            <span class="block w-1 h-1 bg-red-500 rounded-full mx-auto mt-1"></span>
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-11-04.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-11-04.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Mon</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">04</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">16</div>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">04</div>
             
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-11-05.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-11-05.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Tue</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">05</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">17</div>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">05</div>
             
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-11-06.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-11-06.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Wed</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">06</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">18</div>
-            <span class="block w-1.5 h-1.5 bg-red-500 rounded-full mx-auto mt-1"></span>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">06</div>
+            <span class="block w-1 h-1 bg-red-500 rounded-full mx-auto mt-1"></span>
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-11-07.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-11-07.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Thu</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">07</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">19</div>
-            <span class="block w-1.5 h-1.5 bg-red-500 rounded-full mx-auto mt-1"></span>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">07</div>
+            <span class="block w-1 h-1 bg-red-500 rounded-full mx-auto mt-1"></span>
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-11-08.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-11-08.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Fri</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">08</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">20</div>
-            <span class="block w-1.5 h-1.5 bg-red-500 rounded-full mx-auto mt-1"></span>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">08</div>
+            <span class="block w-1 h-1 bg-red-500 rounded-full mx-auto mt-1"></span>
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-11-09.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-11-09.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Sat</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">09</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">21</div>
-            <span class="block w-1.5 h-1.5 bg-red-500 rounded-full mx-auto mt-1"></span>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">09</div>
+            <span class="block w-1 h-1 bg-red-500 rounded-full mx-auto mt-1"></span>
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-11-10.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-11-10.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Sun</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">10</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">22</div>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">10</div>
             
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-11-11.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-11-11.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Mon</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">11</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">23</div>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">11</div>
             
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-11-12.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-11-12.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Tue</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">12</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">24</div>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">12</div>
             
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-11-13.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-11-13.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Wed</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">13</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">25</div>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">13</div>
             
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-11-14.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-11-14.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Thu</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">14</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">26</div>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">14</div>
             
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-11-15.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-11-15.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Fri</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">15</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">27</div>
-            <span class="block w-1.5 h-1.5 bg-red-500 rounded-full mx-auto mt-1"></span>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">15</div>
+            <span class="block w-1 h-1 bg-red-500 rounded-full mx-auto mt-1"></span>
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-11-16.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block no-underline">
+        <a href="https://today.singhyogendra.com.np/2082-11-16.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Sat</div>
-            <div class="text-xl font-bold text-slate-800 bs-date-val">16</div>
-            <div class="text-xs text-gray-500 ad-date-val hidden">28</div>
+            <div class="text-lg sm:text-xl font-bold text-slate-800">16</div>
             
         </a></div>
         </section>
 
-        <section class="mb-8">
-            <h3 class="text-xl font-black text-slate-800 mb-4 px-2 uppercase tracking-tight">Upcoming Events</h3>
-            <div class="grid gap-3">
-                <div class="bg-white p-4 rounded-2xl border border-slate-100 flex justify-between items-center shadow-sm"><span class="font-bold">World Cancer Day</span><span class="text-sm text-slate-500 font-medium">2082-10-21</span></div><div class="bg-white p-4 rounded-2xl border border-slate-100 flex justify-between items-center shadow-sm"><span class="font-bold">Gorakhkali Puja</span><span class="text-sm text-slate-500 font-medium">2082-10-26</span></div><div class="bg-white p-4 rounded-2xl border border-slate-100 flex justify-between items-center shadow-sm"><span class="font-bold">Intl. Day of Women and Girls in Science</span><span class="text-sm text-slate-500 font-medium">2082-10-28</span></div><div class="bg-white p-4 rounded-2xl border border-slate-100 flex justify-between items-center shadow-sm"><span class="font-bold">Falgun Sakranti, World Radio Day</span><span class="text-sm text-slate-500 font-medium">2082-11-01</span></div><div class="bg-white p-4 rounded-2xl border border-slate-100 flex justify-between items-center shadow-sm"><span class="font-bold">Valentine's Day</span><span class="text-sm text-slate-500 font-medium">2082-11-02</span></div><div class="bg-white p-4 rounded-2xl border border-slate-100 flex justify-between items-center shadow-sm"><span class="font-bold">Maha Shivaratri, Nepal Army Day</span><span class="text-sm text-slate-500 font-medium">2082-11-03</span></div><div class="bg-white p-4 rounded-2xl border border-slate-100 flex justify-between items-center shadow-sm"><span class="font-bold">Gyalpo Lhosar</span><span class="text-sm text-slate-500 font-medium">2082-11-06</span></div><div class="bg-white p-4 rounded-2xl border border-slate-100 flex justify-between items-center shadow-sm"><span class="font-bold">Prajatantra Diwas (Democracy Day)</span><span class="text-sm text-slate-500 font-medium">2082-11-07</span></div><div class="bg-white p-4 rounded-2xl border border-slate-100 flex justify-between items-center shadow-sm"><span class="font-bold">World Day of Social Justice</span><span class="text-sm text-slate-500 font-medium">2082-11-08</span></div><div class="bg-white p-4 rounded-2xl border border-slate-100 flex justify-between items-center shadow-sm"><span class="font-bold">Intl. Mother Language Day</span><span class="text-sm text-slate-500 font-medium">2082-11-09</span></div>
-            </div>
-        </section>
-
         <section class="mb-12">
-            <h3 class="text-xl font-black text-slate-800 mb-6 px-2 uppercase tracking-tight">Frequently Asked Questions</h3>
-            <div class="grid gap-4"><div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm"><h4 class="font-bold text-slate-800 mb-2">Q: Aaja k gate ho? (What is the Nepali date today?)</h4><p class="text-slate-600">A: Aaja ko gate 2082-10-21 ho (Wednesday).</p></div><div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm"><h4 class="font-bold text-slate-800 mb-2">Q: What is today's English date?</h4><p class="text-slate-600">A: Today is 2026-02-04 (AD).</p></div><div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm"><h4 class="font-bold text-slate-800 mb-2">Q: Is there any event today (2082-10-21)?</h4><p class="text-slate-600">A: World Cancer Day</p></div><div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm"><h4 class="font-bold text-slate-800 mb-2">Q: Which Nepali month is it now?</h4><p class="text-slate-600">A: It is currently Magh 2082 .</p></div><div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm"><h4 class="font-bold text-slate-800 mb-2">Q: What is the next big festival?</h4><p class="text-slate-600">A: The next event is World Cancer Day on 2082-10-21.</p></div><div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm"><h4 class="font-bold text-slate-800 mb-2">Q: How to convert BS to AD?</h4><p class="text-slate-600">A: You can use our daily updated calendar to find accurate conversion for any date in 2082/2083.</p></div><div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm"><h4 class="font-bold text-slate-800 mb-2">Q: How many days in February 2026?</h4><p class="text-slate-600">A: There are 28 days in this calendar block.</p></div><div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm"><h4 class="font-bold text-slate-800 mb-2">Q: Is today a public holiday in Nepal?</h4><p class="text-slate-600">A: Public holidays usually coincide with major events. Check the red dots on our calendar grid.</p></div><div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm"><h4 class="font-bold text-slate-800 mb-2">Q: Where can I find tomorrow's Nepali date?</h4><p class="text-slate-600">A: You can click on the next box in our grid to see details for tomorrow.</p></div><div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm"><h4 class="font-bold text-slate-800 mb-2">Q: Who provides this Nepali Patro?</h4><p class="text-slate-600">A: This service is provided by Singh Yogendra to help users track Nepali dates and festivals.</p></div></div>
+            <h3 class="text-xl font-black text-slate-800 mb-6 uppercase tracking-tight">Commonly Asked Questions</h3>
+            <div class="grid gap-4">
+                <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm"><h4 class="font-bold text-slate-800 mb-2">Q: Aaja k gate ho? (What is the Nepali date today?)</h4><p class="text-slate-600 italic">A: Aaja ko gate 2082-10-21 हो. It is Wednesday.</p></div><div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm"><h4 class="font-bold text-slate-800 mb-2">Q: Aaja ko tarikh k ho? (What is the English date today?)</h4><p class="text-slate-600 italic">A: Today's English date (tarikh) is 2026-02-04.</p></div><div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm"><h4 class="font-bold text-slate-800 mb-2">Q: Nepali calendar Magh 2082 / Falgun 2082 2026 events?</h4><p class="text-slate-600 italic">A: The calendar for Magh 2082 / Falgun 2082 2026 includes events like Shree Swasthani Brata Samapti, World Wetlands Day, World Cancer Day.</p></div><div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm"><h4 class="font-bold text-slate-800 mb-2">Q: How many days left for the next festival?</h4><p class="text-slate-600 italic">A: The next major event is Shree Swasthani Brata Samapti which is in 19 days.</p></div><div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm"><h4 class="font-bold text-slate-800 mb-2">Q: What is Nepali Patro?</h4><p class="text-slate-600 italic">A: Nepali Patro is the traditional solar calendar used in Nepal. You can find Aaja ko gate and Aaja ko tarikh here daily.</p></div>
+            </div>
         </section>
     </main>
 
-    <footer class="text-center py-12 border-t border-slate-200 text-slate-400 text-sm">
-        <p class="font-bold text-slate-500 mb-2">Nepali Patro © 2026 Today Singh Yogendra</p>
-        <p>Providing accurate Aaja ko Gate and English to Nepali date conversion.</p>
+    <footer class="text-center py-10 border-t border-slate-200 text-slate-400 text-xs">
+        <p class="font-bold text-slate-500 mb-2 uppercase">Nepali date today | Today Nepali date | Nepali Patro</p>
+        <p>© 2026 Today Singh Yogendra. All Rights Reserved.</p>
     </footer>
 
     <script>
-        // Clock Logic
         function updateClocks() {
             const now = new Date();
             document.getElementById('local-clock').innerText = now.toLocaleTimeString();
-            
             const npt = new Date(now.getTime() + (now.getTimezoneOffset() * 60000) + (5.75 * 3600000));
             document.getElementById('npt-clock').innerText = npt.toLocaleTimeString();
         }
         setInterval(updateClocks, 1000); updateClocks();
-
-        // Toggle Logic
-        const tBS = document.getElementById('toggleBS'), tAD = document.getElementById('toggleAD');
-        const bsV = document.querySelectorAll('.bs-date-val'), adV = document.querySelectorAll('.ad-date-val');
-        tAD.addEventListener('click', () => {
-            tAD.classList.add('bg-white','shadow-sm','font-bold'); tBS.classList.remove('bg-white','shadow-sm','font-bold');
-            bsV.forEach(el => el.classList.add('hidden')); adV.forEach(el => el.classList.remove('hidden'));
-        });
-        tBS.addEventListener('click', () => {
-            tBS.classList.add('bg-white','shadow-sm','font-bold'); tAD.classList.remove('bg-white','shadow-sm','font-bold');
-            adV.forEach(el => el.classList.add('hidden')); bsV.forEach(el => bsV.forEach(el => el.classList.remove('hidden')));
-            adV.forEach(el => el.classList.add('hidden'));
-        });
     </script>
 </body>
 </html>
