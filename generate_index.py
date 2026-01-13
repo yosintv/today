@@ -4,7 +4,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 # ================= CONFIG =================
-SITE_URL = "https://yosintv.github.io/today"
+SITE_URL = "https://today.singhyogendra.com.np/"
 SITE_TITLE = "Nepali Calendar Today"
 TIMEZONE = ZoneInfo("Asia/Kathmandu")
 BASE_PATH = Path(".")
