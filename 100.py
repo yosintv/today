@@ -127,6 +127,11 @@ def get_html_template(target_day, all_days, month_label, ad_month):
             {f'<div class="p-6 bg-yellow-50 text-center text-yellow-800 font-bold text-lg sm:text-xl italic border-b border-yellow-100">✨ {target_day["event"]}</div>' if target_day.get('event') else ''}
         </div>
 
+        <section class="bg-white p-4 sm:p-8 rounded-[2rem] shadow-sm border border-slate-100 mb-8">
+            <h3 class="text-xl font-black text-slate-800 mb-6 uppercase text-center sm:text-left px-2 tracking-tight">{month_label}</h3>
+            <div class="grid grid-cols-7 gap-1 sm:gap-3">{calendar_html}</div>
+        </section>
+
         <section class="mb-8">
             <h3 class="text-xl font-black text-slate-800 mb-4 flex items-center gap-2 uppercase tracking-tight px-2">
                 <span class="w-2 h-6 bg-red-600 rounded-full"></span> Upcoming Events
@@ -143,11 +148,6 @@ def get_html_template(target_day, all_days, month_label, ad_month):
                     </div>
                 </a>''' for e in upcoming_events])}
             </div>
-        </section>
-
-        <section class="bg-white p-4 sm:p-8 rounded-[2rem] shadow-sm border border-slate-100 mb-8">
-            <h3 class="text-xl font-black text-slate-800 mb-6 uppercase text-center sm:text-left px-2">{month_label}</h3>
-            <div class="grid grid-cols-7 gap-1 sm:gap-3">{calendar_html}</div>
         </section>
 
         <section class="mb-12">
