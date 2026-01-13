@@ -6,30 +6,24 @@ from datetime import datetime, timedelta, timezone
 # --- CONFIGURATION ---
 DOMAIN = "https://today.singhyogendra.com.np"
 JSON_FILE = "date/2026.json"
-
-# Nepal Timezone (UTC +5:45)
 LOCAL_OFFSET = timezone(timedelta(hours=5, minutes=45))
 NOW = datetime.now(LOCAL_OFFSET)
 TODAY_AD = NOW.strftime('%Y-%m-%d')
 
 def get_html_template(target_day, month_days, month_label, ad_month):
-    """Exact CSS Layout with Root-Level URL Logic"""
-    title = f"Nepali Date: {target_day['bs']} | {target_day['ad']} - Nepali Patro"
+    title = f"Nepali Date: {target_day['bs']} | {target_day['ad']}"
     
-    # Build Grid - All links point to root (e.g., domain.com/2082-09-17.html)
     calendar_html = ""
     for day in month_days:
         is_viewing = "ring-4 ring-red-500 shadow-lg bg-red-50" if day['ad'] == target_day['ad'] else "hover:bg-gray-50"
-        event_dot = '<span class="block w-1.5 h-1.5 bg-red-500 rounded-full mx-auto mt-1"></span>' if day.get('event') else ''
         
-        # public URL structure: domain.com/YYYY-MM-DD.html
+        # This creates the short URL you want: domain.com/2082-09-17.html
         page_url = f"{DOMAIN}/{day['bs']}.html"
         
         calendar_html += f'''
         <a href="{page_url}" class="p-4 border border-gray-100 rounded-xl text-center {is_viewing} transition-all block no-underline">
             <div class="text-[10px] text-gray-400 font-bold uppercase">{day['day'][:3]}</div>
             <div class="text-xl font-bold text-slate-800">{day['bs'].split("-")[-1]}</div>
-            {event_dot}
         </a>'''
 
     return f"""<!DOCTYPE html>
@@ -44,74 +38,52 @@ def get_html_template(target_day, month_days, month_label, ad_month):
     <header class="max-w-4xl mx-auto px-4 py-10 text-center">
         <h1 class="text-4xl font-black text-slate-800 tracking-tight"><a href="{DOMAIN}">Nepali Patro</a></h1>
     </header>
-
     <main class="max-w-4xl mx-auto px-4">
         <div class="bg-white rounded-3xl shadow-xl overflow-hidden mb-10 border border-slate-100 text-center">
             <div class="bg-red-600 p-10 text-white">
-                <h2 class="text-sm font-bold uppercase tracking-[0.2em] opacity-80 mb-2">Aaja ko Gate</h2>
                 <div class="text-8xl font-black tracking-tighter">{target_day['bs']}</div>
                 <p class="text-2xl mt-4 font-medium">{target_day['ad']} | {target_day['day']}</p>
             </div>
-            {f'<div class="p-6 bg-yellow-50 text-yellow-900 font-bold text-xl border-b border-yellow-100 italic">✨ {target_day["event"]}</div>' if target_day.get('event') else ''}
+            {f'<div class="p-6 bg-yellow-50 text-yellow-900 font-bold text-xl border-b border-yellow-100">✨ {target_day["event"]}</div>' if target_day.get('event') else ''}
         </div>
-
         <section class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 mb-10">
-            <h3 class="text-2xl font-black text-slate-800 mb-8 uppercase tracking-tight border-l-4 border-red-600 pl-4">
-                {month_label} <span class="text-slate-400 font-medium">/ {ad_month}</span>
-            </h3>
+            <h3 class="text-2xl font-black text-slate-800 mb-8 uppercase tracking-tight">{month_label}</h3>
             <div class="grid grid-cols-7 gap-3">{calendar_html}</div>
         </section>
     </main>
-
-    <footer class="text-center py-10 text-slate-400 text-sm">
-        <p>© {NOW.year} Today Singh Yogendra. All Rights Reserved.</p>
-    </footer>
 </body>
 </html>"""
 
 def build_site():
-    if not os.path.exists(JSON_FILE):
-        print(f"Error: {JSON_FILE} not found. Ensure it is in the 'date/' folder.")
-        return
-
     with open(JSON_FILE, 'r') as f:
-        raw_data = json.load(f)
-        data = raw_data[0] if isinstance(raw_data, list) else raw_data
+        data = json.load(f)[0]
 
     sitemap_urls = [f"{DOMAIN}/"]
     
-    # Process Months
     for month_data in data['calendar_data']:
-        month_label = " / ".join(month_data['bs_months'])
-        ad_month = month_data['month']
-        
-        # Process Days
         for day in month_data['days']:
-            html_content = get_html_template(day, month_data['days'], month_label, ad_month)
+            # Generate the HTML content
+            html_content = get_html_template(day, month_data['days'], " / ".join(month_data['bs_months']), month_data['month'])
             
-            # Save File at Root: e.g., 2082-09-17.html
+            # SAVE AT ROOT to ensure URL is domain.com/2082-09-17.html
             file_name = f"{day['bs']}.html"
+            
             with open(file_name, "w", encoding='utf-8') as f_out:
                 f_out.write(html_content)
             
             sitemap_urls.append(f"{DOMAIN}/{file_name}")
 
-            # Update index.html if this matches today's AD date
+            # Update index.html for the current day
             if day['ad'] == TODAY_AD:
                 with open("index.html", "w", encoding='utf-8') as f_idx:
                     f_idx.write(html_content)
 
-    # Generate Sitemap.xml
+    # Generate Sitemap
     root = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
     for url in sorted(list(set(sitemap_urls))):
         u = ET.SubElement(root, "url")
         ET.SubElement(u, "loc").text = url
-        ET.SubElement(u, "lastmod").text = NOW.strftime("%Y-%m-%d")
-        ET.SubElement(u, "changefreq").text = "daily"
-    
-    tree = ET.ElementTree(root)
-    tree.write("sitemap.xml", encoding='utf-8', xml_declaration=True)
-    print(f"Success: {len(sitemap_urls)} pages generated and sitemap updated.")
+    ET.ElementTree(root).write("sitemap.xml", encoding='utf-8', xml_declaration=True)
 
 if __name__ == "__main__":
     build_site()
