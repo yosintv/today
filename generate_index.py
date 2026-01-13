@@ -1,129 +1,130 @@
 import json
-import yaml
 from datetime import datetime
-from zoneinfo import ZoneInfo
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 # ================= CONFIG =================
-with open("config.yml", "r", encoding="utf-8") as f:
-    config = yaml.safe_load(f)
+API_FILE = "date/202512.json"   # your API JSON
+SITE_URL = "https://yosintv.github.io/today"
+SITE_TITLE = "Nepali Calendar Today"
+TIMEZONE = ZoneInfo("Asia/Kathmandu")
+BASE_PATH = Path(".")  # IMPORTANT for GitHub Pages sub-repo
+# ==========================================
 
-TZ = ZoneInfo(config.get("timezone", "Asia/Kathmandu"))
-DATA_FOLDER = Path(config.get("data_folder", "date"))
-SITE_TITLE = config.get("site_title", "Nepali Calendar Today")
+NEPALI_NUM = str.maketrans("0123456789", "०१२३४५६७८९")
 
-# ================= TIME =================
-now = datetime.now(TZ)
-year_month = now.strftime("%Y%m")
+def to_nepali_num(text):
+    return str(text).translate(NEPALI_NUM)
+
+# Current Nepali date (matched from API)
+now = datetime.now(TIMEZONE)
 today_ad = now.strftime("%Y-%m-%d")
 
-json_file = DATA_FOLDER / f"{year_month}.json"
+print("NPT time:", now)
 
-print("NPT:", now)
-print("JSON:", json_file)
+# -------- Load API --------
+data = json.loads(Path(API_FILE).read_text(encoding="utf-8"))
 
-# ================= LOAD JSON (SAFE) =================
-with open(json_file, "r", encoding="utf-8") as f:
-    raw = json.load(f)
+if not isinstance(data, list) or len(data) != 1:
+    raise ValueError("Invalid API format: expected array with one object")
 
-data = raw[0] if isinstance(raw, list) else raw
-days = data["days"]
-month = data["month_info"]
+days = data[0]["days"]
 
-# ================= FIND TODAY =================
 today = next((d for d in days if d["ad"] == today_ad), None)
-
 if not today:
-    raise ValueError("Today's date not found in JSON")
+    raise ValueError("Today's date not found in API")
 
-# ================= NEPALI NUMERALS =================
-NEP_NUM = str.maketrans("0123456789", "०१२३४५६७८९")
+bs_date = today["bs"]  # 2082-09-29
+bs_page = f"{bs_date}.html"
 
-def nep(s):
-    return s.translate(NEP_NUM)
+bs_year, bs_month, bs_day = bs_date.split("-")
 
-# ================= EVENT BADGE =================
-def badge(event):
-    if not event:
-        return ""
-    e = event.lower()
-    if any(x in e for x in ["puja", "lhosar", "ekadashi", "shivaratri"]):
-        c = "festival"
-    elif any(x in e for x in ["world", "international", "day"]):
-        c = "international"
-    else:
-        c = "national"
-    return f'<span class="badge {c}">{event}</span>'
+# -------- HTML PAGE --------
+event_html = ""
+if today.get("event"):
+    for e in today["event"].split(","):
+        event_html += f'<span class="badge">{e.strip()}</span>'
 
-# ================= BS PAGE NAME =================
-bs_page = today["bs"].replace(" ", "-") + ".html"   # 2082-10-18.html
+schema = {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Nepali Calendar Today",
+    "startDate": today_ad,
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+        "@type": "VirtualLocation",
+        "url": SITE_URL
+    }
+}
 
-# ================= HTML =================
 html = f"""<!DOCTYPE html>
 <html lang="ne">
 <head>
-<meta charset="UTF-8">
-<title>{SITE_TITLE} | {today['bs']}</title>
+<meta charset="utf-8">
+<title>{to_nepali_num(bs_date)} | Nepali Calendar Today</title>
 
-<meta name="description"
-content="Nepali calendar today {today['bs']} ({today['ad']}) with festivals and events.">
+<meta name="description" content="Today Nepali date {to_nepali_num(bs_date)} with events and highlights">
+<link rel="canonical" href="{SITE_URL}/{bs_page}">
 
-<link rel="canonical" href="/{bs_page}">
+<meta property="og:title" content="Nepali Date Today {to_nepali_num(bs_date)}">
+<meta property="og:url" content="{SITE_URL}/{bs_page}">
+<meta property="og:type" content="website">
 
 <script type="application/ld+json">
-{{
-  "@context": "https://schema.org",
-  "@type": "Event",
-  "name": "Nepali Calendar Today",
-  "startDate": "{today['ad']}",
-  "eventStatus": "https://schema.org/EventScheduled"
-}}
+{json.dumps(schema, ensure_ascii=False)}
 </script>
 
 <style>
-body{{font-family:Arial;background:#f4f4f4}}
-.container{{max-width:900px;margin:auto;background:#fff;padding:20px}}
-.today{{background:#fff3cd;padding:15px;border-radius:6px}}
-.badge{{padding:4px 8px;border-radius:4px;font-size:13px}}
-.festival{{background:#ff9800;color:#fff}}
-.international{{background:#2196f3;color:#fff}}
-.national{{background:#4caf50;color:#fff}}
+body {{
+  font-family: system-ui, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 20px;
+}}
+.card {{
+  background: #fff;
+  max-width: 520px;
+  margin: auto;
+  padding: 24px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.08);
+}}
+h1 {{ margin: 0 0 8px }}
+.badge {{
+  display: inline-block;
+  background: #2563eb;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  margin: 4px 4px 0 0;
+}}
+.small {{ color: #555; font-size: 14px }}
 </style>
 </head>
 
 <body>
-<div class="container">
+<div class="card">
+  <h1>आजको मिति</h1>
+  <h2>{to_nepali_num(bs_year)}-{to_nepali_num(bs_month)}-{to_nepali_num(bs_day)}</h2>
+  <p class="small">{today["day"]} | AD {today_ad}</p>
 
-<h1>{SITE_TITLE}</h1>
-
-<div class="today">
-<h2>आजको मिति</h2>
-<p>
-<strong>{nep(today['bs'])}</strong><br>
-{today['day']}<br>
-AD: {today['ad']}
-</p>
-{badge(today['event'])}
-</div>
-
-<p style="color:#777;margin-top:10px">
-Updated {now.strftime('%Y-%m-%d %H:%M')} (NPT)
-</p>
-
+  <div>{event_html or "<span class='small'>No events today</span>"}</div>
 </div>
 </body>
 </html>
 """
 
-# ================= WRITE BS PAGE =================
-Path(bs_page).write_text(html, encoding="utf-8")
+# -------- WRITE BS PAGE --------
+(BASE_PATH / bs_page).write_text(html, encoding="utf-8")
 
-# ================= INDEX REDIRECT =================
+# -------- INDEX REDIRECT --------
 index_html = f"""<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="refresh" content="0; url=/{bs_page}">
-<link rel="canonical" href="/{bs_page}">
+<meta http-equiv="refresh" content="0; url={SITE_URL}/{bs_page}">
+<link rel="canonical" href="{SITE_URL}/{bs_page}">
 <title>{SITE_TITLE}</title>
 </head>
 <body>
@@ -132,6 +133,6 @@ Redirecting to today’s Nepali date…
 </html>
 """
 
-Path("index.html").write_text(index_html, encoding="utf-8")
+(BASE_PATH / "index.html").write_text(index_html, encoding="utf-8")
 
-print("✅ Generated:", bs_page)
+print("Generated:", bs_page)
