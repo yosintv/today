@@ -1,4 +1,4 @@
-name: Daily Calendar Update
+name: Daily SEO Patro Update
 
 on:
   schedule:
@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
@@ -20,13 +19,13 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Generate All Pages
-        run: python generate_patro.py 
+      - name: Generate SEO Pages
+        run: python 100.py 
 
-      - name: Commit and Push Changes
+      - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add . 
-          git commit -m "Auto-update Patro root pages: $(date)" || exit 0
+          git commit -m "Updated SEO Patro: $(date)" || exit 0
           git push
