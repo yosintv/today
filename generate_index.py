@@ -4,102 +4,161 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 from pathlib import Path
 
-# ---------- Load config ----------
-with open("config.yml", "r", encoding="utf-8") as f:
+# ================= CONFIG LOAD =================
+CONFIG_FILE = "config.yml"
+
+with open(CONFIG_FILE, "r", encoding="utf-8") as f:
     config = yaml.safe_load(f)
 
-TZ = ZoneInfo(config["timezone"])
-DATA_FOLDER = Path(config["data_folder"])
-OUTPUT_FILE = config["output_file"]
-SITE_TITLE = config.get("site_title", "Nepali Calendar")
+TIMEZONE = config.get("timezone", "Asia/Kathmandu")
+DATA_FOLDER = Path(config.get("data_folder", "date"))
+OUTPUT_FILE = config.get("output_file", "index.html")
+SITE_TITLE = config.get("site_title", "Nepali Calendar Today")
 
-# ---------- Current time (Nepal) ----------
+TZ = ZoneInfo(TIMEZONE)
+
+# ================= CURRENT TIME (NPT) =================
 now = datetime.now(TZ)
-year_month = now.strftime("%Y%m")
-today_ad = now.strftime("%Y-%m-%d")
+year_month = now.strftime("%Y%m")          # e.g. 202601
+today_ad = now.strftime("%Y-%m-%d")        # e.g. 2026-01-13
 
 json_file = DATA_FOLDER / f"{year_month}.json"
 
-print("NPT time:", now)
-print("Looking for:", json_file)
+print("===================================")
+print("Nepali Time:", now)
+print("Looking for JSON:", json_file)
+print("===================================")
 
-# ---------- Fallback if JSON missing ----------
+# ================= SAFE FALLBACK =================
 if not json_file.exists():
+    print("JSON file NOT found. Writing fallback index.html")
+
+    fallback_html = f"""<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{SITE_TITLE}</title>
+</head>
+<body>
+<h2>Calendar data not available</h2>
+<p>Please check back later.</p>
+</body>
+</html>
+"""
+
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write("<h2>Calendar data not available</h2>")
-    print("JSON file not found, index.html written safely")
+        f.write(fallback_html)
+
     exit(0)
 
-# ---------- Load API (ARRAY FORMAT) ----------
+# ================= LOAD JSON (AUTO-DETECT FORMAT) =================
 with open(json_file, "r", encoding="utf-8") as f:
-    api_data = json.load(f)
+    raw = json.load(f)
 
-# ✅ GUARANTEE correct format
-if not isinstance(api_data, list) or len(api_data) == 0:
-    raise ValueError("Invalid API format: expected array with one object")
+if isinstance(raw, list):
+    if len(raw) == 0:
+        raise ValueError("Calendar JSON array is empty")
+    data = raw[0]
+elif isinstance(raw, dict):
+    data = raw
+else:
+    raise ValueError("Unsupported calendar JSON format")
 
-data = api_data[0]   # 👈 YOUR API FORMAT
+# ================= EXTRACT DATA =================
+month_info = data.get("month_info", {})
+days = data.get("days", [])
 
-month = data["month_info"]
-days = data["days"]
+ad_month = month_info.get("ad_month", "")
+ad_year = month_info.get("ad_year", "")
+bs_months = ", ".join(month_info.get("bs_months", []))
 
-# ---------- Build rows ----------
-rows = ""
+# ================= BUILD TABLE ROWS =================
+rows_html = ""
+
 for d in days:
-    event = d["event"] or ""
-    today_class = "today" if d["ad"] == today_ad else ""
-    rows += f"""
-    <tr class="{today_class}">
-        <td>{d['ad']}</td>
-        <td>{d['bs']}</td>
-        <td>{d['day']}</td>
+    ad = d.get("ad", "")
+    bs = d.get("bs", "")
+    day = d.get("day", "")
+    event = d.get("event") or ""
+
+    row_class = "today" if ad == today_ad else ""
+
+    rows_html += f"""
+    <tr class="{row_class}">
+        <td>{ad}</td>
+        <td>{bs}</td>
+        <td>{day}</td>
         <td>{event}</td>
     </tr>
     """
 
-# ---------- Generate HTML ----------
-html = f"""<!DOCTYPE html>
+# ================= FINAL HTML =================
+html_output = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <title>{SITE_TITLE}</title>
 <style>
-body {{ font-family: Arial, sans-serif; background:#f4f4f4; }}
-.container {{ max-width:900px; margin:auto; background:#fff; padding:20px; }}
-table {{ width:100%; border-collapse:collapse; }}
-th, td {{ border:1px solid #ccc; padding:8px; }}
-th {{ background:#111; color:#fff; }}
-.today {{ background:#fff3cd; font-weight:bold; }}
+body {{
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}}
+.container {{
+    max-width: 1000px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+}}
+table {{
+    width: 100%;
+    border-collapse: collapse;
+}}
+th, td {{
+    border: 1px solid #cccccc;
+    padding: 8px;
+    text-align: left;
+}}
+th {{
+    background: #222;
+    color: #ffffff;
+}}
+.today {{
+    background: #fff3cd;
+    font-weight: bold;
+}}
 </style>
 </head>
 <body>
+
 <div class="container">
-<h1>{SITE_TITLE}</h1>
-<p>
-<strong>AD:</strong> {month['ad_month']} {month['ad_year']} |
-<strong>BS:</strong> {", ".join(month['bs_months'])}
-</p>
+    <h1>{SITE_TITLE}</h1>
 
-<table>
-<tr>
-<th>AD Date</th>
-<th>BS Date</th>
-<th>Day</th>
-<th>Event</th>
-</tr>
-{rows}
-</table>
+    <p>
+        <strong>AD:</strong> {ad_month} {ad_year} |
+        <strong>BS:</strong> {bs_months}
+    </p>
 
-<p style="color:#777;margin-top:10px;">
-Updated: {now.strftime('%Y-%m-%d %H:%M')} (NPT)
-</p>
+    <table>
+        <tr>
+            <th>AD Date</th>
+            <th>BS Date</th>
+            <th>Day</th>
+            <th>Event</th>
+        </tr>
+        {rows_html}
+    </table>
+
+    <p style="margin-top:10px;color:#777;">
+        Updated: {now.strftime('%Y-%m-%d %H:%M')} (NPT)
+    </p>
 </div>
+
 </body>
 </html>
 """
 
-# ---------- Write index.html ----------
+# ================= WRITE index.html =================
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-    f.write(html)
+    f.write(html_output)
 
 print("✅ index.html generated successfully")
