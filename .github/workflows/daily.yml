@@ -28,5 +28,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add . 
-          git commit -m "Updated short-URL pages: $(date)" || exit 0
+          git commit -m "Auto-update Patro root pages: $(date)" || exit 0
           git push
