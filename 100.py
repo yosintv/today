@@ -32,15 +32,23 @@ def get_html_template(target_day, all_days, month_label, ad_month):
     # Dynamic SEO Keywords & Title
     event_suffix = f" | {target_day['event']}" if target_day.get('event') else ""
     page_title = f"Nepali Date Today: {target_day['bs']} | {target_day['ad']}{event_suffix} - Nepali Patro"
+    meta_desc = f"Find Nepali date today (Aaja ko gate): {target_day['bs']}. Today Nepali date, Nepali calendar {month_label}, Aaja ko tarikh, and upcoming festivals."
     
-    # FAQ Generation with Keywords
+    # FAQ Generation for Schema and HTML
     faqs = [
-        {"q": "Aaja k gate ho? (What is the Nepali date today?)", "a": f"Aaja ko gate {target_day['bs']} हो. It is {target_day['day']}."},
+        {"q": "Aaja k gate ho? (What is the Nepali date today?)", "a": f"Aaja ko gate {target_day['bs']} ho. It is {target_day['day']}."},
         {"q": "Aaja ko tarikh k ho? (What is the English date today?)", "a": f"Today's English date (tarikh) is {target_day['ad']}."},
         {"q": f"Nepali calendar {month_label} events?", "a": f"The calendar for {month_label} includes events like {', '.join([e['event'] for e in upcoming_events[:3]])}."},
         {"q": "How many days left for the next festival?", "a": f"The next major event is {upcoming_events[0]['event']} which is in {upcoming_events[0]['days_left']} days." if upcoming_events else "No major festivals upcoming this month."},
         {"q": "What is Nepali Patro?", "a": "Nepali Patro is the traditional solar calendar used in Nepal. You can find Aaja ko gate and Aaja ko tarikh here daily."},
     ]
+
+    # JSON-LD Schema Construction
+    faq_json_ld = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{"@type": "Question", "name": f["q"], "acceptedAnswer": {"@type": "Answer", "text": f["a"]}} for f in faqs]
+    }
 
     # Calendar Grid Construction
     calendar_html = ""
@@ -54,24 +62,44 @@ def get_html_template(target_day, all_days, month_label, ad_month):
             {event_dot}
         </a>'''
 
-    # Layout
+    # Final HTML Template
     return f"""<!DOCTYPE html>
 <html lang="ne">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{page_title}</title>
-    <meta name="description" content="Find Nepali date today (Aaja ko gate): {target_day['bs']}. Today Nepali date, Nepali calendar {month_label}, Aaja ko tarikh, and events.">
+    
+    <meta name="description" content="{meta_desc}">
     <meta name="keywords" content="Nepali date today, Today Nepali date, Nepali calendar {month_label}, Aaja ko gate, Aaja ko tarikh, Aaja k gate ho?, Nepali patro">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="{DOMAIN}/{target_day['bs']}.html">
+    
+    <link rel="icon" type="image/png" href="https://favicon.io/favicon.ico">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{DOMAIN}/{target_day['bs']}.html">
+    <meta property="og:title" content="{page_title}">
+    <meta property="og:description" content="{meta_desc}">
+    <meta property="og:image" content="https://today.singhyogendra.com.np/og-image.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{DOMAIN}/{target_day['bs']}.html">
+    <meta property="twitter:title" content="{page_title}">
+    <meta property="twitter:description" content="{meta_desc}">
+    <meta property="twitter:image" content="https://today.singhyogendra.com.np/og-image.jpg">
+
+    <script type="application/ld+json">{json.dumps(faq_json_ld)}</script>
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
-        body {{ font-family: 'Inter', sans-serif; }}
+        body {{ font-family: 'Inter', sans-serif; scroll-behavior: smooth; }}
     </style>
 </head>
 <body class="bg-slate-50 text-slate-900 antialiased">
     <header class="max-w-4xl mx-auto px-4 py-6 text-center">
-        <h1 class="text-2xl font-black text-slate-800"><a href="{DOMAIN}">NEPALI PATRO</a></h1>
+        <h1 class="text-2xl font-black text-slate-800 tracking-tighter"><a href="{DOMAIN}">TODAY NEPALI DATE</a></h1>
     </header>
 
     <main class="max-w-4xl mx-auto px-4">
@@ -96,14 +124,14 @@ def get_html_template(target_day, all_days, month_label, ad_month):
                     <div id="local-clock" class="text-lg sm:text-xl font-mono font-bold text-slate-800">--:--:--</div>
                 </div>
             </div>
-            {f'<div class="p-6 bg-yellow-50 text-center text-yellow-800 font-bold text-lg sm:text-xl italic">✨ {target_day["event"]}</div>' if target_day.get('event') else ''}
+            {f'<div class="p-6 bg-yellow-50 text-center text-yellow-800 font-bold text-lg sm:text-xl italic border-b border-yellow-100">✨ {target_day["event"]}</div>' if target_day.get('event') else ''}
         </div>
 
         <section class="mb-8">
-            <h3 class="text-xl font-black text-slate-800 mb-4 flex items-center gap-2 uppercase tracking-tight">
+            <h3 class="text-xl font-black text-slate-800 mb-4 flex items-center gap-2 uppercase tracking-tight px-2">
                 <span class="w-2 h-6 bg-red-600 rounded-full"></span> Upcoming Events
             </h3>
-            <div class="space-y-3">
+            <div class="space-y-3 px-1">
                 {"".join([f'''
                 <a href="{DOMAIN}/{e['bs']}.html" class="bg-white p-4 rounded-2xl border border-slate-100 flex flex-wrap justify-between items-center shadow-sm hover:border-red-300 transition-colors">
                     <div class="flex flex-col">
@@ -118,20 +146,20 @@ def get_html_template(target_day, all_days, month_label, ad_month):
         </section>
 
         <section class="bg-white p-4 sm:p-8 rounded-[2rem] shadow-sm border border-slate-100 mb-8">
-            <h3 class="text-xl font-black text-slate-800 mb-6 uppercase text-center sm:text-left">{month_label}</h3>
+            <h3 class="text-xl font-black text-slate-800 mb-6 uppercase text-center sm:text-left px-2">{month_label}</h3>
             <div class="grid grid-cols-7 gap-1 sm:gap-3">{calendar_html}</div>
         </section>
 
         <section class="mb-12">
-            <h3 class="text-xl font-black text-slate-800 mb-6 uppercase tracking-tight">Commonly Asked Questions</h3>
-            <div class="grid gap-4">
+            <h3 class="text-xl font-black text-slate-800 mb-6 uppercase tracking-tight px-2">Commonly Asked Questions</h3>
+            <div class="grid gap-4 px-1">
                 {"".join([f'<div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm"><h4 class="font-bold text-slate-800 mb-2">Q: {f["q"]}</h4><p class="text-slate-600 italic">A: {f["a"]}</p></div>' for f in faqs])}
             </div>
         </section>
     </main>
 
-    <footer class="text-center py-10 border-t border-slate-200 text-slate-400 text-xs">
-        <p class="font-bold text-slate-500 mb-2 uppercase">Nepali date today | Today Nepali date | Nepali Patro</p>
+    <footer class="text-center py-10 border-t border-slate-200 text-slate-400 text-[10px] sm:text-xs">
+        <p class="font-bold text-slate-500 mb-2 uppercase tracking-widest">Nepali date today | Today Nepali date | Nepali Patro</p>
         <p>© 2026 Today Singh Yogendra. All Rights Reserved.</p>
     </footer>
 
@@ -160,12 +188,14 @@ def build_site():
             filename = f"{day['bs']}.html"
             with open(filename, "w", encoding='utf-8') as f_out: f_out.write(html)
             sitemap_urls.append(f"{DOMAIN}/{filename}")
+            
             if day['ad'] == TODAY_AD_STR:
                 with open("index.html", "w", encoding='utf-8') as f_idx: f_idx.write(html)
 
-    # Sitemap
+    # Sitemap Generation
     sm = '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
-    for u in sorted(list(set(sitemap_urls))): sm += f'<url><loc>{u}</loc><changefreq>daily</changefreq></url>'
+    for u in sorted(list(set(sitemap_urls))): sm += f'<url><loc>{u}</loc><changefreq>daily</changefreq><priority>0.8</priority></url>'
     with open("sitemap.xml", "w") as f: f.write(sm + '</urlset>')
+    print(f"Success! Generated sitemap and HTML files for {len(sitemap_urls)-1} dates.")
 
 if __name__ == "__main__": build_site()
