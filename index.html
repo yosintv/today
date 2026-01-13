@@ -1,38 +1,35 @@
-
-    <!DOCTYPE html>
-    <html lang="ne">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Nepali Date Today: 2082-09-29 | 2026-01-13 - Nepali Patro</title>
-        <meta name="description" content="Check today's Nepali date (Aaja ko gate): 2082-09-29. Get full Nepali calendar for Poush 2082 / Magh 2082 with events.">
-        <script src="https://cdn.tailwindcss.com"></script>
-    </head>
-    <body class="bg-slate-50 text-slate-900 antialiased">
-        <header class="max-w-4xl mx-auto px-4 py-10 text-center">
-            <h1 class="text-4xl font-extrabold text-slate-800 tracking-tight mb-2"><a href="/">Nepali Patro</a></h1>
-            <p class="text-slate-500">Your daily digital calendar for Nepal</p>
-        </header>
-
-        <main class="max-w-4xl mx-auto px-4">
-            <div class="bg-white rounded-3xl shadow-xl overflow-hidden mb-10 border border-slate-100">
-                <div class="bg-red-600 p-6 text-white text-center">
-                    <h2 class="text-lg font-medium opacity-90">Aaja ko Gate (Today's Date)</h2>
-                    <div class="text-6xl font-black my-2">2082-09-29</div>
-                    <p class="text-xl opacity-90">2026-01-13 | Tuesday</p>
-                </div>
-                <div class="p-4 bg-yellow-50 text-center text-yellow-800 font-bold border-b border-yellow-100">✨ National Bhakka Day</div>
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepali Date Today: 2082-09-29 | 2026-01-13 - Nepali Patro</title>
+    <meta name="description" content="Check today's Nepali date (Aaja ko gate): 2082-09-29. Get full Nepali calendar for Poush 2082 / Magh 2082 with events.">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+    <header class="max-w-4xl mx-auto px-4 py-10 text-center">
+        <h1 class="text-4xl font-extrabold text-slate-800 tracking-tight mb-2"><a href="/">Nepali Patro</a></h1>
+        <p class="text-slate-500">Your daily digital calendar for Nepal</p>
+    </header>
+    <main class="max-w-4xl mx-auto px-4">
+        <div class="bg-white rounded-3xl shadow-xl overflow-hidden mb-10 border border-slate-100">
+            <div class="bg-red-600 p-6 text-white text-center">
+                <h2 class="text-lg font-medium opacity-90">Aaja ko Gate (Today's Date)</h2>
+                <div class="text-6xl font-black my-2">2082-09-29</div>
+                <p class="text-xl opacity-90">2026-01-13 | Tuesday</p>
             </div>
-
-            <section class="bg-white p-6 rounded-3xl shadow-sm border border-slate-100 mb-10">
-                <div class="flex flex-col sm:flex-row justify-between items-center mb-6 gap-4">
-                    <h3 class="text-2xl font-bold text-slate-800 uppercase tracking-tight">Poush 2082 / Magh 2082 / January</h3>
-                    <div class="flex items-center bg-slate-100 p-1 rounded-full">
-                        <button id="toggleBS" class="px-6 py-2 rounded-full bg-white shadow-sm text-sm font-bold transition-all">BS</button>
-                        <button id="toggleAD" class="px-6 py-2 rounded-full text-sm font-medium transition-all">AD</button>
-                    </div>
+            <div class="p-4 bg-yellow-50 text-center text-yellow-800 font-bold border-b border-yellow-100">✨ National Bhakka Day</div>
+        </div>
+        <section class="bg-white p-6 rounded-3xl shadow-sm border border-slate-100 mb-10">
+            <div class="flex flex-col sm:flex-row justify-between items-center mb-6 gap-4">
+                <h3 class="text-2xl font-bold text-slate-800 uppercase tracking-tight">Poush 2082 / Magh 2082</h3>
+                <div class="flex items-center bg-slate-100 p-1 rounded-full">
+                    <button id="toggleBS" class="px-6 py-2 rounded-full bg-white shadow-sm text-sm font-bold transition-all">BS</button>
+                    <button id="toggleAD" class="px-6 py-2 rounded-full text-sm font-medium transition-all">AD</button>
                 </div>
-                <div class="grid grid-cols-7 gap-2">
+            </div>
+            <div class="grid grid-cols-7 gap-2">
         <a href="2082-09-17.html" class="p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block text-inherit no-underline">
             <div class="text-xs text-gray-400 font-medium">Thu</div>
             <div class="text-xl font-bold text-gray-800 bs-date-val">17</div>
@@ -219,24 +216,19 @@
             <div class="text-xs text-gray-500 ad-date-val hidden">31</div>
             
         </a></div>
-            </section>
-        </main>
-
-        <footer class="text-center py-10 text-slate-400 text-sm">
-            <p>© 2026 Today Singh Yogendra. All Rights Reserved.</p>
-        </footer>
-
-        <script>
-            const tBS = document.getElementById('toggleBS'), tAD = document.getElementById('toggleAD');
-            const bsV = document.querySelectorAll('.bs-date-val'), adV = document.querySelectorAll('.ad-date-val');
-            tAD.addEventListener('click', () => {
-                tAD.classList.add('bg-white', 'shadow-sm', 'font-bold'); tBS.classList.remove('bg-white', 'shadow-sm', 'font-bold');
-                bsV.forEach(el => el.classList.add('hidden')); adV.forEach(el => el.classList.remove('hidden'));
-            });
-            tBS.addEventListener('click', () => {
-                tBS.classList.add('bg-white', 'shadow-sm', 'font-bold'); tAD.classList.remove('bg-white', 'shadow-sm', 'font-bold');
-                adV.forEach(el => el.classList.add('hidden')); bsV.forEach(el => el.classList.remove('hidden'));
-            });
-        </script>
-    </body>
-    </html>
+        </section>
+    </main>
+    <script>
+        const tBS = document.getElementById('toggleBS'), tAD = document.getElementById('toggleAD');
+        const bsV = document.querySelectorAll('.bs-date-val'), adV = document.querySelectorAll('.ad-date-val');
+        tAD.addEventListener('click', () => {
+            tAD.classList.add('bg-white', 'shadow-sm', 'font-bold'); tBS.classList.remove('bg-white', 'shadow-sm', 'font-bold');
+            bsV.forEach(el => el.classList.add('hidden')); adV.forEach(el => el.classList.remove('hidden'));
+        });
+        tBS.addEventListener('click', () => {
+            tBS.classList.add('bg-white', 'shadow-sm', 'font-bold'); tAD.classList.remove('bg-white', 'shadow-sm', 'font-bold');
+            adV.forEach(el => el.classList.add('hidden')); bsV.forEach(el => el.classList.remove('hidden'));
+        });
+    </script>
+</body>
+</html>
