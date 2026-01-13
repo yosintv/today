@@ -16,8 +16,7 @@ def get_html_template(target_day, month_days, month_label, ad_month):
     calendar_html = ""
     for day in month_days:
         is_viewing = "ring-4 ring-red-500 shadow-lg bg-red-50" if day['ad'] == target_day['ad'] else "hover:bg-gray-50"
-        
-        # This creates the short URL you want: domain.com/2082-09-17.html
+        # Short URL format as requested: domain.com/2082-09-17.html
         page_url = f"{DOMAIN}/{day['bs']}.html"
         
         calendar_html += f'''
@@ -55,19 +54,31 @@ def get_html_template(target_day, month_days, month_label, ad_month):
 </html>"""
 
 def build_site():
+    if not os.path.exists(JSON_FILE):
+        print(f"Error: {JSON_FILE} not found.")
+        return
+
     with open(JSON_FILE, 'r') as f:
-        data = json.load(f)[0]
+        content = json.load(f)
+        # SAFETY CHECK: If it's a list, take the first item. If it's a dict, use it directly.
+        data = content[0] if isinstance(content, list) else content
 
     sitemap_urls = [f"{DOMAIN}/"]
     
+    # Check if calendar_data exists
+    if 'calendar_data' not in data:
+        print("Error: 'calendar_data' key not found in JSON.")
+        return
+
     for month_data in data['calendar_data']:
-        for day in month_data['days']:
-            # Generate the HTML content
-            html_content = get_html_template(day, month_data['days'], " / ".join(month_data['bs_months']), month_data['month'])
+        month_label = " / ".join(month_data.get('bs_months', []))
+        ad_month = month_data.get('month', '')
+        
+        for day in month_data.get('days', []):
+            html_content = get_html_template(day, month_data['days'], month_label, ad_month)
             
-            # SAVE AT ROOT to ensure URL is domain.com/2082-09-17.html
+            # Save at Root for URL: https://today.singhyogendra.com.np/2082-09-17.html
             file_name = f"{day['bs']}.html"
-            
             with open(file_name, "w", encoding='utf-8') as f_out:
                 f_out.write(html_content)
             
@@ -84,6 +95,7 @@ def build_site():
         u = ET.SubElement(root, "url")
         ET.SubElement(u, "loc").text = url
     ET.ElementTree(root).write("sitemap.xml", encoding='utf-8', xml_declaration=True)
+    print("Sitemap and HTML pages generated successfully.")
 
 if __name__ == "__main__":
     build_site()
