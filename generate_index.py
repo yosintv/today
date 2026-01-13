@@ -1,152 +1,55 @@
 import json
-from datetime import datetime
-from pathlib import Path
-from zoneinfo import ZoneInfo
+import os
+from datetime import datetime, timedelta
 
-# ================= CONFIG =================
-SITE_URL = "https://today.singhyogendra.com.np"
-SITE_TITLE = "Nepali Calendar Today"
-TIMEZONE = ZoneInfo("Asia/Kathmandu")
-BASE_PATH = Path(".")
-# =========================================
+def generate_html():
+    # Calculate Nepal Time (UTC + 5:45)
+    npt_now = datetime.utcnow() + timedelta(hours=5, minutes=45)
+    today_str = npt_now.strftime('%Y-%m-%d')
+    file_key = npt_now.strftime('%Y%m')  # e.g., "202512"
+    
+    file_path = f"date/{file_key}.json"
+    
+    if not os.path.exists(file_path):
+        print(f"Error: Data for {file_key} not found.")
+        return
 
-NEPALI_NUM = str.maketrans("0123456789", "०१२३४५६७८९")
+    with open(file_path, 'r') as f:
+        data = json.load(f)[0]
 
-def to_nepali_num(text):
-    return str(text).translate(NEPALI_NUM)
+    # Find today's specific entry
+    today_data = next((d for d in data['days'] if d['ad'] == today_str), None)
+    
+    html_content = f"""
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Today's Date - {npt_now.strftime('%B %Y')}</title>
+        <style>
+            body {{ font-family: 'Segoe UI', sans-serif; text-align: center; background: #f4f4f9; padding: 50px; }}
+            .card {{ background: white; padding: 30px; border-radius: 15px; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }}
+            h1 {{ color: #2c3e50; margin-bottom: 5px; }}
+            .bs-date {{ font-size: 2em; color: #e74c3c; font-weight: bold; }}
+            .ad-date {{ font-size: 1.2em; color: #7f8c8d; }}
+            .event {{ margin-top: 20px; padding: 10px; background: #fff3cd; border-radius: 5px; color: #856404; }}
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <h1>Today in Nepal</h1>
+            <p class="bs-date">{today_data['bs'] if today_data else 'N/A'}</p>
+            <p class="ad-date">{today_data['ad'] if today_data else today_str} ({today_data['day'] if today_data else ''})</p>
+            {f'<div class="event"><b>Event:</b> {today_data["event"]}</div>' if today_data and today_data['event'] else ''}
+            <p style="margin-top:20px; font-size:0.8em;">Month: {data['month_info']['bs_months'][0]} / {data['month_info']['ad_month']}</p>
+        </div>
+    </body>
+    </html>
+    """
+    
+    with open("index.html", "w") as f:
+        f.write(html_content)
 
-# -------- Current NPT Date --------
-now = datetime.now(TIMEZONE)
-today_ad = now.strftime("%Y-%m-%d")
-api_month = now.strftime("%Y%m")              # e.g. 202601
-API_FILE = f"date/{api_month}.json"
-
-print("NPT time:", now)
-print("Using API:", API_FILE)
-
-# -------- Load API --------
-api_path = Path(API_FILE)
-if not api_path.exists():
-    raise FileNotFoundError(f"API file not found: {API_FILE}")
-
-raw = json.loads(api_path.read_text(encoding="utf-8"))
-
-# Support BOTH formats: {} or [{}]
-if isinstance(raw, list):
-    data = raw[0]
-elif isinstance(raw, dict):
-    data = raw
-else:
-    raise ValueError("Invalid API format")
-
-days = data.get("days", [])
-if not days:
-    raise ValueError("No days found in API")
-
-# -------- Find Today --------
-today = next((d for d in days if d.get("ad") == today_ad), None)
-if not today:
-    raise ValueError("Today's date not found in API")
-
-# -------- BS Date --------
-bs_date = today["bs"]            # 2082-09-29
-bs_year, bs_month, bs_day = bs_date.split("-")
-bs_page = f"{bs_date}.html"
-
-# -------- Events as Badges --------
-event_html = ""
-if today.get("event"):
-    for e in today["event"].split(","):
-        event_html += f'<span class="badge">{e.strip()}</span>'
-
-# -------- SEO Schema --------
-schema = {
-    "@context": "https://schema.org",
-    "@type": "Event",
-    "name": "Nepali Calendar Today",
-    "startDate": today_ad,
-    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-    "eventStatus": "https://schema.org/EventScheduled",
-    "location": {
-        "@type": "VirtualLocation",
-        "url": SITE_URL
-    }
-}
-
-# -------- HTML Page --------
-html = f"""<!DOCTYPE html>
-<html lang="ne">
-<head>
-<meta charset="utf-8">
-<title>{to_nepali_num(bs_date)} | Nepali Calendar Today</title>
-
-<meta name="description" content="Today Nepali date {to_nepali_num(bs_date)} with events and highlights">
-<link rel="canonical" href="{SITE_URL}/{bs_page}">
-
-<meta property="og:title" content="Nepali Date Today {to_nepali_num(bs_date)}">
-<meta property="og:url" content="{SITE_URL}/{bs_page}">
-<meta property="og:type" content="website">
-
-<script type="application/ld+json">
-{json.dumps(schema, ensure_ascii=False)}
-</script>
-
-<style>
-body {{
-  font-family: system-ui, sans-serif;
-  background: #f7f7f7;
-  margin: 0;
-  padding: 20px;
-}}
-.card {{
-  background: #fff;
-  max-width: 520px;
-  margin: auto;
-  padding: 24px;
-  border-radius: 14px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.08);
-}}
-.badge {{
-  display: inline-block;
-  background: #2563eb;
-  color: #fff;
-  padding: 6px 10px;
-  border-radius: 999px;
-  font-size: 13px;
-  margin: 4px 4px 0 0;
-}}
-.small {{
-  color: #555;
-  font-size: 14px;
-}}
-</style>
-</head>
-
-<body>
-<div class="card">
-  <h1>आजको मिति</h1>
-  <h2>{to_nepali_num(bs_year)}-{to_nepali_num(bs_month)}-{to_nepali_num(bs_day)}</h2>
-  <p class="small">{today["day"]} | AD {today_ad}</p>
-  <div>{event_html or "<span class='small'>आज कुनै विशेष कार्यक्रम छैन</span>"}</div>
-</div>
-</body>
-</html>
-"""
-
-# -------- Write Files --------
-(BASE_PATH / bs_page).write_text(html, encoding="utf-8")
-
-index_html = f"""<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="refresh" content="0; url={SITE_URL}/{bs_page}">
-<link rel="canonical" href="{SITE_URL}/{bs_page}">
-<title>{SITE_TITLE}</title>
-</head>
-<body>Redirecting…</body>
-</html>
-"""
-
-(BASE_PATH / "index.html").write_text(index_html, encoding="utf-8")
-
-print("✅ Generated:", bs_page)
+if __name__ == "__main__":
+    generate_html()
