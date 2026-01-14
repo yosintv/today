@@ -1,7 +1,7 @@
 import json
 import os
 import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta, timezone 
 
 # --- CONFIGURATION ---
 DOMAIN = "https://today.singhyogendra.com.np"
@@ -38,7 +38,7 @@ def get_html_template(target_day, all_days, month_label, ad_month):
     faqs = [
         {"q": "Aaja k gate ho? (What is the Nepali date today?)", "a": f"Aaja ko gate {target_day['bs']} ho. It is {target_day['day']}."},
         {"q": "Aaja ko tarikh k ho? (What is the English date today?)", "a": f"Today's English date (tarikh) is {target_day['ad']}."},
-        {"q": f"Nepali calendar {month_label} events?", "a": f"The calendar for {month_label} includes events like {', '.join([e['event'] for e in upcoming_events[:3]]) if upcoming_events else 'festivals'}."},
+        {"q": f"Nepali calendar {month_label} events?", "a": f"The calendar for {month_label} includes events like {', '.join([e['event'] for e in upcoming_events[:3]]) if upcoming_events else 'upcoming festivals'}."},
         {"q": "How many days left for the next festival?", "a": f"The next major event is {upcoming_events[0]['event']} which is in {upcoming_events[0]['days_left']} days." if upcoming_events else "No major festivals upcoming this month."},
         {"q": "What is Nepali Patro?", "a": "Nepali Patro is the traditional solar calendar used in Nepal. You can find Aaja ko gate and Aaja ko tarikh here daily."},
     ]
@@ -53,7 +53,7 @@ def get_html_template(target_day, all_days, month_label, ad_month):
     # Calendar Grid Construction
     calendar_html = ""
     for day in all_days:
-        is_viewing = "ring-4 ring-red-500 shadow-lg bg-red-50" if day['ad'] == target_day['ad'] else "hover:bg-gray-50"
+        is_viewing = "ring-4 ring-red-500 shadow-lg bg-red-50" if day['ad'] == TODAY_AD_STR else "hover:bg-gray-50"
         event_dot = '<span class="block w-1 h-1 bg-red-500 rounded-full mx-auto mt-1"></span>' if day.get('event') else ''
         calendar_html += f'''
         <a href="{DOMAIN}/{day['bs']}.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center {is_viewing} transition-all block">
@@ -95,9 +95,21 @@ def get_html_template(target_day, all_days, month_label, ad_month):
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
         body {{ font-family: 'Inter', sans-serif; scroll-behavior: smooth; }}
+        #goto-today-btn {{
+            position: fixed; bottom: 2rem; right: 1.5rem; z-index: 100;
+            display: none; animation: floatBounce 2s infinite;
+        }}
+        @keyframes floatBounce {{
+            0%, 100% {{ transform: translateY(0); }}
+            50% {{ transform: translateY(-10px); }}
+        }}
     </style>
 </head>
 <body class="bg-slate-50 text-slate-900 antialiased">
+    <a id="goto-today-btn" href="{DOMAIN}" class="bg-red-600 text-white px-6 py-4 rounded-full font-black shadow-2xl flex items-center gap-2 hover:bg-red-700 transition-all">
+        <span>📅</span> <span>GO TO TODAY</span>
+    </a>
+
     <header class="max-w-4xl mx-auto px-4 py-6 text-center">
         <h1 class="text-2xl font-black text-slate-800 tracking-tighter"><a href="{DOMAIN}">TODAY NEPALI DATE</a></h1>
     </header>
@@ -120,7 +132,7 @@ def get_html_template(target_day, all_days, month_label, ad_month):
                     <div id="npt-clock" class="text-lg sm:text-xl font-mono font-bold text-red-600">--:--:--</div>
                 </div>
                 <div class="p-4 text-center">
-                    <p class="text-[10px] font-bold text-slate-400 uppercase">Local Time</p>
+                    <p class="text-[10px] font-bold text-slate-400 uppercase">Your Time</p>
                     <div id="local-clock" class="text-lg sm:text-xl font-mono font-bold text-slate-800">--:--:--</div>
                 </div>
             </div>
@@ -171,14 +183,10 @@ def get_html_template(target_day, all_days, month_label, ad_month):
             document.getElementById('local-clock').innerText = now.toLocaleTimeString();
             const npt = new Date(now.getTime() + (now.getTimezoneOffset() * 60000) + (5.75 * 3600000));
             document.getElementById('npt-clock').innerText = npt.toLocaleTimeString();
-
-            // PRESERVED DEFENSE LOGIC
             const nptDateStr = npt.toISOString().split('T')[0];
             const renderedDate = "{target_day['ad']}";
-            const isHomePage = window.location.pathname === "/" || window.location.pathname === "/index.html";
-
-            if (isHomePage && nptDateStr !== renderedDate) {{
-                console.warn("Workflow stale. Data showing: " + renderedDate + " | Actual Nepal Date: " + nptDateStr);
+            if (nptDateStr !== renderedDate) {{
+                document.getElementById('goto-today-btn').style.display = 'flex';
             }}
         }}
         setInterval(updateClocks, 1000); 
@@ -196,8 +204,7 @@ def build_site():
         content = json.load(f)
         data = content[0] if isinstance(content, list) else content
 
-    # Use a set to avoid any accidental duplicate URLs
-    sitemap_urls = set()
+    sitemap_urls = set() # Use a set to prevent duplicate URLs
     sitemap_urls.add(f"{DOMAIN}/")
     
     # Process each month
@@ -208,36 +215,37 @@ def build_site():
             html = get_html_template(day, m_data['days'], label, m_data['month'])
             filename = f"{day['bs']}.html"
             
-            # Write individual date file
             with open(filename, "w", encoding='utf-8') as f_out: 
                 f_out.write(html)
             
             sitemap_urls.add(f"{DOMAIN}/{filename}")
             
-            # If this matches Today's AD date, update index.html
             if day['ad'] == TODAY_AD_STR:
                 with open("index.html", "w", encoding='utf-8') as f_idx: 
                     f_idx.write(html)
 
-    # --- ENHANCED SITEMAP GENERATION (Standard XML Library) ---
+    # --- ENHANCED SITEMAP GENERATION ---
+    # Create the root element with correct namespaces
     urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
     
     for url in sorted(list(sitemap_urls)):
-        url_el = ET.SubElement(urlset, "url")
-        loc = ET.SubElement(url_el, "loc")
+        url_element = ET.SubElement(urlset, "url")
+        loc = ET.SubElement(url_element, "loc")
         loc.text = url
-        freq = ET.SubElement(url_el, "changefreq")
-        freq.text = "daily"
-        pri = ET.SubElement(url_el, "priority")
-        pri.text = "1.0" if url == f"{DOMAIN}/" else "0.8" 
+        
+        changefreq = ET.SubElement(url_element, "changefreq")
+        changefreq.text = "daily"
+        
+        priority = ET.SubElement(url_element, "priority")
+        priority.text = "1.0" if url == f"{DOMAIN}/" else "0.8"
 
+    # Convert to string and write to file
     tree = ET.ElementTree(urlset)
-    # Write with proper declaration and encoding
-    with open("sitemap.xml", "wb") as f_sm:
-        f_sm.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
-        tree.write(f_sm, encoding="utf-8", xml_declaration=False)
+    with open("sitemap.xml", "wb") as f:
+        f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
+        tree.write(f, encoding="utf-8", xml_declaration=False)
         
     print(f"Success! Generated sitemap.xml and HTML files for {len(sitemap_urls)} URLs.")
 
 if __name__ == "__main__": 
-    build_site() 
+    build_site()
