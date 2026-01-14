@@ -1,8 +1,8 @@
-name: Hourly SEO Patro Update
+name: Daily SEO Patro Update
 
 on:
   schedule:
-    # Runs at the start of every hour (00:00, 01:00, etc.)
+    # This will run at the start of every hour (e.g., 1:00, 2:00, etc.)
     - cron: '0 * * * *'
   workflow_dispatch: # Allows manual trigger for testing
 
@@ -10,6 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     
+    # Required to allow GitHub Actions to save files to your repository
     permissions:
       contents: write
     
@@ -29,6 +30,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          # Adds all new files and updates tracking
           git add . 
           git commit -m "Auto Update Patro: $(date)" || exit 0
           git push
