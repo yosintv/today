@@ -1,4 +1,4 @@
-import json 
+import json
 import os
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -106,11 +106,11 @@ def get_html_template(target_day, all_days, month_label, ad_month):
         <div class="bg-white rounded-[2rem] shadow-xl overflow-hidden mb-8 border border-slate-100">
             <div class="bg-red-600 p-6 sm:p-10 text-white text-center">
                 <p class="text-xs font-bold uppercase tracking-widest opacity-80 mb-2">Aaja ko Nepali Date</p>
-                <div class="text-5xl sm:text-8xl font-black mb-4 tracking-tighter">{target_day['bs']}</div>
+                <div id="dynamic-bs" class="text-5xl sm:text-8xl font-black mb-4 tracking-tighter">{target_day['bs']}</div>
                 <div class="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6 text-lg sm:text-2xl opacity-95 font-medium">
-                    <span>{target_day['ad']}</span>
+                    <span id="dynamic-ad">{target_day['ad']}</span>
                     <span class="hidden sm:block text-red-400">|</span>
-                    <span>{target_day['day']}</span>
+                    <span id="dynamic-day">{target_day['day']}</span>
                 </div>
             </div>
             
@@ -124,7 +124,9 @@ def get_html_template(target_day, all_days, month_label, ad_month):
                     <div id="local-clock" class="text-lg sm:text-xl font-mono font-bold text-slate-800">--:--:--</div>
                 </div>
             </div>
-            {f'<div class="p-6 bg-yellow-50 text-center text-yellow-800 font-bold text-lg sm:text-xl italic border-b border-yellow-100">✨ {target_day["event"]}</div>' if target_day.get('event') else ''}
+            <div id="dynamic-event-container">
+                {f'<div class="p-6 bg-yellow-50 text-center text-yellow-800 font-bold text-lg sm:text-xl italic border-b border-yellow-100">✨ {target_day["event"]}</div>' if target_day.get('event') else ''}
+            </div>
         </div>
 
         <section class="bg-white p-4 sm:p-8 rounded-[2rem] shadow-sm border border-slate-100 mb-8">
@@ -132,11 +134,11 @@ def get_html_template(target_day, all_days, month_label, ad_month):
             <div class="grid grid-cols-7 gap-1 sm:gap-3">{calendar_html}</div>
         </section>
 
-        <section class="mb-8">
+        <section class="mb-8" id="upcoming-events-section">
             <h3 class="text-xl font-black text-slate-800 mb-4 flex items-center gap-2 uppercase tracking-tight px-2">
                 <span class="w-2 h-6 bg-red-600 rounded-full"></span> Upcoming Events
             </h3>
-            <div class="space-y-3 px-1">
+            <div class="space-y-3 px-1" id="events-list">
                 {"".join([f'''
                 <a href="{DOMAIN}/{e['bs']}.html" class="bg-white p-4 rounded-2xl border border-slate-100 flex flex-wrap justify-between items-center shadow-sm hover:border-red-300 transition-colors">
                     <div class="flex flex-col">
@@ -166,36 +168,72 @@ def get_html_template(target_day, all_days, month_label, ad_month):
     <script>
         function updateClocks() {{
             const now = new Date();
+            // Local Time
             document.getElementById('local-clock').innerText = now.toLocaleTimeString();
+            
+            // Nepal Time (UTC + 5:45)
             const npt = new Date(now.getTime() + (now.getTimezoneOffset() * 60000) + (5.75 * 3600000));
             document.getElementById('npt-clock').innerText = npt.toLocaleTimeString();
+
+            // DEFENSE LOGIC: Redirect if site is stale
+            // We check if the current page being viewed matches "Today" in Nepal
+            const nptDateStr = npt.toISOString().split('T')[0]; // YYYY-MM-DD
+            const renderedDate = "{target_day['ad']}";
+            const isHomePage = window.location.pathname === "/" || window.location.pathname === "/index.html";
+
+            if (isHomePage && nptDateStr !== renderedDate) {{
+                // If it's index.html and the date is wrong, the workflow failed.
+                // We refresh to try and get new content or just let JS handle the mismatch
+                console.warn("Workflow stale. Data showing: " + renderedDate + " | Actual Nepal Date: " + nptDateStr);
+                // Optional: window.location.reload(); 
+            }}
         }}
-        setInterval(updateClocks, 1000); updateClocks();
+        
+        setInterval(updateClocks, 1000); 
+        updateClocks();
     </script>
 </body>
 </html>"""
 
 def build_site():
-    with open(JSON_FILE, 'r') as f:
+    if not os.path.exists(JSON_FILE):
+        print(f"Error: {JSON_FILE} not found.")
+        return
+
+    with open(JSON_FILE, 'r', encoding='utf-8') as f:
         content = json.load(f)
         data = content[0] if isinstance(content, list) else content
 
     sitemap_urls = [f"{DOMAIN}/"]
+    
+    # Process each month
     for m_data in data['calendar_data']:
         label = f"{' / '.join(m_data['bs_months'])} {data.get('year', '')}"
+        
         for day in m_data['days']:
             html = get_html_template(day, m_data['days'], label, m_data['month'])
             filename = f"{day['bs']}.html"
-            with open(filename, "w", encoding='utf-8') as f_out: f_out.write(html)
+            
+            # Write individual date file
+            with open(filename, "w", encoding='utf-8') as f_out: 
+                f_out.write(html)
+            
             sitemap_urls.append(f"{DOMAIN}/{filename}")
             
+            # If this matches Today's AD date, update index.html
             if day['ad'] == TODAY_AD_STR:
-                with open("index.html", "w", encoding='utf-8') as f_idx: f_idx.write(html)
+                with open("index.html", "w", encoding='utf-8') as f_idx: 
+                    f_idx.write(html)
 
     # Sitemap Generation
     sm = '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
-    for u in sorted(list(set(sitemap_urls))): sm += f'<url><loc>{u}</loc><changefreq>daily</changefreq><priority>0.8</priority></url>'
-    with open("sitemap.xml", "w") as f: f.write(sm + '</urlset>')
+    for u in sorted(list(set(sitemap_urls))): 
+        sm += f'<url><loc>{u}</loc><changefreq>daily</changefreq><priority>0.8</priority></url>'
+    
+    with open("sitemap.xml", "w", encoding='utf-8') as f: 
+        f.write(sm + '</urlset>')
+        
     print(f"Success! Generated sitemap and HTML files for {len(sitemap_urls)-1} dates.")
 
-if __name__ == "__main__": build_site()
+if __name__ == "__main__": 
+    build_site()
