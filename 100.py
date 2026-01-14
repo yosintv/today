@@ -167,7 +167,7 @@ def get_html_template(target_day, all_days, month_label, ad_month):
         <section class="mb-12">
             <h3 class="text-xl font-black text-slate-800 mb-6 uppercase tracking-tight px-2">Commonly Asked Questions</h3>
             <div class="grid gap-4 px-1">
-                {"".join([f'<div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm"><h4 class="font-bold text-slate-800 mb-2">Q: {f["q"]}</h4><p class="text-slate-600 italic">A: {f["a"]}</p></div>' for f in faqs])}
+                {"".join([f'<div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm"><h4 class="font-bold text-slate-800 mb-2">Q: {f["q"]}</h4><p class="text-slate-600">A: {f["a"]}</p></div>' for f in faqs])}
             </div>
         </section>
     </main>
