@@ -41,11 +41,11 @@
         <div class="bg-white rounded-[2rem] shadow-xl overflow-hidden mb-8 border border-slate-100">
             <div class="bg-red-600 p-6 sm:p-10 text-white text-center">
                 <p class="text-xs font-bold uppercase tracking-widest opacity-80 mb-2">Aaja ko Nepali Date</p>
-                <div class="text-5xl sm:text-8xl font-black mb-4 tracking-tighter">2083-01-15</div>
+                <div id="dynamic-bs" class="text-5xl sm:text-8xl font-black mb-4 tracking-tighter">2083-01-15</div>
                 <div class="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6 text-lg sm:text-2xl opacity-95 font-medium">
-                    <span>2026-04-28</span>
+                    <span id="dynamic-ad">2026-04-28</span>
                     <span class="hidden sm:block text-red-400">|</span>
-                    <span>Tuesday</span>
+                    <span id="dynamic-day">Tuesday</span>
                 </div>
             </div>
             
@@ -59,7 +59,9 @@
                     <div id="local-clock" class="text-lg sm:text-xl font-mono font-bold text-slate-800">--:--:--</div>
                 </div>
             </div>
-            
+            <div id="dynamic-event-container">
+                
+            </div>
         </div>
 
         <section class="bg-white p-4 sm:p-8 rounded-[2rem] shadow-sm border border-slate-100 mb-8">
@@ -217,11 +219,11 @@
         </a></div>
         </section>
 
-        <section class="mb-8">
+        <section class="mb-8" id="upcoming-events-section">
             <h3 class="text-xl font-black text-slate-800 mb-4 flex items-center gap-2 uppercase tracking-tight px-2">
                 <span class="w-2 h-6 bg-red-600 rounded-full"></span> Upcoming Events
             </h3>
-            <div class="space-y-3 px-1">
+            <div class="space-y-3 px-1" id="events-list">
                 
                 <a href="https://today.singhyogendra.com.np/2082-12-18.html" class="bg-white p-4 rounded-2xl border border-slate-100 flex flex-wrap justify-between items-center shadow-sm hover:border-red-300 transition-colors">
                     <div class="flex flex-col">
@@ -332,11 +334,29 @@
     <script>
         function updateClocks() {
             const now = new Date();
+            // Local Time
             document.getElementById('local-clock').innerText = now.toLocaleTimeString();
+            
+            // Nepal Time (UTC + 5:45)
             const npt = new Date(now.getTime() + (now.getTimezoneOffset() * 60000) + (5.75 * 3600000));
             document.getElementById('npt-clock').innerText = npt.toLocaleTimeString();
+
+            // DEFENSE LOGIC: Redirect if site is stale
+            // We check if the current page being viewed matches "Today" in Nepal
+            const nptDateStr = npt.toISOString().split('T')[0]; // YYYY-MM-DD
+            const renderedDate = "2026-04-28";
+            const isHomePage = window.location.pathname === "/" || window.location.pathname === "/index.html";
+
+            if (isHomePage && nptDateStr !== renderedDate) {
+                // If it's index.html and the date is wrong, the workflow failed.
+                // We refresh to try and get new content or just let JS handle the mismatch
+                console.warn("Workflow stale. Data showing: " + renderedDate + " | Actual Nepal Date: " + nptDateStr);
+                // Optional: window.location.reload(); 
+            }
         }
-        setInterval(updateClocks, 1000); updateClocks();
+        
+        setInterval(updateClocks, 1000); 
+        updateClocks();
     </script>
 </body>
 </html>
