@@ -6,7 +6,12 @@ from datetime import datetime, timedelta, timezone
 DOMAIN = "https://today.singhyogendra.com.np"
 JSON_FILE = "date/2026.json"
 LOCAL_OFFSET = timezone(timedelta(hours=5, minutes=45))
+
+# Logic to fetch current Nepal Time
 NOW = datetime.now(LOCAL_OFFSET)
+
+# CONCEPT: If the script runs at or after 00:00 Nepal Time, 
+# TODAY_AD_STR will automatically be the "Next Day" relative to the previous UTC date.
 TODAY_AD_STR = NOW.strftime('%Y-%m-%d')
 
 def get_html_template(target_day, all_days, month_label, ad_month):
@@ -207,7 +212,7 @@ def build_site():
     
     # Process each month
     for m_data in data['calendar_data']:
-        label = f"{' / '.join(m_data['bs_months'])} {data.get('year', '')}" 
+        label = f"{' / '.join(m_data['bs_months'])} {data.get('year', '')}"
         
         for day in m_data['days']:
             html = get_html_template(day, m_data['days'], label, m_data['month'])
@@ -218,6 +223,11 @@ def build_site():
             
             files_count += 1
             
+            # The Critical Logic:
+            # When the script runs, it checks if the 'ad' date in the JSON 
+            # matches the CURRENT Nepal Date (TODAY_AD_STR).
+            # If Nepal clock is 12:01 AM, TODAY_AD_STR becomes the next day,
+            # and that day's HTML is written to index.html.
             if day['ad'] == TODAY_AD_STR:
                 with open("index.html", "w", encoding='utf-8') as f_idx: 
                     f_idx.write(html)
