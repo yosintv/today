@@ -1,15 +1,20 @@
-name: Generate Sitemap
+name: Generate Sitemap Daily
 
 on:
   push:
     branches: [ main ]
+
+  schedule:
+    # Runs every day at 00:00 UTC
+    - cron: "0 0 * * *"
 
 jobs:
   sitemap:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v4
 
     - name: Setup Python
       uses: actions/setup-python@v5
@@ -19,10 +24,10 @@ jobs:
     - name: Generate sitemap
       run: python generate_sitemap.py
 
-    - name: Commit sitemap
+    - name: Commit sitemap if changed
       run: |
         git config user.name "github-actions"
         git config user.email "actions@github.com"
         git add sitemap.xml
-        git commit -m "Auto update sitemap" || echo "No changes"
+        git commit -m "Daily sitemap update" || echo "No changes"
         git push
