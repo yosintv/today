@@ -209,7 +209,7 @@
             <div class="text-lg sm:text-xl font-bold text-slate-800">13</div>
             <span class="block w-1 h-1 bg-red-500 rounded-full mx-auto mt-1"></span>
         </a>
-        <a href="https://today.singhyogendra.com.np/2083-01-14.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center ring-4 ring-red-500 shadow-lg bg-red-50 transition-all block">
+        <a href="https://today.singhyogendra.com.np/2083-01-14.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Mon</div>
             <div class="text-lg sm:text-xl font-bold text-slate-800">14</div>
             <span class="block w-1 h-1 bg-red-500 rounded-full mx-auto mt-1"></span>
@@ -346,23 +346,15 @@
     <script>
         function updateClocks() {
             const now = new Date();
-            // Local Time
             document.getElementById('local-clock').innerText = now.toLocaleTimeString();
-            
-            // Nepal Time (UTC + 5:45)
             const npt = new Date(now.getTime() + (now.getTimezoneOffset() * 60000) + (5.75 * 3600000));
             document.getElementById('npt-clock').innerText = npt.toLocaleTimeString();
-
-            // Defense/UI Logic
-            const nptDateStr = npt.toISOString().split('T')[0]; // YYYY-MM-DD
+            const nptDateStr = npt.toISOString().split('T')[0];
             const renderedDate = "2026-04-27";
-            
-            // If the user is looking at a page that isn't Today's date in Nepal, show the button
             if (nptDateStr !== renderedDate) {
                 document.getElementById('goto-today-btn').style.display = 'flex';
             }
         }
-        
         setInterval(updateClocks, 1000); 
         updateClocks();
     </script>

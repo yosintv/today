@@ -114,7 +114,7 @@
             <div class="text-lg sm:text-xl font-bold text-slate-800">24</div>
             
         </a>
-        <a href="https://today.singhyogendra.com.np/2082-10-25.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center ring-4 ring-red-500 shadow-lg bg-red-50 transition-all block">
+        <a href="https://today.singhyogendra.com.np/2082-10-25.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Sun</div>
             <div class="text-lg sm:text-xl font-bold text-slate-800">25</div>
             
@@ -336,23 +336,15 @@
     <script>
         function updateClocks() {
             const now = new Date();
-            // Local Time
             document.getElementById('local-clock').innerText = now.toLocaleTimeString();
-            
-            // Nepal Time (UTC + 5:45)
             const npt = new Date(now.getTime() + (now.getTimezoneOffset() * 60000) + (5.75 * 3600000));
             document.getElementById('npt-clock').innerText = npt.toLocaleTimeString();
-
-            // Defense/UI Logic
-            const nptDateStr = npt.toISOString().split('T')[0]; // YYYY-MM-DD
+            const nptDateStr = npt.toISOString().split('T')[0];
             const renderedDate = "2026-02-08";
-            
-            // If the user is looking at a page that isn't Today's date in Nepal, show the button
             if (nptDateStr !== renderedDate) {
                 document.getElementById('goto-today-btn').style.display = 'flex';
             }
         }
-        
         setInterval(updateClocks, 1000); 
         updateClocks();
     </script>

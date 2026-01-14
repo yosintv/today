@@ -333,23 +333,15 @@
     <script>
         function updateClocks() {
             const now = new Date();
-            // Local Time
             document.getElementById('local-clock').innerText = now.toLocaleTimeString();
-            
-            // Nepal Time (UTC + 5:45)
             const npt = new Date(now.getTime() + (now.getTimezoneOffset() * 60000) + (5.75 * 3600000));
             document.getElementById('npt-clock').innerText = npt.toLocaleTimeString();
-
-            // Defense/UI Logic
-            const nptDateStr = npt.toISOString().split('T')[0]; // YYYY-MM-DD
+            const nptDateStr = npt.toISOString().split('T')[0];
             const renderedDate = "2026-01-14";
-            
-            // If the user is looking at a page that isn't Today's date in Nepal, show the button
             if (nptDateStr !== renderedDate) {
                 document.getElementById('goto-today-btn').style.display = 'flex';
             }
         }
-        
         setInterval(updateClocks, 1000); 
         updateClocks();
     </script>
