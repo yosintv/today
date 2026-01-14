@@ -229,7 +229,7 @@ def build_site():
         freq = ET.SubElement(url_el, "changefreq")
         freq.text = "daily"
         pri = ET.SubElement(url_el, "priority")
-        pri.text = "1.0" if url == f"{DOMAIN}/" else "0.8"
+        pri.text = "1.0" if url == f"{DOMAIN}/" else "0.8" 
 
     tree = ET.ElementTree(urlset)
     # Write with proper declaration and encoding
@@ -240,4 +240,4 @@ def build_site():
     print(f"Success! Generated sitemap.xml and HTML files for {len(sitemap_urls)} URLs.")
 
 if __name__ == "__main__": 
-    build_site()
+    build_site() 
