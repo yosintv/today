@@ -95,9 +95,18 @@ def get_html_template(target_day, all_days, month_label, ad_month):
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
         body {{ font-family: 'Inter', sans-serif; scroll-behavior: smooth; }}
+        .today-btn-float {{
+            position: fixed; bottom: 2rem; right: 2rem; z-index: 50;
+            animation: bounce 2s infinite; display: none;
+        }}
+        @keyframes bounce {{ 0%, 100% {{ transform: translateY(0); }} 50% {{ transform: translateY(-10px); }} }}
     </style>
 </head>
 <body class="bg-slate-50 text-slate-900 antialiased">
+    <a id="goto-today-btn" href="{DOMAIN}/" class="today-btn-float bg-red-600 text-white px-6 py-3 rounded-full font-bold shadow-2xl flex items-center gap-2 hover:bg-red-700 transition-colors">
+        <span>📅 Go to Today</span>
+    </a>
+
     <header class="max-w-4xl mx-auto px-4 py-6 text-center">
         <h1 class="text-2xl font-black text-slate-800 tracking-tighter"><a href="{DOMAIN}">TODAY NEPALI DATE</a></h1>
     </header>
@@ -168,24 +177,22 @@ def get_html_template(target_day, all_days, month_label, ad_month):
     <script>
         function updateClocks() {{
             const now = new Date();
-            // Local Time
+            // Local Clock
             document.getElementById('local-clock').innerText = now.toLocaleTimeString();
             
-            // Nepal Time (UTC + 5:45)
+            // Nepal Clock (UTC + 5.75)
             const npt = new Date(now.getTime() + (now.getTimezoneOffset() * 60000) + (5.75 * 3600000));
             document.getElementById('npt-clock').innerText = npt.toLocaleTimeString();
 
-            // DEFENSE LOGIC: Redirect if site is stale
-            // We check if the current page being viewed matches "Today" in Nepal
-            const nptDateStr = npt.toISOString().split('T')[0]; // YYYY-MM-DD
-            const renderedDate = "{target_day['ad']}";
-            const isHomePage = window.location.pathname === "/" || window.location.pathname === "/index.html";
-
-            if (isHomePage && nptDateStr !== renderedDate) {{
-                // If it's index.html and the date is wrong, the workflow failed.
-                // We refresh to try and get new content or just let JS handle the mismatch
-                console.warn("Workflow stale. Data showing: " + renderedDate + " | Actual Nepal Date: " + nptDateStr);
-                // Optional: window.location.reload(); 
+            // Date Check (Defense)
+            const nptDateStr = npt.getFullYear() + '-' + String(npt.getMonth() + 1).padStart(2, '0') + '-' + String(npt.getDate()).padStart(2, '0');
+            const pageDateStr = "{target_day['ad']}";
+            
+            // If the user is looking at a page that is NOT today's date in Nepal, show the "Go to Today" button
+            if (nptDateStr !== pageDateStr) {{
+                document.getElementById('goto-today-btn').style.display = 'flex';
+            }} else {{
+                document.getElementById('goto-today-btn').style.display = 'none';
             }}
         }}
         
@@ -197,43 +204,33 @@ def get_html_template(target_day, all_days, month_label, ad_month):
 
 def build_site():
     if not os.path.exists(JSON_FILE):
-        print(f"Error: {JSON_FILE} not found.")
+        print(f"Error: {{JSON_FILE}} not found.")
         return
 
     with open(JSON_FILE, 'r', encoding='utf-8') as f:
         content = json.load(f)
         data = content[0] if isinstance(content, list) else content
 
-    sitemap_urls = [f"{DOMAIN}/"]
-    
-    # Process each month
+    sitemap_urls = [f"{{DOMAIN}}/"]
     for m_data in data['calendar_data']:
-        label = f"{' / '.join(m_data['bs_months'])} {data.get('year', '')}"
-        
+        label = f"{{' / '.join(m_data['bs_months'])}} {{data.get('year', '')}}"
         for day in m_data['days']:
             html = get_html_template(day, m_data['days'], label, m_data['month'])
-            filename = f"{day['bs']}.html"
-            
-            # Write individual date file
+            filename = f"{{day['bs']}}.html"
             with open(filename, "w", encoding='utf-8') as f_out: 
                 f_out.write(html)
+            sitemap_urls.append(f"{{DOMAIN}}/{{filename}}")
             
-            sitemap_urls.append(f"{DOMAIN}/{filename}")
-            
-            # If this matches Today's AD date, update index.html
             if day['ad'] == TODAY_AD_STR:
                 with open("index.html", "w", encoding='utf-8') as f_idx: 
                     f_idx.write(html)
 
-    # Sitemap Generation
     sm = '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
     for u in sorted(list(set(sitemap_urls))): 
-        sm += f'<url><loc>{u}</loc><changefreq>daily</changefreq><priority>0.8</priority></url>'
-    
+        sm += f'<url><loc>{{u}}</loc><changefreq>daily</changefreq><priority>0.8</priority></url>'
     with open("sitemap.xml", "w", encoding='utf-8') as f: 
         f.write(sm + '</urlset>')
-        
-    print(f"Success! Generated sitemap and HTML files for {len(sitemap_urls)-1} dates.")
+    print(f"Success! Generated sitemap and HTML files for {{len(sitemap_urls)-1}} dates.")
 
 if __name__ == "__main__": 
     build_site()
