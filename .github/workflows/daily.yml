@@ -2,26 +2,24 @@ name: Daily SEO Patro Update
 
 on:
   schedule:
-    # This will run at the start of every hour (e.g., 1:00, 2:00, etc.)
-    - cron: '0 * * * *'
-  workflow_dispatch: # Allows manual trigger for testing
+    - cron: '0 * * * *' # Runs every hour
+  workflow_dispatch: 
 
 jobs:
   build:
     runs-on: ubuntu-latest
     
-    # Required to allow GitHub Actions to save files to your repository
     permissions:
-      contents: write
+      contents: write # Allows GitHub Action to save files back to repo
     
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.10'
 
       - name: Generate SEO Pages
         run: python 100.py 
@@ -30,7 +28,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          # Adds all new files and updates tracking
-          git add . 
+          git add .
           git commit -m "Auto Update Patro: $(date)" || exit 0
           git push
