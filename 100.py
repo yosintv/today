@@ -132,7 +132,7 @@ def get_html_template(target_day, all_days, month_label, ad_month):
                     <div id="npt-clock" class="text-lg sm:text-xl font-mono font-bold text-red-600">--:--:--</div>
                 </div>
                 <div class="p-4 text-center">
-                    <p class="text-[10px] font-bold text-slate-400 uppercase">Local Time</p>
+                    <p class="text-[10px] font-bold text-slate-400 uppercase">Your Time</p>
                     <div id="local-clock" class="text-lg sm:text-xl font-mono font-bold text-slate-800">--:--:--</div>
                 </div>
             </div>
