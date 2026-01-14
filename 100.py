@@ -132,7 +132,7 @@ def get_html_template(target_day, full_year_days, month_label, ad_month):
                 </div>
             </div>
             <div id="dynamic-event-container">
-                {f'<div class="p-6 bg-yellow-50 text-center text-yellow-800 font-bold text-lg sm:text-xl italic border-b border-yellow-100">✨ {target_day["event"]}</div>' if target_day.get('event') else ''}
+                {f'<div class="p-6 bg-yellow-50 text-center text-yellow-800 font-bold text-lg sm:text-xl border-b border-yellow-100">✨ {target_day["event"]}</div>' if target_day.get('event') else ''}
             </div>
         </div>
 
