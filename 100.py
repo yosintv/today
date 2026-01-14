@@ -47,7 +47,7 @@ def get_html_template(target_day, full_year_days, month_label, ad_month):
         if days_rem == 0:
             a_text = f"Today is {event_name}! It falls on {bs_date} BS."
         else:
-            a_text = f"There are {days_rem} days remaining for {event_name}. It will be celebrated on {bs_date} BS ({ev['ad']} AD)."
+            a_text = f"There are {days_rem} days remaining for {event_name} {year_bs}. It will be celebrated on {bs_date} BS ({ev['ad']} AD)."
         
         faqs.append({"q": q_text, "a": a_text})
 
