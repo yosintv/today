@@ -1,4 +1,4 @@
-import json  
+import json
 import os
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -53,7 +53,7 @@ def get_html_template(target_day, all_days, month_label, ad_month):
     # Calendar Grid Construction
     calendar_html = ""
     for day in all_days:
-        is_viewing = "ring-4 ring-red-500 shadow-lg bg-red-50" if day['ad'] == target_day['ad'] else "hover:bg-gray-50"
+        is_viewing = "ring-4 ring-red-500 shadow-lg bg-red-50" if day['ad'] == TODAY_AD_STR else "hover:bg-gray-50"
         event_dot = '<span class="block w-1 h-1 bg-red-500 rounded-full mx-auto mt-1"></span>' if day.get('event') else ''
         calendar_html += f'''
         <a href="{DOMAIN}/{day['bs']}.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center {is_viewing} transition-all block">
@@ -180,23 +180,15 @@ def get_html_template(target_day, all_days, month_label, ad_month):
     <script>
         function updateClocks() {{
             const now = new Date();
-            // Local Time
             document.getElementById('local-clock').innerText = now.toLocaleTimeString();
-            
-            // Nepal Time (UTC + 5:45)
             const npt = new Date(now.getTime() + (now.getTimezoneOffset() * 60000) + (5.75 * 3600000));
             document.getElementById('npt-clock').innerText = npt.toLocaleTimeString();
-
-            // Defense/UI Logic
-            const nptDateStr = npt.toISOString().split('T')[0]; // YYYY-MM-DD
+            const nptDateStr = npt.toISOString().split('T')[0];
             const renderedDate = "{target_day['ad']}";
-            
-            // If the user is looking at a page that isn't Today's date in Nepal, show the button
             if (nptDateStr !== renderedDate) {{
                 document.getElementById('goto-today-btn').style.display = 'flex';
             }}
         }}
-        
         setInterval(updateClocks, 1000); 
         updateClocks();
     </script>
@@ -212,7 +204,8 @@ def build_site():
         content = json.load(f)
         data = content[0] if isinstance(content, list) else content
 
-    sitemap_urls = [f"{DOMAIN}/"]
+    sitemap_urls = set() # Use a set to prevent duplicate URLs
+    sitemap_urls.add(f"{DOMAIN}/")
     
     # Process each month
     for m_data in data['calendar_data']:
@@ -222,26 +215,37 @@ def build_site():
             html = get_html_template(day, m_data['days'], label, m_data['month'])
             filename = f"{day['bs']}.html"
             
-            # Write individual date file
             with open(filename, "w", encoding='utf-8') as f_out: 
                 f_out.write(html)
             
-            sitemap_urls.append(f"{DOMAIN}/{filename}")
+            sitemap_urls.add(f"{DOMAIN}/{filename}")
             
-            # If this matches Today's AD date, update index.html
             if day['ad'] == TODAY_AD_STR:
                 with open("index.html", "w", encoding='utf-8') as f_idx: 
                     f_idx.write(html)
 
-    # Sitemap Generation
-    sm = '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
-    for u in sorted(list(set(sitemap_urls))): 
-        sm += f'<url><loc>{u}</loc><changefreq>daily</changefreq><priority>0.8</priority></url>'
+    # --- ENHANCED SITEMAP GENERATION ---
+    # Create the root element with correct namespaces
+    urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
     
-    with open("sitemap.xml", "w", encoding='utf-8') as f: 
-        f.write(sm + '</urlset>')
+    for url in sorted(list(sitemap_urls)):
+        url_element = ET.SubElement(urlset, "url")
+        loc = ET.SubElement(url_element, "loc")
+        loc.text = url
         
-    print(f"Success! Generated sitemap and HTML files for {len(sitemap_urls)-1} dates.")
+        changefreq = ET.SubElement(url_element, "changefreq")
+        changefreq.text = "daily"
+        
+        priority = ET.SubElement(url_element, "priority")
+        priority.text = "1.0" if url == f"{DOMAIN}/" else "0.8"
+
+    # Convert to string and write to file
+    tree = ET.ElementTree(urlset)
+    with open("sitemap.xml", "wb") as f:
+        f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
+        tree.write(f, encoding="utf-8", xml_declaration=False)
+        
+    print(f"Success! Generated sitemap.xml and HTML files for {len(sitemap_urls)} URLs.")
 
 if __name__ == "__main__": 
-    build_site() 
+    build_site()
