@@ -207,7 +207,7 @@ def build_site():
     
     # Process each month
     for m_data in data['calendar_data']:
-        label = f"{' / '.join(m_data['bs_months'])} {data.get('year', '')}"
+        label = f"{' / '.join(m_data['bs_months'])} {data.get('year', '')}" 
         
         for day in m_data['days']:
             html = get_html_template(day, m_data['days'], label, m_data['month'])
