@@ -30,21 +30,9 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
         body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
-        #goto-today-btn {
-            position: fixed; bottom: 2rem; right: 1.5rem; z-index: 100;
-            display: none; animation: floatBounce 2s infinite;
-        }
-        @keyframes floatBounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-        }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-900 antialiased">
-    <a id="goto-today-btn" href="https://today.singhyogendra.com.np" class="bg-red-600 text-white px-6 py-4 rounded-full font-black shadow-2xl flex items-center gap-2 hover:bg-red-700 transition-all">
-        <span>📅</span> <span>GO TO TODAY</span>
-    </a>
-
     <header class="max-w-4xl mx-auto px-4 py-6 text-center">
         <h1 class="text-2xl font-black text-slate-800 tracking-tighter"><a href="https://today.singhyogendra.com.np">TODAY NEPALI DATE</a></h1>
     </header>
@@ -79,7 +67,7 @@
         <section class="bg-white p-4 sm:p-8 rounded-[2rem] shadow-sm border border-slate-100 mb-8">
             <h3 class="text-xl font-black text-slate-800 mb-6 uppercase text-center sm:text-left px-2 tracking-tight">Chaitra 2082 / Baisakh 2083 2026</h3>
             <div class="grid grid-cols-7 gap-1 sm:gap-3">
-        <a href="https://today.singhyogendra.com.np/2082-12-18.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center hover:bg-gray-50 transition-all block">
+        <a href="https://today.singhyogendra.com.np/2082-12-18.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center ring-4 ring-red-500 shadow-lg bg-red-50 transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">Wed</div>
             <div class="text-lg sm:text-xl font-bold text-slate-800">18</div>
             <span class="block w-1 h-1 bg-red-500 rounded-full mx-auto mt-1"></span>
@@ -349,10 +337,14 @@
             document.getElementById('local-clock').innerText = now.toLocaleTimeString();
             const npt = new Date(now.getTime() + (now.getTimezoneOffset() * 60000) + (5.75 * 3600000));
             document.getElementById('npt-clock').innerText = npt.toLocaleTimeString();
+
+            // PRESERVED DEFENSE LOGIC
             const nptDateStr = npt.toISOString().split('T')[0];
             const renderedDate = "2026-04-01";
-            if (nptDateStr !== renderedDate) {
-                document.getElementById('goto-today-btn').style.display = 'flex';
+            const isHomePage = window.location.pathname === "/" || window.location.pathname === "/index.html";
+
+            if (isHomePage && nptDateStr !== renderedDate) {
+                console.warn("Workflow stale. Data showing: " + renderedDate + " | Actual Nepal Date: " + nptDateStr);
             }
         }
         setInterval(updateClocks, 1000); 
