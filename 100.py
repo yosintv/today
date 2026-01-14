@@ -1,6 +1,5 @@
 import json
 import os
-import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone 
 
 # --- CONFIGURATION ---
@@ -203,9 +202,8 @@ def build_site():
     with open(JSON_FILE, 'r', encoding='utf-8') as f:
         content = json.load(f)
         data = content[0] if isinstance(content, list) else content
-
-    sitemap_urls = set() # Use a set to prevent duplicate URLs
-    sitemap_urls.add(f"{DOMAIN}/")
+    
+    files_count = 0
     
     # Process each month
     for m_data in data['calendar_data']:
@@ -218,34 +216,13 @@ def build_site():
             with open(filename, "w", encoding='utf-8') as f_out: 
                 f_out.write(html)
             
-            sitemap_urls.add(f"{DOMAIN}/{filename}")
+            files_count += 1
             
             if day['ad'] == TODAY_AD_STR:
                 with open("index.html", "w", encoding='utf-8') as f_idx: 
                     f_idx.write(html)
-
-    # --- ENHANCED SITEMAP GENERATION ---
-    # Create the root element with correct namespaces
-    urlset = ET.Element("urlset", xmlns="http://www.sitemaps.org/schemas/sitemap/0.9")
-    
-    for url in sorted(list(sitemap_urls)):
-        url_element = ET.SubElement(urlset, "url")
-        loc = ET.SubElement(url_element, "loc")
-        loc.text = url
         
-        changefreq = ET.SubElement(url_element, "changefreq")
-        changefreq.text = "daily"
-        
-        priority = ET.SubElement(url_element, "priority")
-        priority.text = "1.0" if url == f"{DOMAIN}/" else "0.8"
-
-    # Convert to string and write to file
-    tree = ET.ElementTree(urlset)
-    with open("sitemap.xml", "wb") as f:
-        f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
-        tree.write(f, encoding="utf-8", xml_declaration=False)
-        
-    print(f"Success! Generated sitemap.xml and HTML files for {len(sitemap_urls)} URLs.")
+    print(f"Success! Generated {files_count} HTML files. index.html updated for {TODAY_AD_STR}.")
 
 if __name__ == "__main__": 
     build_site()
