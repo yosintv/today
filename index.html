@@ -30,16 +30,22 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
         body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
-        .today-btn-float {
-            position: fixed; bottom: 2rem; right: 2rem; z-index: 50;
-            animation: bounce 2s infinite; display: none;
+        #goto-today-btn {
+            position: fixed; bottom: 2rem; right: 1.5rem; z-index: 100;
+            display: none; transition: all 0.3s ease;
+            animation: floatBounce 2s infinite;
         }
-        @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+        @keyframes floatBounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-900 antialiased">
-    <a id="goto-today-btn" href="https://today.singhyogendra.com.np/" class="today-btn-float bg-red-600 text-white px-6 py-3 rounded-full font-bold shadow-2xl flex items-center gap-2 hover:bg-red-700 transition-colors">
-        <span>📅 Go to Today</span>
+
+    <a id="goto-today-btn" href="https://today.singhyogendra.com.np" class="bg-red-600 text-white px-6 py-4 rounded-full font-black shadow-2xl flex items-center gap-2 hover:bg-red-700 active:scale-95">
+        <span class="text-xl">📅</span>
+        <span>AAJA KO DATE</span>
     </a>
 
     <header class="max-w-4xl mx-auto px-4 py-6 text-center">
@@ -330,22 +336,27 @@
     <script>
         function updateClocks() {
             const now = new Date();
-            // Local Clock
+            // 1. Update Local Clock
             document.getElementById('local-clock').innerText = now.toLocaleTimeString();
             
-            // Nepal Clock (UTC + 5.75)
+            // 2. Update Nepal Clock (UTC + 5:45)
             const npt = new Date(now.getTime() + (now.getTimezoneOffset() * 60000) + (5.75 * 3600000));
-            document.getElementById('npt-clock').innerText = npt.toLocaleTimeString();
+            document.getElementById('npt-clock').innerText = npt.toLocaleTimeString('en-US', { hour12: true, hour: '2-digit', minute: '2-digit', second: '2-digit' });
 
-            // Date Check (Defense)
-            const nptDateStr = npt.getFullYear() + '-' + String(npt.getMonth() + 1).padStart(2, '0') + '-' + String(npt.getDate()).padStart(2, '0');
-            const pageDateStr = "2026-01-14";
+            // 3. DEFENSE LOGIC: Show "Go to Today" button if page is stale
+            const nptYear = npt.getFullYear();
+            const nptMonth = String(npt.getMonth() + 1).padStart(2, '0');
+            const nptDay = String(npt.getDate()).padStart(2, '0');
+            const nptDateStr = `${nptYear}-${nptMonth}-${nptDay}`;
             
-            // If the user is looking at a page that is NOT today's date in Nepal, show the "Go to Today" button
-            if (nptDateStr !== pageDateStr) {
-                document.getElementById('goto-today-btn').style.display = 'flex';
+            const renderedDate = "2026-01-14";
+            const btn = document.getElementById('goto-today-btn');
+
+            // If Nepal's actual date is different from what is written on this page, show the button
+            if (nptDateStr !== renderedDate) {
+                btn.style.display = 'flex';
             } else {
-                document.getElementById('goto-today-btn').style.display = 'none';
+                btn.style.display = 'none';
             }
         }
         
