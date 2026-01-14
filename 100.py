@@ -38,7 +38,7 @@ def get_html_template(target_day, all_days, month_label, ad_month):
     faqs = [
         {"q": "Aaja k gate ho? (What is the Nepali date today?)", "a": f"Aaja ko gate {target_day['bs']} ho. It is {target_day['day']}."},
         {"q": "Aaja ko tarikh k ho? (What is the English date today?)", "a": f"Today's English date (tarikh) is {target_day['ad']}."},
-        {"q": f"Nepali calendar {month_label} events?", "a": f"The calendar for {month_label} includes events like {', '.join([e['event'] for e in upcoming_events[:3]])}."},
+        {"q": f"Nepali calendar {month_label} events?", "a": f"The calendar for {month_label} includes events like {', '.join([e['event'] for e in upcoming_events[:3]]) if upcoming_events else 'upcoming festivals'}."},
         {"q": "How many days left for the next festival?", "a": f"The next major event is {upcoming_events[0]['event']} which is in {upcoming_events[0]['days_left']} days." if upcoming_events else "No major festivals upcoming this month."},
         {"q": "What is Nepali Patro?", "a": "Nepali Patro is the traditional solar calendar used in Nepal. You can find Aaja ko gate and Aaja ko tarikh here daily."},
     ]
@@ -95,9 +95,21 @@ def get_html_template(target_day, all_days, month_label, ad_month):
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
         body {{ font-family: 'Inter', sans-serif; scroll-behavior: smooth; }}
+        #goto-today-btn {{
+            position: fixed; bottom: 2rem; right: 1.5rem; z-index: 100;
+            display: none; animation: floatBounce 2s infinite;
+        }}
+        @keyframes floatBounce {{
+            0%, 100% {{ transform: translateY(0); }}
+            50% {{ transform: translateY(-10px); }}
+        }}
     </style>
 </head>
 <body class="bg-slate-50 text-slate-900 antialiased">
+    <a id="goto-today-btn" href="{DOMAIN}" class="bg-red-600 text-white px-6 py-4 rounded-full font-black shadow-2xl flex items-center gap-2 hover:bg-red-700 transition-all">
+        <span>📅</span> <span>GO TO TODAY</span>
+    </a>
+
     <header class="max-w-4xl mx-auto px-4 py-6 text-center">
         <h1 class="text-2xl font-black text-slate-800 tracking-tighter"><a href="{DOMAIN}">TODAY NEPALI DATE</a></h1>
     </header>
@@ -175,17 +187,13 @@ def get_html_template(target_day, all_days, month_label, ad_month):
             const npt = new Date(now.getTime() + (now.getTimezoneOffset() * 60000) + (5.75 * 3600000));
             document.getElementById('npt-clock').innerText = npt.toLocaleTimeString();
 
-            // DEFENSE LOGIC: Redirect if site is stale
-            // We check if the current page being viewed matches "Today" in Nepal
+            // Defense/UI Logic
             const nptDateStr = npt.toISOString().split('T')[0]; // YYYY-MM-DD
             const renderedDate = "{target_day['ad']}";
-            const isHomePage = window.location.pathname === "/" || window.location.pathname === "/index.html";
-
-            if (isHomePage && nptDateStr !== renderedDate) {{
-                // If it's index.html and the date is wrong, the workflow failed.
-                // We refresh to try and get new content or just let JS handle the mismatch
-                console.warn("Workflow stale. Data showing: " + renderedDate + " | Actual Nepal Date: " + nptDateStr);
-                // Optional: window.location.reload(); 
+            
+            // If the user is looking at a page that isn't Today's date in Nepal, show the button
+            if (nptDateStr !== renderedDate) {{
+                document.getElementById('goto-today-btn').style.display = 'flex';
             }}
         }}
         
@@ -236,4 +244,4 @@ def build_site():
     print(f"Success! Generated sitemap and HTML files for {len(sitemap_urls)-1} dates.")
 
 if __name__ == "__main__": 
-    build_site()
+    build_site() 
