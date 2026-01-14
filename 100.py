@@ -11,11 +11,12 @@ LOCAL_OFFSET = timezone(timedelta(hours=5, minutes=45))
 NOW = datetime.now(LOCAL_OFFSET)
 TODAY_AD_STR = NOW.strftime('%Y-%m-%d')
 
-def get_html_template(target_day, all_days, month_label, ad_month):
+def get_html_template(target_day, full_year_days, month_label, ad_month):
     # Calculations for "Days Left" and Event Navigation
+    # FIX: We now use full_year_days so past/future pages always show global upcoming events
     today_dt = datetime.strptime(TODAY_AD_STR, '%Y-%m-%d')
     upcoming_events = []
-    for d in all_days:
+    for d in full_year_days:
         if d.get('event'):
             event_dt = datetime.strptime(d['ad'], '%Y-%m-%d')
             days_left = (event_dt - today_dt).days
@@ -31,18 +32,15 @@ def get_html_template(target_day, all_days, month_label, ad_month):
     ui_upcoming_events = sorted(upcoming_events, key=lambda x: x['days_left'])[:10]
 
     # --- DYNAMIC FAQ GENERATION ---
-    # Start with the standard questions
     faqs = [
         {"q": "Aaja k gate ho? (What is the Nepali date today?)", "a": f"Aaja ko gate {target_day['bs']} ho. It is {target_day['day']}."},
         {"q": "Aaja ko tarikh k ho? (What is the English date today?)", "a": f"Today's English date (tarikh) is {target_day['ad']}."},
     ]
 
-    # Add every upcoming festival countdown to the FAQ section
     for ev in upcoming_events:
         event_name = ev['event']
         days_rem = ev['days_left']
         bs_date = ev['bs']
-        # Extract year from BS date (e.g., 2082)
         year_bs = bs_date.split('-')[0]
         
         q_text = f"How many days remaining for {event_name} in {year_bs}?"
@@ -53,19 +51,20 @@ def get_html_template(target_day, all_days, month_label, ad_month):
         
         faqs.append({"q": q_text, "a": a_text})
 
-    # Add the general "What is Nepali Patro" at the end
     faqs.append({"q": "What is Nepali Patro?", "a": "Nepali Patro is the traditional solar calendar used in Nepal. You can find Aaja ko gate and Aaja ko tarikh here daily."})
 
-    # JSON-LD Schema Construction
     faq_json_ld = {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [{"@type": "Question", "name": f["q"], "acceptedAnswer": {"@type": "Answer", "text": f["a"]}} for f in faqs]
     }
 
-    # Calendar Grid Construction
+    # Month View Grid (This remains month-specific for the UI)
+    # We filter the full_year_days to only show days belonging to this specific month_label
+    month_days = [d for d in full_year_days if d in target_day_context_days] 
+    
     calendar_html = ""
-    for day in all_days:
+    for day in target_day_context_days:
         is_viewing = "ring-4 ring-red-500 shadow-lg bg-red-50" if day['ad'] == TODAY_AD_STR else "hover:bg-gray-50"
         event_dot = '<span class="block w-1 h-1 bg-red-500 rounded-full mx-auto mt-1"></span>' if day.get('event') else ''
         calendar_html += f'''
@@ -75,22 +74,18 @@ def get_html_template(target_day, all_days, month_label, ad_month):
             {event_dot}
         </a>'''
 
-    # Final HTML Template
     return f"""<!DOCTYPE html>
 <html lang="ne">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nepali Date Today: {target_day['bs']} | {target_day['ad']} - Nepali Patro</title>
-    
     <meta name="description" content="Find Nepali date today: {target_day['bs']}. Today Nepali date, Nepali calendar {month_label}, Aaja ko tarikh, and upcoming festivals.">
     <meta name="keywords" content="Nepali date today, Today Nepali date, Nepali calendar {month_label}, Aaja ko gate, Aaja ko tarikh, Aaja k gate ho?, Nepali patro">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="{DOMAIN}/{target_day['bs']}.html">
     <link rel="icon" type="image/png" href="/favicon.ico">
-
     <script type="application/ld+json">{json.dumps(faq_json_ld)}</script>
-    
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
@@ -160,7 +155,7 @@ def get_html_template(target_day, all_days, month_label, ad_month):
                     <div class="bg-red-50 text-red-600 px-3 py-1 rounded-full text-xs font-black mt-2 sm:mt-0">
                         {f'Today' if e['days_left'] == 0 else f'In {e["days_left"]} Days'}
                     </div>
-                </a>''' for e in ui_upcoming_events])}
+                </a>''' for e in ui_upcoming_events]) if ui_upcoming_events else '<p class="text-slate-400 p-4 italic">No more festivals remaining this year.</p>'}
             </div>
         </section>
 
@@ -180,13 +175,35 @@ def get_html_template(target_day, all_days, month_label, ad_month):
     <script>
         function updateClocks() {{
             const now = new Date();
+            // Local Clock
             document.getElementById('local-clock').innerText = now.toLocaleTimeString();
-            const npt = new Date(now.getTime() + (now.getTimezoneOffset() * 60000) + (5.75 * 3600000));
-            document.getElementById('npt-clock').innerText = npt.toLocaleTimeString();
-            const nptDateStr = npt.toISOString().split('T')[0];
+            
+            // Fixed Nepal Clock & Date logic
+            const nptFormatter = new Intl.DateTimeFormat('en-CA', {{
+                timeZone: 'Asia/Kathmandu',
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                hour12: false
+            }});
+            
+            const nptParts = nptFormatter.formatToParts(now);
+            const nptDateMap = {{}};
+            nptParts.forEach(p => nptDateMap[p.type] = p.value);
+            
+            const nptDateStr = `${{nptDateMap.year}}-${{nptDateMap.month}}-${{nptDateMap.day}}`;
+            document.getElementById('npt-clock').innerText = `${{nptDateMap.hour}}:${{nptDateMap.minute}}:${{nptDateMap.second}}`;
+
             const renderedDate = "{target_day['ad']}";
+            
+            // Only show the button if the current Nepal date is truly different from the page date
             if (nptDateStr !== renderedDate) {{
                 document.getElementById('goto-today-btn').style.display = 'flex';
+            }} else {{
+                document.getElementById('goto-today-btn').style.display = 'none';
             }}
         }}
         setInterval(updateClocks, 1000); 
@@ -204,15 +221,27 @@ def build_site():
         content = json.load(f)
         data = content[0] if isinstance(content, list) else content
     
+    # Pre-collect all days from all months to ensure we have the full year's data for countdowns
+    all_year_days = []
+    for m in data['calendar_data']:
+        all_year_days.extend(m['days'])
+
     files_count = 0
     for m_data in data['calendar_data']:
         label = f"{' / '.join(m_data['bs_months'])} {data.get('year', '')}"
+        
+        # We need to tell the template which days belong to the current month view
+        global target_day_context_days
+        target_day_context_days = m_data['days']
+
         for day in m_data['days']:
-            html = get_html_template(day, m_data['days'], label, m_data['month'])
+            # Pass all_year_days so the FAQ and Upcoming section are never empty
+            html = get_html_template(day, all_year_days, label, m_data['month'])
             filename = f"{day['bs']}.html"
             with open(filename, "w", encoding='utf-8') as f_out: 
                 f_out.write(html)
             files_count += 1
+            
             if day['ad'] == TODAY_AD_STR:
                 with open("index.html", "w", encoding='utf-8') as f_idx: 
                     f_idx.write(html)
