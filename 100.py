@@ -9,9 +9,6 @@ LOCAL_OFFSET = timezone(timedelta(hours=5, minutes=45))
 
 # Logic to fetch current Nepal Time
 NOW = datetime.now(LOCAL_OFFSET)
-
-# CONCEPT: If the script runs at or after 00:00 Nepal Time, 
-# TODAY_AD_STR will automatically be the "Next Day" relative to the previous UTC date.
 TODAY_AD_STR = NOW.strftime('%Y-%m-%d')
 
 def get_html_template(target_day, all_days, month_label, ad_month):
@@ -30,22 +27,34 @@ def get_html_template(target_day, all_days, month_label, ad_month):
                     "days_left": days_left
                 })
     
-    # Sort and pick top 10
-    upcoming_events = sorted(upcoming_events, key=lambda x: x['days_left'])[:10]
+    # Sort and pick top 10 for the UI
+    ui_upcoming_events = sorted(upcoming_events, key=lambda x: x['days_left'])[:10]
 
-    # Dynamic SEO Keywords & Title
-    event_suffix = f" | {target_day['event']}" if target_day.get('event') else ""
-    page_title = f"Nepali Date Today: {target_day['bs']} | {target_day['ad']}{event_suffix} - Nepali Patro"
-    meta_desc = f"Find Nepali date today (Aaja ko gate): {target_day['bs']}. Today Nepali date, Nepali calendar {month_label}, Aaja ko tarikh, and upcoming festivals."
-    
-    # FAQ Generation for Schema and HTML
+    # --- DYNAMIC FAQ GENERATION ---
+    # Start with the standard questions
     faqs = [
         {"q": "Aaja k gate ho? (What is the Nepali date today?)", "a": f"Aaja ko gate {target_day['bs']} ho. It is {target_day['day']}."},
         {"q": "Aaja ko tarikh k ho? (What is the English date today?)", "a": f"Today's English date (tarikh) is {target_day['ad']}."},
-        {"q": f"Nepali calendar {month_label} events?", "a": f"The calendar for {month_label} includes events like {', '.join([e['event'] for e in upcoming_events[:3]]) if upcoming_events else 'upcoming festivals'}."},
-        {"q": "How many days left for the next festival?", "a": f"The next major event is {upcoming_events[0]['event']} which is in {upcoming_events[0]['days_left']} days." if upcoming_events else "No major festivals upcoming this month."},
-        {"q": "What is Nepali Patro?", "a": "Nepali Patro is the traditional solar calendar used in Nepal. You can find Aaja ko gate and Aaja ko tarikh here daily."},
     ]
+
+    # Add every upcoming festival countdown to the FAQ section
+    for ev in upcoming_events:
+        event_name = ev['event']
+        days_rem = ev['days_left']
+        bs_date = ev['bs']
+        # Extract year from BS date (e.g., 2082)
+        year_bs = bs_date.split('-')[0]
+        
+        q_text = f"How many days remaining for {event_name} in {year_bs}?"
+        if days_rem == 0:
+            a_text = f"Today is {event_name}! It falls on {bs_date} BS."
+        else:
+            a_text = f"There are {days_rem} days remaining for {event_name}. It will be celebrated on {bs_date} BS ({ev['ad']} AD)."
+        
+        faqs.append({"q": q_text, "a": a_text})
+
+    # Add the general "What is Nepali Patro" at the end
+    faqs.append({"q": "What is Nepali Patro?", "a": "Nepali Patro is the traditional solar calendar used in Nepal. You can find Aaja ko gate and Aaja ko tarikh here daily."})
 
     # JSON-LD Schema Construction
     faq_json_ld = {
@@ -72,26 +81,13 @@ def get_html_template(target_day, all_days, month_label, ad_month):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{page_title}</title>
+    <title>Nepali Date Today: {target_day['bs']} | {target_day['ad']} - Nepali Patro</title>
     
-    <meta name="description" content="{meta_desc}">
+    <meta name="description" content="Find Nepali date today: {target_day['bs']}. Today Nepali date, Nepali calendar {month_label}, Aaja ko tarikh, and upcoming festivals.">
     <meta name="keywords" content="Nepali date today, Today Nepali date, Nepali calendar {month_label}, Aaja ko gate, Aaja ko tarikh, Aaja k gate ho?, Nepali patro">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="{DOMAIN}/{target_day['bs']}.html">
-    
     <link rel="icon" type="image/png" href="/favicon.ico">
-
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="{DOMAIN}/{target_day['bs']}.html">
-    <meta property="og:title" content="{page_title}">
-    <meta property="og:description" content="{meta_desc}">
-    <meta property="og:image" content="https://today.singhyogendra.com.np/og-image.jpg">
-
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="{DOMAIN}/{target_day['bs']}.html">
-    <meta property="twitter:title" content="{page_title}">
-    <meta property="twitter:description" content="{meta_desc}">
-    <meta property="twitter:image" content="https://today.singhyogendra.com.np/og-image.jpg">
 
     <script type="application/ld+json">{json.dumps(faq_json_ld)}</script>
     
@@ -164,7 +160,7 @@ def get_html_template(target_day, all_days, month_label, ad_month):
                     <div class="bg-red-50 text-red-600 px-3 py-1 rounded-full text-xs font-black mt-2 sm:mt-0">
                         {f'Today' if e['days_left'] == 0 else f'In {e["days_left"]} Days'}
                     </div>
-                </a>''' for e in upcoming_events])}
+                </a>''' for e in ui_upcoming_events])}
             </div>
         </section>
 
@@ -209,25 +205,14 @@ def build_site():
         data = content[0] if isinstance(content, list) else content
     
     files_count = 0
-    
-    # Process each month
     for m_data in data['calendar_data']:
         label = f"{' / '.join(m_data['bs_months'])} {data.get('year', '')}"
-        
         for day in m_data['days']:
             html = get_html_template(day, m_data['days'], label, m_data['month'])
             filename = f"{day['bs']}.html"
-            
             with open(filename, "w", encoding='utf-8') as f_out: 
                 f_out.write(html)
-            
             files_count += 1
-            
-            # The Critical Logic:
-            # When the script runs, it checks if the 'ad' date in the JSON 
-            # matches the CURRENT Nepal Date (TODAY_AD_STR).
-            # If Nepal clock is 12:01 AM, TODAY_AD_STR becomes the next day,
-            # and that day's HTML is written to index.html.
             if day['ad'] == TODAY_AD_STR:
                 with open("index.html", "w", encoding='utf-8') as f_idx: 
                     f_idx.write(html)
