@@ -4,12 +4,17 @@ from datetime import datetime, timedelta, timezone
 
 # --- CONFIGURATION ---
 DOMAIN = "https://today.singhyogendra.com.np"
+SUB_FOLDER = "nepali-date"  # Folder where date files will reside
 JSON_FILE = "date/2026.json"
 LOCAL_OFFSET = timezone(timedelta(hours=5, minutes=45))
 
 # Logic to fetch current Nepal Time
 NOW = datetime.now(LOCAL_OFFSET)
 TODAY_AD_STR = NOW.strftime('%Y-%m-%d')
+
+# Ensure the subfolder exists before writing files
+if not os.path.exists(SUB_FOLDER):
+    os.makedirs(SUB_FOLDER)
 
 def get_html_template(target_day, full_year_days, month_label, ad_month):
     # Calculations for "Days Left" and Event Navigation
@@ -61,14 +66,15 @@ def get_html_template(target_day, full_year_days, month_label, ad_month):
 
     # Month View Grid (This remains month-specific for the UI)
     # We filter the full_year_days to only show days belonging to this specific month_label
-    month_days = [d for d in full_year_days if d in target_day_context_days] 
+    # (Using the global target_day_context_days defined in build_site)
     
     calendar_html = ""
     for day in target_day_context_days:
         is_viewing = "ring-4 ring-red-500 shadow-lg bg-red-50" if day['ad'] == TODAY_AD_STR else "hover:bg-gray-50"
         event_dot = '<span class="block w-1 h-1 bg-red-500 rounded-full mx-auto mt-1"></span>' if day.get('event') else ''
+        # UPDATED: Links now point inside the /nepali-date/ folder
         calendar_html += f'''
-        <a href="{DOMAIN}/{day['bs']}.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center {is_viewing} transition-all block">
+        <a href="{DOMAIN}/{SUB_FOLDER}/{day['bs']}.html" class="p-2 sm:p-4 border border-gray-100 rounded-xl text-center {is_viewing} transition-all block">
             <div class="text-[10px] text-gray-400 font-bold uppercase">{day['day'][:3]}</div>
             <div class="text-lg sm:text-xl font-bold text-slate-800">{day['bs'].split("-")[-1]}</div>
             {event_dot}
@@ -83,7 +89,7 @@ def get_html_template(target_day, full_year_days, month_label, ad_month):
     <meta name="description" content="Find Nepali date today: {target_day['bs']}. Today Nepali date, Nepali calendar {month_label}, Aaja ko tarikh, and upcoming festivals.">
     <meta name="keywords" content="Nepali date today, Today Nepali date, Nepali calendar {month_label}, Aaja ko gate, Aaja ko tarikh, Aaja k gate ho?, Nepali patro">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="{DOMAIN}/{target_day['bs']}.html">
+    <link rel="canonical" href="{DOMAIN}/{SUB_FOLDER}/{target_day['bs']}.html">
     <link rel="icon" type="image/png" href="/favicon.ico">
     <script type="application/ld+json">{json.dumps(faq_json_ld)}</script>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -147,7 +153,7 @@ def get_html_template(target_day, full_year_days, month_label, ad_month):
             </h3>
             <div class="space-y-3 px-1" id="events-list">
                 {"".join([f'''
-                <a href="{DOMAIN}/{e['bs']}.html" class="bg-white p-4 rounded-2xl border border-slate-100 flex flex-wrap justify-between items-center shadow-sm hover:border-red-300 transition-colors">
+                <a href="{DOMAIN}/{SUB_FOLDER}/{e['bs']}.html" class="bg-white p-4 rounded-2xl border border-slate-100 flex flex-wrap justify-between items-center shadow-sm hover:border-red-300 transition-colors">
                     <div class="flex flex-col">
                         <span class="font-bold text-slate-800">{e['event']}</span>
                         <span class="text-xs text-slate-400 font-medium">{e['bs']} ({e['ad']})</span>
@@ -237,7 +243,10 @@ def build_site():
         for day in m_data['days']:
             # Pass all_year_days so the FAQ and Upcoming section are never empty
             html = get_html_template(day, all_year_days, label, m_data['month'])
-            filename = f"{day['bs']}.html"
+            
+            # UPDATED: Filename now includes the subdirectory path
+            filename = os.path.join(SUB_FOLDER, f"{day['bs']}.html")
+            
             with open(filename, "w", encoding='utf-8') as f_out: 
                 f_out.write(html)
             files_count += 1
@@ -246,7 +255,7 @@ def build_site():
                 with open("index.html", "w", encoding='utf-8') as f_idx: 
                     f_idx.write(html)
         
-    print(f"Success! Generated {files_count} HTML files. index.html updated for {TODAY_AD_STR}.")
+    print(f"Success! Generated {files_count} HTML files in /{SUB_FOLDER}/. index.html updated for {TODAY_AD_STR}.")
 
 if __name__ == "__main__": 
     build_site()
