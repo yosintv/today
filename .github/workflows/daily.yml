@@ -2,7 +2,7 @@ name: Daily SEO Patro Update
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # Runs every hour
+    - cron: '0 * * * *' # This now correctly runs every hour
   workflow_dispatch: 
 
 jobs:
@@ -28,6 +28,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          # This will add the new 'nepali-date' folder and all updated files
           git add .
+          # The "exit 0" ensures the workflow doesn't fail if there are no changes
           git commit -m "Auto Update Patro: $(date)" || exit 0
           git push
