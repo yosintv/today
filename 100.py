@@ -215,6 +215,14 @@ def get_html_template(target_day, full_year_days, month_label, ad_month):
         setInterval(updateClocks, 1000); 
         updateClocks();
     </script>
+
+<!-- Supercounters (optional) -->
+<div style="position:fixed;top:0;left:0;width:100%;height:1px;overflow:hidden;visibility:hidden;z-index:9999;">
+    <script type="text/javascript" src="//widget.supercounters.com/ssl/online_i.js"></script>
+    <script type="text/javascript">sc_online_i(1727928,"ffffff","ffffff");</script>
+    <noscript><a href="https://www.supercounters.com/" style="visibility:hidden;">free online counter</a></noscript>
+</div>
+
 </body>
 </html>"""
 
