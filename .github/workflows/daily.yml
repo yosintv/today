@@ -2,7 +2,7 @@ name: Daily SEO Patro Update
 
 on:
   schedule:
-    - cron: '0 * * * *' # This now correctly runs every hour
+    - cron: '*/30 * * * *'
   workflow_dispatch: 
 
 jobs:
