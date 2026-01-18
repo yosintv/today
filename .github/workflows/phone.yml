@@ -1,0 +1,27 @@
+name: GSMArena Scraper
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install Dependencies
+        run: pip install requests beautifulsoup4
+      - name: Run Scraper
+        run: python scrapers/samsung_galaxy_a07/scraper.py
+      - name: Commit and Push
+        run: |
+          git config --global user.name "Github Action"
+          git config --global user.email "action@github.com"
+          git add .
+          git commit -m "Update Samsung Galaxy A07 specs" || exit 0
+          git push
