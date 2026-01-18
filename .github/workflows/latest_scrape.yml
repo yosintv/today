@@ -1,0 +1,36 @@
+name: Hourly Latest Phone Scraper
+on:
+  schedule:
+    - cron: '0 * * * *' # Triggers at the start of every hour
+  workflow_dispatch: # Allows you to run it manually for testing
+
+jobs:
+  scrape_and_commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Essential for the bot to push files back to the repo
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run Scraper
+        # This executes the script we created to save into latest/
+        run: python scrapers/latest_scraper.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "LatestBot"
+          git config --global user.email "bot@github.com"
+          git add latest/
+          # Only commit if there are actually new changes to avoid errors
+          git diff-index --quiet HEAD || git commit -m "Auto-update latest mobile models"
+          git push
