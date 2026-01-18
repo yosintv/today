@@ -1,36 +1,48 @@
-name: Hourly Latest Phone Scraper
+name: Mobile Data Sync to Latest Folder
 on:
   schedule:
-    - cron: '0 * * * *' # Triggers at the start of every hour
-  workflow_dispatch: # Allows you to run it manually for testing
+    - cron: '0 * * * *' # Executes at the start of every hour
+  workflow_dispatch: # Allows manual trigger for immediate testing
 
 jobs:
-  scrape_and_commit:
+  scrape_and_store:
     runs-on: ubuntu-latest
+    
+    # CRITICAL: Grant permission to save the scraped files back to your code
     permissions:
-      contents: write # Essential for the bot to push files back to the repo
+      contents: write
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout Codebase
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Initialize Python Environment
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Install Dependencies
-        run: pip install requests beautifulsoup4
+      - name: Install Scraping Libraries
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
 
-      - name: Run Scraper
-        # This executes the script we created to save into latest/
+      - name: Execute Latest Scraper
+        # This targets your Python script that saves to the latest/ folder
         run: python scrapers/latest_scraper.py
 
-      - name: Commit and Push Changes
+      - name: Commit and Push to Repository
         run: |
           git config --global user.name "LatestBot"
           git config --global user.email "bot@github.com"
+          
+          # Stage the entire latest directory
           git add latest/
-          # Only commit if there are actually new changes to avoid errors
-          git diff-index --quiet HEAD || git commit -m "Auto-update latest mobile models"
-          git push
+          
+          # Check for changes to avoid failing if no new phones were found
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Auto-update: Syncing recently announced mobile models"
+            git push
+            echo "Successfully synced new data to the repository."
+          else
+            echo "No new models discovered this hour. Skipping commit."
+          fi
