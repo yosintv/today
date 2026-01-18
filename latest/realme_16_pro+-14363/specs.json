@@ -1,0 +1,79 @@
+{
+    "Network": {
+        "Technology": "GSM / HSPA / LTE / 5G",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+        "3G bands": "HSDPA 850 / 900 / 2100 ",
+        "4G bands": "1, 3, 5, 8, 28, 40, 41",
+        "5G bands": "1, 3, 5, 8, 28, 40, 41, 77, 78 SA/NSA",
+        "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+        "Announced": "2026, January 06",
+        "Status": "Available. Released 2026, January 08"
+    },
+    "Body": {
+        "Dimensions": "162.5 x 76.3 x 8.1 mm or 8.5 mm",
+        "Weight": "198 g or 203 g (6.98 oz)",
+        "Build": "Glass front, aluminum alloy frame, plastic back or silicone polymer back (eco leather)",
+        "SIM": "Nano-SIM + Nano-SIM",
+        "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)"
+    },
+    "Display": {
+        "Type": "AMOLED, 1B colors, 144Hz, HDR10+, 4608Hz PWM, 600 nits (typ), 1800 nits (HBM), 6500 nits (peak)",
+        "Size": "6.8 inches, 112.8 cm2 (~91.0% screen-to-body ratio)",
+        "Resolution": "1280 x 2800 pixels, 19.5:9 ratio (~453 ppi density)",
+        "Protection": "Corning Gorilla Glass 7i"
+    },
+    "Platform": {
+        "OS": "Android 16, up to 3 major Android upgrades, Realme UI 7.0",
+        "Chipset": "Qualcomm SM7750-AB Snapdragon 7 Gen 4 (4 nm)",
+        "CPU": "Octa-core (1x2.8 GHz Cortex-720 & 4x2.4 GHz Cortex-720 & 3x1.8 GHz Cortex-520)",
+        "GPU": "Adreno 722"
+    },
+    "Memory": {
+        "Card slot": "No",
+        "Internal": "128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM",
+        "\u00a0": "UFS 3.1"
+    },
+    "Main Camera": {
+        "Triple": "200 MP, f/1.9, 23mm (wide), 1/1.56\", 0.5\u00b5m, dual-pixel PDAF, OIS\r\n50 MP, f/2.8, (periscope telephoto), 1/2.76\", 0.64\u00b5m, PDAF, OIS, 3.5x optical zoom\r\n8 MP, 116\u02da, (ultrawide), 1/4.0\", 1.12\u00b5m, AF",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "4K@24/30/60fps, 1080p@24/30/60/120fps, HDR, gyro-EIS, OIS"
+    },
+    "Selfie camera": {
+        "Single": "50 MP, f/2.4, 23mm (wide), 1/2.88\", 0.61\u00b5m",
+        "Features": "Panorama",
+        "Video": "4K@30/60fps, 1080p@30/60fps, HDR"
+    },
+    "Sound": {
+        "Loudspeaker ": "Yes, with stereo speakers",
+        "3.5mm jack ": "No"
+    },
+    "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+        "Bluetooth": "5.4, A2DP, LE, aptX HD, LHDC 5",
+        "Positioning": "GPS, GLONASS, GALILEO, BDS",
+        "NFC": "Yes (market/region dependent)",
+        "Infrared port": "Yes",
+        "Radio": "No",
+        "USB": "USB Type-C 2.0, OTG"
+    },
+    "Features": {
+        "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+    },
+    "Battery": {
+        "Type": "Si/C Li-Ion 7000 mAh",
+        "Charging": "80W wired, 55W PPS, 13.5W PD/QC\r\nReverse wired\r\nBypass Charging"
+    },
+    "Misc": {
+        "Colors": "Gold, Gray, Camellia Pink",
+        "Models": "RMX5131",
+        "Price": "About 380 EUR"
+    },
+    "Our Tests": {
+        "Performance": "\r\nAnTuTu: 1147970 (v10), 1413772 (v11)\r\nGeekBench: 3982 (v6)\r\n3DMark: 2109 (Wild Life Extreme)",
+        "Display": "\n1794 nits max brightness (measured)",
+        "Loudspeaker": "\n-26.3 LUFS (Good)\n",
+        "Battery": "\n\nActive use score 18:18h\n\n"
+    }
+}
