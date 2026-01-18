@@ -1,26 +1,26 @@
-name: Global Mobile Scraper
+name: Hourly Batch Scraper
 on:
   schedule:
-    - cron: '0 0 * * 0' # Runs weekly to find new phones
+    - cron: '0 * * * *' # Every hour
   workflow_dispatch:
 
 jobs:
-  scrape:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.10'
       - name: Install dependencies
         run: pip install requests beautifulsoup4
-      - name: Run Discovery and Scrape
-        run: python scrapers/universal_gsm_scraper.py
-      - name: Push to Repository
+      - name: Run Batch
+        run: python scrapers/batch_scraper.py
+      - name: Commit New Models
         run: |
-          git config --global user.name "AutoScraper"
+          git config --global user.name "BatchBot"
           git config --global user.email "bot@github.com"
           git add data/
-          git commit -m "Automated update of mobile specifications and images" || exit 0
+          git commit -m "Add next 100 models to data folder" || exit 0
           git push
