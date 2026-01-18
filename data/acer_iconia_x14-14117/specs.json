@@ -1,0 +1,67 @@
+{
+    "Network": {
+        "Technology": "No cellular connectivity",
+        "2G bands": " N/A",
+        "3G bands": " N/A",
+        "4G bands": " N/A",
+        "GPRS": "No",
+        "EDGE": "No"
+    },
+    "Launch": {
+        "Announced": "2025, September 03",
+        "Status": "Available. Released 2025, November"
+    },
+    "Body": {
+        "Dimensions": "324.6 x 211 x 8 mm (12.78 x 8.31 x 0.31 in)",
+        "Weight": "910 g (2.01 lb)",
+        "SIM": "No"
+    },
+    "Display": {
+        "Type": "OLED",
+        "Size": "14.0 inches, 568.3 cm2 (~83.0% screen-to-body ratio)",
+        "Resolution": "1200 x 1920 pixels, 16:10 ratio (~162 ppi density)"
+    },
+    "Platform": {
+        "OS": "Android 15",
+        "Chipset": "Allwinner A733 (12 nm)",
+        "CPU": "Octa-core (2x2.0 GHz Cortex-A76 & 6x1.8 GHz Cortex-A55)",
+        "GPU": "IMG BXM-4-64 MC01"
+    },
+    "Memory": {
+        "Card slot": "microSDXC (dedicated slot)",
+        "Internal": "256GB 8GB RAM",
+        "\u00a0": "UFS 3.1"
+    },
+    "Main Camera": {
+        "Single": "8 MP, AF",
+        "Features": "LED flash",
+        "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+        "Single": "5 MP",
+        "Video": "Yes"
+    },
+    "Sound": {
+        "Loudspeaker ": "Yes, with stereo speakers (4 speakers)",
+        "3.5mm jack ": "Yes"
+    },
+    "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+        "Bluetooth": "5.4, A2DP, LE",
+        "Positioning": "No",
+        "NFC": "No",
+        "Radio": "No",
+        "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+        "Sensors": "Accelerometer"
+    },
+    "Battery": {
+        "Type": "Li-Ion 8000 mAh"
+    },
+    "Misc": {
+        "Colors": "Iron Gray",
+        "Models": "X14-M1N",
+        "Price": "About 310 EUR"
+    }
+}

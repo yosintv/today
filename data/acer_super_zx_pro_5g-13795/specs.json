@@ -1,0 +1,69 @@
+{
+    "Network": {
+        "Technology": "GSM / HSPA / LTE / 5G",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+        "3G bands": "HSDPA 850 / 900 / 2100 ",
+        "4G bands": " LTE",
+        "5G bands": " SA/NSA",
+        "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+        "Announced": "2025, May 26",
+        "Status": "Cancelled"
+    },
+    "Body": {
+        "Dimensions": "-",
+        "Weight": "182 g (6.42 oz)",
+        "Build": "Glass front, glass back, plastic frame",
+        "SIM": "Nano-SIM + Nano-SIM",
+        "\u00a0": "IP64 dust tight and water resistant (water splashes)"
+    },
+    "Display": {
+        "Type": "AMOLED, 120Hz, 1000 nits (HBM)",
+        "Size": "6.67 inches, 107.4 cm2",
+        "Resolution": "1080 x 2400 pixels, 20:9 ratio (~395 ppi density)"
+    },
+    "Platform": {
+        "OS": "Android 15",
+        "Chipset": "Mediatek Dimensity 7400 (4 nm)",
+        "CPU": "Octa-core (4x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+        "GPU": "Mali-G615 MC2"
+    },
+    "Memory": {
+        "Card slot": "Unspecified",
+        "Internal": "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM, 512GB 12GB RAM"
+    },
+    "Main Camera": {
+        "Triple": "64 MP, f/1.8, (wide), 1/1.73\", 0.8\u00b5m, PDAF, OIS\r\n5 MP, (ultrawide)\r\nAuxiliary lens",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "1440p@30fps, 1080p@30fps"
+    },
+    "Selfie camera": {
+        "Single": "13 MP",
+        "Features": "HDR",
+        "Video": "1440p@30fps, 1080p@30fps"
+    },
+    "Sound": {
+        "Loudspeaker ": "Yes, with stereo speakers (with Dolby Atmos)",
+        "3.5mm jack ": "Unspecified"
+    },
+    "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+        "Bluetooth": "5.4, A2DP, LE",
+        "Positioning": "GPS, GLONASS, GALILEO, BDS",
+        "NFC": "Unspecified",
+        "Radio": "Unspecified",
+        "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+        "Sensors": "Fingerprint (under display, optical), accelerometer, proximity, compass"
+    },
+    "Battery": {
+        "Type": "5000 mAh",
+        "Charging": "33W wired"
+    },
+    "Misc": {
+        "Colors": "Black; other colors",
+        "Price": "About 190 EUR"
+    }
+}

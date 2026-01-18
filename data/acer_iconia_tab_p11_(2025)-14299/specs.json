@@ -1,0 +1,70 @@
+{
+    "Network": {
+        "Technology": "No cellular connectivity",
+        "2G bands": " N/A",
+        "3G bands": " N/A",
+        "4G bands": " N/A",
+        "GPRS": "No",
+        "EDGE": "No"
+    },
+    "Launch": {
+        "Announced": "2025, Q4",
+        "Status": "Available. Released 2025, Q4"
+    },
+    "Body": {
+        "Dimensions": "265.2 x 169.9 x 8.1 mm (10.44 x 6.69 x 0.32 in)",
+        "Weight": "550 g (1.21 lb)",
+        "Build": "Glass front, aluminum alloy frame",
+        "SIM": "No",
+        "\u00a0": "Stylus support"
+    },
+    "Display": {
+        "Type": "IPS LCD, 90Hz",
+        "Size": "11.0 inches, 344.4 cm2 (~76.4% screen-to-body ratio)",
+        "Resolution": "1200 x 2000 pixels, 5:3 ratio (~212 ppi density)"
+    },
+    "Platform": {
+        "OS": "Android 14",
+        "Chipset": "Mediatek Helio G99 (6 nm)",
+        "CPU": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+        "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+        "Card slot": "microSDXC (dedicated slot)",
+        "Internal": "256GB 6GB RAM, 256GB 8GB RAM",
+        "\u00a0": "UFS"
+    },
+    "Main Camera": {
+        "Single": "13 MP, AF",
+        "Features": "LED flash",
+        "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+        "Single": "5 MP",
+        "Video": "Yes"
+    },
+    "Sound": {
+        "Loudspeaker ": "Yes, with stereo speakers (4 speakers)",
+        "3.5mm jack ": "Yes"
+    },
+    "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+        "Bluetooth": "Yes",
+        "Positioning": "Unspecified",
+        "NFC": "No",
+        "Radio": "No",
+        "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+        "Sensors": "Unspecified"
+    },
+    "Battery": {
+        "Type": "8000 mAh",
+        "Charging": "20W wired"
+    },
+    "Misc": {
+        "Colors": "Iron Gray",
+        "Models": "P11-11-8113",
+        "Price": "About 260 EUR"
+    }
+}

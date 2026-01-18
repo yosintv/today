@@ -1,0 +1,68 @@
+{
+    "Network": {
+        "Technology": "GSM / HSPA / LTE / 5G",
+        "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+        "3G bands": "HSDPA 850 / 900 / 2100 ",
+        "4G bands": " LTE",
+        "5G bands": " SA/NSA",
+        "Speed": "HSPA, LTE, 5G"
+    },
+    "Launch": {
+        "Announced": "2025, May 26",
+        "Status": "Available. Released 2025, May 26"
+    },
+    "Body": {
+        "Dimensions": "8.6 mm thickness",
+        "Weight": "200 g (7.05 oz)",
+        "SIM": "Nano-SIM + Nano-SIM",
+        "\u00a0": "IP50 dust protected"
+    },
+    "Display": {
+        "Type": "IPS LCD, 120Hz",
+        "Size": "6.78 inches, 111.0 cm2 (~85.3% screen-to-body ratio)",
+        "Resolution": "1080 x 2400 pixels, 20:9 ratio (~388 ppi density)"
+    },
+    "Platform": {
+        "OS": "Android 15",
+        "Chipset": "Mediatek Dimensity 6300 (6 nm)",
+        "CPU": "Octa-core (2x2.4 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+        "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+        "Card slot": "Unspecified",
+        "Internal": "128GB 4GB RAM, 128GB 6GB RAM, 128GB 8GB RAM"
+    },
+    "Main Camera": {
+        "Triple": "64 MP, f/1.8, (wide), 1/1.73\", 0.8\u00b5m, PDAF\r\n2 MP (macro)\r\nAuxiliary lens",
+        "Features": "LED flash, HDR, panorama",
+        "Video": "Yes"
+    },
+    "Selfie camera": {
+        "Single": "Yes",
+        "Video": "Yes"
+    },
+    "Sound": {
+        "Loudspeaker ": "Yes",
+        "3.5mm jack ": "Yes"
+    },
+    "Comms": {
+        "WLAN": "Yes",
+        "Bluetooth": "Yes",
+        "Positioning": "GPS, GLONASS, GALILEO, BDS",
+        "NFC": "Unspecified",
+        "Radio": "Unspecified",
+        "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+        "Sensors": "Fingerprint (side-mounted), accelerometer, proximity, compass"
+    },
+    "Battery": {
+        "Type": "5000 mAh",
+        "Charging": "33W wired, 50% in 35 min"
+    },
+    "Misc": {
+        "Colors": "Carbon Black, Cosmic Green, Lunar Blue",
+        "Price": "\u20b9\u200911,999"
+    },
+    "General": {}
+}

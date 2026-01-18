@@ -1,0 +1,68 @@
+{
+    "Network": {
+        "Technology": "No cellular connectivity",
+        "2G bands": " N/A",
+        "3G bands": " N/A",
+        "4G bands": " N/A",
+        "GPRS": "No",
+        "EDGE": "No"
+    },
+    "Launch": {
+        "Announced": "2025, Q4",
+        "Status": "Available. Released 2025, Q4"
+    },
+    "Body": {
+        "Dimensions": "8.1 mm thickness",
+        "Weight": "495 g (1.09 lb)",
+        "Build": "Glass front, aluminum alloy frame",
+        "SIM": "No"
+    },
+    "Display": {
+        "Type": "IPS LCD, 90Hz",
+        "Size": "10.4 inches, 307.9 cm2",
+        "Resolution": "1200 x 2000 pixels, 5:3 ratio (~224 ppi density)"
+    },
+    "Platform": {
+        "OS": "Android 14",
+        "Chipset": "Mediatek Helio G99 (6 nm)",
+        "CPU": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+        "GPU": "Mali-G57 MC2"
+    },
+    "Memory": {
+        "Card slot": "microSDXC (dedicated slot)",
+        "Internal": "128GB 6GB RAM, 256GB 6GB RAM",
+        "\u00a0": "UFS"
+    },
+    "Main Camera": {
+        "Single": "13 MP",
+        "Video": "1080p@30fps"
+    },
+    "Selfie camera": {
+        "Single": "5 MP",
+        "Video": "Yes"
+    },
+    "Sound": {
+        "Loudspeaker ": "Yes, with stereo speakers",
+        "3.5mm jack ": "Yes"
+    },
+    "Comms": {
+        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+        "Bluetooth": "5.0, A2DP, LE",
+        "Positioning": "GPS",
+        "NFC": "No",
+        "Radio": "No",
+        "USB": "USB Type-C 2.0"
+    },
+    "Features": {
+        "Sensors": "Gyro"
+    },
+    "Battery": {
+        "Type": "Li-Ion 8000 mAh",
+        "Charging": "10W wired"
+    },
+    "Misc": {
+        "Colors": "Iron Gray",
+        "Models": "P10-21Q-870Q, NT.LHBAA.001",
+        "Price": "About 220 EUR"
+    }
+}
