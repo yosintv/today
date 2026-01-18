@@ -1,11 +1,11 @@
-name: Latest Mobile API
+name: Hourly Mobile API
 on:
   schedule:
-    - cron: '0 * * * *' # Every hour
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
-  scrape_and_commit:
+  update_repo:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -25,18 +25,17 @@ jobs:
       - name: Run Scraper
         run: python scrapers/latest_scraper.py
 
-      - name: Commit and Push Changes
+      - name: Commit and Push
         run: |
           git config --global user.name "LatestBot"
           git config --global user.email "bot@github.com"
           
-          # This stages ALL new files and folders found during the run
+          # Stage all changes including images and new folders
           git add .
           
-          # Check if there is anything to commit
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "Auto-update: Syncing latest mobile models including Samsung Galaxy A07"
+            git commit -m "Auto-update: Synced latest models with image URLs"
             git push
           else
-            echo "No new changes detected."
+            echo "No new models found."
           fi
