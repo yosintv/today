@@ -1,4 +1,4 @@
-name: Hourly Mobile API
+name: Hourly Mobile Sync to Latest
 on:
   schedule:
     - cron: '0 * * * *'
