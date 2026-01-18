@@ -1,68 +1,71 @@
 {
-    "Network": {
-        "Technology": "GSM / HSPA / LTE / 5G",
-        "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
-        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
-        "4G bands": " LTE",
-        "5G bands": " SA/NSA/Sub6",
-        "Speed": "HSPA, LTE, 5G"
-    },
-    "Launch": {
-        "Announced": "2026, January 13",
-        "Status": "Available. Released 2026, January 13"
-    },
-    "Body": {
-        "Dimensions": "167.4 x 77.4 x 8.2 mm (6.59 x 3.05 x 0.32 in)",
-        "Weight": "199 g (7.02 oz)",
-        "Build": "Glass front, plastic back, plastic frame",
-        "SIM": "Nano-SIM + Nano-SIM",
-        "\u00a0": "IP54 dust protected and water resistant (water splashes)"
-    },
-    "Display": {
-        "Type": "PLS LCD, 120Hz, 650 nits (typ), 800 nits (HBM)",
-        "Size": "6.7 inches, 108.4 cm2 (~83.6% screen-to-body ratio)",
-        "Resolution": "720 x 1600 pixels, 20:9 ratio (~262 ppi density)"
-    },
-    "Platform": {
-        "OS": "Android 16, up to 6 major Android upgrades, One UI 8",
-        "Chipset": "Mediatek Dimensity 6300 (6 nm)",
-        "CPU": "Octa-core (2x2.4 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
-        "GPU": "Mali-G57 MC2"
-    },
-    "Memory": {
-        "Card slot": "microSDXC (uses shared SIM slot)",
-        "Internal": "128GB 4GB RAM, 128GB 6GB RAM"
-    },
-    "Main Camera": {
-        "Dual": "50 MP, f/1.8, (wide), PDAF\r\nAuxiliary lens",
-        "Features": "LED flash",
-        "Video": "1080p@30/60fps"
-    },
-    "Selfie camera": {
-        "Single": "8 MP, f/2.0, 26mm (wide), 1/4.0\", 1.12\u00b5m",
-        "Video": "1080p@30fps"
-    },
-    "Sound": {
-        "Loudspeaker ": "Yes",
-        "3.5mm jack ": "Yes"
-    },
-    "Comms": {
-        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
-        "Bluetooth": "Yes",
-        "Positioning": "GPS, GLONASS, GALILEO, BDS",
-        "NFC": "No",
-        "Radio": "FM radio",
-        "USB": "USB Type-C 2.0"
-    },
-    "Features": {
-        "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
-    },
-    "Battery": {
-        "Type": "Li-Ion 6000 mAh",
-        "Charging": "25W wired"
-    },
-    "Misc": {
-        "Colors": "Black, Light Violet",
-        "Price": "About 150 EUR"
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a07-5g.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA/Sub6",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, January 13",
+            "Status": "Available. Released 2026, January 13"
+        },
+        "Body": {
+            "Dimensions": "167.4 x 77.4 x 8.2 mm (6.59 x 3.05 x 0.32 in)",
+            "Weight": "199 g (7.02 oz)",
+            "Build": "Glass front, plastic back, plastic frame",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP54 dust protected and water resistant (water splashes)"
+        },
+        "Display": {
+            "Type": "PLS LCD, 120Hz, 650 nits (typ), 800 nits (HBM)",
+            "Size": "6.7 inches, 108.4 cm2 (~83.6% screen-to-body ratio)",
+            "Resolution": "720 x 1600 pixels, 20:9 ratio (~262 ppi density)"
+        },
+        "Platform": {
+            "OS": "Android 16, up to 6 major Android upgrades, One UI 8",
+            "Chipset": "Mediatek Dimensity 6300 (6 nm)",
+            "CPU": "Octa-core (2x2.4 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+            "GPU": "Mali-G57 MC2"
+        },
+        "Memory": {
+            "Card slot": "microSDXC (uses shared SIM slot)",
+            "Internal": "128GB 4GB RAM, 128GB 6GB RAM"
+        },
+        "Main Camera": {
+            "Dual": "50 MP, f/1.8, (wide), PDAF\r\nAuxiliary lens",
+            "Features": "LED flash",
+            "Video": "1080p@30/60fps"
+        },
+        "Selfie camera": {
+            "Single": "8 MP, f/2.0, 26mm (wide), 1/4.0\", 1.12\u00b5m",
+            "Video": "1080p@30fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "Yes"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+            "Bluetooth": "Yes",
+            "Positioning": "GPS, GLONASS, GALILEO, BDS",
+            "NFC": "No",
+            "Radio": "FM radio",
+            "USB": "USB Type-C 2.0"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+        },
+        "Battery": {
+            "Type": "Li-Ion 6000 mAh",
+            "Charging": "25W wired"
+        },
+        "Misc": {
+            "Colors": "Black, Light Violet",
+            "Price": "About 150 EUR"
+        }
     }
 }

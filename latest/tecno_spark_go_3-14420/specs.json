@@ -1,69 +1,72 @@
 {
-    "Network": {
-        "Technology": "GSM / HSPA / LTE",
-        "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
-        "3G bands": "HSDPA 900 / 2100 ",
-        "4G bands": " LTE",
-        "Speed": "HSPA, LTE"
-    },
-    "Launch": {
-        "Announced": "2026, January 16",
-        "Status": "Coming soon. Exp. release 2026, January 23"
-    },
-    "Body": {
-        "Dimensions": "-",
-        "Weight": "-",
-        "Build": "Glass front, plastic back, plastic frame",
-        "SIM": "Nano-SIM + Nano-SIM",
-        "\u00a0": "IP64 dust tight and water resistant (water splashes)\r\nDrop resistant up to 1.2m"
-    },
-    "Display": {
-        "Type": "IPS LCD, 120Hz",
-        "Size": "6.74 inches, 109.7 cm2",
-        "Resolution": "720 x 1600 pixels, 20:9 ratio (~260 ppi density)"
-    },
-    "Platform": {
-        "OS": "Android 15, HIOS 15",
-        "Chipset": "Unisoc T7250 (12 nm)",
-        "CPU": "Octa-core (2x1.8 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
-        "GPU": "Mali-G57 MP1"
-    },
-    "Memory": {
-        "Card slot": "microSDXC (dedicated slot)",
-        "Internal": "64GB 4GB RAM"
-    },
-    "Main Camera": {
-        "Single": "13 MP",
-        "Features": "LED flash",
-        "Video": "Yes"
-    },
-    "Selfie camera": {
-        "Single": "8 MP",
-        "Video": "Yes"
-    },
-    "Sound": {
-        "Loudspeaker ": "Yes",
-        "3.5mm jack ": "Yes"
-    },
-    "Comms": {
-        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
-        "Bluetooth": "Yes",
-        "Positioning": "GPS",
-        "NFC": "No",
-        "Infrared port": "Yes",
-        "Radio": "FM radio",
-        "USB": "USB Type-C, OTG"
-    },
-    "Features": {
-        "Sensors": "Unspecified"
-    },
-    "Battery": {
-        "Type": "Li-Po 5000 mAh",
-        "Charging": "15W wired"
-    },
-    "Misc": {
-        "Colors": "Titanium Grey, Ink Black, Galaxy Blue, Aurora Purple",
-        "Models": "KN3",
-        "Price": "About 90 EUR"
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-go3.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 900 / 2100 ",
+            "4G bands": " LTE",
+            "Speed": "HSPA, LTE"
+        },
+        "Launch": {
+            "Announced": "2026, January 16",
+            "Status": "Coming soon. Exp. release 2026, January 23"
+        },
+        "Body": {
+            "Dimensions": "-",
+            "Weight": "-",
+            "Build": "Glass front, plastic back, plastic frame",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP64 dust tight and water resistant (water splashes)\r\nDrop resistant up to 1.2m"
+        },
+        "Display": {
+            "Type": "IPS LCD, 120Hz",
+            "Size": "6.74 inches, 109.7 cm2",
+            "Resolution": "720 x 1600 pixels, 20:9 ratio (~260 ppi density)"
+        },
+        "Platform": {
+            "OS": "Android 15, HIOS 15",
+            "Chipset": "Unisoc T7250 (12 nm)",
+            "CPU": "Octa-core (2x1.8 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
+            "GPU": "Mali-G57 MP1"
+        },
+        "Memory": {
+            "Card slot": "microSDXC (dedicated slot)",
+            "Internal": "64GB 4GB RAM"
+        },
+        "Main Camera": {
+            "Single": "13 MP",
+            "Features": "LED flash",
+            "Video": "Yes"
+        },
+        "Selfie camera": {
+            "Single": "8 MP",
+            "Video": "Yes"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "Yes"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+            "Bluetooth": "Yes",
+            "Positioning": "GPS",
+            "NFC": "No",
+            "Infrared port": "Yes",
+            "Radio": "FM radio",
+            "USB": "USB Type-C, OTG"
+        },
+        "Features": {
+            "Sensors": "Unspecified"
+        },
+        "Battery": {
+            "Type": "Li-Po 5000 mAh",
+            "Charging": "15W wired"
+        },
+        "Misc": {
+            "Colors": "Titanium Grey, Ink Black, Galaxy Blue, Aurora Purple",
+            "Models": "KN3",
+            "Price": "About 90 EUR"
+        }
     }
 }

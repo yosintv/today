@@ -1,74 +1,77 @@
 {
-    "Network": {
-        "Technology": "GSM / HSPA / LTE",
-        "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
-        "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
-        "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, B34, 38, 39, 40, 41, 66",
-        "Speed": "HSPA, LTE"
-    },
-    "Launch": {
-        "Announced": "2026, January",
-        "Status": "Available. Released 2026, January"
-    },
-    "Body": {
-        "Dimensions": "246 x 163.5 x 12.7 mm (9.69 x 6.44 x 0.5 in)",
-        "Weight": "706 g (1.56 lb)",
-        "SIM": "Nano-SIM + Nano-SIM + eSIM (max 2 at a time)",
-        "\u00a0": "IP68 dust tight and water resistant (immersible up to 2m for 30 min)\r\nDrop resistant up to 1.5m\r\nMIL-STD-810H compliant\r\nAccessory connector (ulefone endoscope, microscope)"
-    },
-    "Display": {
-        "Type": "IPS LCD, 90Hz, 600 nits",
-        "Size": "10.1 inches, 295.8 cm2 (~73.5% screen-to-body ratio)",
-        "Resolution": "800 x 1280 pixels, 16:10 ratio (~149 ppi density)",
-        "Protection": "Corning Gorilla Glass 3, Mohs level 4"
-    },
-    "Platform": {
-        "OS": "Android 16",
-        "Chipset": "Unisoc T7250 (12 nm)",
-        "CPU": "Octa-core (2x1.8 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
-        "GPU": "Mali-G57 MP1"
-    },
-    "Memory": {
-        "Card slot": "microSDXC (dedicated slot)",
-        "Internal": "128GB 8GB RAM, 256GB 8GB RAM",
-        "\u00a0": "UFS 2.2"
-    },
-    "Main Camera": {
-        "Dual": "48 MP, f/1.8, (wide), 0.8\u00b5m, PDAF\r\nAuxiliary lens",
-        "Features": "LED flash, HDR, panorama",
-        "Video": "1080p@30fps"
-    },
-    "Selfie camera": {
-        "Single": "8 MP",
-        "Video": "Yes"
-    },
-    "Sound": {
-        "Loudspeaker ": "Yes",
-        "3.5mm jack ": "Yes"
-    },
-    "Comms": {
-        "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
-        "Bluetooth": "5.2, A2DP, LE",
-        "Positioning": "GPS, GLONASS, GALILEO, BDS, QZSS",
-        "NFC": "Yes",
-        "Radio": "Wireless FM radio, RDS, recording",
-        "USB": "USB Type-C 2.0, OTG, magnetic connector"
-    },
-    "Features": {
-        "Sensors": "Fingerprint (side-mounted), accelerometer, proximity, compass"
-    },
-    "Battery": {
-        "Type": "Li-Po 10200 mAh",
-        "Charging": "18W wired\r\n6W reverse wired"
-    },
-    "Misc": {
-        "Colors": "Gray, Black, Yellow",
-        "Price": "About 220 EUR"
-    },
-    "EU LABEL": {
-        "Energy": "Class E",
-        "Battery": "126:00h endurance, 1000 cycles",
-        "Free fall": "Class A (208 falls)",
-        "Repairability": "Class B"
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/ulefone-rugking-pad2-pro.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, B34, 38, 39, 40, 41, 66",
+            "Speed": "HSPA, LTE"
+        },
+        "Launch": {
+            "Announced": "2026, January",
+            "Status": "Available. Released 2026, January"
+        },
+        "Body": {
+            "Dimensions": "246 x 163.5 x 12.7 mm (9.69 x 6.44 x 0.5 in)",
+            "Weight": "706 g (1.56 lb)",
+            "SIM": "Nano-SIM + Nano-SIM + eSIM (max 2 at a time)",
+            "\u00a0": "IP68 dust tight and water resistant (immersible up to 2m for 30 min)\r\nDrop resistant up to 1.5m\r\nMIL-STD-810H compliant\r\nAccessory connector (ulefone endoscope, microscope)"
+        },
+        "Display": {
+            "Type": "IPS LCD, 90Hz, 600 nits",
+            "Size": "10.1 inches, 295.8 cm2 (~73.5% screen-to-body ratio)",
+            "Resolution": "800 x 1280 pixels, 16:10 ratio (~149 ppi density)",
+            "Protection": "Corning Gorilla Glass 3, Mohs level 4"
+        },
+        "Platform": {
+            "OS": "Android 16",
+            "Chipset": "Unisoc T7250 (12 nm)",
+            "CPU": "Octa-core (2x1.8 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
+            "GPU": "Mali-G57 MP1"
+        },
+        "Memory": {
+            "Card slot": "microSDXC (dedicated slot)",
+            "Internal": "128GB 8GB RAM, 256GB 8GB RAM",
+            "\u00a0": "UFS 2.2"
+        },
+        "Main Camera": {
+            "Dual": "48 MP, f/1.8, (wide), 0.8\u00b5m, PDAF\r\nAuxiliary lens",
+            "Features": "LED flash, HDR, panorama",
+            "Video": "1080p@30fps"
+        },
+        "Selfie camera": {
+            "Single": "8 MP",
+            "Video": "Yes"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "Yes"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+            "Bluetooth": "5.2, A2DP, LE",
+            "Positioning": "GPS, GLONASS, GALILEO, BDS, QZSS",
+            "NFC": "Yes",
+            "Radio": "Wireless FM radio, RDS, recording",
+            "USB": "USB Type-C 2.0, OTG, magnetic connector"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, proximity, compass"
+        },
+        "Battery": {
+            "Type": "Li-Po 10200 mAh",
+            "Charging": "18W wired\r\n6W reverse wired"
+        },
+        "Misc": {
+            "Colors": "Gray, Black, Yellow",
+            "Price": "About 220 EUR"
+        },
+        "EU LABEL": {
+            "Energy": "Class E",
+            "Battery": "126:00h endurance, 1000 cycles",
+            "Free fall": "Class A (208 falls)",
+            "Repairability": "Class B"
+        }
     }
 }
