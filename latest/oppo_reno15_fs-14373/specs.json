@@ -34,7 +34,7 @@
         },
         "Memory": {
             "Card slot": "microSDXC",
-            "Internal": "512GB 8GB RAM",
+            "Internal": "256GB 8GB RAM, 512GB 8GB RAM",
             "\u00a0": "UFS 3.1"
         },
         "Main Camera": {
