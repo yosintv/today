@@ -1,5 +1,5 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/honor-watch-gs4.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/honor-watch-gs5.jpg",
     "specifications": {
         "Network": {
             "Technology": "No cellular connectivity",
@@ -27,7 +27,7 @@
             "Resolution": "466 x 466 pixels (~352 ppi density)"
         },
         "Platform": {
-            "OS": "Proprietary OS"
+            "OS": "MagicOS 9"
         },
         "Memory": {
             "Card slot": "No",
@@ -43,7 +43,7 @@
         "Comms": {
             "WLAN": "No",
             "Bluetooth": "5.4, LE, EDR",
-            "Positioning": "GPS (L1+L5), BDS (B1I+B2a), GALILEO (E1+E5a), QZSS (L1+L5), GLONASS",
+            "Positioning": "GPS, GLONASS, GALILEO, BDS, QZSS",
             "NFC": "Yes (China only)",
             "Radio": "No",
             "USB": "No"
