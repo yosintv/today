@@ -1,0 +1,82 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-reno15-f.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, January 20",
+            "Status": "Available. Released 2026, January 20"
+        },
+        "Body": {
+            "Dimensions": "158.2 x 74.9 x 8.2 mm (6.23 x 2.95 x 0.32 in)",
+            "Weight": "189 g or 196 g (6.67 oz)",
+            "Build": "Glass front (Gorilla Glass+), aluminum frame, glass back (AGC Dragontrail DT-Star D+)",
+            "SIM": "Nano-SIM + Nano-SIM + eSIM (max 2 at a time)",
+            "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
+        },
+        "Display": {
+            "Type": "AMOLED, 1B colors, 120Hz, 600 nits (typ), 1400 nits (HBM)",
+            "Size": "6.57 inches, 105.0 cm2 (~88.6% screen-to-body ratio)",
+            "Resolution": "1080 x 2372 pixels (~397 ppi density)",
+            "Protection": "Corning Gorilla Glass+, Mohs level 5"
+        },
+        "Platform": {
+            "OS": "Android 16, ColorOS 16",
+            "Chipset": "Qualcomm SM6450 Snapdragon 6 Gen 1 (4 nm)",
+            "CPU": "Octa-core (4x2.2 GHz Cortex-A78 & 4x1.8 GHz Cortex-A55)",
+            "GPU": "Adreno 710"
+        },
+        "Memory": {
+            "Card slot": "microSDXC",
+            "Internal": "512GB 8GB RAM",
+            "\u00a0": "UFS 3.1"
+        },
+        "Main Camera": {
+            "Triple": "50 MP, f/1.8, 26mm (wide), 1/1.95\", 0.8\u00b5m, PDAF, OIS\r\n8 MP, f/2.2, 16mm, 112\u02da (ultrawide), 1/4.0\", 1.12\u00b5m\r\n2 MP (macro)",
+            "Features": "Color spectrum sensor, LED flash, HDR, panorama",
+            "Video": "4K@30fps, 1080p@30/60/120fps, gyro-EIS, OIS"
+        },
+        "Selfie camera": {
+            "Single": "50 MP, f/2.1, 100\u02da, 18mm (ultrawide), AF",
+            "Features": "Panorama",
+            "Video": "4K@30fps, 1080p@30fps, gyro-EIS"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+            "Bluetooth": "5.1, A2DP, LE, aptX HD",
+            "Positioning": "GPS, GLONASS, GALILEO, BDS, QZSS",
+            "NFC": "Yes (market/region dependent)",
+            "Radio": "Unspecified",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 6500 mAh",
+            "Charging": "80W wired, 55W PPS, 13.5W PD/QC\r\nReverse wired"
+        },
+        "Misc": {
+            "Colors": "Blue, Navy Blue",
+            "Models": "CPH2801",
+            "Price": "\u20ac\u2009479.00"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "67:42h endurance, 1600 cycles",
+            "Free fall": "Class C (90 falls)",
+            "Repairability": "Class B"
+        },
+        "General": {}
+    }
+}
