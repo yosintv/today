@@ -32,7 +32,7 @@
         },
         "Memory": {
             "Card slot": "microSDXC (uses shared SIM slot)",
-            "Internal": "256GB 8GB RAM, 512GB 8GB RAM",
+            "Internal": "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM",
             "\u00a0": "UFS 2.2"
         },
         "Main Camera": {
