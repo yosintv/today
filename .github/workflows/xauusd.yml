@@ -1,30 +1,35 @@
-name: Hourly XAUUSD Update
+name: XAUUSD Data Collector
 on:
   schedule:
-    - cron: '0 * * * *'
-  workflow_dispatch:
+    - cron: '0,15,30,45 * * * *' # Runs every 15 minutes to capture all timeframes
+  workflow_dispatch: # Allows manual testing
 
 jobs:
-  run-script:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Setup Python
-        uses: actions/setup-python@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.12' # UPGRADED VERSION
-      - name: Install dependencies
+          python-version: '3.12'
+
+      - name: Install Dependencies
         run: |
-          # Install standard libraries
-          pip install pandas pandas_ta 
-          # Install tvdatafeed directly from GitHub
+          python -m pip install --upgrade pip
+          pip install pandas pandas_ta
+          # Install the specific version to avoid import errors
           pip install git+https://github.com/rongardF/tvdatafeed.git
-      - name: Execute script
+
+      - name: Run Collector Script
         run: python collect_data.py
-      - name: Commit and Push
+
+      - name: Commit and Push changes
         run: |
-          git config --global user.name "Gold-Bot"
-          git config --global user.email "bot@github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/value.json
-          git commit -m "Updated Gold Data: $(date)"
+          git commit -m "Automated XAUUSD Update: $(date)" || echo "No changes to commit"
           git push
