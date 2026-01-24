@@ -12,10 +12,13 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.12' # UPGRADED VERSION
       - name: Install dependencies
         run: |
-          pip install pandas pandas_ta tvdatafeed
+          # Install standard libraries
+          pip install pandas pandas_ta 
+          # Install tvdatafeed directly from GitHub
+          pip install git+https://github.com/rongardF/tvdatafeed.git
       - name: Execute script
         run: python collect_data.py
       - name: Commit and Push
