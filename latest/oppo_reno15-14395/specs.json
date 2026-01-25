@@ -73,6 +73,10 @@
             "Models": "CPH2825",
             "Price": "\u20b9\u200945,999"
         },
+        "Our Tests": {
+            "Loudspeaker": "\n-25.3 LUFS (Very good)\n",
+            "Battery": "\n\nActive use score 14:43h\n\n"
+        },
         "General": {}
     }
 }
