@@ -1,0 +1,76 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x200t-.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 18, 19, 20, 25, 26, 28, 38, 39, 40, 41, 42, 43, 48, 66",
+            "5G bands": "1, 2, 3, 5, 7, 8, 20, 25, 26, 28, 38, 40, 41, 66, 77, 78 SA/NSA/Sub6",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "Expected announcement 2026, January 27",
+            "Status": "Rumored. Exp. release 2026, January"
+        },
+        "Body": {
+            "Dimensions": "8.0 mm thickness",
+            "Weight": "203 g or 205 g (7.16 oz)",
+            "Build": "Glass front, aluminum alloy frame, glass back or fiber-reinforced plastic back",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
+        },
+        "Display": {
+            "Type": "AMOLED, 1B colors, 120Hz, 2160Hz PWM, HDR10+, 1600 nits (HBM), 5000 nits (peak)",
+            "Size": "6.67 inches, 107.4 cm2 (~90.4% screen-to-body ratio)",
+            "Resolution": "1260 x 2800 pixels, 20:9 ratio (~460 ppi density)",
+            "Protection": "Schott Xensation Alpha",
+            "\u00a0": "Ultra HDR image support"
+        },
+        "Platform": {
+            "OS": "Android 16, up to 5 major Android upgrades, OriginOS 6",
+            "Chipset": "Mediatek Dimensity 9400+ (3 nm)",
+            "CPU": "Octa-core (1x3.63 GHz Cortex-X925 & 3x3.3 GHz Cortex-X4 & 4x2.4 GHz Cortex-A720)",
+            "GPU": "Immortalis-G925"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM",
+            "\u00a0": "UFS 4.1"
+        },
+        "Main Camera": {
+            "Triple": "50 MP, f/1.6, 23mm (wide), 1/1.56\", PDAF, OIS\r\n50 MP, f/2.6, 70mm (periscope telephoto), 1/1.95\", PDAF, OIS, 3x optical zoom\r\n50 MP, f/2.0, 15mm, 119\u02da (ultrawide), 1/2.76\", 0.64\u00b5m, AF",
+            "Features": "Laser AF, Zeiss optics, Zeiss T* lens coating, LED flash, panorama, HDR, 3D LUT import",
+            "Video": "4K@30/60fps, 1080p@30/60/120/240fps, gyro-EIS"
+        },
+        "Selfie camera": {
+            "Single": "32 MP, f/2.0, 20mm (ultrawide), 1/3.44\"",
+            "Features": "HDR",
+            "Video": "4K@30/60fps, 1080p@30/60fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band",
+            "Bluetooth": "5.4, A2DP, LE, aptX HD, LHDC 5",
+            "Positioning": "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, gyro, proximity, compass"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 6200 mAh",
+            "Charging": "90W wired\r\n40W wireless\r\nReverse wired\r\nBypass charging"
+        },
+        "Misc": {
+            "Colors": "Seaside Lilac, Stellar Black",
+            "Models": "V2561"
+        }
+    }
+}
