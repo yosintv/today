@@ -1,0 +1,72 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/zte-blade-nubia-v80-max-new.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+            "\u00a0": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "Speed": "HSPA, LTE"
+        },
+        "Launch": {
+            "Announced": "2026, January 20",
+            "Status": "Coming soon. Exp. release 2026, January 31"
+        },
+        "Body": {
+            "Dimensions": "171.6 x 77.8 x 8.3 mm (6.76 x 3.06 x 0.33 in)",
+            "Weight": "191 g (6.74 oz)",
+            "Build": "Glass front, plastic frame",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "Drop resistant up to 1.8m\r\nIP64 dust tight and water resistant (water splashes)"
+        },
+        "Display": {
+            "Type": "IPS LCD, 120Hz, 780 nits",
+            "Size": "6.9 inches, 113.1 cm2 (~84.7% screen-to-body ratio)",
+            "Resolution": "720 x 1640 pixels (~260 ppi density)",
+            "Protection": "Scratch-resistant glass"
+        },
+        "Platform": {
+            "OS": "Android 16",
+            "Chipset": "Unisoc T7250 (12 nm)",
+            "CPU": "Octa-core (2x1.8 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
+            "GPU": "Mali-G57 MP1"
+        },
+        "Memory": {
+            "Card slot": "microSDXC",
+            "Internal": "128GB 8GB RAM, 256GB 8GB RAM"
+        },
+        "Main Camera": {
+            "Triple": "50 MP, f/1.8, (wide), PDAF\r\nAuxiliary lenses",
+            "Features": "LED flash, HDR, panorama",
+            "Video": "1080p@30fps"
+        },
+        "Selfie camera": {
+            "Single": "16 MP",
+            "Video": "1080p@30fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "Yes"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+            "Bluetooth": "5.2, A2DP, LE",
+            "Positioning": "GPS, GALILEO, GLONASS",
+            "NFC": "Yes (market/region dependent)",
+            "Radio": "Unspecified",
+            "USB": "USB Type-C 2.0"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, proximity, compass"
+        },
+        "Battery": {
+            "Type": "6000 mAh",
+            "Charging": "22.5W wired\r\n10W Reverse wired\r\nBypass Charging"
+        },
+        "Misc": {
+            "Colors": "Stardust Purple, Stellar Silver, Aurellia Gold, Sky Cyan, Space Black",
+            "Price": "About 100 EUR"
+        }
+    }
+}
