@@ -10,21 +10,21 @@
             "Speed": "HSPA, LTE, 5G"
         },
         "Launch": {
-            "Announced": "Expected announcement 2026, January 27",
-            "Status": "Rumored. Exp. release 2026, January"
+            "Announced": "2026, January 27",
+            "Status": "Coming soon. Exp. release 2026, February"
         },
         "Body": {
-            "Dimensions": "8.0 mm thickness",
+            "Dimensions": "160 x 74.3 x 8 mm (6.30 x 2.93 x 0.31 in)",
             "Weight": "203 g or 205 g (7.16 oz)",
-            "Build": "Glass front, aluminum alloy frame, glass back or fiber-reinforced plastic back",
-            "SIM": "Nano-SIM + Nano-SIM",
+            "Build": "Glass front, aluminum alloy frame, glass back",
+            "SIM": "Nano-SIM + Nano-SIM + eSIM (max 2 at a time)",
             "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
         },
         "Display": {
             "Type": "AMOLED, 1B colors, 120Hz, 2160Hz PWM, HDR10+, 1600 nits (HBM), 5000 nits (peak)",
             "Size": "6.67 inches, 107.4 cm2 (~90.4% screen-to-body ratio)",
             "Resolution": "1260 x 2800 pixels, 20:9 ratio (~460 ppi density)",
-            "Protection": "Schott Xensation Alpha",
+            "Protection": "Schott Xensation Core",
             "\u00a0": "Ultra HDR image support"
         },
         "Platform": {
@@ -35,13 +35,13 @@
         },
         "Memory": {
             "Card slot": "No",
-            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM",
             "\u00a0": "UFS 4.1"
         },
         "Main Camera": {
             "Triple": "50 MP, f/1.6, 23mm (wide), 1/1.56\", PDAF, OIS\r\n50 MP, f/2.6, 70mm (periscope telephoto), 1/1.95\", PDAF, OIS, 3x optical zoom\r\n50 MP, f/2.0, 15mm, 119\u02da (ultrawide), 1/2.76\", 0.64\u00b5m, AF",
             "Features": "Laser AF, Zeiss optics, Zeiss T* lens coating, LED flash, panorama, HDR, 3D LUT import",
-            "Video": "4K@30/60fps, 1080p@30/60/120/240fps, gyro-EIS"
+            "Video": "4K@30/60fps, 1080p@30/60fps, gyro-EIS"
         },
         "Selfie camera": {
             "Single": "32 MP, f/2.0, 20mm (ultrawide), 1/3.44\"",
@@ -70,7 +70,9 @@
         },
         "Misc": {
             "Colors": "Seaside Lilac, Stellar Black",
-            "Models": "V2561"
+            "Models": "V2561",
+            "SAR": "1.09 W/kg (head) \u00a0 \u00a0 0.97 W/kg (body) \u00a0 \u00a0 ",
+            "Price": "About 550 EUR"
         }
     }
 }
