@@ -25,7 +25,7 @@
             "Type": "AMOLED, 1B colors, 120Hz, HDR10+, 600 nits (typ), 1200 nits (HBM)",
             "Size": "6.59 inches, 105.6 cm2 (~89.4% screen-to-body ratio)",
             "Resolution": "1256 x 2760 pixels (~460 ppi density)",
-            "Protection": "Corning Gorilla Glass 7i"
+            "Protection": "Corning Gorilla Glass 7i, Mohs level 5"
         },
         "Platform": {
             "OS": "Android 16, ColorOS 16",
@@ -71,11 +71,17 @@
         "Misc": {
             "Colors": "Aurora Blue, Twilight Blue, Aurora White",
             "Models": "CPH2825",
-            "Price": "\u20b9\u200945,999"
+            "Price": "\u20ac\u2009649.00 / \u20b9\u200945,999"
         },
         "Our Tests": {
             "Loudspeaker": "\n-25.3 LUFS (Very good)\n",
             "Battery": "\n\nActive use score 14:43h\n\n"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "71:17h endurance, 1600 cycles",
+            "Free fall": "Class C (90 falls)",
+            "Repairability": "Class B"
         },
         "General": {}
     }
