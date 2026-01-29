@@ -65,7 +65,8 @@
             "Charging": "44W wired, 50% in 43 min\r\nReverse wired\r\nBypass Charging"
         },
         "Misc": {
-            "Colors": "Glow White, Starlight Grey"
+            "Colors": "Glow White, Starlight Grey",
+            "Models": "V2543"
         }
     }
 }
