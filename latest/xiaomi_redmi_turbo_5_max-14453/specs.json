@@ -65,7 +65,7 @@
         },
         "Battery": {
             "Type": "Si/C Li-Ion 9000 mAh",
-            "Charging": "100W wired, PD3.0, QC3+\r\n27W reverse wired"
+            "Charging": "100W wired, 100W PPS, PD3.0\r\n27W reverse wired"
         },
         "Misc": {
             "Colors": "Black, White, Blue, Orange",

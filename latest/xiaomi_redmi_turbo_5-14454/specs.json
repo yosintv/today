@@ -19,7 +19,7 @@
             "Weight": "204 g (7.20 oz)",
             "Build": "Glass front, aluminum frame",
             "SIM": "Nano-SIM + Nano-SIM",
-            "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)"
+            "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
         },
         "Display": {
             "Type": "AMOLED, 68B colors, 120Hz, 3840Hz PWM, Dolby Vision, HDR10+, HDR Vivid, 3500 nits (peak)",
@@ -65,7 +65,7 @@
         },
         "Battery": {
             "Type": "Si/C Li-Ion 7560 mAh",
-            "Charging": "100W wired, PD3.0\r\n27W reverse wired"
+            "Charging": "100W wired, 100W PPS, PD3.0\r\n27W reverse wired"
         },
         "Misc": {
             "Colors": "Black, White, Mint",
