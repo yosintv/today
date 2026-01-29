@@ -1,0 +1,74 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/realme-p4-power-.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 26, 28, 38, 40, 41, 66, 71",
+            "5G bands": "1, 2, 3, 5, 7, 8, 20, 26, 28, 38, 40, 41, 66, 71, 77, 78 SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, January 29",
+            "Status": "Coming soon. Exp. release 2026, January"
+        },
+        "Body": {
+            "Dimensions": "162.3 x 76.2 x 9.1 mm (6.39 x 3.00 x 0.36 in)",
+            "Weight": "219 g (7.72 oz)",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)\r\nMIL-STD-810H compliant*\r\n* does not guarantee ruggedness or use in extreme conditions"
+        },
+        "Display": {
+            "Type": "AMOLED, 1B colors, 144Hz, HDR10+, PWM, 600 nits (typ), 1800 nits (HBM), 6500 nits (peak)",
+            "Size": "6.8 inches, 112.8 cm2 (~91.2% screen-to-body ratio)",
+            "Resolution": "1280 x 2800 pixels, 19.5:9 ratio (~453 ppi density)",
+            "Protection": "Corning Gorilla Glass"
+        },
+        "Platform": {
+            "OS": "Android 16, up to 3 major Android upgrades, Realme UI 7.0",
+            "Chipset": "Mediatek Dimensity 7400 Ultra (4 nm)",
+            "CPU": "Octa-core (4x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+            "GPU": "Mali-G615 MC2"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "Up to 256GB 12GB RAM",
+            "\u00a0": "UFS"
+        },
+        "Main Camera": {
+            "Dual": "50 MP, f/1.8, (wide), 1/1.95\", 0.8\u00b5m, PDAF, OIS\r\n8 MP, f/2.2, 112\u02da (ultrawide), 1/4.0\", 1.12\u00b5m",
+            "Features": "LED flash, HDR, panorama",
+            "Video": "4K@30fps, 1080p@30/60/120/240fps, gyro-EIS"
+        },
+        "Selfie camera": {
+            "Single": "16 MP, f/2.4, (wide)",
+            "Features": "Panorama",
+            "Video": "1080p@30fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+            "Bluetooth": "5.4, A2DP, LE",
+            "Positioning": "GPS, GALILEO, GLONASS, BDS",
+            "NFC": "No",
+            "Infrared port": "Yes",
+            "Radio": "Unspecified",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 10001 mAh",
+            "Charging": "80W wired, 55W PPS, 13.5W PD/QC, 50% in 36 min\r\n27W reverse wired\r\nBypass charging"
+        },
+        "Misc": {
+            "Colors": "Flash Orange, Power Silver, Blue",
+            "Models": "RMX5107"
+        }
+    }
+}
