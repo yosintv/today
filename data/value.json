@@ -6468,5 +6468,30 @@
                 "explanation": "Indicates market indecision: the opening and closing prices are nearly equal."
             }
         }
+    },
+    {
+        "timestamp": "2026-02-02 11:05",
+        "data": {
+            "15m": {
+                "price": 4714.34,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            },
+            "30m": {
+                "price": 4716.5,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            },
+            "45m": {
+                "price": 4716.5,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            },
+            "1h": {
+                "price": 4716.5,
+                "pattern": "Doji",
+                "explanation": "Indicates market indecision: the opening and closing prices are nearly equal."
+            }
+        }
     }
 ]
