@@ -1,0 +1,61 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/doogee-anywise-w1-pro.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "No cellular connectivity",
+            "2G bands": " N/A",
+            "3G bands": " N/A",
+            "4G bands": " N/A",
+            "Speed": "No",
+            "GPRS": "No",
+            "EDGE": "No"
+        },
+        "Launch": {
+            "Announced": "2026, February",
+            "Status": "Available. Released 2026, February"
+        },
+        "Body": {
+            "Dimensions": "47.5 x 47.5 x 13.7 mm (1.87 x 1.87 x 0.54 in)",
+            "Weight": "72 g (2.54 oz)",
+            "SIM": "No",
+            "\u00a0": "Waterproof (5ATM)"
+        },
+        "Display": {
+            "Type": "AMOLED",
+            "Size": "1.43 inches",
+            "Resolution": "466 x 466 pixels (~461 ppi density)",
+            "Protection": "Panda Glass"
+        },
+        "Platform": {
+            "OS": "Proprietary OS"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "2GB"
+        },
+        "Camera": {
+            "\u00a0": "No"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "No",
+            "Bluetooth": "5.3, A2DP, LE",
+            "Positioning": "GPS (L1+L5), GLONASS, GALILEO, BDS, QZSS",
+            "NFC": "No",
+            "Radio": "No",
+            "USB": "No"
+        },
+        "Features": {
+            "Sensors": "Accelerometer, heart rate, SpO2, barometer, compass"
+        },
+        "Battery": {
+            "Type": "Li-Po 550 mAh"
+        },
+        "Misc": {
+            "Colors": "Deep Sea Blue, Flame Shadow Titanium, Midnight Black"
+        }
+    }
+}
