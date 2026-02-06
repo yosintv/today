@@ -9468,5 +9468,30 @@
                 "explanation": "No significant candlestick pattern identified in this timeframe."
             }
         }
+    },
+    {
+        "timestamp": "2026-02-06 21:51",
+        "data": {
+            "15m": {
+                "price": 4960.4,
+                "pattern": "Doji",
+                "explanation": "Indicates market indecision: the opening and closing prices are nearly equal."
+            },
+            "30m": {
+                "price": 4959.77,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            },
+            "45m": {
+                "price": 4959.77,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            },
+            "1h": {
+                "price": 4959.77,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            }
+        }
     }
 ]
