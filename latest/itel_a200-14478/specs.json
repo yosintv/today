@@ -1,5 +1,5 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/itel-a200-plus.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/itel-a200.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE",
@@ -59,11 +59,11 @@
             "Sensors": "Unspecified"
         },
         "Battery": {
-            "Type": "6000 mAh",
-            "Charging": "18W wired"
+            "Type": "5000 mAh",
+            "Charging": "15W wired"
         },
         "Misc": {
-            "Colors": "Comet Orange, Nightly Blue, Meteor Titanium, Aura White"
+            "Colors": "Comet Orange, Nightly Blue, Meteor Titanium, Nebula Green"
         }
     }
 }
