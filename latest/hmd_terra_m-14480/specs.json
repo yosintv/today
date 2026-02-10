@@ -1,0 +1,69 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/hmd-terra-m.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "Speed": "HSPA, LTE"
+        },
+        "Launch": {
+            "Announced": "2026, February 10",
+            "Status": "Coming soon. Exp. release 2026, February"
+        },
+        "Body": {
+            "Dimensions": "146.5 x 66 x 14.5 mm (5.77 x 2.60 x 0.57 in)",
+            "Weight": "210 g (7.41 oz)",
+            "SIM": "Nano-SIM + eSIM",
+            "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)\r\nMIL-STD-810H compliant\r\nDrop resistant up to 1.8m\r\nDedicated red LED torch\r\nTwo programmable keys"
+        },
+        "Display": {
+            "Type": "TFT LCD, 550 nits",
+            "Size": "2.8 inches, 24.3 cm2 (~25.1% screen-to-body ratio)",
+            "Resolution": "480 x 640 pixels, 4:3 ratio (~286 ppi density)",
+            "Protection": "Corning Gorilla Glass 3"
+        },
+        "Platform": {
+            "OS": "Smart OS 14",
+            "Chipset": "Qualcomm Dragonwing QCM2290 (4 nm)",
+            "CPU": "Quad-core 2.0 GHz Cortex-A53",
+            "GPU": "Adreno 702"
+        },
+        "Memory": {
+            "Card slot": "Unspecified",
+            "Internal": "32GB 2GB RAM",
+            "\u00a0": "eMMC 5.1"
+        },
+        "Main Camera": {
+            "Single": "8 MP, f/2.0 (wide), 1/4.0\", 1.12\u00b5m, AF",
+            "Features": "LED flash",
+            "Video": "Yes"
+        },
+        "Selfie camera": {
+            "\u00a0": "No"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes (100 dB)",
+            "3.5mm jack ": "Unspecified"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+            "Bluetooth": "5.0, A2DP, LE",
+            "Positioning": "GPS, GLONASS, GALILEO, BDS",
+            "NFC": "Yes",
+            "Radio": "Unspecified",
+            "USB": "USB Type-C, magnetic accessory connector pins"
+        },
+        "Features": {
+            "Sensors": "Accelerometer, gyro, proximity, compass",
+            "\u00a0": "MP3 player"
+        },
+        "Battery": {
+            "Type": "Li-Po 2510 mAh"
+        },
+        "Misc": {
+            "Colors": "Black"
+        }
+    }
+}
