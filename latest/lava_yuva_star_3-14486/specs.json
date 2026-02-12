@@ -1,0 +1,70 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/lava-yuva-star-3.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "Speed": "HSPA, LTE"
+        },
+        "Launch": {
+            "Announced": "2026, February 12",
+            "Status": "Coming soon. Exp. release 2026, March"
+        },
+        "Body": {
+            "Dimensions": "165 x 76.1 x 8.5 mm (6.50 x 3.00 x 0.33 in)",
+            "Weight": "193.7 g (6.84 oz)",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP64 dust tight and water resistant (water splashes)"
+        },
+        "Display": {
+            "Type": "IPS LCD, 90Hz",
+            "Size": "6.75 inches, 110.0 cm2 (~87.6% screen-to-body ratio)",
+            "Resolution": "720 x 1600 pixels, 20:9 ratio (~260 ppi density)"
+        },
+        "Platform": {
+            "OS": "Android 15 (Go edition)",
+            "Chipset": "Unisoc SC9863A (28 nm)",
+            "CPU": "Octa-core (4x1.6 GHz Cortex-A55 & 4x1.2 GHz Cortex-A55)",
+            "GPU": "IMG8322"
+        },
+        "Memory": {
+            "Card slot": "microSDXC (dedicated slot)",
+            "Internal": "64GB 4GB RAM"
+        },
+        "Main Camera": {
+            "Single": "13 MP, (wide), AF",
+            "Features": "LED flash, HDR, panorama",
+            "Video": "1080p@30fps"
+        },
+        "Selfie camera": {
+            "Single": "5 MP",
+            "Video": "Yes"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "Yes"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 b/g/n/ac",
+            "Bluetooth": "4.2, A2DP",
+            "Positioning": "GPS, GLONASS",
+            "NFC": "No",
+            "Infrared port": "Yes",
+            "Radio": "FM radio",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, proximity"
+        },
+        "Battery": {
+            "Type": "Li-Ion 5000 mAh",
+            "Charging": "10W wired"
+        },
+        "Misc": {
+            "Colors": "Indus Black, Siachen White",
+            "Price": "About 70 EUR"
+        }
+    }
+}
