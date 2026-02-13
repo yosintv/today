@@ -1,5 +1,5 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-pova-curve2-.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-pova-curve2.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE / 5G",
@@ -23,7 +23,8 @@
             "Type": "AMOLED, 144Hz, 2304Hz PWM, 4500 nits (peak)",
             "Size": "6.78 inches, 112.1 cm2",
             "Resolution": "1208 x 2644 pixels, 19.5:9 ratio (~429 ppi density)",
-            "Protection": "Corning Gorilla Glass 7i"
+            "Protection": "Corning Gorilla Glass 7i",
+            "\u00a0": "Drop resistant up to 1.5m"
         },
         "Platform": {
             "OS": "Android 16, HIOS 16",
@@ -64,7 +65,7 @@
         },
         "Battery": {
             "Type": "8000 mAh",
-            "Charging": "45W wired"
+            "Charging": "45W wired\r\nBypass charging"
         },
         "Misc": {
             "Colors": "Silver, Purple, Titanium",
