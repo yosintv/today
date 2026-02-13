@@ -1,0 +1,70 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/honor-pad-x8b.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 - cellular model only",
+            "3G bands": "HSDPA 900 / 2100 - cellular model only",
+            "4G bands": " LTE - cellular model only",
+            "Speed": "HSPA, LTE - cellular model only"
+        },
+        "Launch": {
+            "Announced": "2026, February 13",
+            "Status": "Available. Released 2026, February 13"
+        },
+        "Body": {
+            "Dimensions": "256.9 x 168.5 x 7.3 mm (10.11 x 6.63 x 0.29 in)",
+            "Weight": "496 g (1.09 lb)",
+            "Build": "Glass front, aluminum frame, aluminum back",
+            "SIM": "Nano-SIM"
+        },
+        "Display": {
+            "Type": "TFT LCD, 90Hz, 500 nits",
+            "Size": "11.0 inches, 347.5 cm2 (~80.3% screen-to-body ratio)",
+            "Resolution": "1200 x 1920 pixels, 16:10 ratio (~207 ppi density)"
+        },
+        "Platform": {
+            "OS": "Android 16, MagicOS 10",
+            "Chipset": "Qualcomm SM6225 Snapdragon 680 4G (6 nm)",
+            "CPU": "Octa-core (4x2.4 GHz Kryo 265 Gold & 4x1.9 GHz Kryo 265 Silver)",
+            "GPU": "Adreno 610"
+        },
+        "Memory": {
+            "Card slot": "microSDXC",
+            "Internal": "128GB 4GB RAM"
+        },
+        "Main Camera": {
+            "Single": "5 MP, f/2.0, AF",
+            "Features": "HDR",
+            "Video": "1080p@30fps"
+        },
+        "Selfie camera": {
+            "Single": "5 MP, f/2.0",
+            "Video": "1080p@30fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers (4 speakers)",
+            "3.5mm jack ": "No",
+            "\u00a0": "24-bit/192kHz Hi-Res & Hi-Res Wireless audio"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+            "Bluetooth": "5.0, A2DP, LE",
+            "Positioning": "No",
+            "NFC": "No",
+            "Radio": "No",
+            "USB": "USB Type-C, OTG"
+        },
+        "Features": {
+            "Sensors": "Accelerometer"
+        },
+        "Battery": {
+            "Type": "Li-Ion 10100 mAh"
+        },
+        "Misc": {
+            "Colors": "Space Gray",
+            "Models": "NDL2-W09",
+            "Price": "About 150 EUR"
+        }
+    }
+}
