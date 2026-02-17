@@ -1,5 +1,5 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-50-pro-4g.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-50-4g.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE",
@@ -13,14 +13,14 @@
             "Status": "Coming soon. Exp. release 2026, March"
         },
         "Body": {
-            "Dimensions": "162.4 x 77 x 7.4 mm (6.39 x 3.03 x 0.29 in)",
+            "Dimensions": "162.4 x 77.2 x 7.5 mm (6.39 x 3.04 x 0.30 in)",
             "Weight": "-",
             "SIM": "Nano-SIM + Nano-SIM",
             "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)\r\nMIL-STD-810 compliant*\r\n* does not guarantee ruggedness or use in extreme conditions"
         },
         "Display": {
             "Type": "AMOLED, 144Hz",
-            "Size": "6.78 inches, 112.1 cm2 (~89.6% screen-to-body ratio)",
+            "Size": "6.78 inches, 112.1 cm2 (~89.4% screen-to-body ratio)",
             "Resolution": "1208 x 2644 pixels, 19.5:9 ratio (~429 ppi density)",
             "Protection": "Unspecified",
             "\u00a0": "HDR image support"
@@ -36,7 +36,7 @@
             "Internal": "256GB 8GB RAM"
         },
         "Main Camera": {
-            "Triple": "50 MP, f/1.8, 23mm (wide), 1/1.56\", 1.0\u00b5m, PDAF, OIS\r\n50 MP, f/2.4, 70mm (telephoto), AF, OIS, 3x optical zoom\r\n8 MP, f/2.2, 14mm, 112\u02da (ultrawide)",
+            "Dual": "50 MP, f/1.8, 23mm (wide), 1/1.56\", 1.0\u00b5m, PDAF, OIS\r\n8 MP, f/2.2, 14mm, 112\u02da (ultrawide), AF",
             "Features": "Dual-LED flash, HDR, panorama",
             "Video": "1080p@30fps"
         },
@@ -66,8 +66,8 @@
             "Charging": "45W wired"
         },
         "Misc": {
-            "Colors": "Moonlight black, Malachite green, Nebula titanium, Fir green, Lavender mist, Ethereal blue",
-            "Models": "CN5c"
+            "Colors": "Moonlight black, Malachite green, Nebula titanium, Fir green, Lavender mist, Mint cream",
+            "Models": "CN5"
         }
     }
 }
