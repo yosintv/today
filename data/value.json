@@ -17633,5 +17633,30 @@
                 "explanation": "No significant candlestick pattern identified in this timeframe."
             }
         }
+    },
+    {
+        "timestamp": "2026-02-17 18:34",
+        "data": {
+            "15m": {
+                "price": 4881.63,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            },
+            "30m": {
+                "price": 4882.06,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            },
+            "45m": {
+                "price": 4881.66,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            },
+            "1h": {
+                "price": 4881.66,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            }
+        }
     }
 ]
