@@ -16,15 +16,16 @@
         "Body": {
             "Dimensions": "162.4 x 77.2 x 7.5 mm (6.39 x 3.04 x 0.30 in)",
             "Weight": "199 g (7.02 oz)",
-            "Build": "Glass front (Gorilla Glass 7i), aluminum frame",
+            "Build": "Glass front (Gorilla Glass 7i), aluminum frame, aluminum back",
             "SIM": "Nano-SIM + Nano-SIM + eSIM (max 2 at a time)",
             "\u00a0": "IP64 dust tight and water resistant (water splashes)\r\nRGB notification light (on the back)\r\nMIL-STD-810H compliant*\r\n* does not guarantee ruggedness or use in extreme conditions"
         },
         "Display": {
-            "Type": "AMOLED, 1B colors, 144Hz, 2304Hz PWM, 4500 nits (peak)",
-            "Size": "6.78 inches, 109.9 cm2 (~87.6% screen-to-body ratio)",
-            "Resolution": "1080 x 2436 pixels (~393 ppi density)",
-            "Protection": "Corning Gorilla Glass 7i"
+            "Type": "AMOLED, 144Hz, 2304Hz PWM, 700 nits (typ), 1600 nits (HBM), 4500 nits (peak)",
+            "Size": "6.78 inches, 112.1 cm2 (~89.4% screen-to-body ratio)",
+            "Resolution": "1208 x 2644 pixels, 19.5:9 ratio (~429 ppi density)",
+            "Protection": "Corning Gorilla Glass 7i",
+            "\u00a0": "Ultra HDR support"
         },
         "Platform": {
             "OS": "Android 16, up to 3 major Android upgrades, XOS 16",
@@ -34,37 +35,38 @@
         },
         "Memory": {
             "Card slot": "No",
-            "Internal": "128GB 8GB RAM, 256GB 8GB RAM"
+            "Internal": "128GB 8GB RAM, 256GB 8GB RAM",
+            "\u00a0": "UFS 2.2"
         },
         "Main Camera": {
-            "Dual": "50 MP, f/1.8, (wide), 0.8\u00b5m, PDAF\r\n8 MP (ultrawide)",
+            "Dual": "50 MP, f/1.6, (wide), 0.8\u00b5m, PDAF, OIS\r\n8 MP, f/2.2, 112\u02da (ultrawide), 1.12\u00b5m",
             "Features": "Dual-LED flash, HDR, panorama",
-            "Video": "4K@30fps, 1080p@30fps"
+            "Video": "4K@30fps, 1080p@30/60/120fps"
         },
         "Selfie camera": {
-            "Single": "13 MP, f/2.2, (wide)",
-            "Video": "4K@30fps, 1080p@30fps"
+            "Single": "13 MP, f/2.2, (wide), 1.12\u00b5m",
+            "Video": "4K@30fps, 1080p@30/60fps"
         },
         "Sound": {
             "Loudspeaker ": "Yes, with stereo speakers",
             "3.5mm jack ": "No",
-            "\u00a0": "Tuned by JBL\r\n24-bit/192kHz Hi-Res audio"
+            "\u00a0": "Tuned by JBL\r\n24-bit/192kHz Hi-Res & Hi-Res Wireless audio"
         },
         "Comms": {
-            "WLAN": "Yes",
-            "Bluetooth": "Yes",
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+            "Bluetooth": "5.4, A2DP, LE",
             "Positioning": "GPS",
-            "NFC": "Unspecified",
+            "NFC": "Yes",
             "Infrared port": "Yes",
-            "Radio": "Unspecified",
+            "Radio": "FM radio",
             "USB": "USB Type-C 2.0, OTG"
         },
         "Features": {
-            "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+            "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass, heart rate, SpO2"
         },
         "Battery": {
             "Type": "6150 mAh or 6500 mAh",
-            "Charging": "45W wired\r\n30W wireless\r\nBypass Charging"
+            "Charging": "45W wired, 50% in 26 min, 100% in 54 min\r\n30W wireless\r\nBypass Charging (gaming, navigating)"
         },
         "Misc": {
             "Colors": "Mist Titanium, Midnight Black, Fizz Blue, Rose Gold, Mocha Brown",
