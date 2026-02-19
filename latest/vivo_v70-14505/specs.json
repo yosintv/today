@@ -1,0 +1,82 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v70-elite.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, February 19",
+            "Status": "Coming soon. Exp. release 2026, February"
+        },
+        "Body": {
+            "Dimensions": "157.5 x 74.3 x 7.4 mm or 7.6 mm",
+            "Weight": "187 g or 194 g (6.60 oz)",
+            "Build": "Glass front, aluminum alloy frame, glass back or fiber-reinforced plastic back",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
+        },
+        "Display": {
+            "Type": "AMOLED, 1B colors, HDR10+, 120Hz, 1800 nits (HBM), 5000 nits (peak)",
+            "Size": "6.59 inches, 106.1 cm2 (~90.7% screen-to-body ratio)",
+            "Resolution": "1260 x 2750 pixels, 19.5:9 ratio (~459 ppi density)",
+            "Protection": "Schott Xensation Core, Mohs level 4"
+        },
+        "Platform": {
+            "OS": "Android 16, up to 4 major Android upgrades, OriginOS 6",
+            "Chipset": "Qualcomm SM7750-AB Snapdragon 7 Gen 4 (4 nm)",
+            "CPU": "Octa-core (1x2.8 GHz Cortex-720 & 4x2.4 GHz Cortex-720 & 3x1.8 GHz Cortex-520)",
+            "GPU": "Adreno 722"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM",
+            "\u00a0": "UFS"
+        },
+        "Main Camera": {
+            "Triple": "50 MP, f/1.9, 23mm (wide), 1/1.56\", 1.0\u00b5m, PDAF, OIS\r\n50 MP, f/2.7, 85mm (periscope telephoto), 1/1.95\", 0.8\u00b5m, PDAF, OIS, 3.7x optical zoom\r\n8 MP, f/2.2, 15mm, 115\u02da (ultrawide)",
+            "Features": "Zeiss optics, Ring-LED flash, panorama, HDR",
+            "Video": "4K@30/60fps, 1080p@30/60fps, gyro-EIS, OIS, HDR, LUT"
+        },
+        "Selfie camera": {
+            "Single": "50 MP, f/2.0, 21mm (wide), 1/2.76\", 0.64\u00b5m, AF",
+            "Features": "Zeiss optics, HDR",
+            "Video": "4K@30fps, 1080p@30/60fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Yes",
+            "Bluetooth": "Yes",
+            "Positioning": "GPS, GALILEO, GLONASS, QZSS, BDS, NavIC",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, gyro, compass",
+            "\u00a0": "Virtual proximity sensing"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 6500 mAh",
+            "Charging": "90W wired, PD\r\nReverse wired\r\nBypass charging"
+        },
+        "Misc": {
+            "Colors": "Golden Hour, Alpine Gray (Sand Beige), Sandalwood Brown, Canary (Lemon) Yellow, Authentic Black, Passion Red",
+            "Models": "V2538"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "65:05h endurance, 900 cycles",
+            "Free fall": "Class C (90 falls)",
+            "Repairability": "Class C"
+        }
+    }
+}
