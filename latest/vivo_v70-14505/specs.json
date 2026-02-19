@@ -1,5 +1,5 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v70-elite.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-v70.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE / 5G",
@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, February 19",
-            "Status": "Coming soon. Exp. release 2026, February"
+            "Status": "Coming soon. Exp. release 2026, February 26"
         },
         "Body": {
             "Dimensions": "157.5 x 74.3 x 7.4 mm or 7.6 mm",
@@ -71,13 +71,14 @@
             "Colors": "Golden Hour, Alpine Gray (Sand Beige), Sandalwood Brown, Canary (Lemon) Yellow, Authentic Black, Passion Red",
             "Models": "V2538",
             "SAR": "1.09 W/kg (head) \u00a0 \u00a0 0.95 W/kg (body) \u00a0 \u00a0 ",
-            "Price": "About 430 EUR"
+            "Price": "\u20b9\u200945,999"
         },
         "EU LABEL": {
             "Energy": "Class A",
             "Battery": "65:05h endurance, 900 cycles",
             "Free fall": "Class C (90 falls)",
             "Repairability": "Class C"
-        }
+        },
+        "General": {}
     }
 }
