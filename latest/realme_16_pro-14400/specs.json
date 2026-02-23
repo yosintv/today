@@ -53,7 +53,7 @@
             "3.5mm jack ": "No"
         },
         "Comms": {
-            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band - version 1Wi-Fi 802.11 a/b/g/n/ac/6, dual-band - version 2",
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
             "Bluetooth": "5.4, A2DP, LE, aptX HD, LHDC 5",
             "Positioning": "GPS, GLONASS, GALILEO, BDS",
             "NFC": "Yes (market/region dependent)",
