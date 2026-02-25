@@ -17,7 +17,7 @@
         "Body": {
             "Dimensions": "158.4 x 75.8 x 7.3 mm (6.24 x 2.98 x 0.29 in)",
             "Weight": "190 g (6.70 oz)",
-            "Build": "Glass front (Gorilla Armor 2), glass back (Gorilla Glass Victus 2), aluminum frame",
+            "Build": "Glass front (Gorilla Glass Victus 2), glass back (Gorilla Glass Victus 2), aluminum frame",
             "SIM": "\u00b7 Nano-SIM + Nano-SIM + eSIM + eSIM (max 2 at a time) - INT\u00b7 Nano-SIM + eSIM + eSIM (max 2 at a time) - USA\u00b7 Nano-SIM + Nano-SIM - CN",
             "\u00a0": "IP68 dust tight and water resistant (immersible up to 1.5m for 30 min)\r\nArmor aluminum 2 frame"
         },
@@ -25,13 +25,13 @@
             "Type": "Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits (peak)",
             "Size": "6.7 inches, 108.9 cm2 (~90.7% screen-to-body ratio)",
             "Resolution": "1440 x 3120 pixels, 19.5:9 ratio (~516 ppi density)",
-            "Protection": "Corning Gorilla Armor 2"
+            "Protection": "Corning Gorilla Glass Victus 2"
         },
         "Platform": {
             "OS": "Android 16, up to 7 major Android upgrades, One UI 8.5",
-            "Chipset": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm) - ROWExynos 2600 (2 nm) - Europe",
-            "CPU": "Octa-core (2x4.74 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M) - ROW10-core (1x3.80GHz C1-Ultra & 3x3.25GHz C1-Pro & 6x2.75GHz C1-Pro) - Europe",
-            "GPU": "Adreno 840 - ROWXclipse 960 - Europe"
+            "Chipset": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm) - US/CNExynos 2600 (2 nm) - ROW",
+            "CPU": "Octa-core (2x4.74 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M) - US/CN10-core (1x3.80GHz C1-Ultra & 3x3.25GHz C1-Pro & 6x2.75GHz C1-Pro) - ROW",
+            "GPU": "Adreno 840 - US/CNXclipse 960 - ROW"
         },
         "Memory": {
             "Card slot": "No",
