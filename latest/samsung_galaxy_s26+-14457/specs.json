@@ -1,5 +1,5 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s26-ultra.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s26-plus.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
@@ -15,34 +15,33 @@
             "Status": "Coming soon. Exp. release 2026, March 11"
         },
         "Body": {
-            "Dimensions": "163.6 x 78.1 x 7.9 mm (6.44 x 3.07 x 0.31 in)",
-            "Weight": "214 g (7.55 oz)",
-            "Build": "Glass front (Corning Gorilla Armor 2), glass back (Gorilla Glass Victus 2), titanium frame (grade 5)",
+            "Dimensions": "158.4 x 75.8 x 7.3 mm (6.24 x 2.98 x 0.29 in)",
+            "Weight": "190 g (6.70 oz)",
+            "Build": "Glass front (Gorilla Armor 2), glass back (Gorilla Glass Victus 2), aluminum frame",
             "SIM": "\u00b7 Nano-SIM + Nano-SIM + eSIM + eSIM (max 2 at a time) - INT\u00b7 Nano-SIM + eSIM + eSIM (max 2 at a time) - USA\u00b7 Nano-SIM + Nano-SIM - CN",
-            "\u00a0": "IP68 dust tight and water resistant (immersible up to 1.5m for 30 min)\r\nStylus"
+            "\u00a0": "IP68 dust tight and water resistant (immersible up to 1.5m for 30 min)\r\nArmor aluminum 2 frame"
         },
         "Display": {
             "Type": "Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits (peak)",
-            "Size": "6.9 inches, 115.9 cm2 (~90.7% screen-to-body ratio)",
-            "Resolution": "1440 x 3120 pixels, 19.5:9 ratio (~500 ppi density)",
-            "Protection": "Corning Gorilla Armor 2",
-            "\u00a0": "DX anti-reflective coating"
+            "Size": "6.7 inches, 108.9 cm2 (~90.7% screen-to-body ratio)",
+            "Resolution": "1440 x 3120 pixels, 19.5:9 ratio (~516 ppi density)",
+            "Protection": "Corning Gorilla Armor 2"
         },
         "Platform": {
             "OS": "Android 16, up to 7 major Android upgrades, One UI 8.5",
-            "Chipset": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
-            "CPU": "Octa-core (2x4.74 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M)",
-            "GPU": "Adreno 840"
+            "Chipset": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm) - ROWExynos 2600 (2 nm) - Europe",
+            "CPU": "Octa-core (2x4.74 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M) - ROW10-core (1x3.80GHz C1-Ultra & 3x3.25GHz C1-Pro & 6x2.75GHz C1-Pro) - Europe",
+            "GPU": "Adreno 840 - ROWXclipse 960 - Europe"
         },
         "Memory": {
             "Card slot": "No",
-            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 1TB 16GB RAM",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM",
             "\u00a0": "UFS 4.X"
         },
         "Main Camera": {
-            "Quad": "200 MP, f/1.4, 24mm (wide), 1/1.3\", 0.6\u00b5m, multi-directional PDAF, OIS\r\n10 MP, f/2.4, (telephoto), 1/3.94\", 1.0\u00b5m, PDAF, OIS, 3x optical zoom\r\n50 MP, f/2.9, 111mm (periscope telephoto), 1/2.52\", 0.7\u00b5m, PDAF, OIS, 5x optical zoom\r\n50 MP, f/1.9, 120\u02da (ultrawide), 1/2.5\", 0.7\u00b5m, dual pixel PDAF, Super Steady video",
-            "Features": "Laser AF, Best Face, LED flash, auto-HDR, panorama",
-            "Video": "8K@24/30fps, 4K@30/60/120fps, 1080p@30/60/120/240fps, 10-bit HDR, HDR10+, stereo sound rec., gyro-EIS"
+            "Triple": "50 MP, f/1.8, 24mm (wide), 1/1.56\", 1.0\u00b5m, dual pixel PDAF, OIS\r\n10 MP, f/2.4, 67mm (telephoto), 1/3.94\", 1.0\u00b5m, PDAF, OIS, 3x optical zoom\r\n12 MP, f/2.2, 13mm, 120\u02da (ultrawide), 1/2.55\" 1.4\u00b5m, Super Steady video",
+            "Features": "Best Face, LED flash, auto-HDR, panorama",
+            "Video": "8K@24/30fps, 4K@30/60fps, 1080p@30/60/120/240fps, 10-bit HDR, HDR10+, stereo sound rec., gyro-EIS"
         },
         "Selfie camera": {
             "Single": "12 MP, f/2.2, 26mm (wide), 1/3.2\", 1.12\u00b5m, dual pixel PDAF",
@@ -67,13 +66,13 @@
             "\u00a0": "Samsung DeX, Samsung Wireless DeX (desktop experience support)\r\nUltra Wideband (UWB) support"
         },
         "Battery": {
-            "Type": "Li-Ion 5000 mAh",
-            "Charging": "60W wired, PD3.0, 75% in 30 min\r\n25W wireless (Qi2.2)\r\n4.5W reverse wireless"
+            "Type": "Li-Ion 4900 mAh",
+            "Charging": "45W wired, PD3.0, 69% in 30 min\r\n25W wireless (Qi2.2)\r\n4.5W reverse wireless"
         },
         "Misc": {
             "Colors": "Cobalt Violet, Sky Blue, Black, White, Silver Shadow, Pink Gold",
-            "Models": "SM-S948B, SM-S948B/DS, SM-S948U, SM-S948U1, SM-S948W, SM-S948N, SM-S9480, SM-S948E, SM-S948E/DS",
-            "Price": "$\u20091,299.99 / C$\u20091,899.99 / \u00a3\u20091,279.00 / \u20ac\u20091,449.00"
+            "Models": "SM-S947B, SM-S947B/DS, SM-S947U, SM-S947U1, SM-S947W, SM-S947N, SM-S9470, SM-S947E, SM-S947E/DS",
+            "Price": "$\u20091,099.99 / C$\u20091,529.99 / \u00a3\u20091,099.00 / \u20ac\u20091,249.00"
         },
         "General": {}
     }
