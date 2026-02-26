@@ -67,7 +67,7 @@
         },
         "Battery": {
             "Type": "Li-Ion 4900 mAh",
-            "Charging": "45W wired, PD3.0, 69% in 30 min\r\n25W wireless (Qi2.2)\r\n4.5W reverse wireless"
+            "Charging": "45W wired, PD3.0, 69% in 30 min\r\n20W wireless (Qi2.2)\r\n4.5W reverse wireless"
         },
         "Misc": {
             "Colors": "Cobalt Violet, Sky Blue, Black, White, Silver Shadow, Pink Gold",
