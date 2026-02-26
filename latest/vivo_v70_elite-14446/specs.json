@@ -38,7 +38,7 @@
             "\u00a0": "UFS 4.1"
         },
         "Main Camera": {
-            "Triple": "50 MP, f/1.9, 23mm (wide), 1/1.56\", 1.0\u00b5m, PDAF, OIS\r\n50 MP, f/2.7, 85mm (periscope telephoto), 1/1.95\", 0.8\u00b5m, PDAF, OIS, 3.7x optical zoom\r\n8 MP, f/2.2, 15mm, 115\u02da (ultrawide)",
+            "Triple": "50 MP, f/1.9, 23mm (wide), 1/1.56\", 1.0\u00b5m, PDAF, OIS\r\n50 MP, f/2.7, 73mm (periscope telephoto), 1/1.95\", 0.8\u00b5m, PDAF, OIS, 3x optical zoom\r\n8 MP, f/2.2, 15mm, 115\u02da (ultrawide)",
             "Features": "Zeiss optics, Ring-LED flash, panorama, HDR, color spectrum sensor",
             "Video": "4K@30/60fps (HDR), 1080p@30/60fps, gyro-EIS, OIS, HDR, LUT"
         },
