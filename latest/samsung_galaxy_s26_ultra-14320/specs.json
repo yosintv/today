@@ -8,7 +8,7 @@
             "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
             "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 32, 38, 39, 40, 41, 66 - International",
             "5G bands": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 38, 40, 41, 66, 75, 77, 78 SA/NSA/Sub6 - International",
-            "Speed": "HSPA, LTE (up to 7CA), 5G"
+            "Speed": "HSPA, LTE (CA), 5G"
         },
         "Launch": {
             "Announced": "2026, February 25",
