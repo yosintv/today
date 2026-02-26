@@ -40,7 +40,7 @@
             "\u00a0": "UFS 4.X"
         },
         "Main Camera": {
-            "Quad": "200 MP, f/1.4, 24mm (wide), 1/1.3\", 0.6\u00b5m, multi-directional PDAF, OIS\r\n10 MP, f/2.4, (telephoto), 1/3.94\", 1.0\u00b5m, PDAF, OIS, 3x optical zoom\r\n50 MP, f/2.9, 111mm (periscope telephoto), 1/2.52\", 0.7\u00b5m, PDAF, OIS, 5x optical zoom\r\n50 MP, f/1.9, 120\u02da (ultrawide), 1/2.5\", 0.7\u00b5m, dual pixel PDAF, Super Steady video",
+            "Quad": "200 MP, f/1.4, 24mm (wide), 1/1.3\", 0.6\u00b5m, multi-directional PDAF, OIS\r\n10 MP, f/2.4, 67mm (telephoto), 1/3.94\", 1.0\u00b5m, PDAF, OIS, 3x optical zoom\r\n50 MP, f/2.9, 111mm (periscope telephoto), 1/2.52\", 0.7\u00b5m, PDAF, OIS, 5x optical zoom\r\n50 MP, f/1.9, 120\u02da (ultrawide), 1/2.5\", 0.7\u00b5m, dual pixel PDAF, Super Steady video",
             "Features": "Laser AF, Best Face, LED flash, auto-HDR, panorama",
             "Video": "8K@24/30fps, 4K@30/60/120fps, 1080p@30/60/120/240fps, 10-bit HDR, HDR10+, stereo sound rec., gyro-EIS"
         },
