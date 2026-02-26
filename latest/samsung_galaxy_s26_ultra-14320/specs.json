@@ -4,10 +4,10 @@
         "Network": {
             "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
             "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
-            "\u00a0": " SA/NSA/Sub6/mmWave - USA unlocked",
+            "\u00a0": "1, 2, 3, 5, 7, 8, 12, 20, 25, 28, 38, 41, 66, 71, 77, 78, 257, 258, 260, 261 SA/NSA/Sub6/mmWave - USA unlocked",
             "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
-            "4G bands": " LTE",
-            "5G bands": " SA/NSA/Sub6 - International",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 32, 38, 39, 40, 41, 66 - International",
+            "5G bands": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 38, 40, 41, 66, 75, 77, 78 SA/NSA/Sub6 - International",
             "Speed": "HSPA, LTE (up to 7CA), 5G"
         },
         "Launch": {
@@ -19,14 +19,14 @@
             "Weight": "214 g (7.55 oz)",
             "Build": "Glass front (Corning Gorilla Armor 2), glass back (Gorilla Glass Victus 2), aluminum frame",
             "SIM": "\u00b7 Nano-SIM + Nano-SIM + eSIM + eSIM (max 2 at a time) - INT\u00b7 Nano-SIM + eSIM + eSIM (max 2 at a time) - USA\u00b7 Nano-SIM + Nano-SIM - CN",
-            "\u00a0": "IP68 dust tight and water resistant (immersible up to 1.5m for 30 min)\r\nStylus"
+            "\u00a0": "IP68 dust tight and water resistant (immersible up to 1.5m for 30 min)\r\nStylus\r\nArmor aluminum 2 frame"
         },
         "Display": {
             "Type": "Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits (peak)",
             "Size": "6.9 inches, 115.9 cm2 (~90.7% screen-to-body ratio)",
             "Resolution": "1440 x 3120 pixels, 19.5:9 ratio (~500 ppi density)",
             "Protection": "Corning Gorilla Armor 2",
-            "\u00a0": "DX anti-reflective coating"
+            "\u00a0": "DX anti-reflective coating\r\nPrivacy Display"
         },
         "Platform": {
             "OS": "Android 16, up to 7 major Android upgrades, One UI 8.5",
@@ -75,7 +75,7 @@
             "Models": "SM-S948B, SM-S948B/DS, SM-S948U, SM-S948U1, SM-S948W, SM-S948N, SM-S9480, SM-S948E, SM-S948E/DS",
             "SAR": "1.09 W/kg (head) \u00a0 \u00a0 1.19 W/kg (body) \u00a0 \u00a0 ",
             "SAR EU": "1.28 W/kg (head) \u00a0 \u00a0 1.35 W/kg (body) \u00a0 \u00a0 ",
-            "Price": "$\u20091,299.99 / C$\u20091,899.99 / \u00a3\u20091,279.00 / \u20ac\u20091,449.00"
+            "Price": "$\u20091,299.99 / C$\u20091,899.99 / \u00a3\u20091,279.00 / \u20ac\u20091,449.00 / \u20b9\u2009139,999"
         },
         "General": {}
     }
