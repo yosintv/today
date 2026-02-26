@@ -72,6 +72,8 @@
         "Misc": {
             "Colors": "Cobalt Violet, Sky Blue, Black, White, Silver Shadow, Pink Gold",
             "Models": "SM-S942B, SM-S942B/DS, SM-S942U, SM-S942U1, SM-S942W, SM-S942N, SM-S9420, SM-S942E, SM-S942E/DS",
+            "SAR": "1.19 W/kg (head) \u00a0 \u00a0 1.20 W/kg (body) \u00a0 \u00a0 ",
+            "SAR EU": "1.21 W/kg (head) \u00a0 \u00a0 1.10 W/kg (body) \u00a0 \u00a0 ",
             "Price": "$\u2009899.99 / C$\u20091,249.99 / \u00a3\u2009879.00 / \u20ac\u2009999.00"
         },
         "General": {}
