@@ -25,7 +25,7 @@
             "Type": "Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits (peak)",
             "Size": "6.7 inches, 108.9 cm2 (~90.7% screen-to-body ratio)",
             "Resolution": "1440 x 3120 pixels, 19.5:9 ratio (~516 ppi density)",
-            "Protection": "Corning Gorilla Glass Victus 2"
+            "Protection": "Corning Gorilla Glass Victus 2, Mohs level 5"
         },
         "Platform": {
             "OS": "Android 16, up to 7 major Android upgrades, One UI 8.5",
@@ -75,6 +75,12 @@
             "SAR": "1.15 W/kg (head) \u00a0 \u00a0 1.17 W/kg (body) \u00a0 \u00a0 ",
             "SAR EU": "0.78 W/kg (head) \u00a0 \u00a0 1.22 W/kg (body) \u00a0 \u00a0 ",
             "Price": "$\u20091,099.99 / C$\u20091,529.99 / \u00a3\u2009999.00 / \u20ac\u20091,249.00 / \u20b9\u2009119,999"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "55:00h endurance, 1200 cycles",
+            "Free fall": "Class A (270 falls)",
+            "Repairability": "Class C"
         },
         "General": {}
     }
