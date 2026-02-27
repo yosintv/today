@@ -40,7 +40,7 @@
         },
         "Main Camera": {
             "Triple": "50 MP, f/1.8, 24mm (wide), 1/1.56\", 1.0\u00b5m, dual pixel PDAF, OIS\r\n10 MP, f/2.4, 67mm (telephoto), 1/3.94\", 1.0\u00b5m, PDAF, OIS, 3x optical zoom\r\n12 MP, f/2.2, 13mm, 120\u02da (ultrawide), 1/2.55\" 1.4\u00b5m, Super Steady video",
-            "Features": "Best Face, LED flash, auto-HDR, panorama",
+            "Features": "Best Face, Horizon Lock, LED flash, auto-HDR, panorama",
             "Video": "8K@24/30fps, 4K@30/60fps, 1080p@30/60/120/240fps, 10-bit HDR, HDR10+, stereo sound rec., gyro-EIS"
         },
         "Selfie camera": {
