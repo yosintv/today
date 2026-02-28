@@ -1,0 +1,83 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-17-ultra-global.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1800 / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, February 28",
+            "Status": "Coming soon. Exp. release 2026, March"
+        },
+        "Body": {
+            "Dimensions": "162.9 x 77.6 x 8.3 mm (6.41 x 3.06 x 0.33 in)",
+            "Weight": "218.4 g (7.69 oz)",
+            "Build": "Glass front, fiber-reinforced plastic back / silicone polymer back (eco leather), aluminum alloy frame",
+            "SIM": "Nano-SIM + Nano-SIM + eSIM + eSIM (max 2 at a time)",
+            "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 6m for 30 min)\r\nAerospace-grade glass fiber"
+        },
+        "Display": {
+            "Type": "LTPO AMOLED, 68B colors, 120Hz, 2160Hz PWM, Dolby Vision, HDR10+, 3500 nits (peak)",
+            "Size": "6.9 inches, 116.6 cm2 (~92.3% screen-to-body ratio)",
+            "Resolution": "1200 x 2608 pixels, 19.5:9 ratio (~416 ppi density)",
+            "Protection": "Xiaomi Shield Glass 3.0"
+        },
+        "Platform": {
+            "OS": "Android 16, HyperOS 3",
+            "Chipset": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
+            "CPU": "Octa-core (2x4.6 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M)",
+            "GPU": "Adreno 840"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "512GB 16GB RAM, 1TB 16GB RAM",
+            "\u00a0": "UFS 4.1"
+        },
+        "Main Camera": {
+            "Triple": "50 MP, f/1.7, 23mm (wide), 1.0\"-type, 1.6\u00b5m, dual pixel PDAF, OIS\r\n200 MP, f/2.4-3.0, 75-100mm (periscope telephoto), 1/1.4\", 0.56\u00b5m, multi-directional PDAF (30cm - \u221e), OIS, 3.2-4.3x continuous optical zoom, zoom ring\r\n50 MP, f/2.2, 14mm, 115\u02da (ultrawide), 1/2.76\", 0.64\u00b5m, dual pixel PDAF\r\nTOF 3D, (depth)",
+            "Features": "Laser AF, color spectrum sensor, Leica lenses, Dual-LED flash, HDR, panorama",
+            "Video": "8K@30fps, 4K@30/60/120fps, 1080p@30/60/120/240/480/960/1920fps, gyro-EIS, Dolby Vision HDR 10-bit rec. (4K@60fps, 1080p)"
+        },
+        "Selfie camera": {
+            "Single": "50 MP, f/2.2, 21mm (wide), 1/2.88\", 0.61\u00b5m",
+            "Features": "HDR, panorama",
+            "Video": "4K@30/60fps, 1080p@30/60fps, gyro-EIS"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No",
+            "\u00a0": "24-bit/192kHz Hi-Res & Hi-Res Wireless audio"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, dual-band or tri-band, Wi-Fi Direct",
+            "Bluetooth": "5.4, A2DP, LE, aptX HD, aptX Adaptive, LHDC 5, MIHC",
+            "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5), NavIC (L5), GLONASS",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 3.2 Gen 2, DisplayPort, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, proximity, gyro, compass, barometer"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 6000 mAh",
+            "Charging": "90W wired, 90W PPS, PD3.0, QC3+\r\n50W wireless\r\n22.5W reverse wired\r\n10W reverse wireless"
+        },
+        "Misc": {
+            "Colors": "Black, White, Starlit Green",
+            "Models": "25128PNA1G, 2512BPNDAG",
+            "Price": "About 1500 EUR"
+        },
+        "Our Tests": {
+            "Performance": "\r\nAnTuTu: 2777490 (v10), 3863387 (v11)\r\nGeekBench: 10896 (v6)\r\n3DMark: 6948 (Wild Life Extreme)",
+            "Display": "\n1132 nits max brightness (measured)",
+            "Loudspeaker": "\n-24.1 LUFS (Very good)\n",
+            "Battery": "\n\nActive use score 19:09h\n\n"
+        }
+    }
+}
