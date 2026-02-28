@@ -71,13 +71,14 @@
         "Misc": {
             "Colors": "Black, White, Starlit Green",
             "Models": "25128PNA1G, 2512BPNDAG",
-            "Price": "About 1500 EUR"
+            "Price": "\u00a3\u20091,299.00 / \u20ac\u20091,424.90"
         },
         "Our Tests": {
             "Performance": "\r\nAnTuTu: 2777490 (v10), 3863387 (v11)\r\nGeekBench: 10896 (v6)\r\n3DMark: 6948 (Wild Life Extreme)",
             "Display": "\n1132 nits max brightness (measured)",
             "Loudspeaker": "\n-24.1 LUFS (Very good)\n",
             "Battery": "\n\nActive use score 19:09h\n\n"
-        }
+        },
+        "General": {}
     }
 }
