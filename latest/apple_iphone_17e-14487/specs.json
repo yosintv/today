@@ -1,12 +1,12 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17e-r.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-17e.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE / 5G",
             "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
             "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
-            "4G bands": " LTE",
-            "5G bands": " SA/NSA/Sub6",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 48, 53, 66, 71 - A3575",
+            "5G bands": "1, 2, 3, 5, 7, 8, 12, 14, 20, 25, 26, 28, 29, 30, 38, 40, 41, 48, 53, 66, 70, 71, 75, 77, 78, 79 SA/NSA/Sub6 - A3575",
             "Speed": "HSPA, LTE, 5G"
         },
         "Launch": {
@@ -22,9 +22,10 @@
         },
         "Display": {
             "Type": "Super Retina XDR OLED, HDR10, 800 nits (HBM), 1200 nits (peak)",
-            "Size": "6.1 inches, 91.4 cm2 (~87.1% screen-to-body ratio)",
-            "Resolution": "1170 x 2532 pixels, 19.5:9 ratio (~457 ppi density)",
-            "Protection": "Ceramic Shield 2"
+            "Size": "6.1 inches, 90.2 cm2 (~86.0% screen-to-body ratio)",
+            "Resolution": "1170 x 2532 pixels, 19.5:9 ratio (~460 ppi density)",
+            "Protection": "Ceramic Shield 2",
+            "\u00a0": "Anti-reflective coating\n"
         },
         "Platform": {
             "OS": "iOS 26.3",
@@ -69,6 +70,7 @@
         },
         "Misc": {
             "Colors": "Black, White, Soft Pink",
+            "Models": "A3634, A3575",
             "Price": "About 700 EUR"
         }
     }
