@@ -1,5 +1,5 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-50-pro-4g.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-50-ultra.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE / 5G",
@@ -14,8 +14,8 @@
             "Status": "Rumored. Exp. release 2026, March"
         },
         "Body": {
-            "Dimensions": "-",
-            "Weight": "-",
+            "Dimensions": "162.4 x 77 x 7.4 mm (6.39 x 3.03 x 0.29 in)",
+            "Weight": "178 g (6.28 oz)",
             "Build": "Glass front (Gorilla Glass Victus 2), glass back (Gorilla Glass 7i), plastic frame",
             "SIM": "Nano-SIM + Nano-SIM",
             "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min) MIL-STD-810 compliant*\r\n* does not guarantee ruggedness or use in extreme conditions"
@@ -35,7 +35,7 @@
         },
         "Memory": {
             "Card slot": "No",
-            "Internal": "256GB 12GB RAM",
+            "Internal": "256GB 8GB RAM, 256GB 12GB RAM",
             "\u00a0": "UFS"
         },
         "Main Camera": {
@@ -69,10 +69,13 @@
             "Charging": "45W wired"
         },
         "Misc": {
-            "Colors": "Gray; other colors"
+            "Colors": "Orange, Blue, Black"
         },
         "Our Tests": {
-            "Loudspeaker": "\n-25.4 LUFS (Very good)\n"
+            "Performance": "\r\nAnTuTu: 804875 (v10), 944781 (v11)\r\nGeekBench: 3134 (v6)\r\n3DMark: 1050 (Wild Life Extreme)",
+            "Display": "\n1302 nits max brightness (measured)",
+            "Loudspeaker": "\n-25.4 LUFS (Very good)\n",
+            "Battery": "\n\nActive use score 16:00h\n\n"
         }
     }
 }
