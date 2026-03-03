@@ -1,30 +1,5 @@
 [
     {
-        "timestamp": "2026-01-30 07:06",
-        "data": {
-            "15m": {
-                "price": 5155.87,
-                "pattern": "Doji",
-                "explanation": "Indicates market indecision: the opening and closing prices are nearly equal."
-            },
-            "30m": {
-                "price": 5156.8,
-                "pattern": "Doji",
-                "explanation": "Indicates market indecision: the opening and closing prices are nearly equal."
-            },
-            "45m": {
-                "price": 5156.8,
-                "pattern": "Doji",
-                "explanation": "Indicates market indecision: the opening and closing prices are nearly equal."
-            },
-            "1h": {
-                "price": 5156.8,
-                "pattern": "Doji",
-                "explanation": "Indicates market indecision: the opening and closing prices are nearly equal."
-            }
-        }
-    },
-    {
         "timestamp": "2026-01-30 07:52",
         "data": {
             "15m": {
@@ -24979,6 +24954,31 @@
             },
             "1h": {
                 "price": 5309.1,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            }
+        }
+    },
+    {
+        "timestamp": "2026-03-03 09:25",
+        "data": {
+            "15m": {
+                "price": 5284.5,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            },
+            "30m": {
+                "price": 5284.2,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            },
+            "45m": {
+                "price": 5284.2,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            },
+            "1h": {
+                "price": 5284.2,
                 "pattern": "Normal",
                 "explanation": "No significant candlestick pattern identified in this timeframe."
             }
