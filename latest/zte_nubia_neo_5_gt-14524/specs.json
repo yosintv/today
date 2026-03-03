@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, March 03",
-            "Status": "Coming soon. Exp. release 2026, June"
+            "Status": "Coming soon. Exp. release 2026, March"
         },
         "Body": {
             "Dimensions": "-",
@@ -20,7 +20,7 @@
             "\u00a0": "IP64 dust tight and water resistant (water splashes)\r\nPressure sensitive zones (550Hz touch-sensing)\r\nBuilt-in cooling fan\r\nRGB light (on the back)"
         },
         "Display": {
-            "Type": "AMOLED, 144Hz",
+            "Type": "AMOLED, 144Hz, 4500 nits (peak)",
             "Size": "6.8 inches, 111.6 cm2",
             "Resolution": "1224 x 2720 pixels, 20:9 ratio (~439 ppi density)"
         },
@@ -40,7 +40,7 @@
             "Video": "Yes"
         },
         "Selfie camera": {
-            "Single": "Yes",
+            "Single": "16 MP",
             "Video": "1080p@30fps"
         },
         "Sound": {
@@ -60,11 +60,12 @@
         },
         "Battery": {
             "Type": "6210 mAh",
-            "Charging": "80W wired\r\nBypass Charging"
+            "Charging": "80W wired (ROW)\r\n45W wired, PD (Europe)\r\nBypass Charging"
         },
         "Misc": {
             "Colors": "Yellow, Gray, White",
-            "Models": "Z2570N"
+            "Models": "Z2570N",
+            "Price": "About 400 EUR"
         }
     }
 }
