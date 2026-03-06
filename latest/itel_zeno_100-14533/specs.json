@@ -1,0 +1,70 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/itel-a100c.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 2100 ",
+            "4G bands": " LTE",
+            "Speed": "HSPA, LTE"
+        },
+        "Launch": {
+            "Announced": "2026, March 06",
+            "Status": "Available. Released 2026, March 06"
+        },
+        "Body": {
+            "Dimensions": "8.5 mm thickness",
+            "Weight": "-",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "MIL-STD-810H compliant*\r\n* does not guarantee ruggedness or use in extreme conditions\r\nDrop resistant up to 1.2m"
+        },
+        "Display": {
+            "Type": "IPS LCD, 90Hz, 480 nits",
+            "Size": "6.6 inches, 104.6 cm2",
+            "Resolution": "720 x 1612 pixels, 20:9 ratio (~267 ppi density)"
+        },
+        "Platform": {
+            "OS": "Android 15 (Go edition), itel OS 15",
+            "Chipset": "Unisoc T7100",
+            "CPU": "Octa-core 1.8 GHz",
+            "GPU": "PowerVR GE8322"
+        },
+        "Memory": {
+            "Card slot": "microSDXC (dedicated slot)",
+            "Internal": "64GB 3GB RAM, 64GB 4GB RAM"
+        },
+        "Main Camera": {
+            "Single": "8 MP",
+            "Features": "LED flash",
+            "Video": "1080p@30fps"
+        },
+        "Selfie camera": {
+            "Single": "5 MP",
+            "Video": "Yes"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "Yes"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+            "Bluetooth": "5.0, A2DP, LE",
+            "Positioning": "GPS",
+            "NFC": "No",
+            "Infrared port": "Yes",
+            "Radio": "Unspecified",
+            "USB": "USB Type-C"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer"
+        },
+        "Battery": {
+            "Type": "5000 mAh",
+            "Charging": "10W wired"
+        },
+        "Misc": {
+            "Colors": "Pure Black, Titanium Gold, Silk Green",
+            "Price": "About 60 EUR"
+        }
+    }
+}
