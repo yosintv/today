@@ -76,6 +76,9 @@
             "SAR EU": "0.78 W/kg (head) \u00a0 \u00a0 1.22 W/kg (body) \u00a0 \u00a0 ",
             "Price": "$\u20091,099.99 / C$\u20091,529.98 / \u00a3\u20091,099.00 / \u20ac\u20091,129.00 / \u20b9\u2009119,999"
         },
+        "Our Tests": {
+            "Battery": "\n\nActive use score 16:25h\n\n"
+        },
         "EU LABEL": {
             "Energy": "Class A",
             "Battery": "55:00h endurance, 1200 cycles",
