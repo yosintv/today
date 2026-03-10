@@ -25,7 +25,7 @@
             "Type": "P-OLED, HDR, 120Hz, 2000 nits (HBM), 3000 nits (peak)",
             "Size": "6.3 inches, 94.7 cm2 (~84.3% screen-to-body ratio)",
             "Resolution": "1080 x 2424 pixels, 20:9 ratio (~422 ppi density)",
-            "Protection": "Corning Gorilla Glass 7i"
+            "Protection": "Corning Gorilla Glass 7i, Mohs level 4"
         },
         "Platform": {
             "OS": "Android 16, up to 7 major Android upgrades",
@@ -75,6 +75,12 @@
         },
         "Our Tests": {
             "Loudspeaker": "\n-26.8 LUFS (Good)\n"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "53:14h endurance, 1000 cycles",
+            "Free fall": "Class A (270 falls)",
+            "Repairability": "Class B"
         },
         "General": {}
     }
