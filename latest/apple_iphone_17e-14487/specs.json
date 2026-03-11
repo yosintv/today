@@ -12,7 +12,7 @@
         },
         "Launch": {
             "Announced": "2026, March 02",
-            "Status": "Coming soon. Exp. release 2026, March 11"
+            "Status": "Available. Released 2026, March 11"
         },
         "Body": {
             "Dimensions": "146.7 x 71.5 x 7.8 mm (5.78 x 2.81 x 0.31 in)",
@@ -25,7 +25,7 @@
             "Type": "Super Retina XDR OLED, HDR10, 800 nits (HBM), 1200 nits (peak)",
             "Size": "6.1 inches, 90.2 cm2 (~86.0% screen-to-body ratio)",
             "Resolution": "1170 x 2532 pixels, 19.5:9 ratio (~460 ppi density)",
-            "Protection": "Ceramic Shield 2",
+            "Protection": "Ceramic Shield 2, Mohs level 5",
             "\u00a0": "Anti-reflective coating\n"
         },
         "Platform": {
@@ -71,8 +71,17 @@
         },
         "Misc": {
             "Colors": "Black, White, Soft Pink",
-            "Models": "A3634, A3575, A3635",
-            "Price": "About 700 EUR"
-        }
+            "Models": "A3634, A3575, A3635, iPhone18,5",
+            "SAR": "1.20 W/kg (head) \u00a0 \u00a0 1.20 W/kg (body) \u00a0 \u00a0 ",
+            "SAR EU": "1.49 W/kg (head) \u00a0 \u00a0 1.49 W/kg (body) \u00a0 \u00a0 ",
+            "Price": "\u00a3\u2009599.00 / \u20ac\u2009699.00"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "45:00h endurance, 1000 cycles",
+            "Free fall": "Class B (180 falls)",
+            "Repairability": "Class C"
+        },
+        "General": {}
     }
 }
