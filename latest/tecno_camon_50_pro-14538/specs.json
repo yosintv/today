@@ -1,0 +1,73 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-50-pro.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, March 10",
+            "Status": "Available. Released 2026, March 10"
+        },
+        "Body": {
+            "Dimensions": "162.4 x 77 x 7.8 mm (6.39 x 3.03 x 0.31 in)",
+            "Weight": "-",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)\r\nMIL-STD-810 compliant*\r\n* does not guarantee ruggedness or use in extreme conditions"
+        },
+        "Display": {
+            "Type": "AMOLED, 144Hz",
+            "Size": "6.78 inches, 112.1 cm2 (~89.6% screen-to-body ratio)",
+            "Resolution": "1208 x 2644 pixels, 19.5:9 ratio (~429 ppi density)",
+            "\u00a0": "HDR image support"
+        },
+        "Platform": {
+            "OS": "Android 16, up to 3 major Android upgrades, HIOS 16",
+            "Chipset": "Mediatek Dimensity 7400 Ultimate (4 nm)",
+            "CPU": "Octa-core (4x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+            "GPU": "Mali-G615 MC2"
+        },
+        "Memory": {
+            "Card slot": "Unspecified",
+            "Internal": "256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM"
+        },
+        "Main Camera": {
+            "Triple": "50 MP, f/1.8, 23mm (wide), 1/1.56\", 1.0\u00b5m, PDAF, OIS\r\n50 MP, f/2.4, 70mm (telephoto), AF, OIS, 3x optical zoom\r\n8 MP, f/2.2, 14mm, 112\u02da (ultrawide)",
+            "Features": "LED flash, HDR, panorama",
+            "Video": "Yes"
+        },
+        "Selfie camera": {
+            "Single": "50 MP, (wide)",
+            "Video": "Yes"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No",
+            "\u00a0": "24-bit/192kHz Hi-Res audio"
+        },
+        "Comms": {
+            "WLAN": "Yes",
+            "Bluetooth": "Yes",
+            "Positioning": "GPS",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "FM radio",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, optical), accelerometer, proximity, compass"
+        },
+        "Battery": {
+            "Type": "6500 mAh",
+            "Charging": "45W wired"
+        },
+        "Misc": {
+            "Colors": "Moonshadow Black, Cypress Green, Nebula Titanium, Misty Purple",
+            "Models": "CN7c"
+        }
+    }
+}
