@@ -17,7 +17,7 @@
             "Dimensions": "162.4 x 77 x 7.8 mm (6.39 x 3.03 x 0.31 in)",
             "Weight": "-",
             "SIM": "Nano-SIM + Nano-SIM",
-            "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)\r\nMIL-STD-810 compliant*\r\n* does not guarantee ruggedness or use in extreme conditions"
+            "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)\r\nMIL-STD-810H compliant*\r\n* does not guarantee ruggedness or use in extreme conditions"
         },
         "Display": {
             "Type": "AMOLED, 144Hz",
@@ -36,7 +36,7 @@
             "Internal": "256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM"
         },
         "Main Camera": {
-            "Triple": "50 MP, f/1.8, 23mm (wide), 1/1.56\", 1.0\u00b5m, PDAF, OIS\r\n50 MP, f/2.4, 70mm (telephoto), AF, OIS, 3x optical zoom\r\n8 MP, f/2.2, 14mm, 112\u02da (ultrawide)",
+            "Triple": "50 MP, f/1.8, 23mm (wide), 1/1.56\", 1.0\u00b5m, PDAF, OIS\r\n50 MP, f/2.4, 70mm (telephoto), AF, OIS, 3x optical zoom\r\n8 MP, f/2.2, 14mm, 112\u02da (ultrawide), 1/4.0\", 1.12\u00b5m",
             "Features": "LED flash, HDR, panorama",
             "Video": "Yes"
         },

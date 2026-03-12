@@ -63,7 +63,7 @@
         },
         "Features": {
             "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass, heart rate, SpO2",
-            "\u00a0": "Two-way satellite communication service (provided by Space42's Thuraya product line; requires separate plan and SIM)"
+            "\u00a0": "Two-way satellite communication service"
         },
         "Battery": {
             "Type": "Si/C Li-Ion 7000 mAh",
