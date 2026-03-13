@@ -70,13 +70,14 @@
         "Misc": {
             "Colors": "Black, Silver, Pink",
             "Models": "A069P",
-            "Price": "About 480 EUR"
+            "Price": "$\u2009499.00"
         },
         "EU LABEL": {
             "Energy": "Class A",
             "Battery": "63:24h endurance, 1400 cycles",
             "Free fall": "Class C (100 falls)",
             "Repairability": "Class C"
-        }
+        },
+        "General": {}
     }
 }
