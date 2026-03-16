@@ -65,7 +65,7 @@
         },
         "Battery": {
             "Type": "5080 mAh - International5400 mAh - India",
-            "Charging": "50W wired, 50% in 22 min, 100% in 64 min"
+            "Charging": "50W wired, 50% in 22 min, 100% in 64 min\r\n7.5W reverse wired"
         },
         "Misc": {
             "Colors": "Pink, White, Black, Blue",
