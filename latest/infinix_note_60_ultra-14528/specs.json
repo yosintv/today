@@ -36,12 +36,12 @@
         "Memory": {
             "Card slot": "No",
             "Internal": "256GB 12GB RAM, 512GB 12GB RAM",
-            "\u00a0": "UFS"
+            "\u00a0": "UFS 4.0"
         },
         "Main Camera": {
             "Triple": "200 MP, f/1.7, 23mm (wide), 1/1.4\", 0.56\u00b5m, dual-pixel PDAF, OIS\r\n50 MP, f/2.9, 80mm (periscope telephoto), 1/2.76\", 0.64\u00b5m, dual-pixel PDAF, OIS, 3.5x optical zoom\r\n8 MP, f/2.2, 112\u02da (ultrawide), 1.12\u00b5m",
             "Features": "LED flash, HDR, panorama",
-            "Video": "4K@30/60fps, 1080p@30/60/120fps, gyro-EIS, OIS, HDR10+"
+            "Video": "4K@30/60fps, 1080p@30/60/120/240fps, gyro-EIS, OIS, HDR10+"
         },
         "Selfie camera": {
             "Single": "32 MP, f/2.2, (wide)",
@@ -63,11 +63,11 @@
         },
         "Features": {
             "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass, heart rate, SpO2",
-            "\u00a0": "Two-way satellite communication service"
+            "\u00a0": "Two-way satellite communication service (provided by Space42's Thuraya product line; requires separate plan and SIM)"
         },
         "Battery": {
             "Type": "Si/C Li-Ion 7000 mAh",
-            "Charging": "100W wired, 50% in 18 min, 100% in 48 min\r\n50W wireless\r\n7.5W reverse wired\r\n5W reverse wireless\r\nBypass Charging (gaming, navigating)"
+            "Charging": "100W wired, 50% in 18 min, 100% in 48 min\r\n50W wireless\r\n10W reverse wired\r\n10W reverse wireless\r\nBypass Charging (gaming, navigating)"
         },
         "Misc": {
             "Colors": "Torino Black, Monza Red, Roma Silver, Amalfi Blue",
