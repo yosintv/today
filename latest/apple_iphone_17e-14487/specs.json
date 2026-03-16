@@ -31,7 +31,7 @@
         "Platform": {
             "OS": "iOS 26.3",
             "Chipset": "Apple A19 (3 nm)",
-            "CPU": "Hexa-core",
+            "CPU": "Hexa-core (2x4.26 GHz + 4x2.60 GHz)",
             "GPU": "Apple GPU (4-core graphics)"
         },
         "Memory": {

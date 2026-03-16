@@ -30,9 +30,9 @@
         },
         "Platform": {
             "OS": "Android 16, up to 7 major Android upgrades, One UI 8.5",
-            "Chipset": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
+            "Chipset": "Qualcomm SM8850-1-AD Snapdragon 8 Elite Gen 5 (3 nm)",
             "CPU": "Octa-core (2x4.74 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M)",
-            "GPU": "Adreno 840"
+            "GPU": "Adreno 840 (1.3GHz)"
         },
         "Memory": {
             "Card slot": "No",
@@ -75,7 +75,7 @@
             "Models": "SM-S948B, SM-S948B/DS, SM-S948U, SM-S948U1, SM-S948W, SM-S948N, SM-S9480, SM-S948E, SM-S948E/DS",
             "SAR": "1.09 W/kg (head) \u00a0 \u00a0 1.19 W/kg (body) \u00a0 \u00a0 ",
             "SAR EU": "1.28 W/kg (head) \u00a0 \u00a0 1.35 W/kg (body) \u00a0 \u00a0 ",
-            "Price": "$\u20091,275.00 / C$\u20091,899.99 / \u00a3\u20091,279.00 / \u20ac\u20091,253.00 / \u20b9\u2009139,999"
+            "Price": "$\u20091,275.00 / C$\u20091,899.00 / \u00a3\u20091,279.00 / \u20ac\u20091,199.99 / \u20b9\u2009139,999"
         },
         "Our Tests": {
             "Performance": "\r\nAnTuTu: 2627986 (v10), 3892165 (v11)\r\nGeekBench: 11566 (v6)\r\n3DMark: 7744 (Wild Life Extreme)",
