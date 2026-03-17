@@ -1,0 +1,64 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-watch-x3.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "HSPA / LTE",
+            "2G bands": " N/A",
+            "3G bands": "HSDPA 850 / 900 / 2100 - cellular model only",
+            "4G bands": "1, 3, 5, 8, 34, 38, 39, 40, 41 - cellular model only",
+            "Speed": "No"
+        },
+        "Launch": {
+            "Announced": "2026, March 17",
+            "Status": "Coming soon. Exp. release 2026, March 20"
+        },
+        "Body": {
+            "Dimensions": "47.4 x 47.4 x 11 mm (1.87 x 1.87 x 0.43 in)",
+            "Weight": "43 g (1.52 oz)",
+            "Build": "Sapphire crystal front, titanium alloy frame, plastic back",
+            "SIM": "eSIM (market/region dependent) - cellular model only",
+            "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)\r\nWaterproof (5ATM)\r\nCompatible with standard 22mm straps\r\nECG certified"
+        },
+        "Display": {
+            "Type": "LTPO AMOLED, 1500 nits (peak)",
+            "Size": "1.5 inches",
+            "Resolution": "466 x 466 pixels (~439 ppi density)",
+            "Protection": "Sapphire crystal glass"
+        },
+        "Platform": {
+            "OS": "ColorOS Watch 7.0 + Wear OS 5.0",
+            "Chipset": "Qualcomm Snapdragon W5 Gen 1 (4 nm)"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "32GB 2GB RAM"
+        },
+        "Camera": {
+            "\u00a0": "No"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band",
+            "Bluetooth": "5.2, A2DP, LE",
+            "Positioning": "GPS (L1+L5), GLONASS, GALILEO, BDS, QZSS",
+            "NFC": "Yes",
+            "Radio": "No",
+            "USB": "No"
+        },
+        "Features": {
+            "Sensors": "Accelerometer, gyro, barometer, compass, heart rate, SpO2, thermometer (skin temperature)"
+        },
+        "Battery": {
+            "Type": "Li-Ion 646 mAh",
+            "Charging": "7.5W wired, 100% in 75 min"
+        },
+        "Misc": {
+            "Colors": "Black, Titanium",
+            "Models": "OWW261",
+            "Price": "About 330 EUR"
+        }
+    }
+}

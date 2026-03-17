@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, March 17",
-            "Status": "Coming soon. Exp. release 2026, March"
+            "Status": "Coming soon. Exp. release 2026, March 20"
         },
         "Body": {
             "Dimensions": "Unfolded: 159.9 x 145.6 x 4.2 mmFolded: 159.9 x 74.1 x 8.9 mm",
@@ -69,8 +69,9 @@
             "Charging": "80W wired, 44W UFCS, 55W PPS, 18W PD/QC\r\n50W wireless\r\nReverse wired"
         },
         "Misc": {
-            "Colors": "Blossom Orange, Stellar Titanium, Black",
-            "Models": "PLP110, PLP120"
+            "Colors": "Blossom Orange, Stellar Titanium, Pearl Black",
+            "Models": "PLP110, PLP120",
+            "Price": "About 1250 EUR"
         }
     }
 }
