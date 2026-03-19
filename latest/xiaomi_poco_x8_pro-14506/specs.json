@@ -72,6 +72,10 @@
             "Models": "2511FPC34G",
             "Price": "\u00a3\u2009269.00 / \u20ac\u2009309.90"
         },
+        "Our Tests": {
+            "Loudspeaker": "\n-24.8 LUFS (Very good)\n",
+            "Battery": "\n\nActive use score 16:52h\n\n"
+        },
         "General": {}
     }
 }
