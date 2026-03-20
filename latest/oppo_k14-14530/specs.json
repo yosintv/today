@@ -48,7 +48,7 @@
         },
         "Sound": {
             "Loudspeaker ": "Yes, with stereo speakers",
-            "3.5mm jack ": "No"
+            "3.5mm jack ": "Yes"
         },
         "Comms": {
             "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
