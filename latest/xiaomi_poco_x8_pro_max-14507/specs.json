@@ -24,7 +24,7 @@
             "Type": "AMOLED, 68B colors, 120Hz, 3840Hz PWM, Dolby Vision, HDR10+, 2000 nits (HBM), 3500 nits (peak)",
             "Size": "6.83 inches, 114.5 cm2 (~90.3% screen-to-body ratio)",
             "Resolution": "1280 x 2772 pixels, 19.5:9 ratio (~447 ppi density)",
-            "Protection": "Corning Gorilla Glass 7i"
+            "Protection": "Corning Gorilla Glass 7i, Mohs level 5"
         },
         "Platform": {
             "OS": "Android 16, HyperOS 3",
@@ -77,6 +77,12 @@
             "Display": "\n1114 nits max brightness (measured)",
             "Loudspeaker": "\n-20.9 LUFS (Excellent)\n",
             "Battery": "\n\nActive use score 25:22h\n\n"
+        },
+        "EU LABEL": {
+            "Energy": "Class B",
+            "Battery": "80:14h endurance, 1000 cycles",
+            "Free fall": "Class B (180 falls)",
+            "Repairability": "Class C"
         },
         "General": {}
     }

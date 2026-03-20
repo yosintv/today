@@ -24,7 +24,7 @@
             "Type": "AMOLED, 68B colors, 120Hz, 3840Hz PWM, Dolby Vision, HDR10+, 2000 nits (HBM), 3500 nits (peak)",
             "Size": "6.59 inches, 106.4 cm2 (~89.8% screen-to-body ratio)",
             "Resolution": "1268 x 2756 pixels, 19.5:9 ratio (~460 ppi density)",
-            "Protection": "Corning Gorilla Glass 7i"
+            "Protection": "Corning Gorilla Glass 7i, Mohs level 5"
         },
         "Platform": {
             "OS": "Android 16, HyperOS 3",
@@ -64,7 +64,7 @@
             "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, compass, proximity"
         },
         "Battery": {
-            "Type": "6500 mAh",
+            "Type": "Si/C Li-Ion 6500 mAh",
             "Charging": "100W wired, 100W PPS, PD3.0, 100% in 48 min\r\n27W reverse wired"
         },
         "Misc": {
@@ -75,6 +75,12 @@
         "Our Tests": {
             "Loudspeaker": "\n-24.8 LUFS (Very good)\n",
             "Battery": "\n\nActive use score 16:52h\n\n"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "66:25h endurance, 1000 cycles",
+            "Free fall": "Class A (270 falls)",
+            "Repairability": "Class C"
         },
         "General": {}
     }
