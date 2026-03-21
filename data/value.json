@@ -1,30 +1,5 @@
 [
     {
-        "timestamp": "2026-02-17 20:05",
-        "data": {
-            "15m": {
-                "price": 4878.45,
-                "pattern": "Normal",
-                "explanation": "No significant candlestick pattern identified in this timeframe."
-            },
-            "30m": {
-                "price": 4878.73,
-                "pattern": "Doji",
-                "explanation": "Indicates market indecision: the opening and closing prices are nearly equal."
-            },
-            "45m": {
-                "price": 4878.73,
-                "pattern": "Normal",
-                "explanation": "No significant candlestick pattern identified in this timeframe."
-            },
-            "1h": {
-                "price": 4878.73,
-                "pattern": "Doji",
-                "explanation": "Indicates market indecision: the opening and closing prices are nearly equal."
-            }
-        }
-    },
-    {
         "timestamp": "2026-02-17 20:55",
         "data": {
             "15m": {
@@ -24971,6 +24946,31 @@
     },
     {
         "timestamp": "2026-03-21 19:56",
+        "data": {
+            "15m": {
+                "price": 4497.48,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            },
+            "30m": {
+                "price": 4497.48,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            },
+            "45m": {
+                "price": 4497.48,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            },
+            "1h": {
+                "price": 4497.48,
+                "pattern": "Doji",
+                "explanation": "Indicates market indecision: the opening and closing prices are nearly equal."
+            }
+        }
+    },
+    {
+        "timestamp": "2026-03-21 20:19",
         "data": {
             "15m": {
                 "price": 4497.48,
