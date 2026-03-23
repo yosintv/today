@@ -27,11 +27,14 @@
             "Protection": "Aluminosilicate glass"
         },
         "Platform": {
-            "OS": "HarmonyOS 6.0"
+            "OS": "HarmonyOS 6.0",
+            "Chipset": "Kirin 8000 (7 nm)",
+            "CPU": "Octa-core (1x2.4 GHz & 3x2.2 GHz & 4x1.84 GHz)",
+            "GPU": "Mali-G610 MP4"
         },
         "Memory": {
             "Card slot": "No",
-            "Internal": "128GB, 256GB, 512GB"
+            "Internal": "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM"
         },
         "Main Camera": {
             "Single": "50 MP, f/1.9, (wide), 1/1.56\", dual-pixel PDAF",
