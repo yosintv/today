@@ -1,5 +1,5 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-enjoy-90-plus.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-enjoy-90.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE / 5G",
@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, March 23",
-            "Status": "Coming soon. Exp. release 2026, April 04"
+            "Status": "Coming soon. Exp. release 2026, April 20"
         },
         "Body": {
             "Dimensions": "166.1 x 76.6 x 8.3 mm (6.54 x 3.02 x 0.33 in)",
@@ -28,13 +28,12 @@
         },
         "Platform": {
             "OS": "HarmonyOS 6.0",
-            "Chipset": "Kirin 8000 (7 nm)",
-            "CPU": "Octa-core (1x2.4 GHz & 3x2.2 GHz & 4x1.84 GHz)",
-            "GPU": "Mali-G610 MP4"
+            "Chipset": "Kirin 8000A",
+            "CPU": "Octa-core"
         },
         "Memory": {
             "Card slot": "No",
-            "Internal": "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM"
+            "Internal": "128GB 8GB RAM, 256GB 8GB RAM"
         },
         "Main Camera": {
             "Single": "50 MP, f/1.8, (wide), PDAF",
@@ -66,8 +65,8 @@
         },
         "Misc": {
             "Colors": "Black, White, Blue",
-            "Models": "JUY-AL50",
-            "Price": "About 190 EUR"
+            "Models": "JUY-AL80",
+            "Price": "About 160 EUR"
         }
     }
 }
