@@ -66,7 +66,7 @@
         },
         "Battery": {
             "Type": "Si/C Li-Ion 6000 mAh",
-            "Charging": "80W wired, 44W UFCS, 55W PPS, 18W PD/QC\r\n50W wireless\r\nReverse wired"
+            "Charging": "80W wired, 44W UFCS, 55W PPS, 18W PD/QC\r\n50W wireless\r\nReverse wired\r\nReverse wireless charging"
         },
         "Misc": {
             "Colors": "Blossom Orange, Stellar Titanium, Pearl Black",
