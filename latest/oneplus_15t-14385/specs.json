@@ -16,14 +16,15 @@
         "Body": {
             "Dimensions": "150.6 x 71.8 x 8.4 mm (5.93 x 2.83 x 0.33 in)",
             "Weight": "194 g (6.84 oz)",
-            "Build": "Glass front, aluminum alloy frame",
+            "Build": "Glass front, aluminum alloy frame, fiber-reinforced plastic back",
             "SIM": "\u00b7 Nano-SIM + Nano-SIM + eSIM (max 2 at a time)\u00b7 Nano-SIM + Nano-SIM",
             "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
         },
         "Display": {
             "Type": "AMOLED, 1B colors, 165Hz, 3840Hz PWM, Dolby Vision, HDR10+, HDR Vivid, 800 nits (typ), 1800 nits (HBM), 3600 nits (peak)",
             "Size": "6.32 inches, 97.9 cm2 (~90.6% screen-to-body ratio)",
-            "Resolution": "1216 x 2640 pixels, 19.5:9 ratio (~460 ppi density)"
+            "Resolution": "1216 x 2640 pixels, 19.5:9 ratio (~460 ppi density)",
+            "Protection": "Crystal Shield Glass"
         },
         "Platform": {
             "OS": "Android 16, OxygenOS 16 (Global), ColorOS 16 (China)",
@@ -52,7 +53,7 @@
         },
         "Comms": {
             "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual or tri-band, Wi-Fi Direct",
-            "Bluetooth": "Yes, A2DP, LE, aptX HD, aptX Adaptive, LHDC 5",
+            "Bluetooth": "6.0, A2DP, LE, aptX HD, aptX Adaptive, LHDC 5",
             "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5), GLONASS, NavIC (L5)",
             "NFC": "Yes",
             "Infrared port": "Yes",
@@ -64,7 +65,7 @@
         },
         "Battery": {
             "Type": "Si/C Li-Ion 7500 mAh",
-            "Charging": "100W wired, 44W/100W UFCS, 55W PPS, 18W PD/QC, 61% in 30 min\r\n50W wireless\r\n5W reverse wired"
+            "Charging": "100W wired, 44W/100W UFCS, 55W PPS, 18W PD/QC, 61% in 30 min\r\n50W wireless\r\n10W reverse wired"
         },
         "Misc": {
             "Colors": "Brown, Green, White",
