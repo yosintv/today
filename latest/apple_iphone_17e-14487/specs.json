@@ -29,7 +29,7 @@
             "\u00a0": "Anti-reflective coating\n"
         },
         "Platform": {
-            "OS": "iOS 26.3",
+            "OS": "iOS 26.3, upgradable to iOS 26.4",
             "Chipset": "Apple A19 (3 nm)",
             "CPU": "Hexa-core (2x4.26 GHz + 4x2.60 GHz)",
             "GPU": "Apple GPU (4-core graphics)"
