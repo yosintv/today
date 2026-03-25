@@ -70,7 +70,8 @@
             "Colors": "Graygreen, Charkoal, White, Light Violet",
             "Models": "SM-A376E, SM-A376E/DS, SM-A376B, SM-A376B/DS, SM-A376U, SM-A376U1, SM-A376W, SM-A3760",
             "SAR": "0.81 W/kg (head) \u00a0 \u00a0 1.17 W/kg (body) \u00a0 \u00a0 ",
-            "SAR EU": "0.72 W/kg (head) \u00a0 \u00a0 1.14 W/kg (body) \u00a0 \u00a0 "
+            "SAR EU": "0.72 W/kg (head) \u00a0 \u00a0 1.14 W/kg (body) \u00a0 \u00a0 ",
+            "Price": "About 430 EUR"
         },
         "EU LABEL": {
             "Energy": "Class A",
