@@ -70,13 +70,14 @@
             "Models": "SM-A576B, SM-A576B/DS, SM-A576Q, SM-A576U1, SM-A576W, SM-A576Z, SM-A5760",
             "SAR": "0.85 W/kg (head) \u00a0 \u00a0 1.20 W/kg (body) \u00a0 \u00a0 ",
             "SAR EU": "0.70 W/kg (head) \u00a0 \u00a0 1.07 W/kg (body) \u00a0 \u00a0 ",
-            "Price": "About 530 EUR"
+            "Price": "\u20b9\u200956,999"
         },
         "EU LABEL": {
             "Energy": "Class A",
             "Battery": "52:00h endurance, 1200 cycles",
             "Free fall": "Class A (270 falls)",
             "Repairability": "Class C"
-        }
+        },
+        "General": {}
     }
 }
