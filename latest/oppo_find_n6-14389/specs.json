@@ -74,6 +74,8 @@
             "Price": "About 1250 EUR"
         },
         "Our Tests": {
+            "Performance": "\r\nAnTuTu: 2627421 (v10), 3499490 (v11)\r\nGeekBench: 6538 (v6)\r\n3DMark: 7114 (Wild Life Extreme)",
+            "Display": "\n1586 nits max brightness (measured)",
             "Loudspeaker": "\n-29.1 LUFS (Average)\n",
             "Battery": "\n\nActive use score 15:45h\n\n"
         }
