@@ -29,7 +29,7 @@
         "Platform": {
             "OS": "Android 16, ColorOS 16",
             "Chipset": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
-            "CPU": "Octa-core (2x4.6 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M)",
+            "CPU": "Hepta-core (2x4.6 GHz Oryon V3 Phoenix L + 5x3.62 GHz Oryon V3 Phoenix M)",
             "GPU": "Adreno 840"
         },
         "Memory": {
