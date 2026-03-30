@@ -65,7 +65,7 @@
         },
         "Battery": {
             "Type": "Si/C Li-Ion 8500 mAh or 9000 mAh (market/region dependent)",
-            "Charging": "100W wired, 100W PPS, PD3.0\r\n27W reverse wired"
+            "Charging": "100W wired, 100W PPS, PD3.0, PPS, 50% in 24 min\r\n27W reverse wired\r\nBypass charging"
         },
         "Misc": {
             "Colors": "Black, White, Blue",
