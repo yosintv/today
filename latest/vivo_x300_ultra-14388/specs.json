@@ -67,7 +67,7 @@
             "\u00a0": "Emergency SOS via satellite (calls, messages) - 16GB + 1TB model only"
         },
         "Battery": {
-            "Type": "Si/C Li-Ion 6600 mAh or 7000 mAh",
+            "Type": "Si/C Li-Ion 6600 mAh (International) or 6400 mAh (Europe)",
             "Charging": "100W wired, PD, PPS, QC, UFCS\r\n40W wireless\r\nReverse wired\r\nReverse wireless"
         },
         "Misc": {
