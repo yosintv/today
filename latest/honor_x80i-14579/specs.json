@@ -1,0 +1,74 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/honor-x80i.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, April 01",
+            "Status": "Coming soon. Exp. release 2026, April 10"
+        },
+        "Body": {
+            "Dimensions": "157.4 x 75.4 x 7.3 mm (6.20 x 2.97 x 0.29 in)",
+            "Weight": "185 g (6.53 oz)",
+            "Build": "Glass front, aluminum frame, glass back",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP66 dust tight and water resistant (high pressure water jets)\r\nDrop resistant up to 1.8m"
+        },
+        "Display": {
+            "Type": "AMOLED, 1B colors, 120Hz, 3840Hz PWM, 800 nits (typ), 2000 nits (HBM), 6500 nits (peak)",
+            "Size": "6.6 inches, 106.9 cm2 (~90.1% screen-to-body ratio)",
+            "Resolution": "1200 x 2600 pixels, 19.5:9 ratio (~434 ppi density)",
+            "Protection": "Aluminosilicate glass"
+        },
+        "Platform": {
+            "OS": "Android 16, MagicOS 10",
+            "Chipset": "Mediatek Dimensity 6500 Elite (6 nm)",
+            "CPU": "Octa-core (2x2.6 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+            "GPU": "Mali-G57 MC2"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, 512GB 12GB RAM"
+        },
+        "Main Camera": {
+            "Single": "50 MP, f/1.8, (wide), PDAF",
+            "Features": "LED flash, HDR, panorama",
+            "Video": "1080p@30fps"
+        },
+        "Selfie camera": {
+            "Single": "8 MP, f/2.0, (wide)",
+            "Video": "1080p@30fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+            "Bluetooth": "6.0, A2DP, LE, aptX HD, LHDC 5.0",
+            "Positioning": "GPS, GALILEO, GLONASS, QZSS, BDS (B1I+B1c)",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "Unspecified",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, optical), accelerometer, compass, proximity (ultrasonic)"
+        },
+        "Battery": {
+            "Type": "Li-Po 7000 mAh",
+            "Charging": "45W wired\r\n6W reverse wired"
+        },
+        "Misc": {
+            "Colors": "Black, White, Pink, Green",
+            "Models": "LNA-AN00",
+            "Price": "About 250 EUR"
+        }
+    }
+}
