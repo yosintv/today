@@ -5,8 +5,8 @@
             "Technology": "GSM / HSPA / LTE / 5G",
             "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
             "3G bands": "HSDPA 850 / 900 / 2100 ",
-            "4G bands": " LTE",
-            "5G bands": " SA/NSA",
+            "4G bands": "1, 3, 5, 8, 28, 40, 41",
+            "5G bands": "1, 3, 5, 8, 28, 40, 78 SA/NSA",
             "Speed": "HSPA, LTE, 5G"
         },
         "Launch": {
@@ -52,7 +52,7 @@
         "Comms": {
             "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
             "Bluetooth": "5.1, A2DP, LE",
-            "Positioning": "GPS, GALILEO, GLONASS, QZSS, BDS (B1l+B1C)",
+            "Positioning": "GPS, GALILEO, GLONASS, QZSS, BDS",
             "NFC": "No",
             "Infrared port": "Yes",
             "Radio": "No",
