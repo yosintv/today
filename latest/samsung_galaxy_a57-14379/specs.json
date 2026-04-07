@@ -73,7 +73,8 @@
             "Price": "\u00a3\u2009529.00 / \u20ac\u2009529.00 / \u20b9\u200956,999"
         },
         "Our Tests": {
-            "Loudspeaker": "\n-26.3 LUFS (Good)\n"
+            "Loudspeaker": "\n-26.3 LUFS (Good)\n",
+            "Battery": "\n\nActive use score 13:53h\n\n"
         },
         "EU LABEL": {
             "Energy": "Class A",
