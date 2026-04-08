@@ -73,6 +73,8 @@
             "Price": "\u00a3\u2009529.00 / \u20ac\u2009529.00 / \u20b9\u200956,999"
         },
         "Our Tests": {
+            "Performance": "\r\nAnTuTu: 1001995 (v10), 1363464 (v11)\r\nGeekBench: 4411 (v6)\r\n3DMark: 1742 (Wild Life Extreme)",
+            "Display": "\n1309 nits max brightness (measured)",
             "Loudspeaker": "\n-26.3 LUFS (Good)\n",
             "Battery": "\n\nActive use score 13:59h\n\n"
         },

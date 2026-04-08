@@ -55,7 +55,7 @@
         "Comms": {
             "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/ax, tri-band",
             "Bluetooth": "5.4, A2DP, LE",
-            "Positioning": "GPS, GLONASS, GALILEO",
+            "Positioning": "GPS, GLONASS, GALILEO, QZSS",
             "NFC": "Yes",
             "Radio": "No",
             "USB": "USB Type-C 2.0"
