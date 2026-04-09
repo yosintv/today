@@ -35,7 +35,7 @@
         "Memory": {
             "Card slot": "No",
             "Internal": "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM",
-            "\u00a0": "UFS"
+            "\u00a0": "UFS 3.1"
         },
         "Main Camera": {
             "Triple": "50 MP, f/1.8, (wide), 1/1.56\", 1.0\u00b5m, PDAF, OIS\r\n8 MP, f/2.2, 123\u02da, (ultrawide), 1/4.0\", 1.12\u00b5m\r\n5 MP, f/2.4, (macro)",
@@ -72,6 +72,9 @@
             "SAR": "0.81 W/kg (head) \u00a0 \u00a0 1.17 W/kg (body) \u00a0 \u00a0 ",
             "SAR EU": "0.72 W/kg (head) \u00a0 \u00a0 1.14 W/kg (body) \u00a0 \u00a0 ",
             "Price": "\u00a3\u2009399.00 / \u20b9\u200938,999"
+        },
+        "Our Tests": {
+            "Loudspeaker": "\n-25.7 LUFS (Very good)\n"
         },
         "EU LABEL": {
             "Energy": "Class A",
