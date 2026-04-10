@@ -74,7 +74,10 @@
             "Price": "\u00a3\u2009399.00 / \u20b9\u200938,999"
         },
         "Our Tests": {
-            "Loudspeaker": "\n-25.7 LUFS (Very good)\n"
+            "Performance": "\r\nAnTuTu: 697795 (v10), 912055 (v11)\r\nGeekBench: 3345 (v6)\r\n3DMark: 1035 (Wild Life Extreme)",
+            "Display": "\n1246 nits max brightness (measured)",
+            "Loudspeaker": "\n-25.7 LUFS (Very good)\n",
+            "Battery": "\n\nActive use score 13:49h\n\n"
         },
         "EU LABEL": {
             "Energy": "Class A",
