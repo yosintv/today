@@ -1,0 +1,62 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/honor-watch-x5i.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "No cellular connectivity",
+            "2G bands": " N/A",
+            "3G bands": " N/A",
+            "4G bands": " N/A",
+            "Speed": "No",
+            "GPRS": "No",
+            "EDGE": "No"
+        },
+        "Launch": {
+            "Announced": "2026, April 01",
+            "Status": "Available. Released 2026, April 01"
+        },
+        "Body": {
+            "Dimensions": "46.7 x 40.5 x 10.9 mm (1.84 x 1.59 x 0.43 in)",
+            "Weight": "28 g (0.99 oz)",
+            "Build": "Glass front, plastic frame, plastic back",
+            "SIM": "No",
+            "\u00a0": "1ATM water resistant\r\nIP68 dust tight and water resistant (immersible up to 1.5m for 30 min)"
+        },
+        "Display": {
+            "Type": "AMOLED",
+            "Size": "1.97 inches",
+            "Resolution": "390 x 450 pixels (~302 ppi density)"
+        },
+        "Platform": {
+            "OS": "RTOS OS"
+        },
+        "Memory": {
+            "Card slot": "No"
+        },
+        "Camera": {
+            "\u00a0": "No"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "No",
+            "Bluetooth": "5.4, LE",
+            "Positioning": "No",
+            "NFC": "No",
+            "Radio": "No",
+            "USB": "No"
+        },
+        "Features": {
+            "Sensors": "Accelerometer, heart rate, SpO2"
+        },
+        "Battery": {
+            "Type": "Li-Po 420 mAh"
+        },
+        "Misc": {
+            "Colors": "Black, White",
+            "Models": "WTS-B19",
+            "Price": "About 30 EUR"
+        }
+    }
+}
