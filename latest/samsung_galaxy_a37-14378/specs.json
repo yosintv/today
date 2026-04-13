@@ -38,7 +38,7 @@
             "\u00a0": "UFS 3.1"
         },
         "Main Camera": {
-            "Triple": "50 MP, f/1.8, (wide), 1/1.56\", 1.0\u00b5m, PDAF, OIS\r\n8 MP, f/2.2, 123\u02da, (ultrawide), 1/4.0\", 1.12\u00b5m\r\n5 MP, f/2.4, (macro)",
+            "Triple": "50 MP, f/1.8, (wide), 1/1.56\", 1.0\u00b5m, PDAF, OIS\r\n8 MP, f/2.2, 16mm (ultrawide), 1/4.0\", 1.12\u00b5m\r\n5 MP, f/2.4, (macro)",
             "Features": "LED flash, panorama, HDR",
             "Video": "4K@30fps, 1080p@30/60fps, gyro-EIS"
         },
