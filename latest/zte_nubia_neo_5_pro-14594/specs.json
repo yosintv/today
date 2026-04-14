@@ -1,0 +1,67 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/zte-nubia-neo-5-pro-.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, March 03",
+            "Status": "Coming soon. Exp. release 2026, April"
+        },
+        "Body": {
+            "Dimensions": "-",
+            "Weight": "-",
+            "SIM": "\u00b7 Nano-SIM + eSIM \u00b7 Nano-SIM + Nano-SIM",
+            "\u00a0": "IP64 dust tight and water resistant (water splashes)\r\nPressure sensitive zones (550Hz touch-sensing)\r\nRGB light (on the back)"
+        },
+        "Display": {
+            "Type": "AMOLED, 120Hz",
+            "Size": "6.8 inches, 111.6 cm2",
+            "Resolution": "1080 x 2400 pixels*, 20:9 ratio (~387 ppi density)",
+            "\u00a0": "* Display resolution is not officially revealed"
+        },
+        "Platform": {
+            "OS": "Android 16"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 8GB RAM, 256GB 12GB RAM"
+        },
+        "Main Camera": {
+            "Dual": "50 MP, (wide), PDAF\r\nAuxiliary lens",
+            "Features": "LED flash, HDR, panorama",
+            "Video": "4K@30fps, 1080p@30fps"
+        },
+        "Selfie camera": {
+            "Single": "16 MP",
+            "Video": "1080p@30fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Yes",
+            "Bluetooth": "Yes",
+            "Positioning": "GPS, GLONASS, GALILEO, BDS",
+            "NFC": "Yes (market/region dependent)",
+            "Radio": "Unspecified",
+            "USB": "USB Type-C"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, compass, proximity"
+        },
+        "Battery": {
+            "Type": "6000 mAh",
+            "Charging": "80W wired\r\nBypass charging"
+        },
+        "Misc": {
+            "Colors": "Gray"
+        }
+    }
+}
