@@ -37,7 +37,7 @@
             "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
         },
         "Main Camera": {
-            "Triple": "50 MP, f/1.4-4.0, 24mm (wide), PDAF, OIS\r\n8 MP, f/2.2, 81mm (periscope telephoto), PDAF, OIS, 3.5x optical zoom\r\n12.5 MP, f/2.2, 13mm (ultrawide), AF",
+            "Triple": "50 MP, f/1.4-4.0, 24mm (wide), PDAF, OIS\r\n50 MP, f/2.2, 81mm (periscope telephoto), PDAF, OIS, 3.5x optical zoom\r\n12.5 MP, f/2.2, 13mm (ultrawide), AF",
             "Features": "Laser AF, color spectrum sensor, LED flash, panorama, HDR",
             "Video": "4K, 1080p, gyro-EIS, HDR Vivid"
         },
