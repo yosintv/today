@@ -1,5 +1,5 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-pura90-pro-max-new.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-pura90-pro.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE / 5G",
@@ -11,21 +11,20 @@
         },
         "Launch": {
             "Announced": "2026, April 20",
-            "Status": "Coming soon. Exp. release 2026, May 18"
+            "Status": "Coming soon. Exp. release 2026, May 13"
         },
         "Body": {
-            "Dimensions": "164 x 77.1 x 8.1 mm (6.46 x 3.04 x 0.32 in)",
-            "Weight": "230.5 g (8.15 oz)",
+            "Dimensions": "157.8 x 74.5 x 8.2 mm (6.21 x 2.93 x 0.32 in)",
+            "Weight": "213.5 g (7.55 oz)",
             "Build": "Glass front, aluminum frame, glass back",
-            "SIM": "Nano-SIM + Nano-SIM + eSIM + eSIM (max 2 at a time)",
+            "SIM": "Nano-SIM + Nano-SIM",
             "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)"
         },
         "Display": {
             "Type": "LTPO OLED, 1B colors, 120Hz, PWM, HDR Vivid",
-            "Size": "6.9 inches, 115.6 cm2 (~91.5% screen-to-body ratio)",
-            "Resolution": "1308 x 2880 pixels (~458 ppi density)",
-            "Protection": "Kunlun Glass",
-            "\u00a0": "Anti-reflective coating"
+            "Size": "6.6 inches, 105.9 cm2 (~90.1% screen-to-body ratio)",
+            "Resolution": "1256 x 2760 pixels (~459 ppi density)",
+            "Protection": "Kunlun Glass 2"
         },
         "Platform": {
             "OS": "HarmonyOS 6.1",
@@ -36,7 +35,7 @@
             "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
         },
         "Main Camera": {
-            "Triple": "50 MP, f/1.4-4.0, 24mm (wide), PDAF, OIS\r\n200 MP, f/2.6, 89mm (telephoto), PDAF, OIS, 4x optical zoom\r\n40 MP, f/2.2, 13mm (ultrawide), AF",
+            "Triple": "50 MP, f/1.4-4.0, 24mm (wide), PDAF, OIS\r\n50 MP, f/2.1, 91mm (telephoto), PDAF (5cm - \u221e), OIS, 4x optical zoom\r\n12.5 MP, f/2.2, 13mm (ultrawide), AF",
             "Features": "Laser AF, color spectrum sensor, LED flash, panorama, HDR",
             "Video": "4K, 1080p, 1080p@960fps (interpolated), HDR Vivid, gyro-EIS, OIS"
         },
@@ -59,17 +58,17 @@
             "USB": "USB Type-C"
         },
         "Features": {
-            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer",
-            "\u00a0": "BDS Satellite Calling and Messaging - China only"
+            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass",
+            "\u00a0": "BDS Satellite Messaging - China only"
         },
         "Battery": {
             "Type": "Li-Po 6000 mAh",
-            "Charging": "100W wired\r\n80W wireless\r\n18W reverse wired\r\nReverse wireless"
+            "Charging": "66W wired \r\n50W wireless\r\nReverse wired\r\n5W reverse wireless"
         },
         "Misc": {
-            "Colors": "Black, Gold, Green, Orange, Purple",
-            "Models": "SCA-AL00",
-            "Price": "About 810 EUR"
+            "Colors": "Black, White, Orange, Pink/Green",
+            "Models": "MLN-AL00",
+            "Price": "About 690 EUR"
         }
     }
 }

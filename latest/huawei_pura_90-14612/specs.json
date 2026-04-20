@@ -1,5 +1,5 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-pura90-pro-max-new.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-pura90-new.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE / 5G",
@@ -11,39 +11,39 @@
         },
         "Launch": {
             "Announced": "2026, April 20",
-            "Status": "Coming soon. Exp. release 2026, May 18"
+            "Status": "Coming soon. Exp. release 2026, May 13"
         },
         "Body": {
-            "Dimensions": "164 x 77.1 x 8.1 mm (6.46 x 3.04 x 0.32 in)",
-            "Weight": "230.5 g (8.15 oz)",
-            "Build": "Glass front, aluminum frame, glass back",
-            "SIM": "Nano-SIM + Nano-SIM + eSIM + eSIM (max 2 at a time)",
+            "Dimensions": "163.1 x 78.1 x 7 mm (6.42 x 3.07 x 0.28 in)",
+            "Weight": "210 g (7.41 oz)",
+            "Build": "Glass front, aluminum frame",
+            "SIM": "Nano-SIM + Nano-SIM",
             "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)"
         },
         "Display": {
             "Type": "LTPO OLED, 1B colors, 120Hz, PWM, HDR Vivid",
-            "Size": "6.9 inches, 115.6 cm2 (~91.5% screen-to-body ratio)",
-            "Resolution": "1308 x 2880 pixels (~458 ppi density)",
-            "Protection": "Kunlun Glass",
-            "\u00a0": "Anti-reflective coating"
+            "Size": "6.8 inches, 113.6 cm2 (~89.2% screen-to-body ratio)",
+            "Resolution": "1320 x 2856 pixels, 19.5:9 ratio (~463 ppi density)",
+            "Protection": "Kunlun Glass"
         },
         "Platform": {
             "OS": "HarmonyOS 6.1",
-            "Chipset": "Kirin 9030S"
+            "Chipset": "Kirin 9010s (7 nm)",
+            "CPU": "Octa-core"
         },
         "Memory": {
             "Card slot": "No",
-            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM"
         },
         "Main Camera": {
-            "Triple": "50 MP, f/1.4-4.0, 24mm (wide), PDAF, OIS\r\n200 MP, f/2.6, 89mm (telephoto), PDAF, OIS, 4x optical zoom\r\n40 MP, f/2.2, 13mm (ultrawide), AF",
+            "Triple": "50 MP, f/1.8, 24mm (wide), PDAF, OIS\r\n50 MP, f/2.2, 88mm (periscope telephoto), PDAF, OIS, 3.7x optical zoom\r\n12.5 MP, f/2.2, 13mm (ultrawide)",
             "Features": "Laser AF, color spectrum sensor, LED flash, panorama, HDR",
-            "Video": "4K, 1080p, 1080p@960fps (interpolated), HDR Vivid, gyro-EIS, OIS"
+            "Video": "4K, 1080p, 1080p@480fps (interpolated), HDR Vivid, gyro-EIS, OIS"
         },
         "Selfie camera": {
-            "Single": "13 MP, f/2.0, (ultrawide), AF",
+            "Single": "50 MP, f/2.0, (wide), AF",
             "Features": "HDR, panorama",
-            "Video": "4K, 1080p, 1080p@240fps, HDR Vivid, gyro-EIS"
+            "Video": "4K, 1080p, 1080p@120fps, HDR Vivid, gyro-EIS"
         },
         "Sound": {
             "Loudspeaker ": "Yes, with stereo speakers",
@@ -59,17 +59,17 @@
             "USB": "USB Type-C"
         },
         "Features": {
-            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer",
-            "\u00a0": "BDS Satellite Calling and Messaging - China only"
+            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, compass",
+            "\u00a0": "Virtual proximity sensing\r\nBDS Satellite Messaging - China only"
         },
         "Battery": {
-            "Type": "Li-Po 6000 mAh",
-            "Charging": "100W wired\r\n80W wireless\r\n18W reverse wired\r\nReverse wireless"
+            "Type": "6500 mAh",
+            "Charging": "100W wired, 100% in 45 min\r\n50W wireless\r\nReverse wireless\r\n5W reverse wired"
         },
         "Misc": {
-            "Colors": "Black, Gold, Green, Orange, Purple",
-            "Models": "SCA-AL00",
-            "Price": "About 810 EUR"
+            "Colors": "Black, White Dark Purple",
+            "Models": "KEE-AL00",
+            "Price": "About 590 EUR"
         }
     }
 }
