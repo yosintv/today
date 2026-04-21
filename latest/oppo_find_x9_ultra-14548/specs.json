@@ -1,0 +1,82 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x9-ultra-1.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, April 21",
+            "Status": "Available"
+        },
+        "Body": {
+            "Dimensions": "163.2 x 77 x 9.1 mm (6.43 x 3.03 x 0.36 in)",
+            "Weight": "235 g (8.29 oz)",
+            "Build": "Gorilla Glass Victus 2 front, aluminum frame, silicone polymer back (eco leather)",
+            "SIM": "Nano-SIM + Nano-SIM + eSIM + eSIM (max 2 at a time)",
+            "\u00a0": "IP66/IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
+        },
+        "Display": {
+            "Type": "LTPO AMOLED, 1B colors, 144Hz, 2160Hz PWM, Dolby Vision, HDR Vivid, HDR10+, 800 nits (typ), 2200 nits (HBM), 3600 nits (peak)",
+            "Size": "6.82 inches, 115.8 cm2 (~92.1% screen-to-body ratio)",
+            "Resolution": "1440 x 3168 pixels (~504 ppi density)",
+            "Protection": "Gorilla Glass Victus 2",
+            "\u00a0": "Ultra HDR image support"
+        },
+        "Platform": {
+            "OS": "Android 16 up to 5 major Android upgrades, ColorOS 16",
+            "Chipset": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
+            "CPU": "Octa-core (2x4.6 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M)",
+            "GPU": "Adreno 840"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "512GB 12GB RAM, 1TB 16GB RAM",
+            "\u00a0": "UFS 4.1"
+        },
+        "Main Camera": {
+            "Quad": "200 MP, f/1.5, 23mm, 1/1.12\", PDAF, OIS\r\n200 MP, f/2.2, 70mm, 1/1.28\" (periscope telephoto), PDAF, OIS, 3x optical zoom\r\n50 MP, f/3.5, 230mm, 1/2.75\" (periscope telephoto),  PDAF, OIS, 10x optical zoom\r\n50 MP, f/2.0, 14mm, 120\u02da, 1/1.95\", PDAF",
+            "Features": "Laser AF, color spectrum sensor, Hasselblad Color Calibration, LED flash, HDR, panorama",
+            "Video": "8k@30fps, 4K@30/60/120fps, 1080p@30/60/120/240fps; gyro-EIS; HDR, 10\u2011bit video, Dolby Vision"
+        },
+        "Selfie camera": {
+            "Single": "50 MP, f/2.4, 21mm, 1/2.75\", PDAF",
+            "Features": "Panorama, HDR",
+            "Video": "4K@30/60fps, 1080p@30/60fps, gyro-EIS"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band, Wi-Fi Direct",
+            "Bluetooth": "5.4, A2DP, LE, aptX HD, LHDC 5",
+            "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5), GLONASS",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 3.2, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, gyro, proximity, compass"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 7050 mAh",
+            "Charging": "100W wired, 18W PD, 18W QC, 55W PPS\r\n50W wireless\r\n10W reverse wireless"
+        },
+        "Misc": {
+            "Colors": "Tundra Umber, Canyon Orange",
+            "Models": "CPH2841"
+        },
+        "Our Tests": {
+            "Performance": "\r\nAnTuTu: 2854496 (v10), 4110112 (v11)\r\nGeekBench: 10895 (v6)\r\n3DMark: 7339 (Wild Life Extreme)",
+            "Display": "\n1156 nits max brightness (measured)",
+            "Loudspeaker": "\n-25.6 LUFS (Very good)\n",
+            "Battery": "\n\nActive use score 20:10h\n\n"
+        }
+    }
+}
