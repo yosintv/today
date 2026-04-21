@@ -36,7 +36,7 @@
             "\u00a0": "UFS 4.1"
         },
         "Main Camera": {
-            "Triple": "200 MP, f/1.6, 23mm (wide), 1/1.4\", 0.56\u00b5m, PDAF, OIS\r\n200 MP, f/2.6, 65mm (telephoto), PDAF, OIS, 2.8x optical zoom\r\n50 MP, f/2.0, 15mm, 120\u02da (ultrawide), PDAF\r\nDanxia Color Lens, f/2.4, 19mm, 3P lens",
+            "Triple": "200 MP, f/1.6, 23mm (wide), 1/1.4\", 0.56\u00b5m, PDAF, OIS\r\n200 MP, f/2.6, 65mm (telephoto), PDAF, OIS, 2.8x optical zoom\r\n50 MP, f/2.0, 15mm, 120\u02da (ultrawide), PDAF",
             "Features": "Hasselblad Color Calibration, Hasselblad Ultra HD, XPAN, Master Mode, AI ID photo, LED flash, HDR, panorama",
             "Video": "8K@30fps, 4K@30/60/120fps, 1080p@30/60/120fps: gyro-EIS; Dolby Vision HDR, Slow Motion"
         },
