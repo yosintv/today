@@ -1,0 +1,66 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-watch-fit5-pro.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "No cellular connectivity",
+            "2G bands": " N/A",
+            "3G bands": " N/A",
+            "4G bands": " N/A",
+            "Speed": "No",
+            "GPRS": "No",
+            "EDGE": "No"
+        },
+        "Launch": {
+            "Announced": "2026, April 20",
+            "Status": "Coming soon. 2026, April 29"
+        },
+        "Body": {
+            "Dimensions": "44.5 x 40.8 x 9.5 mm (1.75 x 1.61 x 0.37 in)",
+            "Weight": "30.4 g (1.06 oz)",
+            "Build": "Glass front (Sapphire Glass), titanium alloy bezel, aluminum mid-frame, polymer fiber back",
+            "SIM": "No",
+            "\u00a0": "5 ATM water resistant\r\nIP6X dust tight\r\nECG certified\r\n40m swimproof/diving (EN13319)"
+        },
+        "Display": {
+            "Type": "AMOLED, 3000 nits (peak)",
+            "Size": "1.92 inches",
+            "Resolution": "480 x 408 pixels (~328 ppi density)"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Phonebook": "No",
+            "Call records": "No",
+            "Internal": "Unspecified"
+        },
+        "Camera": {
+            "\u00a0": "No"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "No",
+            "Bluetooth": "6.0, LE",
+            "Positioning": "GPS (L1+L5), GALILEO (E1+E5a), QZSS (L1+L5), BDS (B1l+B1C+ B2a), GLONASS, NavIC",
+            "NFC": "Yes",
+            "Radio": "No",
+            "USB": "No"
+        },
+        "Features": {
+            "Sensors": "Accelerometer, gyro, heart rate, compass, barometer, thermometer (skin temperature), depth",
+            "Messaging": "Email, IM",
+            "Games": "No",
+            "Java": "No",
+            "\u00a0": "Pulse wave arrhythmia analysis"
+        },
+        "Battery": {
+            "Type": "Li-Ion 471 mAh",
+            "Charging": "Wireless"
+        },
+        "Misc": {
+            "Colors": "Danxia orange, Glacier white, Yardang black",
+            "Price": "About 280 EUR"
+        }
+    }
+}
