@@ -1,0 +1,81 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/honor-600-pro.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, April 22",
+            "Status": "Coming soon. Exp. release 2026, May"
+        },
+        "Body": {
+            "Dimensions": "156 x 74.7 x 7.8 mm (6.14 x 2.94 x 0.31 in)",
+            "Weight": "200 g (7.05 oz)",
+            "Build": "Glass front, aluminum frame",
+            "SIM": "\u00b7 Nano-SIM + eSIM\u00b7 Nano-SIM + Nano-SIM + eSIM (max 2 at a time)",
+            "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
+        },
+        "Display": {
+            "Type": "AMOLED, 1B colors, 120Hz, 3840Hz PWM, HDR Vivid, 8000 nits (peak)",
+            "Size": "6.57 inches, 106.2 cm2 (~91.2% screen-to-body ratio)",
+            "Resolution": "1264 x 2728 pixels, 19.5:9 ratio (~458 ppi density)",
+            "Protection": "Mohs level 4"
+        },
+        "Platform": {
+            "OS": "Android 16, MagicOS 10",
+            "Chipset": "Qualcomm SM8750-AC Snapdragon 8 Elite (3 nm)",
+            "CPU": "Octa-core (2x4.47 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M)",
+            "GPU": "Adreno 830 (1200 MHz)"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM"
+        },
+        "Main Camera": {
+            "Triple": "200 MP, f/1.9, (wide), 1/1.4\", 0.56\u00b5m, PDAF, OIS\r\n50 MP, f/2.8, (telephoto), PDAF, 3.5x optical zoom\r\n12 MP, f/2.2, 112\u02da (ultrawide), AF",
+            "Features": "Color spectrum sensor, LED flash, HDR, panorama",
+            "Video": "4K, 1080p, gyro-EIS, OIS"
+        },
+        "Selfie camera": {
+            "Single": "50 MP, f/2.0, (wide)",
+            "Features": "HDR",
+            "Video": "4K, 1080p, gyro-EIS"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band or tri-band, Wi-Fi Direct",
+            "Bluetooth": "6.0, A2DP, LE, aptX HD, aptX Adaptive, aptX Lossless, LHDC 5",
+            "Positioning": "GPS, GLONASS, GALILEO, BDS, QZSS, NavIC",
+            "NFC": "Yes (market/region dependent)",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity (ultrasound), compass"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 7000 mAh (International) or 6400 mAh (Europe)",
+            "Charging": "80W wired\r\n50W wireless\r\n27W reverse wired"
+        },
+        "Misc": {
+            "Colors": "Golden White, Black, Orange",
+            "Models": "VKP-NX9",
+            "Price": "About 650 EUR"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "65:54h endurance, 1600 cycles",
+            "Free fall": "Class A (270 falls)",
+            "Repairability": "Class C"
+        }
+    }
+}
