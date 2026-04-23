@@ -1,5 +1,5 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-a7-pro-5g_.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-c81-.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE",
@@ -15,6 +15,7 @@
         "Body": {
             "Dimensions": "171.6 x 79.5 x 8.2 mm (6.76 x 3.13 x 0.32 in)",
             "Weight": "208 g (7.34 oz)",
+            "Build": "Glass front, plastic frame, plastic back",
             "SIM": "Nano-SIM + Nano-SIM",
             "\u00a0": "Dust and splash resistant"
         },
@@ -24,7 +25,7 @@
             "Resolution": "720 x 1600 pixels, 20:9 ratio (~254 ppi density)"
         },
         "Platform": {
-            "OS": "Android 16, HyperOS 3",
+            "OS": "Android 16, up to 4 major Android upgrades, HyperOS 3",
             "Chipset": "Unisoc T7250 (12 nm)",
             "CPU": "Octa-core (2x1.8 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
             "GPU": "Mali-G57 MP1"
