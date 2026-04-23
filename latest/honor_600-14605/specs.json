@@ -15,7 +15,7 @@
         },
         "Body": {
             "Dimensions": "156 x 74.7 x 7.8 mm (6.14 x 2.94 x 0.31 in)",
-            "Weight": "190 g (6.70 oz)",
+            "Weight": "185 g or 190 g (6.53 oz)",
             "Build": "Glass front, aluminum frame",
             "SIM": "\u00b7 Nano-SIM + eSIM\u00b7 Nano-SIM + Nano-SIM + eSIM (max 2 at a time)",
             "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
@@ -27,14 +27,14 @@
             "Protection": "Mohs level 4"
         },
         "Platform": {
-            "OS": "Android 16, MagicOS 10",
+            "OS": "Android 16, up to 6 major Android upgrades, MagicOS 10",
             "Chipset": "Qualcomm SM7750-AB Snapdragon 7 Gen 4 (4 nm)",
             "CPU": "Octa-core (1x2.8 GHz Cortex-720 & 4x2.4 GHz Cortex-720 & 3x1.8 GHz Cortex-520)",
             "GPU": "Adreno 722"
         },
         "Memory": {
             "Card slot": "No",
-            "Internal": "256GB 12GB RAM, 512GB 12GB RAM"
+            "Internal": "128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, 512GB 8GB RAM, 512GB 12GB RAM"
         },
         "Main Camera": {
             "Dual": "200 MP, f/1.9, (wide), 1/1.4\", 0.56\u00b5m, PDAF, OIS\r\n12 MP, f/2.2, 112\u02da (ultrawide), AF",
@@ -69,7 +69,7 @@
         "Misc": {
             "Colors": "Golden White, Black, Orange",
             "Models": "VKJ-NX9",
-            "Price": "About 600 EUR"
+            "Price": "About 550 EUR"
         },
         "EU LABEL": {
             "Energy": "Class A",
