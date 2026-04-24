@@ -1,5 +1,5 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-gt50-pro-.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/infinix-gt50-pro.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE / 5G",
@@ -49,7 +49,7 @@
         "Sound": {
             "Loudspeaker ": "Yes, with stereo speakers (with Dolby Atmos)",
             "3.5mm jack ": "No",
-            "\u00a0": "Tuned by JBL\r\n24-bit/192kHz Hi-Res & Hi-Res Wireless audio"
+            "\u00a0": "24-bit/192kHz Hi-Res & Hi-Res Wireless audio"
         },
         "Comms": {
             "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",

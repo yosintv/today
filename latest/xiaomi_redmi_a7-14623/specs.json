@@ -10,7 +10,7 @@
         },
         "Launch": {
             "Announced": "2026, April 21",
-            "Status": "Coming soon. Exp. release 2026, April 24"
+            "Status": "Available. Released 2026, April 24"
         },
         "Body": {
             "Dimensions": "171.8 x 79.8 x 8.3 mm (6.76 x 3.14 x 0.33 in)",
@@ -65,7 +65,8 @@
         },
         "Misc": {
             "Colors": "Black, Sky Blue",
-            "Price": "About 100 EUR"
-        }
+            "Price": "\u20b9\u200910,499"
+        },
+        "General": {}
     }
 }

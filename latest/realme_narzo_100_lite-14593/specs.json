@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, April 14",
-            "Status": "Coming soon. Exp. release 2026, April 21"
+            "Status": "Available. Released 2026, April 21"
         },
         "Body": {
             "Dimensions": "166.3 x 78.1 x 8.4 mm (6.55 x 3.07 x 0.33 in)",
@@ -68,7 +68,8 @@
         },
         "Misc": {
             "Colors": "Frost Silver, Thunder Black",
-            "Price": "About 120 EUR"
-        }
+            "Price": "\u20b9\u200913,499"
+        },
+        "General": {}
     }
 }
