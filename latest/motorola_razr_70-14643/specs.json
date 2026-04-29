@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, April 29",
-            "Status": "Coming soon. Exp. release 2026, May 14"
+            "Status": "Available. Released 2026, April 29"
         },
         "Body": {
             "Dimensions": "Unfolded: 171.3 x 74 x 7.3 mmFolded: 88.1 x 74 x 15.9 mm",
@@ -67,8 +67,8 @@
             "Charging": "30W wired\r\n15W wireless"
         },
         "Misc": {
-            "Colors": "Pantone: Hematite, Sporting Green, Violet Ice, Bright White",
-            "Price": "About 690 EUR"
+            "Colors": "Pantone: Hematite, Sporting Green, Bright White",
+            "Price": "About 920 EUR"
         }
     }
 }
