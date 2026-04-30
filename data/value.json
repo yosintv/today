@@ -1,30 +1,5 @@
 [
     {
-        "timestamp": "2026-03-17 20:56",
-        "data": {
-            "15m": {
-                "price": 5001.95,
-                "pattern": "Normal",
-                "explanation": "No significant candlestick pattern identified in this timeframe."
-            },
-            "30m": {
-                "price": 5002.01,
-                "pattern": "Normal",
-                "explanation": "No significant candlestick pattern identified in this timeframe."
-            },
-            "45m": {
-                "price": 5002.01,
-                "pattern": "Normal",
-                "explanation": "No significant candlestick pattern identified in this timeframe."
-            },
-            "1h": {
-                "price": 5002.01,
-                "pattern": "Doji",
-                "explanation": "Indicates market indecision: the opening and closing prices are nearly equal."
-            }
-        }
-    },
-    {
         "timestamp": "2026-03-17 21:31",
         "data": {
             "15m": {
@@ -24996,6 +24971,31 @@
                 "price": 4588.51,
                 "pattern": "Doji",
                 "explanation": "Indicates market indecision: the opening and closing prices are nearly equal."
+            }
+        }
+    },
+    {
+        "timestamp": "2026-04-30 09:32",
+        "data": {
+            "15m": {
+                "price": 4624.48,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            },
+            "30m": {
+                "price": 4625.19,
+                "pattern": "Doji",
+                "explanation": "Indicates market indecision: the opening and closing prices are nearly equal."
+            },
+            "45m": {
+                "price": 4625.19,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            },
+            "1h": {
+                "price": 4625.19,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
             }
         }
     }
