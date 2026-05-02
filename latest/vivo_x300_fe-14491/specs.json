@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, April 16",
-            "Status": "Coming soon. Exp. release 2026, April"
+            "Status": "Available. Released 2026, April 29"
         },
         "Body": {
             "Dimensions": "150.8 x 71.8 x 8.2 mm (5.94 x 2.83 x 0.32 in)",
@@ -65,17 +65,19 @@
         },
         "Battery": {
             "Type": "Si/C Li-Ion 6500 mAh",
-            "Charging": "90W wired, PD, 100% in 55 min\r\n40W wireless\r\nReverse wired\r\nBypass charging"
+            "Charging": "90W wired, PD, 100% in 55 min\r\n40W wireless\r\nReverse wireless\r\nReverse wired\r\nBypass charging"
         },
         "Misc": {
             "Colors": "Misty Purple, Radiant White, Cool Black, Green",
-            "Models": "V2537"
+            "Models": "V2537",
+            "Price": "\u20ac\u2009999.00"
         },
         "EU LABEL": {
             "Energy": "Class B",
             "Battery": "58:40h endurance, 1200 cycles",
             "Free fall": "Class C (90 falls)",
             "Repairability": "Class C"
-        }
+        },
+        "General": {}
     }
 }
