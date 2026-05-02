@@ -1,12 +1,12 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-ace6-ultra.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-ace-6-ultra.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE / 5G",
-            "2G bands": "GSM 850 / 1800 / 1900 GSM 850 / 900 / 1800",
+            "2G bands": "GSM 850 / 1800 / 1900 ",
             "3G bands": "HSDPA 850 / 900 / 2100 ",
-            "4G bands": "1/3/4/5/8/18/19/26/28A/34/38/39/40/41/42/43/48/66 LTE",
-            "5G bands": "1, 3, 5, 8, 18, 26, 28A, 34, 38, 39, 40, 41, 48, 66, 77, 78 SA/NSA",
+            "4G bands": "1, 3, 4, 5, 8, 18, 19, 26, 28, 34, 38, 39, 40, 41, 42, 43, 48, 66",
+            "5G bands": "1, 3, 5, 8, 18, 26, 28, 34, 38, 39, 40, 41, 48, 66, 77, 78 SA/NSA",
             "Speed": "HSPA, LTE, 5G"
         },
         "Launch": {
@@ -15,13 +15,13 @@
         },
         "Body": {
             "Dimensions": "162.5 x 77.5 x 8.5 mm (6.40 x 3.05 x 0.33 in)",
-            "Weight": "217 g or 219 g (Metal Storm) (7.65 oz)",
-            "Build": "Glass front (Crystal Shield Glass), glass back or  silicone polymer back (eco leather), aluminum frame",
+            "Weight": "217 g or 219 g (7.65 oz)",
+            "Build": "Glass front (Crystal Shield Glass), glass back or silicone polymer back (eco leather), aluminum frame",
             "SIM": "Nano-SIM + Nano-SIM",
-            "\u00a0": "IP66/IP68/IP69/IP69K dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
+            "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
         },
         "Display": {
-            "Type": "AMOLED, 1B colors, 165Hz, PWM, Dolby Vision, HDR10+, 800 nits (typ), 1800 nits (HBM)",
+            "Type": "AMOLED, 1B colors, 165Hz, PWM, Dolby Vision, HDR10+, HDR Vivid, 800 nits (typ), 1800 nits (HBM)",
             "Size": "6.78 inches, 112.4 cm2 (~89.3% screen-to-body ratio)",
             "Resolution": "1272 x 2772 pixels, 19.5:9 ratio (~450 ppi density)",
             "Protection": "Crystal Shield Glass"
@@ -39,11 +39,12 @@
         },
         "Main Camera": {
             "Dual": "50 MP, f/1.8, 23mm (wide), 1/1.55\", PDAF, OIS\r\n8 MP, f/2.2, 16mm, 112\u02da (ultrawide)",
-            "Features": "LED flash, HDR, panorama",
+            "Features": "Color spectrum sensor, LED flash, HDR, panorama",
             "Video": "4K@30/60fps, 1080p@30/60/240fps, gyro-EIS"
         },
         "Selfie camera": {
             "Single": "16 MP, f/2.4, 23mm (wide), 1/3\"",
+            "Features": "Panorama",
             "Video": "1080p@30fps, gyro-EIS"
         },
         "Sound": {
@@ -53,7 +54,7 @@
         "Comms": {
             "WLAN": "802.11 a/b/g/n/ac/6/7, dual-band, Wi-Fi Direct",
             "Bluetooth": "6.0, A2DP, LE",
-            "Positioning": "GPS (L1+L5), GLONASS, BDS, GALILEO, QZSS, NavIC",
+            "Positioning": "GPS (L1+L5), GALILEO (E1+E5a+E5b), QZSS (L1+L5), BDS (B1l+B1C+ B2a+B2b), GLONASS, NavIC (L5)",
             "NFC": "Yes",
             "Infrared port": "Yes",
             "Radio": "No",
@@ -64,10 +65,10 @@
         },
         "Battery": {
             "Type": "Si/C Li-Ion 8600 mAh",
-            "Charging": "120W wired, PPS(55W), PD(13.5W)"
+            "Charging": "120W wired, 44W/120W UFCS, 55W PPS, 13.5W PD, 53% in 22 min"
         },
         "Misc": {
-            "Colors": "Ace Awakening, Metal Storm",
+            "Colors": "Gray, Gold",
             "Price": "About 440 EUR"
         }
     }
