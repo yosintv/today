@@ -38,8 +38,8 @@
             "\u00a0": "UFS 4.0"
         },
         "Main Camera": {
-            "Dual": "50 MP, f/1.8, (wide), 1/1.95\", 0.8\u00b5m, PDAF, OIS\r\n50 MP, f/2.0, 122\u02da (ultrawide), 1/2.76\", 1.28\u00b5m\n",
-            "Features": "Pantone Validated, LED flash, panorama, HDR",
+            "Dual": "50 MP, f/1.8, (wide), 1/1.95\", 0.8\u00b5m, PDAF, OIS\r\n50 MP, f/2.0, 122\u02da (ultrawide), 1/2.76\", 0.64\u00b5m\n",
+            "Features": "LED flash, HDR, panorama, Pantone Validated Colour and Skin Tones",
             "Video": "4K@30/60fps, 1080p@30/60/240fps,  HDR10+, Dolby Vision"
         },
         "Selfie camera": {

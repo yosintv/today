@@ -16,12 +16,12 @@
         "Body": {
             "Dimensions": "166.2 x 76.5 x 7.8 mm (6.54 x 3.01 x 0.31 in)",
             "Weight": "191 g (6.74 oz)",
-            "Build": "Glass front Gorilla Glass 7i), plastic back or silicone polymer (eco leather), plastic frame",
+            "Build": "Glass front (Gorilla Glass 7i), plastic back or silicone polymer (eco leather), plastic frame",
             "SIM": "\u00b7 Nano-SIM + eSIM\u00b7 Nano-SIM + Nano-SIM",
-            "\u00a0": "IP64 water resistant\r\nMIL-STD 810H certified"
+            "\u00a0": "IP64 dust tight and water resistant (water splashes)\r\nMIL-STD-810H compliant*\r\n* does not guarantee ruggedness or use in extreme conditions"
         },
         "Display": {
-            "Type": "LCD, 120Hz, HDR10, 1050 nits (peak)",
+            "Type": "IPS LCD, 120Hz, HDR10, 1050 nits (peak)",
             "Size": "6.67 inches, 107.2 cm2 (~84.3% screen-to-body ratio)",
             "Resolution": "720 x 1604 pixels, 20:9 ratio (~264 ppi density)",
             "Protection": "Corning Gorilla Glass 7i, Mohs level 4"
@@ -38,22 +38,22 @@
             "\u00a0": "UFS 2.2"
         },
         "Main Camera": {
-            "Single": "50 MP, f/1.8, 0.61\u00b5m, PDAF",
+            "Single": "50 MP, f/1.8, (wide), 0.61\u00b5m, PDAF",
             "Features": "Dual-LED flash, HDR, panorama",
-            "Video": "2K@30fps, 1080p@30/60fps"
+            "Video": "1440p@30fps, 1080p@30/60fps"
         },
         "Selfie camera": {
-            "Single": "8 MP, f/2.0, 1.12\u00b5m",
-            "Video": "2K@30fps, 1080p@30fps"
+            "Single": "8 MP, f/2.0, (wide), 1.12\u00b5m",
+            "Video": "1440p@30fps, 1080p@30fps"
         },
         "Sound": {
             "Loudspeaker ": "Yes, with stereo speakers",
             "3.5mm jack ": "Yes",
-            "\u00a0": "Hi-Res audio"
+            "\u00a0": "24-bit/192kHz Hi-Res audio"
         },
         "Comms": {
             "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
-            "Bluetooth": "5.4",
+            "Bluetooth": "5.4, A2DP, LE",
             "Positioning": "GPS, GALILEO, GLONASS, BDS, QZSS",
             "NFC": "Yes (market/region dependent)",
             "Radio": "FM radio",
@@ -67,7 +67,7 @@
             "Charging": "20W wired\r\n6W reverse wired"
         },
         "Misc": {
-            "Colors": "PANTONE Nautical Blue. Impenetrable, Fuchsia Red",
+            "Colors": "Pantone: Nautical Blue, Impenetrable, Fuchsia Red",
             "Price": "About 210 EUR"
         },
         "EU LABEL": {

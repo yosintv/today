@@ -18,7 +18,7 @@
             "Weight": "191 g (6.74 oz)",
             "Build": "Glass front (Gorilla Glass 3), plastic frame, silicone polymer (eco leather) back",
             "SIM": "Nano-SIM + Nano-SIM",
-            "\u00a0": "IP64 water-resistant design\r\nMIL-STD-810H compliant"
+            "\u00a0": "IP64 dust tight and water resistant (water splashes)\r\nMIL-STD-810H compliant*\r\n* does not guarantee ruggedness or use in extreme conditions"
         },
         "Display": {
             "Type": "IPS LCD, 120Hz",
@@ -38,9 +38,9 @@
             "\u00a0": "UFS 2.2"
         },
         "Main Camera": {
-            "Dual": "108 MP, f/1.7, 0.64\u00b5m, PDAF\r\n2 MP, f/2.4 (macro), 1.12\u00b5m",
+            "Dual": "108 MP, f/1.7, (wide), 0.64\u00b5m, PDAF\r\n2 MP (macro)",
             "Features": "LED flash, HDR, panorama",
-            "Video": "2K@30fps, 1080p@30/60fps"
+            "Video": "1440p@30fps, 1080p@30/60fps"
         },
         "Selfie camera": {
             "Single": "8 MP, f/2.0, 1.12\u00b5m",
@@ -53,7 +53,7 @@
         },
         "Comms": {
             "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
-            "Bluetooth": "5.4",
+            "Bluetooth": "5.4, A2DP, LE",
             "Positioning": "GPS, GLONASS, GALILEO, BDS, QZSS",
             "NFC": "Yes",
             "Radio": "FM radio",
@@ -64,7 +64,7 @@
         },
         "Battery": {
             "Type": "5200 mAh",
-            "Charging": "20W wired, 6W reverse wired"
+            "Charging": "20W wired\r\n6W reverse wired"
         },
         "Misc": {
             "Colors": "PANTONE Impenetrable, Nautical Blue, Fuchsia Red",

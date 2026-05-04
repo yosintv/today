@@ -28,9 +28,9 @@
         },
         "Platform": {
             "OS": "Android 16",
-            "Chipset": "Qualcomm Snapdragon 8 Elite (3 nm)",
-            "CPU": "Octa-core (2x4.47 GHz Oryon+ 6x3.53 GHz Oryon)",
-            "GPU": "Adreno 830"
+            "Chipset": "Qualcomm SM8750-AB Snapdragon 8 Elite (3 nm)",
+            "CPU": "Octa-core (2x4.47 GHz Oryon V2 Phoenix L + 6x3.53 GHz Oryon V2 Phoenix M)",
+            "GPU": "Adreno 830 (1200 MHz)"
         },
         "Memory": {
             "Card slot": "No",
@@ -38,12 +38,12 @@
             "\u00a0": "UFS 4.0"
         },
         "Main Camera": {
-            "Dual": "50 MP, f/1.8, (wide), 1/1.56\", 2.0\u00b5m, PDAF, OIS\r\n50 MP, f/2.0, 122\u02da (ultrawide), 1/2.93\", 1.2\u00b5m",
+            "Dual": "50 MP, f/1.8, (wide), 1/1.56\", 1.0\u00b5m, PDAF, OIS\r\n50 MP, f/2.0, 122\u02da (ultrawide), 1/2.93\", 0.6\u00b5m",
             "Features": "LED flash, panorama, HDR, Pantone Validated Colour and Skin Tones",
-            "Video": "8K@30fps, 4K@30/60/120fps, 1080p@30/60/120/240fps, Dolby Vision HDR10+"
+            "Video": "8K@30fps, 4K@30/60/120fps, 1080p@30/60/120/240fps, Dolby Vision, HDR10+"
         },
         "Selfie camera": {
-            "Single": "50 MP, f/2.0, (wide), 1.28\u00b5m",
+            "Single": "50 MP, f/2.0, (wide), 0.64\u00b5m",
             "Video": "4K@30/60fps, 1080p@30/60fps"
         },
         "Sound": {
