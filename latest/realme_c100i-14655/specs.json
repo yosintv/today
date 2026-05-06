@@ -9,7 +9,7 @@
             "Speed": "HSPA, LTE"
         },
         "Launch": {
-            "Announced": "2026, May 01",
+            "Announced": "2026, April 30",
             "Status": "Coming soon. Exp. release 2026, May 07"
         },
         "Body": {
@@ -34,7 +34,7 @@
         "Memory": {
             "Card slot": "microSDXC",
             "Internal": "64GB 4GB RAM, 128GB 4GB RAM, 128GB 6GB RAM",
-            "\u00a0": "eMMC5.1"
+            "\u00a0": "eMMC 5.1"
         },
         "Main Camera": {
             "Single": "8 MP, f/2.0, (wide), AF",
@@ -66,7 +66,8 @@
         },
         "Misc": {
             "Colors": "Dawn Purple, Dusk Gray",
-            "Models": "RMX5377"
+            "Models": "RMX5377",
+            "Price": "About 110 EUR"
         }
     }
 }
