@@ -28,7 +28,7 @@
         },
         "Platform": {
             "OS": "Android 16",
-            "Chipset": "Mediatek Dimensity 7400X (4 nm)",
+            "Chipset": "Mediatek Dimensity 7450X (4 nm)",
             "CPU": "Octa-core (4x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
             "GPU": "Mali-G615 MC2"
         },
