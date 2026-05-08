@@ -1,0 +1,72 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/acer-iconia-im11-22m5g.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, May 07",
+            "Status": "Available. Released 2026, May 07"
+        },
+        "Body": {
+            "Dimensions": "261.7 x 177.7 x 7.9 mm (10.30 x 7.00 x 0.31 in)",
+            "Weight": "535 g (1.18 lb)",
+            "Build": "Glass front, aluminum frame, aluminum back",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "Stylus support"
+        },
+        "Display": {
+            "Type": "IPS LCD, 90Hz, 450 nits",
+            "Size": "11.45 inches, 387.6 cm2 (~83.3% screen-to-body ratio)",
+            "Resolution": "1440 x 2200 pixels, 3:2 ratio (~230 ppi density)"
+        },
+        "Platform": {
+            "OS": "Android 15",
+            "Chipset": "Mediatek Dimensity 7050 (6 nm)",
+            "CPU": "Octa-core (2x2.6 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55)",
+            "GPU": "Mali-G68 MC4"
+        },
+        "Memory": {
+            "Card slot": "microSDXC (uses shared SIM slot)",
+            "Internal": "128GB 8GB RAM",
+            "\u00a0": "UFS 3.1"
+        },
+        "Main Camera": {
+            "Dual": "16 MP (wide)\r\n2 MP (macro)",
+            "Features": "LED flash",
+            "Video": "1080p@30fps"
+        },
+        "Selfie camera": {
+            "Single": "8 MP",
+            "Video": "Yes"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers (4 speakers)",
+            "3.5mm jack ": "Yes"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+            "Bluetooth": "5.2, A2DP, LE",
+            "Positioning": "Unspecified",
+            "NFC": "No",
+            "Radio": "No",
+            "USB": "USB Type-C 2.0, OTG, magnetic accessory connector pins"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (top-mounted)"
+        },
+        "Battery": {
+            "Type": "7400 mAh",
+            "Charging": "18W wired"
+        },
+        "Misc": {
+            "Colors": "Silver",
+            "Price": "About 230 EUR"
+        }
+    }
+}
