@@ -27,17 +27,17 @@
             "OS": "EMUI 14.2"
         },
         "Memory": {
-            "Card slot": "Unspecified",
-            "Internal": "256GB"
+            "Card slot": "No",
+            "Internal": "256GB 8GB RAM"
         },
         "Main Camera": {
-            "Dual": "50 MP, f/1.9, 23mm (wide), 1/1.56\", Dual Pixel PDAF\r\nAuxiliary lens",
+            "Dual": "50 MP, f/1.9, (wide), 1/1.56\", dual-pixel PDAF\r\nAuxiliary lens",
             "Features": "LED flash, panorama, HDR",
-            "Video": "4K, 1080p, gyro-EIS"
+            "Video": "4K@30fps, 1080p@30fps, gyro-EIS"
         },
         "Selfie camera": {
             "Single": "8 MP, f/2.0, (wide)",
-            "Video": "4K, 1080p"
+            "Video": "4K@30fps, 1080p@30fps"
         },
         "Sound": {
             "Loudspeaker ": "Yes, with stereo speakers",
@@ -58,7 +58,7 @@
         },
         "Battery": {
             "Type": "8500 mAh",
-            "Charging": "40W wired\r\nReverse wired"
+            "Charging": "40W wired\r\n5W reverse wired"
         },
         "Misc": {
             "Colors": "Blush Gold, Lake Cyan, Golden Black",
