@@ -1,0 +1,63 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-watch-buds2.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "No cellular connectivity",
+            "2G bands": " N/A",
+            "3G bands": " N/A",
+            "4G bands": " N/A",
+            "Speed": "No",
+            "GPRS": "No",
+            "EDGE": "No"
+        },
+        "Launch": {
+            "Announced": "2026, April 20",
+            "Status": "Available. Released 2026, April 20"
+        },
+        "Body": {
+            "Dimensions": "47 x 47 x 14.7 mm (1.85 x 1.85 x 0.58 in)",
+            "Weight": "54.5 g (1.90 oz)",
+            "Build": "Titanium alloy frame, glass-fiber reinforced plastic back",
+            "SIM": "No",
+            "\u00a0": "Built-in wireless earbuds housed beneath the display; charging from the watch\r\nCompatible with standard 22mm straps"
+        },
+        "Display": {
+            "Type": "LTPO AMOLED, 3000 nits (peak)",
+            "Size": "1.5 inches",
+            "Resolution": "466 x 466 pixels (~310 ppi density)"
+        },
+        "Platform": {
+            "OS": "HarmonyOS"
+        },
+        "Memory": {
+            "Card slot": "No"
+        },
+        "Camera": {
+            "\u00a0": "No"
+        },
+        "Sound": {
+            "Loudspeaker ": "No",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "No",
+            "Bluetooth": "5.2, A2DP, LE",
+            "Positioning": "GPS, GLONASS, GALILEO, BDS",
+            "NFC": "Yes",
+            "Radio": "No",
+            "USB": "No"
+        },
+        "Features": {
+            "Sensors": "Accelerometer, gyro, heart rate, SpO2"
+        },
+        "Battery": {
+            "Type": "Li-Ion 410 mAh",
+            "Charging": "Wireless"
+        },
+        "Misc": {
+            "Colors": "Black, Silver",
+            "Models": "LBA-B19",
+            "Price": "About 440 EUR"
+        }
+    }
+}
