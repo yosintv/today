@@ -34,7 +34,7 @@
         },
         "Memory": {
             "Card slot": "No",
-            "Internal": "256GB 12GB RAM",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM",
             "\u00a0": "UFS 4.0"
         },
         "Main Camera": {
@@ -68,7 +68,8 @@
         },
         "Misc": {
             "Colors": "Pantone: Mountain View",
-            "Price": "About 1150 EUR"
-        }
+            "Price": "\u20ac\u20091,149.00"
+        },
+        "General": {}
     }
 }
