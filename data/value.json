@@ -1,30 +1,5 @@
 [
     {
-        "timestamp": "2026-03-25 08:29",
-        "data": {
-            "15m": {
-                "price": 4567.31,
-                "pattern": "Normal",
-                "explanation": "No significant candlestick pattern identified in this timeframe."
-            },
-            "30m": {
-                "price": 4567.31,
-                "pattern": "Normal",
-                "explanation": "No significant candlestick pattern identified in this timeframe."
-            },
-            "45m": {
-                "price": 4567.31,
-                "pattern": "Normal",
-                "explanation": "No significant candlestick pattern identified in this timeframe."
-            },
-            "1h": {
-                "price": 4566.02,
-                "pattern": "Normal",
-                "explanation": "No significant candlestick pattern identified in this timeframe."
-            }
-        }
-    },
-    {
         "timestamp": "2026-03-25 09:28",
         "data": {
             "15m": {
@@ -24994,6 +24969,31 @@
             },
             "1h": {
                 "price": 4548.41,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            }
+        }
+    },
+    {
+        "timestamp": "2026-05-15 11:32",
+        "data": {
+            "15m": {
+                "price": 4560.92,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            },
+            "30m": {
+                "price": 4560.84,
+                "pattern": "Doji",
+                "explanation": "Indicates market indecision: the opening and closing prices are nearly equal."
+            },
+            "45m": {
+                "price": 4560.84,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            },
+            "1h": {
+                "price": 4560.84,
                 "pattern": "Normal",
                 "explanation": "No significant candlestick pattern identified in this timeframe."
             }
