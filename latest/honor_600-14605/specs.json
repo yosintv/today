@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, April 22",
-            "Status": "Coming soon. Exp. release 2026, May 30"
+            "Status": "Available. Released 2026, May 18"
         },
         "Body": {
             "Dimensions": "156 x 74.7 x 7.8 mm (6.14 x 2.94 x 0.31 in)",
@@ -37,14 +37,14 @@
             "Internal": "128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, 512GB 8GB RAM, 512GB 12GB RAM"
         },
         "Main Camera": {
-            "Dual": "200 MP, f/1.9, (wide), 1/1.4\", 0.56\u00b5m, PDAF, OIS\r\n12 MP, f/2.2, 112\u02da (ultrawide), AF",
+            "Dual": "200 MP, f/1.9, 24mm (wide), 1/1.4\", 0.56\u00b5m, PDAF (9cm - \u221e), OIS\r\n12 MP, f/2.2, 16mm, 112\u02da (ultrawide), PDAF",
             "Features": "Color spectrum sensor, LED flash, HDR, panorama",
-            "Video": "4K, 1080p, gyro-EIS, OIS"
+            "Video": "4K@30fps, 1080p@30/60fps, gyro-EIS, OIS"
         },
         "Selfie camera": {
-            "Single": "50 MP, f/2.0, (wide)",
+            "Single": "50 MP, f/2.0, 21mm (wide), 1/2.88\", 0.61\u00b5m",
             "Features": "HDR",
-            "Video": "4K, 1080p, gyro-EIS"
+            "Video": "4K@30fps, 1080p@30/60fps, gyro-EIS"
         },
         "Sound": {
             "Loudspeaker ": "Yes, with stereo speakers",
@@ -69,13 +69,20 @@
         "Misc": {
             "Colors": "Golden White, Black, Orange",
             "Models": "VKJ-NX9",
-            "Price": "About 550 EUR"
+            "Price": "\u00a3\u2009449.00 / \u20ac\u2009584.23"
+        },
+        "Our Tests": {
+            "Performance": "\r\nAnTuTu: 1087148 (v10), 1344703 (v11)\r\nGeekBench: 4090 (v6)\r\n3DMark: 1797 (Wild Life Extreme)",
+            "Display": "\n1749 nits max brightness (measured)",
+            "Loudspeaker": "\n-25.1 LUFS (Very good)\n",
+            "Battery": "\n\nActive use score 16:58h\n\n"
         },
         "EU LABEL": {
             "Energy": "Class A",
             "Battery": "67:00h endurance, 1600 cycles",
             "Free fall": "Class A (270 falls)",
             "Repairability": "Class C"
-        }
+        },
+        "General": {}
     }
 }

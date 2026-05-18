@@ -11,12 +11,12 @@
         },
         "Launch": {
             "Announced": "2026, April 22",
-            "Status": "Coming soon. Exp. release 2026, April 29"
+            "Status": "Available. Released 2026, April 29"
         },
         "Body": {
             "Dimensions": "156 x 74.7 x 7.8 mm (6.14 x 2.94 x 0.31 in)",
             "Weight": "195 g or 200 g (6.88 oz)",
-            "Build": "Glass front, aluminum frame",
+            "Build": "Glass front, glass back, aluminum frame",
             "SIM": "\u00b7 Nano-SIM + eSIM\u00b7 Nano-SIM + Nano-SIM + eSIM (max 2 at a time)",
             "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
         },
@@ -37,14 +37,14 @@
             "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 1TB 16GB RAM"
         },
         "Main Camera": {
-            "Triple": "200 MP, f/1.9, (wide), 1/1.4\", 0.56\u00b5m, PDAF, OIS\r\n50 MP, f/2.8, (telephoto), PDAF, 3.5x optical zoom\r\n12 MP, f/2.2, 112\u02da (ultrawide), AF",
+            "Triple": "200 MP, f/1.9, 24mm (wide), 1/1.4\", 0.56\u00b5m, PDAF (9cm - \u221e), OIS\r\n50 MP, f/2.8, 80mm (telephoto), PDAF, OIS, 3.5x optical zoom\r\n12 MP, f/2.2, 16mm, 112\u02da (ultrawide), PDAF",
             "Features": "Color spectrum sensor, LED flash, HDR, panorama",
-            "Video": "4K, 1080p, gyro-EIS, OIS"
+            "Video": "4K@30/60fps, 1080p@30/60fps, gyro-EIS, OIS"
         },
         "Selfie camera": {
-            "Single": "50 MP, f/2.0, (wide)",
+            "Single": "50 MP, f/2.0, 21mm (wide), 1/2.88\", 0.61\u00b5m",
             "Features": "HDR",
-            "Video": "4K, 1080p, gyro-EIS"
+            "Video": "4K@30fps, 1080p@30/60fps, gyro-EIS"
         },
         "Sound": {
             "Loudspeaker ": "Yes, with stereo speakers",
@@ -69,16 +69,20 @@
         "Misc": {
             "Colors": "Golden White, Black, Orange",
             "Models": "VKP-NX9",
-            "Price": "About 800 EUR"
+            "Price": "$\u20091,295.00 / \u00a3\u2009699.00"
         },
         "Our Tests": {
-            "Loudspeaker": "\n-24.8 LUFS (Very good)\n"
+            "Performance": "\r\nAnTuTu: 2221352 (v10), 2726043 (v11)\r\nGeekBench: 7970 (v6)\r\n3DMark: 5309 (Wild Life Extreme)",
+            "Display": "\n1766 nits max brightness (measured)",
+            "Loudspeaker": "\n-24.8 LUFS (Very good)\n",
+            "Battery": "\n\nActive use score 17:55h\n\n"
         },
         "EU LABEL": {
             "Energy": "Class A",
             "Battery": "65:54h endurance, 1600 cycles",
             "Free fall": "Class A (270 falls)",
             "Repairability": "Class C"
-        }
+        },
+        "General": {}
     }
 }
