@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, April 29",
-            "Status": "Coming soon. Exp. release 2026, May"
+            "Status": "Available. Released 2026, May 15"
         },
         "Body": {
             "Dimensions": "164.5 x 77.3 x 7.3 mm (6.48 x 3.04 x 0.29 in)",
@@ -68,7 +68,9 @@
         },
         "Misc": {
             "Colors": "Pantone: Overture, Blue Atoll",
-            "Price": "About 400 EUR"
-        }
+            "Models": "XT2621-6",
+            "Price": "\u20ac\u2009399.00"
+        },
+        "General": {}
     }
 }
