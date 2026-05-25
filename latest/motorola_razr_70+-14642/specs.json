@@ -24,6 +24,7 @@
             "Type": "Foldable LTPO AMOLED, 1B colors, Dolby Vision, 165Hz, HDR10+, 3000 nits (peak)",
             "Size": "6.9 inches, 107.9 cm2 (~85.1% screen-to-body ratio)",
             "Resolution": "1084 x 2640 pixels (~414 ppi density)",
+            "Protection": "Mohs level 4",
             "\u00a0": "Second external LTPO AMOLED, 1B colors, 165Hz, 2400 nits (peak)\r\n4 inches, 1272 x 1080 pixels, 165Hz, 417 ppi, Gorilla Glass Victus"
         },
         "Platform": {
@@ -68,7 +69,14 @@
         },
         "Misc": {
             "Colors": "Pantone: Mountain View",
+            "Models": "XT2659-3",
             "Price": "\u20ac\u20091,149.00"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "48:53h endurance, 1200 cycles",
+            "Free fall": "Class B (175 falls)",
+            "Repairability": "Class B"
         },
         "General": {}
     }

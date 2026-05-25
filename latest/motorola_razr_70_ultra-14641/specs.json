@@ -24,6 +24,7 @@
             "Type": "Foldable LTPO AMOLED, 1B colors, 165Hz, Dolby Vision, HDR10+, 5000 nits (peak)",
             "Size": "7.0 inches, 110.8 cm2 (~87.3% screen-to-body ratio)",
             "Resolution": "1224 x 2992 pixels (~462 ppi density)",
+            "Protection": "Mohs level 4",
             "\u00a0": "Second external LTPO AMOLED, 1B colors, Dolby Vision, 165Hz, HDR10+, 3000 nits (peak)\r\n4 inches, 1272 x 1080 pixels, 417 ppi, Gorilla Glass Ceramic"
         },
         "Platform": {
@@ -67,7 +68,14 @@
         },
         "Misc": {
             "Colors": "Pantone: Orient Blue, Cocoa",
+            "Models": "XT2655-1",
             "Price": "\u20ac\u20091,399.00"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "51:23h endurance, 1200 cycles",
+            "Free fall": "Class C (95 falls)",
+            "Repairability": "Class B"
         },
         "General": {}
     }

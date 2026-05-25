@@ -24,6 +24,7 @@
             "Type": "Foldable LTPO AMOLED, 1B colors, 120Hz, Dolby Vision, HDR10+, 3000 nits (peak)",
             "Size": "6.9 inches, 107.6 cm2 (~84.9% screen-to-body ratio)",
             "Resolution": "1080 x 2640 pixels (~413 ppi density)",
+            "Protection": "Mohs level 4",
             "\u00a0": "Second external AMOLED, 1B colors, 90Hz, HDR10+, 1700 nits (peak)\r\n3.6 inches, 1056 x 1066 pixels, 413 ppi, Gorilla Glass Victus"
         },
         "Platform": {
@@ -68,7 +69,14 @@
         },
         "Misc": {
             "Colors": "Pantone: Hematite, Sporting Green, Bright White",
+            "Models": "XT2657-1, XT2657-2",
             "Price": "\u20ac\u2009799.99"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "59:37h endurance, 1200 cycles",
+            "Free fall": "Class A (255 falls)",
+            "Repairability": "Class B"
         },
         "General": {}
     }

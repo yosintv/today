@@ -5,26 +5,25 @@
             "Technology": "GSM / HSPA / LTE / 5G",
             "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
             "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 2100 ",
-            "4G bands": " LTE",
-            "5G bands": " SA/NSA",
+            "4G bands": "1, 2, 3, 4, 5, 8, 18, 19, 25, 26, 28, 34, 38, 39, 40, 41, 42, 43, 48, 66",
+            "5G bands": "1, 2, 3, 5, 8, 18, 26, 28, 34, 38, 39, 40, 41, 48, 66, 77, 78, 79 SA/NSA",
             "Speed": "HSPA, LTE, 5G"
         },
         "Launch": {
             "Announced": "2026, May 25",
-            "Status": "Rumored"
+            "Status": "Coming soon. Exp. release 2026, May 29"
         },
         "Body": {
-            "Dimensions": "-",
-            "Weight": "-",
-            "Build": "Glass front, aluminum frame, glass back",
+            "Dimensions": "161.3 x 76.4 x 7.7 mm or 7.9 mm",
+            "Weight": "205 g or 208 g (7.23 oz)",
+            "Build": "Glass front, aluminum frame",
             "SIM": "Nano-SIM + Nano-SIM",
-            "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)"
+            "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
         },
         "Display": {
-            "Type": "LTPO AMOLED, 1B colors, 120Hz, 2160Hz PWM, HDR10+",
-            "Size": "6.78 inches, 112.4 cm2",
-            "Resolution": "1272 x 2772 pixels, 19.5:9 ratio (~450 ppi density)",
-            "Protection": "Reinforced glass"
+            "Type": "LTPO AMOLED, 1B colors, 120Hz, 2160Hz PWM, 600 nits (typ), 1800 nits (HBM), 3600 nits (peak)",
+            "Size": "6.78 inches, 112.4 cm2 (~91.2% screen-to-body ratio)",
+            "Resolution": "1272 x 2772 pixels, 19.5:9 ratio (~450 ppi density)"
         },
         "Platform": {
             "OS": "Android 16, ColorOS 16",
@@ -35,11 +34,11 @@
         "Memory": {
             "Card slot": "No",
             "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM",
-            "\u00a0": "UFS"
+            "\u00a0": "UFS 3.1"
         },
         "Main Camera": {
-            "Triple": "200 MP, f/1.8, 24mm (wide), 1/1.56\", 0.5\u00b5m, PDAF, OIS\r\n50 MP, f/2.8, 85mm (telephoto), PDAF, OIS, 3.5x optical zoom\r\n50 MP, f/2.0, 16mm, 116\u02da (ultrawide), AF",
-            "Features": "Color spectrum sensor, LED flash, HDR, panorama",
+            "Triple": "200 MP, f/1.8, 24mm (wide), PDAF, gimbal OIS\r\n50 MP, f/2.8, 80mm (telephoto), PDAF, OIS, 3.5x optical zoom\r\n50 MP, f/2.0, 16mm, 116\u02da (ultrawide), AF",
+            "Features": "Color spectrum sensor, Multi-focus LED flash, HDR, panorama",
             "Video": "4K@30/60fps, 1080p@30/60/120/240fps, gyro-EIS, HDR"
         },
         "Selfie camera": {
@@ -52,9 +51,9 @@
             "3.5mm jack ": "No"
         },
         "Comms": {
-            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band",
             "Bluetooth": "5.4, A2DP, LE, aptX HD, LHDC 5",
-            "Positioning": "GPS, GLONASS, GALILEO, BDS, QZSS",
+            "Positioning": "GPS (L1+L5), GALILEO (E1+E5a+E5b), QZSS (L1+L5), BDS (B1l+B1C+B2a+B2b), GLONASS, NavIC (L5)",
             "NFC": "Yes",
             "Infrared port": "Yes",
             "Radio": "No",
@@ -65,10 +64,12 @@
         },
         "Battery": {
             "Type": "7000 mAh",
-            "Charging": "80W wired, 13.5W PD, 44W UFCS, 55W PPS\r\n50W wireless\r\nReverse wired\r\nBypass charging"
+            "Charging": "80W wired, 55W PPS, 44W UFCS, 13.5W PD\r\n50W wireless\r\nReverse wired\r\nBypass charging"
         },
         "Misc": {
-            "Colors": "Black, Blue, White"
+            "Colors": "Black, Blue, White",
+            "Models": "PMK110",
+            "Price": "About 570 EUR"
         }
     }
 }
