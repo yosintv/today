@@ -1,0 +1,75 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/honor-600-cn.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, May 25",
+            "Status": "Coming soon. Exp. release 2026, June 01"
+        },
+        "Body": {
+            "Dimensions": "156 x 74.7 x 8 mm (6.14 x 2.94 x 0.31 in)",
+            "Weight": "201 g (7.09 oz)",
+            "Build": "Glass front, aluminum frame",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
+        },
+        "Display": {
+            "Type": "AMOLED, 1B colors, 120Hz, 3840Hz PWM, HDR, 800 nits (typ), 1800 nits (HBM), 8000 nits (peak)",
+            "Size": "6.57 inches, 106.2 cm2 (~91.2% screen-to-body ratio)",
+            "Resolution": "1264 x 2728 pixels, 19.5:9 ratio (~458 ppi density)",
+            "Protection": "Aluminosilicate glass"
+        },
+        "Platform": {
+            "OS": "Android 16, MagicOS 10",
+            "Chipset": "Qualcomm SM7750-AB Snapdragon 7 Gen 4 (4 nm)",
+            "CPU": "Octa-core (1x2.8 GHz Cortex-720 & 4x2.4 GHz Cortex-720 & 3x1.8 GHz Cortex-520)",
+            "GPU": "Adreno 722"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM"
+        },
+        "Main Camera": {
+            "Dual": "200 MP, f/1.9, 24mm (wide), 1/1.4\", 0.56\u00b5m, PDAF (9cm - \u221e), OIS\r\n12 MP, f/2.2, 16mm, 112\u02da (ultrawide), PDAF",
+            "Features": "Color spectrum sensor, Multi-focus LED flash, HDR, panorama",
+            "Video": "4K, 1080p, gyro-EIS, OIS"
+        },
+        "Selfie camera": {
+            "Single": "50 MP, f/2.0, 21mm (wide), 1/2.88\", 0.61\u00b5m",
+            "Features": "HDR",
+            "Video": "4K, 1080p, gyro-EIS"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+            "Bluetooth": "5.4, A2DP, LE, aptX HD, aptX Adaptive, aptX Lossless, LHDC 5, Auracast, ASHA",
+            "Positioning": "GPS (L1+L5), BDS (B1I+B1C+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), NavIC (L1+L5), GLONASS",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, compass, proximity (ultrasound)"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 8600 mAh",
+            "Charging": "80W wired\r\n27W reverse wired"
+        },
+        "Misc": {
+            "Colors": "Black, Green, Blue, Purple",
+            "Models": "VKJ-AN00",
+            "Price": "About 420 EUR"
+        }
+    }
+}
