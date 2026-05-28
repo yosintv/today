@@ -1,0 +1,81 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-17t-pro-.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 32, 34, 38, 39, 40, 41, 42, 48, 66, 71",
+            "5G bands": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 34, 38, 39, 40, 41, 48, 66, 71, 75, 77, 78 SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, May 28",
+            "Status": "Coming soon. Exp. release 2026, June"
+        },
+        "Body": {
+            "Dimensions": "162.2 x 77.5 x 8.3 mm",
+            "Weight": "219 g (7.72 oz)",
+            "Build": "Glass front (Gorilla Glass 7i), aluminum frame",
+            "SIM": "\u00b7 Nano-SIM + Nano-SIM + eSIM + eSIM (max 2 at a time)\u00b7 Nano-SIM + Nano-SIM",
+            "\u00a0": "IP68 dust tight and water resistant"
+        },
+        "Display": {
+            "Type": "AMOLED, 68B colors, 144Hz, 3840Hz PWM, Dolby Vision, HDR10+, 3500 nits (peak)",
+            "Size": "6.83 inches, 114.5 cm2 (~91.1% screen-to-body ratio)",
+            "Resolution": "1280 x 2772 pixels, 19.5:9 ratio (~447 ppi density)",
+            "Protection": "Corning Gorilla Glass 7i"
+        },
+        "Platform": {
+            "OS": "Android 16, HyperOS 3",
+            "Chipset": "Mediatek Dimensity 9500 (3 nm)",
+            "CPU": "Octa-core (1x4.21 GHz C1-Ultra & 3x3.5 GHz C1-Premium & 4x2.7 GHz C1-Pro)",
+            "GPU": "Mali-G1 Ultra MC12"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM",
+            "\u00a0": "UFS 4.1"
+        },
+        "Main Camera": {
+            "Triple": "50 MP, f/1.7, 23mm (wide), 1/1.31\", 1.2\u00b5m, multi-directional PDAF, OIS\r\n50 MP, f/3.0, 115mm (periscope telephoto), 1/2.76\", 0.64\u00b5m, PDAF (30cm - \u221e), OIS, 5x optical zoom\r\n12 MP, f/2.2, 15mm, 120\u02da (ultrawide), 1/3.06\", 1.12\u00b5m",
+            "Features": "Leica lens, Color spectrum sensor, Ultra HDR, LED flash, HDR, panorama",
+            "Video": "8K@30fps, 4K@30/60/120fps, 1080p@30/60/120/240/960fps, gyro-EIS, 10-bit Rec. 2020, HDR10+, Log"
+        },
+        "Selfie camera": {
+            "Single": "32 MP, f/2.2, 21mm (wide), 1/3.44\", 0.64\u00b5m",
+            "Features": "HDR",
+            "Video": "4K@30fps, 1080p@30/60fps, HDR10+"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers (with Dolby Atmos)",
+            "3.5mm jack ": "No",
+            "\u00a0": "24-bit/192kHz Hi-Res & Hi-Res Wireless audio"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, dual-band, Wi-Fi Direct",
+            "Bluetooth": "6.0, A2DP, LE",
+            "Positioning": "GPS (L1+L5), BDS (B1I+B1C+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), NavIC (L5), GLONASS",
+            "NFC": "Yes (market/region dependent)",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 7000 mAh",
+            "Charging": "100W wired, 100W PPS, PD3.0, QC4\r\n50W wireless\r\n22.5W reverse wired"
+        },
+        "Misc": {
+            "Colors": "Deep Blue, Deep Violet, Black",
+            "Models": "2602EPTC0G",
+            "Price": "About 1000 EUR"
+        },
+        "Our Tests": {
+            "Performance": "\r\nAnTuTu: 2795030 (v10), 3352325 (v11)\r\nGeekBench: 9766 (v6)\r\n3DMark: 6939 (Wild Life Extreme)",
+            "Display": "\n1069 nits max brightness (measured)"
+        }
+    }
+}
