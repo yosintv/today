@@ -1,0 +1,68 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/ulefone-aromor-mini5.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 17, 20, 28, 38, 41, 66",
+            "Speed": "HSPA, LTE"
+        },
+        "Launch": {
+            "Announced": "2026, May",
+            "Status": "Available. Released 2026, May"
+        },
+        "Body": {
+            "Dimensions": "142 x 62 x 16.5 mm (5.59 x 2.44 x 0.65 in)",
+            "Weight": "170 g (6.00 oz)",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)\r\nMIL-STD-810H compliant\r\nDrop resistant up to 2m\r\nFlashlight"
+        },
+        "Display": {
+            "Type": "TFT LCD",
+            "Size": "2.8 inches, 24.3 cm2 (~27.6% screen-to-body ratio)",
+            "Resolution": "240 x 320 pixels, 4:3 ratio (~143 ppi density)"
+        },
+        "Platform": {
+            "OS": "Android 11 (Go edition)",
+            "Chipset": "MT6739"
+        },
+        "Memory": {
+            "Card slot": "microSDHC (dedicated slot)",
+            "Internal": "8GB 1GB RAM"
+        },
+        "Main Camera": {
+            "Single": "0.3 MP",
+            "Features": "LED flash",
+            "Video": "Yes"
+        },
+        "Selfie camera": {
+            "": "0.3 MP",
+            "Video": ""
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "Yes"
+        },
+        "Comms": {
+            "WLAN": "No",
+            "Bluetooth": "2.1",
+            "Positioning": "No",
+            "NFC": "No",
+            "Radio": "FM radio",
+            "USB": "USB Type-C"
+        },
+        "Features": {
+            "Sensors": "No",
+            "\u00a0": "MP3/MP4 player"
+        },
+        "Battery": {
+            "Type": "2500 mAh",
+            "Charging": "5W wired"
+        },
+        "Misc": {
+            "Colors": "Black",
+            "Price": "About 90 EUR"
+        }
+    }
+}
