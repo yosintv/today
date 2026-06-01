@@ -69,7 +69,8 @@
             "Charging": "90W wired, PD3.0\r\n15W wireless\r\n10W reverse wireless\r\n5W reverse wired"
         },
         "Misc": {
-            "Colors": "Pantone: Stormy Sea (Green), Zinfandel (Red), Chicory Coffee (Wood)"
+            "Colors": "Pantone: Stormy Sea (Green), Zinfandel (Red), Chicory Coffee (Wood)",
+            "Price": "About 440 EUR"
         }
     }
 }
