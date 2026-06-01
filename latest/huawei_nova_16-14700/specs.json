@@ -1,0 +1,74 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova16-.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, June 01",
+            "Status": "Coming soon. Exp. release 2026, June 06"
+        },
+        "Body": {
+            "Dimensions": "159.6 x 75.5 x 7.3 mm (6.28 x 2.97 x 0.29 in)",
+            "Weight": "199 g (7.02 oz)",
+            "Build": "Glass front, plastic frame, aluminum back",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP65 dust tight and water resistant (low pressure water jets)"
+        },
+        "Display": {
+            "Type": "OLED, 1B colors, HDR Vivid, 120Hz, 2160Hz PWM",
+            "Size": "6.68 inches, 108.9 cm2 (~90.3% screen-to-body ratio)",
+            "Resolution": "1280 x 2800 pixels, 19.5:9 ratio (~461 ppi density)",
+            "Protection": "Aluminosilicate glass"
+        },
+        "Platform": {
+            "OS": "HarmonyOS 6.1",
+            "Chipset": "Kirin 9010S"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM"
+        },
+        "Main Camera": {
+            "Dual": "50 MP, f/1.9, 23mm (wide), 1/1.56\", Dual Pixel PDAF\r\n50 MP, f/2.6, 88mm (periscope telephoto), PDAF, OIS, 3.7x optical zoom",
+            "Features": "Color spectrum sensor, LED flash, panorama, HDR",
+            "Video": "4K, 1080p, gyro-EIS, HDR Vivid"
+        },
+        "Selfie camera": {
+            "Single": "50 MP, f/2.4, (ultrawide), 1/2.5\"",
+            "Features": "HDR, panorama",
+            "Video": "4K, 1080p, gyro-EIS, HDR Vivid"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band, Wi-Fi Direct",
+            "Bluetooth": "6.0, A2DP, LE, L2HC (320-960 kbps HD audio)",
+            "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5), NavIC, GLONASS",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, compass",
+            "\u00a0": "Virtual proximity sensing\r\nBDS Satellite Calling and Messaging - China only"
+        },
+        "Battery": {
+            "Type": "7000 mAh",
+            "Charging": "100W wired, SCP, UFCS, PD, PPS, QC\r\n5W reverse wired"
+        },
+        "Misc": {
+            "Colors": "Black, White, Blue/Pink, Blue",
+            "Models": "EMA-AL00U",
+            "Price": "About 380 EUR"
+        }
+    }
+}

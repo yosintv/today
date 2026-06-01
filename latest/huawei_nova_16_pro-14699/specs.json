@@ -1,0 +1,74 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova16-pro-.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, June 01",
+            "Status": "Coming soon. Exp. release 2026, June 06"
+        },
+        "Body": {
+            "Dimensions": "163 x 78 x 7.1 mm (6.42 x 3.07 x 0.28 in)",
+            "Weight": "218 g (7.69 oz)",
+            "Build": "Glass front, aluminum frame, glass back",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP65 dust tight and water resistant (low pressure water jets)"
+        },
+        "Display": {
+            "Type": "LTPO OLED, 1B colors, HDR Vivid, 120Hz, 2160Hz PWM, 6000 nits (peak)",
+            "Size": "6.84 inches, 115.0 cm2 (~90.4% screen-to-body ratio)",
+            "Resolution": "1320 x 2856 pixels, 19.5:9 ratio (~460 ppi density)",
+            "Protection": "Kunlun Glass"
+        },
+        "Platform": {
+            "OS": "HarmonyOS 6.0",
+            "Chipset": "Kirin 9010S"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM"
+        },
+        "Main Camera": {
+            "Triple": "200 MP, f/1.8, 23mm (wide), 1/1.28\", PDAF, OIS\r\n50 MP, f/2.6, 88mm (periscope telephoto), PDAF, OIS, 3.7x optical zoom\r\n50 MP, f/2.2, 13mm, 118\u02da (ultrawide), AF",
+            "Features": "Laser AF, color spectrum sensor, LED flash, panorama, HDR",
+            "Video": "4K, 1080p, gyro-EIS, HDR Vivid"
+        },
+        "Selfie camera": {
+            "Single": "50 MP, f/2.4, (ultrawide), 1/2.5\", Dual Pixel PDAF",
+            "Features": "HDR, panorama",
+            "Video": "4K, 1080p, gyro-EIS, HDR Vivid"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band, Wi-Fi Direct",
+            "Bluetooth": "6.0, A2DP, LE, L2HC (320-960 kbps HD audio)",
+            "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5), NavIC, GLONASS",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, compass",
+            "\u00a0": "Virtual proximity sensing\r\nBDS Satellite Calling and Messaging - China only"
+        },
+        "Battery": {
+            "Type": "7000 mAh",
+            "Charging": "100W wired, SCP, UFCS, PD, PPS, QC\r\n5W reverse wired"
+        },
+        "Misc": {
+            "Colors": "Black, White, Blue/Pink, Blue",
+            "Models": "CRS-AL00",
+            "Price": "About 500 EUR"
+        }
+    }
+}
