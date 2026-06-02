@@ -1,0 +1,65 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-watch-s5-.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "HSPA / LTE",
+            "2G bands": " ",
+            "3G bands": " HSDPA - cellular model only",
+            "4G bands": " LTE - cellular model only",
+            "Speed": "HSPA, LTE",
+            "GPRS": "No",
+            "EDGE": "No"
+        },
+        "Launch": {
+            "Announced": "2026, May 28",
+            "Status": "Available. Released 2026, May 28"
+        },
+        "Body": {
+            "Dimensions": "46 x 46 x 11 mm (1.81 x 1.81 x 0.43 in)",
+            "Weight": "46 g (1.62 oz)",
+            "Build": "Glass front, stainless steel frame, stainless steel/ceramic/forged carbon bezel",
+            "SIM": "eSIM (market/region dependent)",
+            "\u00a0": "Waterproof (5ATM)"
+        },
+        "Display": {
+            "Type": "AMOLED, 1500 nits (HBM), 2500 nits (peak)",
+            "Size": "1.48 inches",
+            "Resolution": "480 x 480 pixels (~323 ppi density)",
+            "Protection": "Drop-proof glass"
+        },
+        "Platform": {
+            "OS": "Xiaomi HyperOS 3"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "Unspecified storage"
+        },
+        "Camera": {
+            "\u00a0": "No"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Yes (file transfer only)",
+            "Bluetooth": "5.4, LE",
+            "Positioning": "GPS (L1+L5), GLONASS, GALILEO, BDS, QZSS",
+            "NFC": "Yes (market/region dependent)",
+            "Radio": "No",
+            "USB": "No"
+        },
+        "Features": {
+            "Sensors": "Accelerometer, gyro, compass, barometer, heart rate, SpO2"
+        },
+        "Battery": {
+            "Type": "Li-Po 815 mAh"
+        },
+        "Misc": {
+            "Colors": "Black, Silver, Ceramic Blue, Jungle Green, Beige (eSIM)",
+            "Models": "M2530W1, M2517W1",
+            "Price": "\u20ac\u2009179.37"
+        },
+        "General": {}
+    }
+}
