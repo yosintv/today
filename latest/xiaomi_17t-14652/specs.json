@@ -65,7 +65,7 @@
             "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
         },
         "Battery": {
-            "Type": "Si/C Li-Ion 6500 mAh",
+            "Type": "Si/C Li-Ion 6500 mAh - GlobalSi/C Li-Ion 7000 mAh - China only",
             "Charging": "67W wired, 50W PPS, PD3.0\r\n22.5W reverse wired"
         },
         "Misc": {
