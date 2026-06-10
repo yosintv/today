@@ -20,7 +20,7 @@
             "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)\r\nDrop resistant up to 1.5m"
         },
         "Display": {
-            "Type": "AMOLED, 1B colors, 144Hz, 800 nits (typ), 1400 nits (HBM), 6500 nits (peak)",
+            "Type": "AMOLED, 1B colors, 144Hz, HDR, 800 nits (typ), 1400 nits (HBM), 6500 nits (peak)",
             "Size": "6.78 inches, 112.4 cm2 (~89.1% screen-to-body ratio)",
             "Resolution": "1272 x 2772 pixels, 19.5:9 ratio (~450 ppi density)"
         },
@@ -62,7 +62,7 @@
         },
         "Battery": {
             "Type": "Si/C Li-Ion 8000 mAh",
-            "Charging": "80W wired, 80W/44W UFCS, 55W PPS, 13.5W PD, 50% in 31 min"
+            "Charging": "80W wired, 80W/44W UFCS, 55W PPS, 13.5W PD, 50% in 31 min\r\nBypass charging"
         },
         "Misc": {
             "Colors": "Gray, Orange",
