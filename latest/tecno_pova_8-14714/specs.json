@@ -31,17 +31,17 @@
             "GPU": "Mali-G610 MC2"
         },
         "Memory": {
-            "Card slot": "microSDXC (uses shared SIM slot)",
+            "Card slot": "microSDXC (uses shared SIM slot) - India model only",
             "Internal": "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM",
             "\u00a0": "UFS 2.2"
         },
         "Main Camera": {
-            "Dual": "50 MP, (wide), 1/1.95\", 0.8\u00b5m, PDAF\r\nAuxiliary lens",
+            "Dual": "50 MP, f/1.8, 23mm (wide), 1/1.95\", 0.8\u00b5m, PDAF\r\nAuxiliary lens",
             "Features": "Dual-LED flash",
             "Video": "1440p@30fps, 1080p@30fps"
         },
         "Selfie camera": {
-            "Single": "13 MP, (wide)",
+            "Single": "13 MP, f/2.2, 24mm (wide)",
             "Video": "Yes"
         },
         "Sound": {
