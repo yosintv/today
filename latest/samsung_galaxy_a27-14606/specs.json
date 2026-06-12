@@ -68,7 +68,8 @@
         "Misc": {
             "Colors": "Black, Blue, Light Green, Light Pink",
             "Models": "SM-A276E, SM-A276E/DS, SM-A276E/DSN, SM-A276B, SM-A276B/DS, SM-A276B/DSN, SM-A276U, SM-A276U1, SM-A276W",
-            "SAR EU": "0.78 W/kg (head) \u00a0 \u00a0 0.91 W/kg (body) \u00a0 \u00a0 "
+            "SAR EU": "0.78 W/kg (head) \u00a0 \u00a0 0.91 W/kg (body) \u00a0 \u00a0 ",
+            "Price": "About 350 EUR"
         }
     }
 }
