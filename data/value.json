@@ -1,30 +1,5 @@
 [
     {
-        "timestamp": "2026-04-06 23:50",
-        "data": {
-            "15m": {
-                "price": 4655.6,
-                "pattern": "Doji",
-                "explanation": "Indicates market indecision: the opening and closing prices are nearly equal."
-            },
-            "30m": {
-                "price": 4655.72,
-                "pattern": "Normal",
-                "explanation": "No significant candlestick pattern identified in this timeframe."
-            },
-            "45m": {
-                "price": 4655.72,
-                "pattern": "Normal",
-                "explanation": "No significant candlestick pattern identified in this timeframe."
-            },
-            "1h": {
-                "price": 4655.72,
-                "pattern": "Normal",
-                "explanation": "No significant candlestick pattern identified in this timeframe."
-            }
-        }
-    },
-    {
         "timestamp": "2026-04-07 01:29",
         "data": {
             "15m": {
@@ -24996,6 +24971,31 @@
                 "price": 4218.56,
                 "pattern": "Normal",
                 "explanation": "No significant candlestick pattern identified in this timeframe."
+            }
+        }
+    },
+    {
+        "timestamp": "2026-06-14 22:59",
+        "data": {
+            "15m": {
+                "price": 4287.76,
+                "pattern": "Normal",
+                "explanation": "No significant candlestick pattern identified in this timeframe."
+            },
+            "30m": {
+                "price": 4285.7,
+                "pattern": "Doji",
+                "explanation": "Indicates market indecision: the opening and closing prices are nearly equal."
+            },
+            "45m": {
+                "price": 4285.7,
+                "pattern": "Doji",
+                "explanation": "Indicates market indecision: the opening and closing prices are nearly equal."
+            },
+            "1h": {
+                "price": 4285.7,
+                "pattern": "Doji",
+                "explanation": "Indicates market indecision: the opening and closing prices are nearly equal."
             }
         }
     }
