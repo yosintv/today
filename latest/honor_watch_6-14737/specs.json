@@ -1,0 +1,62 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/honor-watch-6.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "No cellular connectivity",
+            "2G bands": " N/A",
+            "3G bands": " N/A",
+            "4G bands": " N/A",
+            "Speed": "No",
+            "GPRS": "No",
+            "EDGE": "No"
+        },
+        "Launch": {
+            "Announced": "2026, June 18",
+            "Status": "Available. Released 2026, June 18"
+        },
+        "Body": {
+            "Dimensions": "46.5 x 46.5 x 10.8 mm (1.83 x 1.83 x 0.43 in)",
+            "Weight": "41 g or 50 g (1.45 oz)",
+            "Build": "Glass front, stainless steel frame (316L) or aluminum frame, reinforced plastic back",
+            "SIM": "No",
+            "\u00a0": "P68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)\r\n5 ATM water resistant"
+        },
+        "Display": {
+            "Type": "AMOLED, 3000 nits (peak)",
+            "Size": "1.46 inches",
+            "Resolution": "464 x 464 pixels (~317 ppi density)"
+        },
+        "Platform": {
+            "OS": "MagicOS"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "4GB"
+        },
+        "Camera": {
+            "\u00a0": "No"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "No",
+            "Bluetooth": "5.4, LE, EDR",
+            "Positioning": "GPS (L1+L5), BDS, GALILEO, QZSS, GLONASS",
+            "NFC": "Yes",
+            "Radio": "No",
+            "USB": "No"
+        },
+        "Features": {
+            "Sensors": "Accelerometer, gyro, compass, barometer, heart rate, SpO2"
+        },
+        "Battery": {
+            "Type": "980 mAh"
+        },
+        "Misc": {
+            "Colors": "Shadow Black, Twilight Brown",
+            "Price": "About 250 EUR"
+        }
+    }
+}
