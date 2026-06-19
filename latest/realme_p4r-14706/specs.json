@@ -66,7 +66,9 @@
             "Charging": "45W wired, 45W PPS, 13.5W PD/QC\r\nReverse wired\r\nBypass charging"
         },
         "Misc": {
-            "Colors": "Silver Glare, Titanium Glare, Lavender Glare"
-        }
+            "Colors": "Silver Glare, Titanium Glare, Lavender Glare",
+            "Price": "\u20b9\u200923,999"
+        },
+        "General": {}
     }
 }
