@@ -33,7 +33,7 @@
             "GPU": "Adreno 825"
         },
         "Memory": {
-            "Card slot": "microSDXC",
+            "Card slot": "No",
             "Internal": "256GB 12GB RAM, 512GB 12GB RAM",
             "\u00a0": "UFS 4.1"
         },
