@@ -21,9 +21,10 @@
             "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 10m)\r\nDrop resistant up to 1.2m"
         },
         "Display": {
-            "Type": "AMOLED, 1B colors, 120Hz, 3840Hz PWM, HDR, 10000 nits (peak)*",
+            "Type": "AMOLED, 1B colors, 120Hz, 3840Hz PWM, HDR, 2000 nits (HBM), 10000 nits (peak)*",
             "Size": "6.8 inches, 112.6 cm2 (~90.2% screen-to-body ratio)",
             "Resolution": "1280 x 2788 pixels, 19.5:9 ratio (~452 ppi density)",
+            "Protection": "Aluminosilicate glass",
             "\u00a0": "* Measured at an isolated spot during video playback only"
         },
         "Platform": {
@@ -42,7 +43,7 @@
             "Video": "4K, 1080p, gyro-EIS, OIS"
         },
         "Selfie camera": {
-            "Single": "8 MP, f/2.2, (wide)",
+            "Single": "8 MP, f/2.0, (wide)",
             "Video": "1080p"
         },
         "Sound": {
@@ -62,7 +63,7 @@
             "Sensors": "Fingerprint (under display, optical), accelerometer, compass, gyro, proximity (ultrasound)"
         },
         "Battery": {
-            "Type": "Si/C Li-Ion 11000 mAh",
+            "Type": "Si/C Li-Po 11000 mAh",
             "Charging": "90W wired\r\n27W reverse wired"
         },
         "Misc": {
