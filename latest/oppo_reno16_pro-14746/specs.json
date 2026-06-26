@@ -74,7 +74,8 @@
             "Price": "About 900 EUR"
         },
         "Our Tests": {
-            "Loudspeaker": "\n-23.8 LUFS (Very good)\n"
+            "Loudspeaker": "\n-23.8 LUFS (Very good)\n",
+            "Battery": "\n\nActive use score 19:01h\n\n"
         },
         "EU LABEL": {
             "Energy": "Class A",
