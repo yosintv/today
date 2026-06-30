@@ -1,0 +1,74 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/zte-redmagic-astra2.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "No cellular connectivity",
+            "2G bands": " N/A",
+            "3G bands": " N/A",
+            "4G bands": " N/A",
+            "GPRS": "No",
+            "EDGE": "No"
+        },
+        "Launch": {
+            "Announced": "2026, June 30",
+            "Status": "Available. Released 2026, June 30"
+        },
+        "Body": {
+            "Dimensions": "207.1 x 134.2 x 6.9 mm (8.15 x 5.28 x 0.27 in)",
+            "Weight": "363 g (12.80 oz)",
+            "Build": "Glass front, aluminum frame, aluminum back",
+            "SIM": "No",
+            "\u00a0": "RGB light on the back\r\nAviation-grade aluminum frame\r\nSplash resistant"
+        },
+        "Display": {
+            "Type": "LTPO OLED, 1B colors, 185Hz, PWM, HDR, 1000 nits (typ), 1600 nits (peak)",
+            "Size": "9.06 inches, 238.3 cm2 (~85.7% screen-to-body ratio)",
+            "Resolution": "1504 x 2400 pixels, 16:10 ratio (~313 ppi density)",
+            "Protection": "Corning Gorilla Glass (unspecified version)"
+        },
+        "Platform": {
+            "OS": "Android 16, Redmagic OS 11.5",
+            "Chipset": "Qualcomm SM8850-1-AD Snapdragon 8 Elite Gen 5 (3 nm)",
+            "CPU": "Octa-core (2x4.74 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M)",
+            "GPU": "Adreno 840 (1.3GHz)"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM",
+            "\u00a0": "UFS 4.1 Pro"
+        },
+        "Main Camera": {
+            "Single": "13 MP, (wide)",
+            "Features": "LED flash, HDR, panorama",
+            "Video": "4K@30fps, 1080p@30fps"
+        },
+        "Selfie camera": {
+            "Single": "9 MP, f/2.2, (wide), 0.7\u03bcm",
+            "Video": "1080p@30fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No",
+            "\u00a0": "Snapdragon Sound"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+            "Bluetooth": "5.4, A2DP, LE",
+            "Positioning": "No",
+            "NFC": "No",
+            "Radio": "No",
+            "USB": "Daul USB Type-C 3.2 Gen2 & USB Type-C 2.0, Display Port, magnetic connector pins"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+        },
+        "Battery": {
+            "Type": "8300 mAh",
+            "Charging": "80W wired\r\nBypass charging"
+        },
+        "Misc": {
+            "Colors": "Eclipse Black, Starfrost Silver",
+            "Price": "About 580 EUR"
+        }
+    }
+}
