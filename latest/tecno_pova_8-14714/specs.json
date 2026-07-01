@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, June 11",
-            "Status": "Coming soon. Exp. release 2026, June"
+            "Status": "Available. Released 2026, July 01"
         },
         "Body": {
             "Dimensions": "165.7 x 78.5 x 8.8 mm (6.52 x 3.09 x 0.35 in)",
@@ -38,7 +38,7 @@
         "Main Camera": {
             "Dual": "50 MP, f/1.8, 23mm (wide), 1/1.95\", 0.8\u00b5m, PDAF\r\nAuxiliary lens",
             "Features": "Dual-LED flash",
-            "Video": "1440p@30fps, 1080p@30fps"
+            "Video": "1440p@30fps, 1080p@30/60fps"
         },
         "Selfie camera": {
             "Single": "13 MP, f/2.2, 24mm (wide)",
