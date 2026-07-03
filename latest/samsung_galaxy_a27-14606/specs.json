@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, June 10",
-            "Status": "Coming soon. Exp. release 2026, June"
+            "Status": "Available. Released 2026, July 03"
         },
         "Body": {
             "Dimensions": "162.4 x 78.2 x 7.8 mm (6.39 x 3.08 x 0.31 in)",
@@ -34,7 +34,7 @@
         },
         "Memory": {
             "Card slot": "microSDXC (uses shared SIM slot)",
-            "Internal": "128GB 6GB RAM, 256GB 8GB RAM"
+            "Internal": "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM"
         },
         "Main Camera": {
             "Triple": "50 MP, f/1.8, (wide), 1/2.76\", 0.64\u00b5m, PDAF, OIS\r\n5 MP, f/2.2, (ultrawide), 1/5.0\", 1.12\u00b5m\r\n2 MP (macro)",
@@ -42,7 +42,7 @@
             "Video": "4K@30fps, 1080p@30fps, 720p@480fps, gyro-EIS"
         },
         "Selfie camera": {
-            "Single": "12 MP, f/2.2, (wide), AF",
+            "Single": "12 MP, f/2.2, (wide)",
             "Video": "1080p@30fps"
         },
         "Sound": {
@@ -53,13 +53,13 @@
             "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
             "Bluetooth": "5.1, A2DP, LE, ASHA",
             "Positioning": "GPS, GALILEO, GLONASS, BDS, QZSS",
-            "NFC": "Unspecified",
+            "NFC": "Yes (market/region dependent)",
             "Radio": "Unspecified",
             "USB": "USB Type-C 2.0, OTG"
         },
         "Features": {
             "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, compass",
-            "\u00a0": "Virtual proximity sensing\r\nSamsung DeX support"
+            "\u00a0": "Virtual proximity sensing"
         },
         "Battery": {
             "Type": "5000 mAh",
@@ -68,14 +68,16 @@
         "Misc": {
             "Colors": "Black, Blue, Light Green, Light Pink",
             "Models": "SM-A276E, SM-A276E/DS, SM-A276E/DSN, SM-A276B, SM-A276B/DS, SM-A276B/DSN, SM-A276U, SM-A276U1, SM-A276W",
+            "SAR": "0.86 W/kg (head) \u00a0 \u00a0 ",
             "SAR EU": "0.78 W/kg (head) \u00a0 \u00a0 0.91 W/kg (body) \u00a0 \u00a0 ",
-            "Price": "About 350 EUR"
+            "Price": "\u20ac\u2009309.00"
         },
         "EU LABEL": {
             "Energy": "Class A",
             "Battery": "51:10h endurance, 1200 cycles",
             "Free fall": "Class B (180 falls)",
             "Repairability": "Class C"
-        }
+        },
+        "General": {}
     }
 }
