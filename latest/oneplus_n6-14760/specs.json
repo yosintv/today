@@ -10,7 +10,7 @@
         },
         "Launch": {
             "Announced": "2026, June 30",
-            "Status": "Coming soon. Exp. release 2026, July 04"
+            "Status": "Available. Released 2026, July 04"
         },
         "Body": {
             "Dimensions": "166.5 x 78.2 x 8.9 mm (6.56 x 3.08 x 0.35 in)",
@@ -65,7 +65,8 @@
         },
         "Misc": {
             "Colors": "Fresh Mint, Midnight Green",
-            "Price": "About 210 EUR"
-        }
+            "Price": "\u20b9\u200921,999"
+        },
+        "General": {}
     }
 }
