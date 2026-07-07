@@ -17,6 +17,7 @@
         "Body": {
             "Dimensions": "164.4 x 78.2 x 8.6 mm (6.47 x 3.08 x 0.34 in)",
             "Weight": "210 g (7.41 oz)",
+            "Build": "Glass front, plastic frame, plastic back",
             "SIM": "Nano-SIM + Nano-SIM",
             "\u00a0": "IP64 dust tight and water resistant (water splashes)\r\nManufacturer-rated water-resistant (up to 25cm for 20 min)\r\nNotification LED (on the back)"
         },
@@ -68,7 +69,7 @@
         "Misc": {
             "Colors": "White, Black, Blue",
             "Models": "A009P",
-            "Price": "About 400 EUR"
+            "Price": "About 330 EUR"
         }
     }
 }
