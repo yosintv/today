@@ -12,7 +12,7 @@
         },
         "Launch": {
             "Announced": "2026, June 25",
-            "Status": "Coming soon. Exp. release 2026, July 13"
+            "Status": "Available. Released 2026, July 13"
         },
         "Body": {
             "Dimensions": "151.2 x 72.4 x 8.2 mm or 8.4 mm",
@@ -71,7 +71,7 @@
         "Misc": {
             "Colors": "Pop White, Starlight Black",
             "Models": "CPH2863",
-            "Price": "About 900 EUR"
+            "Price": "\u20ac\u2009899.00"
         },
         "Our Tests": {
             "Performance": "\r\nAnTuTu: 1762580 (v10), 2294761 (v11)\r\nGeekBench: 6208 (v6)\r\n3DMark: 4450 (Wild Life Extreme)",
@@ -84,6 +84,7 @@
             "Battery": "62:00h endurance, 1200 cycles",
             "Free fall": "Class A (270 falls)",
             "Repairability": "Class B"
-        }
+        },
+        "General": {}
     }
 }

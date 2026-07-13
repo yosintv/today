@@ -34,7 +34,8 @@
         },
         "Memory": {
             "Card slot": "microSDXC (uses shared SIM slot)",
-            "Internal": "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM"
+            "Internal": "128GB 6GB RAM, 128GB 8GB RAM, 256GB 8GB RAM",
+            "\u00a0": "UFS 3.1"
         },
         "Main Camera": {
             "Triple": "50 MP, f/1.8, (wide), 1/2.76\", 0.64\u00b5m, PDAF, OIS\r\n5 MP, f/2.2, (ultrawide), 1/5.0\", 1.12\u00b5m\r\n2 MP (macro)",
@@ -54,7 +55,7 @@
             "Bluetooth": "5.1, A2DP, LE, ASHA",
             "Positioning": "GPS, GALILEO, GLONASS, BDS, QZSS",
             "NFC": "Yes (market/region dependent)",
-            "Radio": "Unspecified",
+            "Radio": "No",
             "USB": "USB Type-C 2.0, OTG"
         },
         "Features": {
