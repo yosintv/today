@@ -1,0 +1,70 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-matepad-air-2026.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "No cellular connectivity",
+            "2G bands": " N/A",
+            "3G bands": " N/A",
+            "4G bands": " N/A",
+            "GPRS": "No",
+            "EDGE": "No"
+        },
+        "Launch": {
+            "Announced": "2026, July 14",
+            "Status": "Coming soon. Exp. release 2026, August 01"
+        },
+        "Body": {
+            "Dimensions": "270 x 183 x 5.3 mm (10.63 x 7.20 x 0.21 in)",
+            "Weight": "509 g (1.12 lb)",
+            "Build": "Glass front, aluminum frame, aluminum back",
+            "SIM": "No",
+            "\u00a0": "Stylus support (magnetic)\r\nPaperMatte Display (optional)"
+        },
+        "Display": {
+            "Type": "OLED, 144Hz, 1200 nits (peak), HDR",
+            "Size": "12.0 inches, 426.4 cm2 (~86.3% screen-to-body ratio)",
+            "Resolution": "2800 x 1840 pixels, 3:2 ratio (~279 ppi density)"
+        },
+        "Platform": {
+            "OS": "HarmonyOS 4.3",
+            "Chipset": "Kirin T93C"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 8GB RAM, 256GB 12GB RAM"
+        },
+        "Main Camera": {
+            "Single": "50 MP, f/1.8, (wide), PDAF",
+            "Features": "LED flash",
+            "Video": "4K@30fps, 1080p@30fps"
+        },
+        "Selfie camera": {
+            "Single": "12 MP, f/2.4",
+            "Video": "1080p@30fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers (6 speakers)",
+            "3.5mm jack ": "No",
+            "\u00a0": "Audio Vivid"
+        },
+        "Comms": {
+            "WLAN": "Yes",
+            "Bluetooth": "5.2, A2DP, LE, L2HC",
+            "Positioning": "No",
+            "NFC": "No",
+            "Radio": "No",
+            "USB": "USB Type-C 3.1, OTG, magnetic accessory connector"
+        },
+        "Features": {
+            "Sensors": "Accelerometer, gyro, proximity (accessories only)"
+        },
+        "Battery": {
+            "Type": "Li-Po 10100 mAh",
+            "Charging": "66W wired, UFCS, 100% in 85 min"
+        },
+        "Misc": {
+            "Colors": "Sakura Pink, Airy Blue, White",
+            "Price": "About 850 EUR"
+        }
+    }
+}
