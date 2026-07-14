@@ -1,0 +1,73 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note17-pro-cn.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, July 14",
+            "Status": "Available. Released 2026, July 14"
+        },
+        "Body": {
+            "Dimensions": "163.5 x 78.3 x 8.5 mm (6.44 x 3.08 x 0.33 in)",
+            "Weight": "226 g (7.97 oz)",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)\r\nManufacturer-rated water-resistance (up to 2m for 72 hours)\r\nDrop resistant up to 3m"
+        },
+        "Display": {
+            "Type": "AMOLED, 68B colors, 120Hz, 3840Hz PWM, 3500 nits (peak)",
+            "Size": "6.83 inches, 114.5 cm2 (~89.5% screen-to-body ratio)",
+            "Resolution": "1280 x 2772 pixels, 19.5:9 ratio (~447 ppi density)",
+            "Protection": "Corning Gorilla Glass Victus 2"
+        },
+        "Platform": {
+            "OS": "Android 16, HyperOS 3",
+            "Chipset": "Qualcomm SM6435-AA Snapdragon 6s Gen 4 (4 nm)",
+            "CPU": "Octa-core (4x2.4 GHz Cortex-A78 & 4x1.8 GHz Cortex-A55)",
+            "GPU": "Adreno"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "128GB 8GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, 512GB 8GB RAM",
+            "\u00a0": "UFS 2.2 - 128GB only\r\nUFS 3.1"
+        },
+        "Main Camera": {
+            "Dual": "50 MP, f/1.8, 26mm (wide), 1/2.76\", 0.64\u00b5m, PDAF\r\nAuxiliary lens",
+            "Features": "LED flash, HDR, panorama",
+            "Video": "1080p@30fps"
+        },
+        "Selfie camera": {
+            "Single": "8 MP, (wide)",
+            "Video": "1080p@30fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+            "Bluetooth": "5.1, A2DP, LE",
+            "Positioning": "GPS, GALILEO, GLONASS, QZSS, BDS (B1I+B1c)",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, compass, proximity (ultrasonic)"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 9000 mAh",
+            "Charging": "67W wired, PD3.0\r\n22.5W reverse wired"
+        },
+        "Misc": {
+            "Colors": "Black, Purple, Blue, White",
+            "Price": "About 210 EUR"
+        }
+    }
+}
