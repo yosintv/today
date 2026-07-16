@@ -24,7 +24,7 @@
             "Type": "LTPO AMOLED, 1B colors, 144Hz, PWM, HDR10+, 7000 nits (peak)",
             "Size": "6.82 inches, 113.0 cm2 (~89.5% screen-to-body ratio)",
             "Resolution": "1440 x 3168 pixels (~510 ppi density)",
-            "Protection": "Corning Gorilla Glass 7i"
+            "Protection": "Corning Gorilla Glass 7i, Mohs level 4"
         },
         "Platform": {
             "OS": "Android 16, up to 3 major Android upgrades",
@@ -70,6 +70,12 @@
         "Misc": {
             "Colors": "Pantone: Onyx Black, Sage Green, Glacier Blue",
             "Price": "About 500 EUR"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "74:38h endurance, 1200 cycles",
+            "Free fall": "Class A (270 falls)",
+            "Repairability": "Class B"
         }
     }
 }
