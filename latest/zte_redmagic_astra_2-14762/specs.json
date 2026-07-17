@@ -21,16 +21,16 @@
             "\u00a0": "IP54 dust protected and water resistant (water splashes)\r\nRGB light on the back\r\nAviation-grade aluminum frame\r\nSplash resistant"
         },
         "Display": {
-            "Type": "LTPO OLED, 1B colors, 185Hz, PWM, HDR, 1000 nits (typ), 1600 nits (peak)",
+            "Type": "OLED, 1B colors, 185Hz, HDR, 1000 nits (typ), 1600 nits (peak)",
             "Size": "9.06 inches, 238.3 cm2 (~85.7% screen-to-body ratio)",
             "Resolution": "1504 x 2400 pixels, 16:10 ratio (~313 ppi density)",
-            "Protection": "Corning Gorilla Glass (unspecified version)"
+            "Protection": "Corning Gorilla Glass 3"
         },
         "Platform": {
             "OS": "Android 16, Redmagic OS 11.5",
-            "Chipset": "Qualcomm SM8850-1-AD Snapdragon 8 Elite Gen 5 (3 nm)",
-            "CPU": "Octa-core (2x4.74 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M)",
-            "GPU": "Adreno 840 (1.3GHz)"
+            "Chipset": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
+            "CPU": "Octa-core (2x4.6 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M)",
+            "GPU": "Adreno 840"
         },
         "Memory": {
             "Card slot": "No",
@@ -52,8 +52,8 @@
             "\u00a0": "Snapdragon Sound"
         },
         "Comms": {
-            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
-            "Bluetooth": "5.4 or 6.0, A2DP, LE",
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band",
+            "Bluetooth": "6.0, A2DP, LE",
             "Positioning": "No",
             "NFC": "No",
             "Radio": "No",
@@ -72,7 +72,10 @@
             "Price": "About 580 EUR"
         },
         "Our Tests": {
-            "Loudspeaker": "\n-24.8 LUFS (Very good)\n"
+            "Performance": "\r\nAnTuTu: 3565930 (v10), 4159341 (v11)\r\nGeekBench: 11323 (v6)\r\n3DMark: 7838 (Wild Life Extreme)",
+            "Display": "\n983 nits max brightness (measured)",
+            "Loudspeaker": "\n-24.8 LUFS (Very good)\n",
+            "Battery": "\n\nActive use score 10:25h\n\n"
         }
     }
 }
