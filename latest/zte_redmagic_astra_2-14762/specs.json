@@ -18,7 +18,7 @@
             "Weight": "363 g (12.80 oz)",
             "Build": "Glass front, aluminum frame, aluminum back",
             "SIM": "No",
-            "\u00a0": "RGB light on the back\r\nAviation-grade aluminum frame\r\nSplash resistant"
+            "\u00a0": "IP54 dust protected and water resistant (water splashes)\r\nRGB light on the back\r\nAviation-grade aluminum frame\r\nSplash resistant"
         },
         "Display": {
             "Type": "LTPO OLED, 1B colors, 185Hz, PWM, HDR, 1000 nits (typ), 1600 nits (peak)",
@@ -53,23 +53,26 @@
         },
         "Comms": {
             "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
-            "Bluetooth": "5.4, A2DP, LE",
+            "Bluetooth": "5.4 or 6.0, A2DP, LE",
             "Positioning": "No",
             "NFC": "No",
             "Radio": "No",
-            "USB": "Daul USB Type-C 3.2 Gen2 & USB Type-C 2.0, Display Port, magnetic connector pins"
+            "USB": "Dual USB Type-C 3.2 Gen2 & USB Type-C 2.0, Display Port, magnetic connector pins"
         },
         "Features": {
             "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
         },
         "Battery": {
             "Type": "8300 mAh",
-            "Charging": "80W wired\r\nBypass charging"
+            "Charging": "75W wired\r\nBypass charging"
         },
         "Misc": {
             "Colors": "Eclipse Black, Starfrost Silver",
             "Models": "NP06J",
             "Price": "About 580 EUR"
+        },
+        "Our Tests": {
+            "Loudspeaker": "\n-24.8 LUFS (Very good)\n"
         }
     }
 }
