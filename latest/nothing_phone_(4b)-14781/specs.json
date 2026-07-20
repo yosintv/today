@@ -12,7 +12,7 @@
         },
         "Launch": {
             "Announced": "2026, July 07",
-            "Status": "Coming soon. Exp. release 2026, July 17"
+            "Status": "Available. Released 2026, July 17"
         },
         "Body": {
             "Dimensions": "164.4 x 78.2 x 8.6 mm (6.47 x 3.08 x 0.34 in)",
@@ -69,7 +69,8 @@
         "Misc": {
             "Colors": "White, Black, Blue",
             "Models": "A009P",
-            "Price": "About 330 EUR"
-        }
+            "Price": "\u00a3\u2009299.00 / \u20ac\u2009329.00 / \u20b9\u200935,848"
+        },
+        "General": {}
     }
 }
