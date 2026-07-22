@@ -1,0 +1,79 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold8-ultra-r1.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA/Sub6 - International",
+            "\u00a0": " SA/NSA/Sub6/mmWave - USA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, July 22",
+            "Status": "Available. Released 2026, July 22"
+        },
+        "Body": {
+            "Dimensions": "Unfolded: 158.4 x 143.2 x 4.1 mmFolded: 158.4 x 72.8 x 8.9 mm",
+            "Weight": "215 g (7.58 oz)",
+            "Build": "Glass front (Gorilla Glass Victus Ceramic 2) (folded), plastic front (unfolded), glass back (Gorilla Glass Victus 2), aluminum frame",
+            "SIM": "\u00b7 Nano-SIM + Nano-SIM + eSIM + eSIM (max 2 at a time)\u00b7 Nano-SIM + Nano-SIM + multiple eSIM (max 2 at a time)",
+            "\u00a0": "IP48 dust and water resistant (dust > 1mm; immersible up to 1.5m for 30 min)\r\nAdvanced Armor aluminum frame"
+        },
+        "Display": {
+            "Type": "Foldable Dynamic LTPO AMOLED 2X, 120Hz, HDR10+",
+            "Size": "8.0 inches, 204.4 cm2 (~90.1% screen-to-body ratio)",
+            "Resolution": "2256 x 2504 pixels (~422 ppi density)",
+            "\u00a0": "Flex Titanium technology\r\nCover display:\r\nDynamic LTPO AMOLED 2X, 120Hz, Corning Gorilla Glass Ceramic 2\r\n6.5 inches, 1080 x 2520 pixels, 422 ppi"
+        },
+        "Platform": {
+            "OS": "Android 17, up to 7 major Android upgrades, One UI 9",
+            "Chipset": "Qualcomm SM8850-1-AD Snapdragon 8 Elite Gen 5 (3 nm)",
+            "CPU": "Octa-core (2x4.74 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M)",
+            "GPU": "Adreno 840 (1.3GHz)"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM",
+            "\u00a0": "UFS 4.x"
+        },
+        "Main Camera": {
+            "Triple": "200 MP, f/1.7, 24mm (wide), 1/1.3\", 0.6\u00b5m, multi-directional PDAF, OIS\r\n10 MP, f/2.4, 67mm (telephoto), 1/3.94\", 1.0\u00b5m, PDAF, OIS, 3x optical zoom\r\n50 MP, f/1.9, 120\u02da (ultrawide), 1/2.5\", 0.7\u00b5m, multi-directional PDAF",
+            "Features": "LED flash, HDR, panorama",
+            "Video": "8K@30fps, 4K@60fps, 1080p@60/120/240fps (gyro-EIS), 10-bit HDR, HDR10+"
+        },
+        "Selfie camera": {
+            "Single": "10 MP, f/2.2, 18mm (ultrawide), 1/3.0\", 1.12\u00b5m\r\nCover camera:\r\n10 MP, f/2.2, 24mm (wide), 1/3.0\", 1.12\u00b5m",
+            "Features": "HDR",
+            "Video": "4K@30/60fps, 1080p@30/60fps, gyro-EIS"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No",
+            "\u00a0": "High-bitrate audio support"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, Wi-Fi Direct",
+            "Bluetooth": "6.0, A2DP, LE, aptX HD",
+            "Positioning": "GPS, GALILEO, GLONASS, BDS, QZSS",
+            "NFC": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 3.2, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer",
+            "\u00a0": "Samsung DeX (desktop experience support)\r\nUltra Wideband (UWB) support"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 5000 mAh",
+            "Charging": "45W wired, PD3.0, QC2.0, 67% in 30 min\r\n20W wireless (Qi2.2)\r\n4.5W reverse wireless"
+        },
+        "Misc": {
+            "Colors": "Graphite, Cream, Violet Shadow",
+            "Models": "SM-F976B, SM-F976B/DS, SM-F976U, SM-F976U1",
+            "Price": "$\u20092,099.99 / \u00a3\u20091,899.00 / \u20ac\u20092,199.00"
+        },
+        "General": {}
+    }
+}

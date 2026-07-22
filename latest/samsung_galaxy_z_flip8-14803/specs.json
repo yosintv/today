@@ -1,0 +1,79 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-flip8-.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "\u00a0": " SA/NSA/Sub6/mmWave - USA",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA/Sub6 - International",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, July 22",
+            "Status": "Available. Released 2026, July 22"
+        },
+        "Body": {
+            "Dimensions": "Unfolded: 166.9 x 75.4 x 6.1 mmFolded: 85.7 x 75.4 x 13.1 mm",
+            "Weight": "180 g (6.35 oz)",
+            "Build": "Plastic front (unfolded), glass back (Gorilla Glass Victus 2), aluminum frame",
+            "SIM": "\u00b7 Nano-SIM + eSIM + eSIM (max 2 at a time)\u00b7 Nano-SIM + multiple eSIM (max 2 at a time)",
+            "\u00a0": "IP48 dust and water resistant (dust > 1mm; immersible up to 1.5m for 30 min)\r\nArmor aluminum frame"
+        },
+        "Display": {
+            "Type": "Foldable Dynamic LTPO AMOLED 2X, 120Hz, HDR10+",
+            "Size": "6.9 inches, 109.6 cm2 (~87.1% screen-to-body ratio)",
+            "Resolution": "1080 x 2520 pixels, 21:9 ratio (~400 ppi density)",
+            "\u00a0": "Cover display:\r\nSuper AMOLED, 120Hz, 2600 nits (peak), 4.1 inches, 948 x 1048 pixels (Gorilla Glass Victus 2), 342 PPI"
+        },
+        "Platform": {
+            "OS": "Android 17, up to 7 major Android upgrades, One UI 9",
+            "Chipset": "Exynos 2600 (2 nm)",
+            "CPU": "10-core (1x3.80GHz C1-Ultra & 3x3.25GHz C1-Pro & 6x2.75GHz C1-Pro)",
+            "GPU": "Xclipse 960"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM",
+            "\u00a0": "UFS 4.x"
+        },
+        "Main Camera": {
+            "Dual": "50 MP, f/1.8, 23mm (wide), 1/1.57\", 1.0\u00b5m, dual pixel PDAF, OIS\r\n12 MP, f/2.2, 13mm, 123\u02da (ultrawide), 1/3.2\", 1.12\u00b5m",
+            "Features": "LED flash, HDR, panorama",
+            "Video": "4K@30/60fps, 1080p@60/120/240fps, HDR10+"
+        },
+        "Selfie camera": {
+            "Single": "10 MP, f/2.2, 23mm (wide), 1.12\u00b5m",
+            "Features": "HDR",
+            "Video": "4K@30/60fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No",
+            "\u00a0": "High-bitrate audio support"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, Wi-Fi Direct",
+            "Bluetooth": "5.4, A2DP, LE",
+            "Positioning": "GPS, GALILEO, GLONASS, BDS, QZSS",
+            "NFC": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 3.2, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer",
+            "\u00a0": "Samsung DeX (desktop experience support)"
+        },
+        "Battery": {
+            "Type": "4300 mAh",
+            "Charging": "25W wired, QC2.0, 55% in 30 min\r\n15W wireless\r\n4.5W reverse wireless"
+        },
+        "Misc": {
+            "Colors": "Graphite, Cream, Pink, Mint",
+            "Models": "SM-F776B, SM-F776B/DS, SM-F776U, SM-F776U1",
+            "Price": "$\u20091,199.99 / \u00a3\u20091,149.00 / \u20ac\u20091,299.00"
+        },
+        "General": {}
+    }
+}
