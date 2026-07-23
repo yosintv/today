@@ -5,7 +5,7 @@
             "Technology": "GSM / HSPA / LTE",
             "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
             "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
-            "4G bands": " LTE",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 18, 19, 20, 25, 26, 28, 34, 38, 39, 40, 41, 66, 71",
             "Speed": "HSPA, LTE"
         },
         "Launch": {
@@ -42,7 +42,7 @@
             "3.5mm jack ": "No"
         },
         "Comms": {
-            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+            "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band",
             "Bluetooth": "6.0, A2DP, LE",
             "Positioning": "GPS (L1+L5), GLONASS, GALILEO, BDS",
             "NFC": "Yes",
@@ -58,7 +58,9 @@
         },
         "Misc": {
             "Colors": "Titanium Gray, Titanium Silver",
-            "Models": "SM-L715F",
+            "Models": "SM-L715F, SM-L715U",
+            "SAR": "0.44 W/kg (body) \u00a0 \u00a0 ",
+            "SAR EU": "0.42 W/kg (body) \u00a0 \u00a0 ",
             "Price": "\u20ac\u2009749.00"
         },
         "General": {}
