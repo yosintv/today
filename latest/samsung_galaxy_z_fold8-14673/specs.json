@@ -57,7 +57,7 @@
             "Positioning": "GPS, GALILEO, GLONASS, BDS, QZSS",
             "NFC": "Yes",
             "Radio": "No",
-            "USB": "USB Type-C 2.0, OTG"
+            "USB": "USB Type-C 3.2, OTG"
         },
         "Features": {
             "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer"
