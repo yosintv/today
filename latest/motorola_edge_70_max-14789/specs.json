@@ -69,13 +69,14 @@
         },
         "Misc": {
             "Colors": "Pantone: Onyx Black (Dark Shadow), Sage Green (Aqua Gray), Glacier Blue (Ice Melt)",
-            "Price": "About 500 EUR"
+            "Price": "\u00a3\u2009849.00"
         },
         "EU LABEL": {
             "Energy": "Class A",
             "Battery": "74:38h endurance, 1200 cycles",
             "Free fall": "Class A (270 falls)",
             "Repairability": "Class B"
-        }
+        },
+        "General": {}
     }
 }
