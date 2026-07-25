@@ -25,6 +25,7 @@
             "Type": "Foldable Dynamic LTPO AMOLED 2X, 120Hz, HDR10+, 2600 nits (peak)",
             "Size": "6.9 inches, 109.6 cm2 (~87.1% screen-to-body ratio)",
             "Resolution": "1080 x 2520 pixels, 21:9 ratio (~400 ppi density)",
+            "Protection": "Mohs level 1",
             "\u00a0": "Cover display:\r\nSuper AMOLED, 120Hz, 2600 nits (peak), 4.1 inches, 948 x 1048 pixels (Gorilla Glass Victus 2), 342 PPI"
         },
         "Platform": {
@@ -75,6 +76,12 @@
             "SAR": "1.09 W/kg (head) \u00a0 \u00a0 1.20 W/kg (body) \u00a0 \u00a0 ",
             "SAR EU": "0.74 W/kg (head) \u00a0 \u00a0 1.16 W/kg (body) \u00a0 \u00a0 ",
             "Price": "$\u20091,199.99 / \u00a3\u20091,149.00 / \u20ac\u20091,299.00 / \u20b9\u2009124,999"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "44:10h endurance, 1200 cycles",
+            "Free fall": "Class A (210 falls)",
+            "Repairability": "Class C"
         },
         "General": {}
     }
