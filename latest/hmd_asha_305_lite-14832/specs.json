@@ -1,0 +1,64 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/nokia-asha-305-2026-.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 2100 ",
+            "4G bands": " LTE",
+            "Speed": "HSPA, LTE"
+        },
+        "Launch": {
+            "Announced": "2026, July",
+            "Status": "Available. Released 2026, July"
+        },
+        "Body": {
+            "Dimensions": "147 x 71.5 x 10.2 mm (5.79 x 2.81 x 0.40 in)",
+            "Weight": "-",
+            "SIM": "Yes"
+        },
+        "Display": {
+            "Type": "TFT",
+            "Size": "5.0 inches, 68.9 cm2 (~65.5% screen-to-body ratio)",
+            "Resolution": "480 x 854 pixels, 16:9 ratio (~196 ppi density)"
+        },
+        "Platform": {
+            "OS": "Android Open Source Project"
+        },
+        "Memory": {
+            "Card slot": "Unspecified",
+            "Internal": "16GB 2GB RAM"
+        },
+        "Main Camera": {
+            "Single": "2 MP",
+            "Features": "LED flash",
+            "Video": "Yes"
+        },
+        "Selfie camera": {
+            "Single": "2 MP",
+            "Video": "Yes"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "Unspecified"
+        },
+        "Comms": {
+            "WLAN": "Yes",
+            "Bluetooth": "Yes",
+            "Positioning": "GPS",
+            "NFC": "No",
+            "Radio": "Unspecified",
+            "USB": "Yes"
+        },
+        "Features": {
+            "Sensors": "No"
+        },
+        "Battery": {
+            "Type": "Li-Ion 2500 mAh"
+        },
+        "Misc": {
+            "Colors": "Gray, Green",
+            "Price": "About 60 EUR"
+        }
+    }
+}
