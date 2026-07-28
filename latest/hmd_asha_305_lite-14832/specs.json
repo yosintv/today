@@ -1,5 +1,5 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/nokia-asha-305-2026-.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/hmd-asha-305.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE",
@@ -23,7 +23,10 @@
             "Resolution": "480 x 854 pixels, 16:9 ratio (~196 ppi density)"
         },
         "Platform": {
-            "OS": "Android Open Source Project"
+            "OS": "Android Open Source Project",
+            "Chipset": "Unisoc SC9832E (28 nm)",
+            "CPU": "Quad-core 1.4 GHz",
+            "GPU": "Mali-T820 MP1"
         },
         "Memory": {
             "Card slot": "Unspecified",
