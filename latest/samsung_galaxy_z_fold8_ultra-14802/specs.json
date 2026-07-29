@@ -77,6 +77,9 @@
             "SAR EU": "0.82 W/kg (head) \u00a0 \u00a0 1.17 W/kg (body) \u00a0 \u00a0 ",
             "Price": "$\u20092,099.99 / \u00a3\u20091,899.00 / \u20ac\u20091,849.00 / \u20b9\u2009199,999"
         },
+        "Our Tests": {
+            "Loudspeaker": "\n-29.3 LUFS (Average)\n"
+        },
         "EU LABEL": {
             "Energy": "Class A",
             "Battery": "51:10h endurance, 1200 cycles",
