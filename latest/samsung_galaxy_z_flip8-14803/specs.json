@@ -67,7 +67,7 @@
             "\u00a0": "Samsung DeX (desktop experience support)"
         },
         "Battery": {
-            "Type": "Li-Ion 4300 mAh",
+            "Type": "Si/C Li-Ion 4300 mAh",
             "Charging": "25W wired, QC2.0, 55% in 30 min\r\n15W wireless\r\n4.5W reverse wireless"
         },
         "Misc": {

@@ -67,7 +67,7 @@
             "\u00a0": "Samsung DeX (desktop experience support)\r\nUltra Wideband (UWB) support"
         },
         "Battery": {
-            "Type": "Li-Ion 4800 mAh",
+            "Type": "Si/C Li-Ion 4800 mAh",
             "Charging": "45W wired, QC2.0, 63% in 30 min\r\n20W wireless\r\n4.5W reverse wireless"
         },
         "Misc": {
