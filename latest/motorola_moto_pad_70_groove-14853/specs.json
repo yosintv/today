@@ -26,7 +26,7 @@
             "Resolution": "2560 x 1600 pixels, 16:10 ratio (~249 ppi density)"
         },
         "Platform": {
-            "OS": "Android 16, up to 2 major Android upgrades",
+            "OS": "Android 16, up to 2 major OS updates",
             "Chipset": "Mediatek Dimensity 7400 (4 nm)",
             "CPU": "Octa-core (4x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
             "GPU": "Mali-G615 MC2"
