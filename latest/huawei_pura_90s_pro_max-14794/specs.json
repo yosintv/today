@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, July 14",
-            "Status": "Coming soon. Exp. release 2026, August 01"
+            "Status": "Available. Released 2026, August 01"
         },
         "Body": {
             "Dimensions": "164 x 77.1 x 8.1 mm (6.46 x 3.04 x 0.32 in)",
@@ -71,6 +71,12 @@
             "Colors": "Blush Gold, Orange Ocean, Blaze Purple, Graphite Black",
             "Models": "SCA-LX9",
             "Price": "About 1150 EUR"
+        },
+        "Our Tests": {
+            "Performance": "\r\nAnTuTu: 1293328 (v11)\r\nGeekBench: 4522 (v6)\r\n3DMark: 1606 (Wild Life Extreme)",
+            "Display": "\n1192 nits max brightness (measured)",
+            "Loudspeaker": "\n-25.0 LUFS (Very good)\n",
+            "Battery": "\n\nActive use score 13:03h\n\n"
         }
     }
 }
