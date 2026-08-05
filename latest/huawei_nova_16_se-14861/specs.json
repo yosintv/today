@@ -1,0 +1,74 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-nova16-fe.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "Speed": "HSPA, LTE"
+        },
+        "Launch": {
+            "Announced": "2026, August 05",
+            "Status": "Coming soon. Exp. release 2026, August 13"
+        },
+        "Body": {
+            "Dimensions": "163.3 x 78 x 8 mm (6.43 x 3.07 x 0.31 in)",
+            "Weight": "229 g (8.08 oz)",
+            "Build": "Glass front, plastic frame, aluminum back",
+            "SIM": "Nano-SIM + Nano-SIM"
+        },
+        "Display": {
+            "Type": "OLED, 1B colors, 120Hz, 2160Hz PWM, 8000 nits (peak)*",
+            "Size": "6.84 inches, 114.8 cm2 (~90.2% screen-to-body ratio)",
+            "Resolution": "1272 x 2756 pixels, 19.5:9 ratio (~444 ppi density)",
+            "Protection": "Aluminosilicate glass",
+            "\u00a0": "* Measured at an isolated spot during video playback only"
+        },
+        "Platform": {
+            "OS": "HarmonyOS 6.1",
+            "Chipset": "Kirin 8020",
+            "CPU": "Octa-core (1x2.29 GHz & 3x2.05 GHz & 4x1.3 GHz)",
+            "GPU": "Maleoon 920 2cu"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "128GB, 256GB, 512GB"
+        },
+        "Main Camera": {
+            "Dual": "50 MP, f/1.9, (wide), 1/1.56\", dual-pixel PDAF\r\nAuxiliary lens",
+            "Features": "LED flash, panorama, HDR",
+            "Video": "4K@30fps, 1080p@30fps, gyro-EIS"
+        },
+        "Selfie camera": {
+            "Single": "32 MP, f/2.2, (wide)",
+            "Video": "4K@30fps, 1080p@30fps, gyro-EIS"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band, Wi-Fi Direct",
+            "Bluetooth": "6.0, A2DP, LE, L2HC (320-960 kbps HD audio)",
+            "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5), NavIC, GLONASS",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, compass",
+            "\u00a0": "Virtual proximity sensing"
+        },
+        "Battery": {
+            "Type": "8500 mAh",
+            "Charging": "66W wired\r\n5W reverse wired"
+        },
+        "Misc": {
+            "Colors": "Black, White, Orange, Blue",
+            "Models": "CAS-AL50",
+            "Price": "About 320 EUR"
+        }
+    }
+}
