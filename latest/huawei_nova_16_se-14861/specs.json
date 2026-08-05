@@ -16,7 +16,8 @@
             "Dimensions": "163.3 x 78 x 8 mm (6.43 x 3.07 x 0.31 in)",
             "Weight": "229 g (8.08 oz)",
             "Build": "Glass front, plastic frame, aluminum back",
-            "SIM": "Nano-SIM + Nano-SIM"
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP65 dust tight and water resistant (low pressure water jets)"
         },
         "Display": {
             "Type": "OLED, 1B colors, 120Hz, 2160Hz PWM, 8000 nits (peak)*",
@@ -33,7 +34,7 @@
         },
         "Memory": {
             "Card slot": "No",
-            "Internal": "128GB, 256GB, 512GB"
+            "Internal": "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM"
         },
         "Main Camera": {
             "Dual": "50 MP, f/1.9, (wide), 1/1.56\", dual-pixel PDAF\r\nAuxiliary lens",
