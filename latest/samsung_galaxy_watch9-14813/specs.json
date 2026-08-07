@@ -10,14 +10,14 @@
         },
         "Launch": {
             "Announced": "2026, July 22",
-            "Status": "Coming soon. Exp. release 2026, August 07"
+            "Status": "Available. Released 2026, August 07"
         },
         "Body": {
             "Dimensions": "46 x 43.7 x 8.6 mm (1.81 x 1.72 x 0.34 in)",
             "Weight": "34 g (1.20 oz)",
             "Build": "Glass front (Sapphire crystal), aluminum frame",
             "SIM": "eSIM",
-            "\u00a0": "MIL-STD-810H compliant*\r\nIP68 dust tight and water resistant (immersible up to 50m/5ATM)\r\nECG certified\r\nBlood pressure monitor\r\nArmor aluminum 2 frame\r\n*does not guarantee ruggedness or use in extreme conditions"
+            "\u00a0": "MIL-STD-810H compliant*\r\nIP68 dust tight and water resistant (immersible up to 50m/5ATM)\r\nECG certified\r\nBlood pressure monitor\r\nArmor Aluminum 2\r\n*does not guarantee ruggedness or use in extreme conditions"
         },
         "Display": {
             "Type": "Super AMOLED, 3000 nits (peak)",
