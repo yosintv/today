@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, August 06",
-            "Status": "Coming soon. Exp. release 2026, August 11"
+            "Status": "Available. Released 2026, August 11"
         },
         "Body": {
             "Dimensions": "164.4 x 75.3 x 8 mm (6.47 x 2.96 x 0.31 in)",
@@ -67,7 +67,8 @@
         "Misc": {
             "Colors": "Sapphire Blue, Regal Bronze, Silk White",
             "Models": "V2576",
-            "Price": "About 360 EUR"
-        }
+            "Price": "\u20b9\u200939,999"
+        },
+        "General": {}
     }
 }
