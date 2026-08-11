@@ -1,0 +1,75 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-k100-pro.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, August 11",
+            "Status": "Rumored. 2026, August 11"
+        },
+        "Body": {
+            "Dimensions": "-",
+            "Weight": "-",
+            "Build": "Glass front (Dragon Crystal Glass), aluminum frame, glass-fiber reinforced plastic back",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
+        },
+        "Display": {
+            "Type": "AMOLED, 68B colors, 2560Hz PWM, 185Hz, Dolby Vision, HDR Vivid, HDR10+",
+            "Size": "6.9 inches, 116.6 cm2",
+            "Resolution": "1200 x 2608 pixels, 19.5:9 ratio (~416 ppi density)",
+            "Protection": "Xiaomi Dragon Crystal Glass"
+        },
+        "Platform": {
+            "OS": "Android 16, HyperOS 3",
+            "Chipset": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
+            "CPU": "Octa-core (2x4.6 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M)",
+            "GPU": "Adreno 840"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 256GB 16GB RAM, 512GB 12GB RAM, 512GB 16GB RAM",
+            "\u00a0": "UFS 4.1"
+        },
+        "Main Camera": {
+            "Triple": "200 MP, f/1.9, 23mm (wide), PDAF, OIS\r\n50 MP, f/3.0, 115mm (periscope telephoto), 1/2.76\", 0.64\u00b5m, PDAF (30cm - \u221e), OIS, 5x optical zoom\r\n50 MP, f/2.4, 18mm, 102\u02da (ultrawide), 1/2.88\", 0.61\u00b5m",
+            "Features": "Color spectrum sensor, LED flash, HDR, panorama",
+            "Video": "8K@30fps, 4K@30/60fps, 1080p@30/60/120/240/960fps, 720p@1920fps, gyro-EIS, HDR10+"
+        },
+        "Selfie camera": {
+            "Single": "32 MP, f/2.2, 21mm (wide), 1/3.44\", 0.64\u00b5m",
+            "Video": "4K@30fps, 1080p@30/60fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers (with Dolby Atmos)",
+            "3.5mm jack ": "No",
+            "\u00a0": "Tuned by Bose\r\nBose 2.1 stereo sound system with a woofer\r\n24-bit/192kHz Hi-Res & Hi-Res wireless audio"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band, Wi-Fi Direct",
+            "Bluetooth": "5.4, A2DP, LE, LHDC 5.0, ASHA, MIHC",
+            "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5), NavIC, GLONASS",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 3.2, Display Port, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, proximity, gyro, compass"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 8560 mAh",
+            "Charging": "100W wired, PD3.0, QC3+, 100W PPS\r\n50W wireless\r\n27W reverse wired\r\n22.5W reverse wireless"
+        },
+        "Misc": {
+            "Colors": "Black, White, Light Green, Red (Burgundy)",
+            "Price": "About 480 EUR"
+        }
+    }
+}
