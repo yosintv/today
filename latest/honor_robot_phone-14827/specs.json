@@ -17,14 +17,15 @@
             "Dimensions": "Unfolded: 190.5 x 72.9 x 9.6 mmFolded camera: 151.4 x 72.9 x 9.6 mm",
             "Weight": "248 g (8.75 oz)",
             "Build": "Glass front, aluminum frame, titanium gimbal",
-            "SIM": "Nano-SIM + Nano-SIM"
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP54 dust protected and water resistant (water splashes)"
         },
         "Display": {
-            "Type": "LTPO OLED, 1B colors, 120Hz, HDR, 4320Hz PWM, 6800 nits (peak)",
+            "Type": "LTPO OLED, 1B colors, 120Hz, HDR, 4320Hz PWM, 2000 nits (HBM), 6800 nits (peak)",
             "Size": "6.31 inches, 97.6 cm2 (~88.4% screen-to-body ratio)",
             "Resolution": "1216 x 2640 pixels, 19.5:9 ratio (~461 ppi density)",
-            "Protection": "NanoCrystal Shield",
-            "\u00a0": "AR anti-reflective coating"
+            "Protection": "Giant Rhinoceros Glass",
+            "\u00a0": "AR anti-reflective coating\r\nUltra HDR"
         },
         "Platform": {
             "OS": "Android 16, MagicOS 10",
@@ -37,13 +38,13 @@
             "Internal": "512GB 12GB RAM, 1TB 16GB RAM"
         },
         "Main Camera": {
-            "Triple": "200 MP, f/1.6, 23mm (wide), 1/1.28\", PDAF, OIS, retractable motorized 4DoF gimbal system\r\n200 MP, f/2.6, 62mm (periscope telephoto), 1/1.4\", PDAF, OIS, 2.7x optical zoom\r\n50 MP, f/2.0, (ultrawide), AF",
-            "Features": "3D automated subject tracking, LED flash, panorama, HDR, 10-bit Log-C3 video encoding, LUT color grading",
-            "Video": "4K, 1080p, gyro-EIS, OIS"
+            "Triple": "200 MP, f/1.6, 23mm (wide), 1/1.28\", PDAF, OIS, retractable motorized 4DoF gimbal system\r\n200 MP, f/2.6, 62mm (periscope telephoto), 1/1.4\", PDAF, OIS, 2.7x optical zoom\r\n50 MP, f/2.0, 122\u02da (ultrawide), dual pixel PDAF",
+            "Features": "Laser AF, LED flash, color spectrum sensor, 3D automated subject tracking, 10-bit Log-C3 video encoding, LUT color grading",
+            "Video": "4K@30/60/120fps, 4K@24/25/30/50/60fps (LogC3), 1080p@30/60/120/240fps, gyro-EIS, OIS"
         },
         "Selfie camera": {
-            "Single": "50 MP",
-            "Video": "4K, 1080p, gyro-EIS, OIS"
+            "Single": "50 MP, f/2.0, 22mm (wide)",
+            "Video": "4K@30/60fps, 1080p@30/60fps, gyro-EIS"
         },
         "Sound": {
             "Loudspeaker ": "Yes, with stereo speakers",
@@ -52,20 +53,22 @@
         "Comms": {
             "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band",
             "Bluetooth": "6.0, A2DP, LE, aptX HD, aptX Adaptive, aptX Lossless, LHDC 5, Auracast, ASHA",
-            "Positioning": "GPS",
+            "Positioning": "GPS (L1+L5), GALILEO (E1+E5a+E5b), QZSS (L1+L5), BDS (B1l+B1C+B2a+B2b), NavIC (L1+L5), GLONASS",
             "NFC": "Yes",
+            "Infrared port": "Yes",
             "Radio": "No",
-            "USB": "USB Type-C 3.2, OTG"
+            "USB": "USB Type-C 3.2, Display Port 1.2, OTG"
         },
         "Features": {
             "Sensors": "Fingerprint (under display), accelerometer, compass, gyro, proximity"
         },
         "Battery": {
-            "Type": "Si/C Li-Ion 7060 mAh",
+            "Type": "Si/C Li-Po 7060 mAh",
             "Charging": "120W wired\r\n50W wireless"
         },
         "Misc": {
-            "Colors": "Silver, Gray"
+            "Colors": "Silver, Gray",
+            "Price": "About 1280 EUR"
         }
     }
 }
