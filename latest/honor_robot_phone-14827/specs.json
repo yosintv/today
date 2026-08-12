@@ -1,5 +1,5 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/honor-robot-phone-1.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/honor-robot-phone-2.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE / 5G",
@@ -10,20 +10,21 @@
             "Speed": "HSPA, LTE, 5G"
         },
         "Launch": {
-            "Announced": "Expected announcement 2026, August 12",
-            "Status": "Rumored. Exp. release 2026, September"
+            "Announced": "2026, August 12",
+            "Status": "Coming soon. Exp. release 2026, September"
         },
         "Body": {
-            "Dimensions": "-",
-            "Weight": "-",
-            "Build": "Glass front, aluminum frame",
-            "SIM": "Nano-SIM + Nano-SIM",
-            "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
+            "Dimensions": "Unfolded: 190.5 x 72.9 x 9.6 mmFolded camera: 151.4 x 72.9 x 9.6 mm",
+            "Weight": "248 g (8.75 oz)",
+            "Build": "Glass front, aluminum frame, titanium gimbal",
+            "SIM": "Nano-SIM + Nano-SIM"
         },
         "Display": {
-            "Type": "LTPO AMOLED, 1B colors, 120Hz, HDR",
-            "Size": "6.8 inches, 113.1 cm2",
-            "Resolution": "1280 x 2788 pixels, 19.5:9 ratio (~451 ppi density)"
+            "Type": "LTPO OLED, 1B colors, 120Hz, HDR, 4320Hz PWM, 6800 nits (peak)",
+            "Size": "6.31 inches, 97.6 cm2 (~88.4% screen-to-body ratio)",
+            "Resolution": "1216 x 2640 pixels, 19.5:9 ratio (~461 ppi density)",
+            "Protection": "NanoCrystal Shield",
+            "\u00a0": "AR anti-reflective coating"
         },
         "Platform": {
             "OS": "Android 16, MagicOS 10",
@@ -33,11 +34,11 @@
         },
         "Memory": {
             "Card slot": "No",
-            "Internal": "Up to 512GB"
+            "Internal": "512GB 12GB RAM, 1TB 16GB RAM"
         },
         "Main Camera": {
-            "Triple": "200 MP, f/1.6, 23mm (wide), 1/1.28\", PDAF, retractable motorized 4DoF gimbal system\r\n200 MP, (periscope telephoto), PDAF, OIS, 3x optical zoom\r\n50 MP, (ultrawide)",
-            "Features": "3D automated subject tracking, LED flash, panorama, HDR, Log-C3 video encoding, LUT color grading",
+            "Triple": "200 MP, f/1.6, 23mm (wide), 1/1.28\", PDAF, OIS, retractable motorized 4DoF gimbal system\r\n200 MP, f/2.6, 62mm (periscope telephoto), 1/1.4\", PDAF, OIS, 2.7x optical zoom\r\n50 MP, f/2.0, (ultrawide), AF",
+            "Features": "3D automated subject tracking, LED flash, panorama, HDR, 10-bit Log-C3 video encoding, LUT color grading",
             "Video": "4K, 1080p, gyro-EIS, OIS"
         },
         "Selfie camera": {
@@ -51,17 +52,17 @@
         "Comms": {
             "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band",
             "Bluetooth": "6.0, A2DP, LE, aptX HD, aptX Adaptive, aptX Lossless, LHDC 5, Auracast, ASHA",
-            "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5), NavIC (L5), GLONASS",
+            "Positioning": "GPS",
             "NFC": "Yes",
             "Radio": "No",
-            "USB": "USB Type-C"
+            "USB": "USB Type-C 3.2, OTG"
         },
         "Features": {
             "Sensors": "Fingerprint (under display), accelerometer, compass, gyro, proximity"
         },
         "Battery": {
-            "Type": "6000 mAh",
-            "Charging": "120W wired"
+            "Type": "Si/C Li-Ion 7060 mAh",
+            "Charging": "120W wired\r\n50W wireless"
         },
         "Misc": {
             "Colors": "Silver, Gray"

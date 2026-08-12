@@ -1,0 +1,63 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-watch-gt7-pro.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "No cellular connectivity",
+            "2G bands": " N/A",
+            "3G bands": " N/A",
+            "4G bands": " N/A",
+            "GPRS": "No",
+            "EDGE": "No"
+        },
+        "Launch": {
+            "Announced": "2026, August 05",
+            "Status": "Available. Released 2026, August 05"
+        },
+        "Body": {
+            "Dimensions": "45.6 x 45.6 x 11.3 mm (1.80 x 1.80 x 0.44 in)",
+            "Weight": "55.5 g (1.98 oz)",
+            "Build": "Glass front, titanium alloy frame, ceramic back",
+            "SIM": "No",
+            "\u00a0": "40m swimproof/diving (EN13319)\r\nIP69 dust tight and water resistant (high pressure water jets; immersible up to 50m/5ATM for 10 min)\r\nECG certified"
+        },
+        "Display": {
+            "Type": "AMOLED, 3000 nits (peak)",
+            "Size": "1.47 inches",
+            "Resolution": "466 x 466 pixels (~317 ppi density)"
+        },
+        "Platform": {
+            "OS": "HarmonyOS 6.1"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "64GB"
+        },
+        "Camera": {
+            "\u00a0": "No"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "No",
+            "Bluetooth": "6.0, A2DP, LE",
+            "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B1a), GALILEO (E1+E5a), QZSS (L1+L5), GLONASS, NavIC",
+            "NFC": "Yes",
+            "Radio": "No",
+            "USB": "No"
+        },
+        "Features": {
+            "Sensors": "Accelerometer, gyro, heart rate, barometer, compass, SpO2, thermometer (body temperature)"
+        },
+        "Battery": {
+            "Type": "Li-Ion 867 mAh",
+            "Charging": "10W wireless"
+        },
+        "Misc": {
+            "Colors": "Silver, Black",
+            "Models": "TUM-B49",
+            "Price": "About 350 EUR"
+        }
+    }
+}
