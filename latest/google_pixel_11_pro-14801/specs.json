@@ -15,16 +15,16 @@
             "Status": "Coming soon. Exp. release 2026, August 20"
         },
         "Body": {
-            "Dimensions": "162.7 x 76.5 x 8.5 mm (6.41 x 3.01 x 0.33 in)",
-            "Weight": "226 g (7.97 oz)",
+            "Dimensions": "152.7 x 71.9 x 8.4 mm (6.01 x 2.83 x 0.33 in)",
+            "Weight": "204 g (7.20 oz)",
             "Build": "Glass front (Gorilla Glass Victus 2), glass back (Gorilla Glass Victus 2), aluminum frame",
             "SIM": "\u00b7 Nano-SIM + eSIM\u00b7 eSIM + eSIM (8 or more, max 2 at a time; USA)",
             "\u00a0": "IP68 dust tight and water resistant (immersible up to 1.5m for 30 min)"
         },
         "Display": {
             "Type": "LTPO OLED, 120Hz, HDR10+, 2400 nits (HBM), 3600 nits (peak)",
-            "Size": "6.8 inches, 111.5 cm2 (~89.6% screen-to-body ratio)",
-            "Resolution": "1344 x 2992 pixels, 20:9 ratio (~482 ppi density)",
+            "Size": "6.3 inches, 95.6 cm2 (~87.0% screen-to-body ratio)",
+            "Resolution": "1280 x 2856 pixels, 20:9 ratio (~497 ppi density)",
             "Protection": "Corning Gorilla Glass Victus 2, Mohs level 4"
         },
         "Platform": {
@@ -63,18 +63,18 @@
             "\u00a0": "Ultra Wideband (UWB) support\r\nSatellite SOS service"
         },
         "Battery": {
-            "Type": "Li-Ion 5115 mAh",
-            "Charging": "45W wired, PD3.0, PPS, 75% in 30 min\r\n25W wireless (magnetic), Qi2.2\r\nReverse wired\r\nBypass charging"
+            "Type": "Li-Ion 4850 mAh",
+            "Charging": "30W wired, PD3.0, PPS, 55% in 30 min\r\n25W wireless (magnetic), Qi2.2\r\nReverse wired\r\nBypass charging"
         },
         "Misc": {
             "Colors": "Canyon, Olive, Fog, Obsidian",
-            "Models": "G4HCD",
-            "Price": "$\u20091,299.00 / C$\u20091,799.00 / \u00a3\u20091,279.00 / \u20ac\u20091,399.00"
+            "Models": "GM45K",
+            "Price": "$\u20091,099.00 / C$\u20091,499.00 / \u00a3\u20091,079.00 / \u20ac\u20091,199.00"
         },
         "EU LABEL": {
             "Energy": "Class B",
-            "Battery": "50:10h endurance, 1000 cycles",
-            "Free fall": "Class A (270 falls)",
+            "Battery": "47:36h endurance, 1000 cycles",
+            "Free fall": "Class B (180 falls)",
             "Repairability": "Class B"
         },
         "General": {}
