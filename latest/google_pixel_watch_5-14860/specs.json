@@ -1,0 +1,68 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-watch5-1.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "Speed": "HSPA, LTE"
+        },
+        "Launch": {
+            "Announced": "2026, August 12",
+            "Status": "Coming soon. Exp. release 2026, August 20"
+        },
+        "Body": {
+            "Dimensions": "45 x 45 x 12.3 mm (1.77 x 1.77 x 0.48 in)",
+            "Weight": "31 g or 36.7 g (1.09 oz)",
+            "Build": "Glass front (Gorilla Glass 5), aluminum frame",
+            "SIM": "eSIM",
+            "\u00a0": "IP68 dust tight and water resistant (immersible up to 50m/5ATM)\r\nECG certified"
+        },
+        "Display": {
+            "Type": "LTPO AMOLED, 3000 nits (peak) ",
+            "Size": "1.4 inches",
+            "Resolution": "456 x 456 pixels (~320 ppi density)",
+            "Protection": "Corning Gorilla Glass 5"
+        },
+        "Platform": {
+            "OS": "Android Wear OS 7",
+            "Chipset": "Qualcomm Snapdragon W5 Gen 2 (4 nm)",
+            "CPU": "Quad-core (4x1.7 GHz Cortex-A53)",
+            "GPU": "Adreno A702"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "64GB 2GB RAM",
+            "\u00a0": "eMMC"
+        },
+        "Camera": {
+            "\u00a0": "No"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+            "Bluetooth": "6.0, A2DP",
+            "Positioning": "GPS (L1+L5), GLONASS, GALILEO (E1+E5a)",
+            "NFC": "Yes",
+            "Radio": "No",
+            "USB": "No"
+        },
+        "Features": {
+            "Sensors": "Accelerometer, gyro, heart rate, altimeter, compass, barometer, SpO2, thermometer (skin temperature), skin conductance",
+            "\u00a0": "Satellite SOS service (LTE models only)\r\nUltra Wideband (UWB) support"
+        },
+        "Battery": {
+            "Type": "Li-Ion 465 mAh",
+            "Charging": "Wired, 50% in 15 min, 80% in 30 min, 100% in 60 min - 45mm model\r\nWired, 50% in 15 min, 80% in 25 min, 100% in 45 min - 41mm model"
+        },
+        "Misc": {
+            "Colors": "Matte Black, Polished Silver, Champagne Gold, Satin Pyrite",
+            "Price": "\u20ac\u2009419.00"
+        },
+        "General": {}
+    }
+}

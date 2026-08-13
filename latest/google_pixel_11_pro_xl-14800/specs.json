@@ -1,13 +1,13 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-11-pro-xl-r1.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-11-pro-xl.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE / 5G",
             "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
             "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
-            "4G bands": " LTE",
-            "5G bands": " SA/NSA/Sub6",
-            "\u00a0": " SA/NSA/Sub6/mmWave - USA",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 38, 39, 40, 41, 42, 48, 66, 71, 75 - International",
+            "\u00a0": "1, 2, 3, 5, 7, 8, 12, 13, 14, 20, 25, 26, 28, 29, 30, 38, 40, 41, 48, 66, 70, 71, 77, 78, 258, 260, 261 SA/NSA/Sub6/mmWave - USA",
+            "5G bands": "1, 2, 3, 5, 7, 8, 12, 13, 14, 20, 25, 26, 28, 30, 38, 40, 41, 66, 71, 75, 77, 78, 79 SA/NSA/Sub6 - International",
             "Speed": "HSPA, LTE, 5G"
         },
         "Launch": {
@@ -68,7 +68,7 @@
         },
         "Misc": {
             "Colors": "Canyon, Olive, Fog, Obsidian",
-            "Models": "G4HCD",
+            "Models": "G4HCD, GBC0H",
             "Price": "$\u20091,299.00 / C$\u20091,799.00 / \u00a3\u20091,279.00 / \u20ac\u20091,399.00"
         },
         "EU LABEL": {
