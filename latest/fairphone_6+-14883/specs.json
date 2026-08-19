@@ -1,5 +1,5 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/fairphone-6.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/fairphone-6-plus.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE / 5G",
@@ -69,13 +69,14 @@
             "Colors": "Cobalt Blue, Horizon Black, Forest Green",
             "Models": "FP6",
             "SAR EU": "0.49 W/kg (head) \u00a0 \u00a0 1.39 W/kg (body) \u00a0 \u00a0 ",
-            "Price": "About 650 EUR"
+            "Price": "$\u2009649.99"
         },
         "EU LABEL": {
             "Energy": "Class A",
             "Battery": "50:38h endurance, 1000 cycles",
             "Free fall": "Class A (300 falls)",
             "Repairability": "Class A"
-        }
+        },
+        "General": {}
     }
 }
