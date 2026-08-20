@@ -25,14 +25,17 @@
             "Resolution": "1320 x 2232 pixels, 5:3 ratio (~406 ppi density)"
         },
         "Platform": {
-            "OS": "HarmonyOS 7.0"
+            "OS": "HarmonyOS 7.0",
+            "Chipset": "Kirin 9030S (5 nm)",
+            "CPU": "Octa-core (1x2.7 GHz Taishan Big & 3x2.15 GHz Taishan Mid & 4x1.62 GHz Taishan Little)",
+            "GPU": "Maleoon 935F"
         },
         "Memory": {
             "Card slot": "No",
             "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM"
         },
         "Main Camera": {
-            "Triple": "50 MP, f/1.6, 23mm (wide), PDAF, OIS\r\n8 MP, f/2.4, 80mm (telephoto), PDAF, OIS, 3.5x optical zoom\r\n40 MP, f/2.2, 13mm (ultrawide), AF\r\n1.5 MP multi-spectral channel red maple primary color camera",
+            "Triple": "50 MP, f/1.6, 23mm (wide), PDAF, OIS\r\n50 MP (telephoto)\r\n50 MP (ultrawide)",
             "Features": "Laser AF, color spectrum sensor, LED flash, panorama, HDR",
             "Video": "4K, 1080p, gyro-EIS, HDR Vivid"
         },
@@ -57,7 +60,8 @@
             "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
         },
         "Battery": {
-            "Type": "7000 mAh"
+            "Type": "7000 mAh",
+            "Charging": "66W wired"
         },
         "Misc": {
             "Colors": "Red, Gray, White, Black"
