@@ -12,7 +12,7 @@
         },
         "Launch": {
             "Announced": "2026, August 12",
-            "Status": "Coming soon. Exp. release 2026, August 20"
+            "Status": "Available. Released 2026, August 20"
         },
         "Body": {
             "Dimensions": "152.8 x 72 x 8.6 mm (6.02 x 2.83 x 0.34 in)",
@@ -31,7 +31,7 @@
             "OS": "Android 17, up to 7 major OS updates",
             "Chipset": "Google Tensor G6 (3 nm)",
             "CPU": "7-core (1x4.1 GHz ARM C1-Ultra & 4x3.4 GHz ARM C1-Pro & 2x2.65 GHz ARM C1-Pro)",
-            "GPU": "PowerVR C-Series CXTP-48-1536"
+            "GPU": "PowerVR CXTP-48-1536"
         },
         "Memory": {
             "Card slot": "No",
