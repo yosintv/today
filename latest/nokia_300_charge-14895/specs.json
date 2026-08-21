@@ -1,0 +1,69 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/nokia-300-charge.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM",
+            "2G bands": "GSM 900 / 1800 ",
+            "GPRS": "Yes",
+            "EDGE": "Yes"
+        },
+        "Launch": {
+            "Announced": "2026, August 21",
+            "Status": "Coming soon. Exp. release 2026, August"
+        },
+        "Body": {
+            "Dimensions": "136.6 x 55 x 15 mm (5.38 x 2.17 x 0.59 in)",
+            "Weight": "138 g (4.87 oz)",
+            "SIM": "Dual SIM (Mini-SIM, dual stand-by)",
+            "\u00a0": "Dedicated LED flashlight (on top)"
+        },
+        "Display": {
+            "Type": "TFT",
+            "Size": "2.4 inches, 17.8 cm2 (~23.7% screen-to-body ratio)",
+            "Resolution": "240 x 320 pixels, 4:3 ratio (~167 ppi density)"
+        },
+        "Platform": {
+            "Chipset": "Unisoc SC6531E"
+        },
+        "Memory": {
+            "Card slot": "microSDHC",
+            "Phonebook": "Yes",
+            "Call records": "Yes",
+            "Internal": "4 MB 4 MB RAM"
+        },
+        "Main Camera": {
+            "No": "QVGA",
+            "Video": ""
+        },
+        "Selfie camera": {
+            "\u00a0": "No"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "Yes"
+        },
+        "Comms": {
+            "WLAN": "No",
+            "Bluetooth": "Unspecified",
+            "Positioning": "No",
+            "NFC": "No",
+            "Radio": "Unspecified",
+            "USB": "USB Type-C"
+        },
+        "Features": {
+            "Sensors": "",
+            "Messaging": "SMS",
+            "Games": "Yes",
+            "Java": "No",
+            "\u00a0": "MP3 player"
+        },
+        "Battery": {
+            "Type": "3700 mAh, removable",
+            "Charging": "10W wired\r\n10W reverse wired"
+        },
+        "Misc": {
+            "Colors": "Green, Sandstone, Black",
+            "Price": "About 50 EUR"
+        }
+    }
+}
