@@ -1,0 +1,71 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/lava-virat-v1-pro.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, August 24",
+            "Status": "Available. Released 2026, August 24"
+        },
+        "Body": {
+            "Dimensions": "168.3 x 77.6 x 8.7 mm (6.63 x 3.06 x 0.34 in)",
+            "Weight": "207 g (7.30 oz)",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP64 dust tight and water resistant (water splashes)"
+        },
+        "Display": {
+            "Type": "IPS LCD, 120Hz",
+            "Size": "6.75 inches, 110.0 cm2 (~84.2% screen-to-body ratio)",
+            "Resolution": "720 x 1600 pixels, 20:9 ratio (~260 ppi density)"
+        },
+        "Platform": {
+            "OS": "Android 16",
+            "Chipset": "Unisoc T8200 (6 nm)",
+            "CPU": "Octa-core (2x2.3 GHz Cortex-A76 & 6x2.1 GHz Cortex-A55)",
+            "GPU": "Mali-G57 MC2"
+        },
+        "Memory": {
+            "Card slot": "microSDXC (uses shared SIM slot)",
+            "Internal": "128GB 6GB RAM"
+        },
+        "Main Camera": {
+            "Single": "50 MP, AF",
+            "Features": "LED flash, HDR, panorama",
+            "Video": "1080p@30fps"
+        },
+        "Selfie camera": {
+            "Single": "Yes",
+            "Video": "Yes"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "Yes"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 b/g/n/ac",
+            "Bluetooth": "5.4, A2DP, LE",
+            "Positioning": "GPS, GLONASS",
+            "NFC": "No",
+            "Infrared port": "Yes",
+            "Radio": "FM radio",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+        },
+        "Battery": {
+            "Type": "Li-Ion 6000 mAh",
+            "Charging": "10W wired"
+        },
+        "Misc": {
+            "Colors": "Sikkim Midnight, Spiti Frost",
+            "Price": "About 140 EUR"
+        }
+    }
+}
