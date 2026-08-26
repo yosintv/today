@@ -1,0 +1,70 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/zte-nubia-neo-5-max-padphone.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, August 07",
+            "Status": "Available. Released 2026, August"
+        },
+        "Body": {
+            "Dimensions": "-",
+            "Weight": "-",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP64 dust tight and water resistant (water splashes)\r\nPressure sensitive zones (990Hz touch-sensing)\r\nRGB light (on the back)"
+        },
+        "Display": {
+            "Type": "IPS LCD, 144Hz, 1000 nits",
+            "Size": "7.5 inches, 138.1 cm2",
+            "Resolution": "1280 x 2772 pixels, 19.5:9 ratio (~407 ppi density)"
+        },
+        "Platform": {
+            "OS": "Android 16",
+            "Chipset": "Mediatek Dimensity 7100 (6 nm)",
+            "CPU": "Octa-core (4x2.4 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+            "GPU": "Mali-G610 MC2"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 8GB RAM, 512GB 8GB RAM"
+        },
+        "Main Camera": {
+            "Dual": "50 MP, f/1.8, (wide), PDAF\r\nAuxiliary lens",
+            "Features": "LED flash, HDR, panorama",
+            "Video": "1080p@30fps"
+        },
+        "Selfie camera": {
+            "Single": "16 MP",
+            "Video": "1080p@30fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers (with Dolby Atmos)",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Yes",
+            "Bluetooth": "yes",
+            "Positioning": "GPS, GLONASS, GALILEO, BDS",
+            "NFC": "Yes (market/region dependent)",
+            "Radio": "Unspecified",
+            "USB": "USB Type-C"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+        },
+        "Battery": {
+            "Type": "7100 mAh",
+            "Charging": "45W wired, PD"
+        },
+        "Misc": {
+            "Colors": "Shadow Black, Titanium Gold, Cyber Silver",
+            "Price": "About 400 EUR"
+        }
+    }
+}
