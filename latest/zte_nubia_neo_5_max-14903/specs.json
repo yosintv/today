@@ -14,14 +14,14 @@
             "Status": "Available. Released 2026, August"
         },
         "Body": {
-            "Dimensions": "-",
-            "Weight": "-",
+            "Dimensions": "180.9 x 88.4 x 8 mm (7.12 x 3.48 x 0.31 in)",
+            "Weight": "245 g (8.64 oz)",
             "SIM": "Nano-SIM + Nano-SIM",
             "\u00a0": "IP64 dust tight and water resistant (water splashes)\r\nPressure sensitive zones (990Hz touch-sensing)\r\nRGB light (on the back)"
         },
         "Display": {
-            "Type": "IPS LCD, 144Hz, 1000 nits",
-            "Size": "7.5 inches, 138.1 cm2",
+            "Type": "IPS LCD, 120Hz, 1000 nits",
+            "Size": "7.5 inches, 138.1 cm2 (~86.4% screen-to-body ratio)",
             "Resolution": "1280 x 2772 pixels, 19.5:9 ratio (~407 ppi density)"
         },
         "Platform": {
@@ -32,7 +32,8 @@
         },
         "Memory": {
             "Card slot": "No",
-            "Internal": "256GB 8GB RAM, 512GB 8GB RAM"
+            "Internal": "256GB 8GB RAM, 512GB 8GB RAM",
+            "\u00a0": "UFS 2.2"
         },
         "Main Camera": {
             "Dual": "50 MP, f/1.8, (wide), PDAF\r\nAuxiliary lens",
@@ -48,11 +49,11 @@
             "3.5mm jack ": "No"
         },
         "Comms": {
-            "WLAN": "Yes",
-            "Bluetooth": "yes",
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+            "Bluetooth": "5.2, A2DP, LE",
             "Positioning": "GPS, GLONASS, GALILEO, BDS",
             "NFC": "Yes (market/region dependent)",
-            "Radio": "Unspecified",
+            "Radio": "No",
             "USB": "USB Type-C"
         },
         "Features": {
@@ -60,11 +61,11 @@
         },
         "Battery": {
             "Type": "7100 mAh",
-            "Charging": "45W wired, PD"
+            "Charging": "45W wired, PD, 100% in 70 min\r\nBypass charging"
         },
         "Misc": {
             "Colors": "Shadow Black, Titanium Gold, Cyber Silver",
-            "Price": "About 400 EUR"
+            "Price": "About 320 EUR"
         }
     }
 }
