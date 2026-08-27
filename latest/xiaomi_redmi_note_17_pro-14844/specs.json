@@ -1,0 +1,76 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note17-pro-cn.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 20, 26, 28, 32, 38, 40, 41, 42, 48, 66",
+            "5G bands": "1, 2, 3, 5, 7, 8, 12, 20, 26, 28, 38, 40, 41, 48, 66, 77, 78 SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, August 27",
+            "Status": "Coming soon. Exp. release 2026, August"
+        },
+        "Body": {
+            "Dimensions": "163.5 x 78.3 x 8.6 mm (6.44 x 3.08 x 0.34 in)",
+            "Weight": "223 g (7.87 oz)",
+            "Build": "Glass front (Gorilla Glass Victus 2), plastic back, plastic frame",
+            "SIM": "Nano-SIM + Nano-SIM + eSIM (max 2 at a time)",
+            "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min) - ROW\r\nIP68 dust tight and water resistant (immersible up to 1.5m for 30 min) - EU only\r\nManufacturer-rated water-resistance (up to 2m for 72 hours)\r\nDrop resistant up to 3m"
+        },
+        "Display": {
+            "Type": "AMOLED, 68B colors, 120Hz, 3840Hz PWM, 1060 nits (typ), 1800 nits (HBM), 3500 nits (peak)",
+            "Size": "6.83 inches, 114.5 cm2 (~89.5% screen-to-body ratio)",
+            "Resolution": "1280 x 2772 pixels, 19.5:9 ratio (~447 ppi density)",
+            "Protection": "Corning Gorilla Glass Victus 2"
+        },
+        "Platform": {
+            "OS": "Android 16, HyperOS 3",
+            "Chipset": "Qualcomm SM6435-AA Snapdragon 6s Gen 4 (4 nm)",
+            "CPU": "Octa-core (4x2.4 GHz Cortex-A78 & 4x1.8 GHz Cortex-A55)",
+            "GPU": "Adreno 710"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "128GB 6GB RAM, 256GB 6GB RAM, 256GB 8GB RAM, 256GB 12GB RAM, 512GB 8GB RAM",
+            "\u00a0": "UFS 2.2 - 128GB only\r\nUFS 3.1"
+        },
+        "Main Camera": {
+            "Dual": "50 MP, f/1.8, 26mm (wide), 1/2.76\", 0.64\u00b5m, PDAF, OIS\r\n8 MP, f/2.2, 15mm, 120\u02da (ultrawide), 1/4.0\", 1.12\u00b5m",
+            "Features": "LED flash, HDR, panorama",
+            "Video": "1080p@30fps, gyro-EIS"
+        },
+        "Selfie camera": {
+            "Single": "16 MP, f/2.4, (wide), 1.0\u00b5m",
+            "Features": "HDR, panorama",
+            "Video": "1080p@30fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers (with Dolby Atmos)",
+            "3.5mm jack ": "No",
+            "\u00a0": "24-bit/192kHz Hi-Res & Hi-Res wireless audio"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+            "Bluetooth": "5.1, A2DP, LE",
+            "Positioning": "GPS, GALILEO, GLONASS, QZSS, BDS (B1I+B1c)",
+            "NFC": "Yes (market/region dependent)",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, compass, proximity (ultrasonic)"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 8340 mAh",
+            "Charging": "67W wired, PD3.0, 50% in just 34 min\r\n22.5W reverse wired"
+        },
+        "Misc": {
+            "Colors": "Sky Blue, Black, Satin Orange, Purple",
+            "Models": "2607DRA18G"
+        }
+    }
+}
