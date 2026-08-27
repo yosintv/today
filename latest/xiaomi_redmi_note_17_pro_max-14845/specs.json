@@ -1,5 +1,5 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-17-pro-max-1.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-17-pro-max.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE / 5G",
@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, August 27",
-            "Status": "Coming soon. Exp. release 2026, August"
+            "Status": "Coming soon. Exp. release 2026, September 03"
         },
         "Body": {
             "Dimensions": "163.4 x 78.3 x 8.6 mm (6.43 x 3.08 x 0.34 in)",
@@ -69,13 +69,15 @@
         },
         "Misc": {
             "Colors": "Black, Purple, Cloud Blush, Green",
-            "Models": "2609FRA74G"
+            "Models": "2609FRA74G",
+            "Price": "\u20ac\u2009649.00"
         },
         "Our Tests": {
             "Performance": "\r\nAnTuTu: 841707 (v10)\r\nGeekBench: 3070 (v6)\r\n3DMark: 1190 (Wild Life Extreme)",
             "Display": "\n1109 nits max brightness (measured)",
             "Loudspeaker": "\n-24.3 LUFS (Very good)\n",
             "Battery": "\n\nActive use score 22:31h\n\n"
-        }
+        },
+        "General": {}
     }
 }

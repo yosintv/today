@@ -1,5 +1,5 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note17-cn.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-17.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE / 5G",
@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, August 27",
-            "Status": "Coming soon. Exp. release 2026, August"
+            "Status": "Coming soon. Exp. release 2026, September 03"
         },
         "Body": {
             "Dimensions": "169.7 x 79.1 x 8.5 mm (6.68 x 3.11 x 0.33 in)",
@@ -70,7 +70,9 @@
         },
         "Misc": {
             "Colors": "Celestial Purple, Sky Teal, Black",
-            "Models": "26081RA18G"
-        }
+            "Models": "26081RA18G",
+            "Price": "\u20ac\u2009329.90"
+        },
+        "General": {}
     }
 }
