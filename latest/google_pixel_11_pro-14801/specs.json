@@ -73,6 +73,10 @@
             "Models": "GM45K, G7SWN",
             "Price": "$\u20091,099.00 / \u00a3\u20091,079.00 / \u20ac\u20091,069.74"
         },
+        "Our Tests": {
+            "Loudspeaker": "\n-26.5 LUFS (Good)\n",
+            "Battery": "\n\n\n\n"
+        },
         "EU LABEL": {
             "Energy": "Class B",
             "Battery": "47:36h endurance, 1000 cycles",
