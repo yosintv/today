@@ -31,7 +31,7 @@
             "OS": "Android 17, up to 7 major OS updates",
             "Chipset": "Google Tensor G6 (3 nm)",
             "CPU": "7-core (1x4.1 GHz ARM C1-Ultra & 4x3.4 GHz ARM C1-Pro & 2x2.65 GHz ARM C1-Pro)",
-            "GPU": "PowerVR CXTP-48-1536"
+            "GPU": "IMG CXTP-48-1536"
         },
         "Memory": {
             "Card slot": "No",
@@ -72,10 +72,6 @@
             "Colors": "Canyon, Olive, Fog, Obsidian",
             "Models": "GM45K, G7SWN",
             "Price": "$\u20091,099.00 / \u00a3\u20091,079.00 / \u20ac\u20091,069.74"
-        },
-        "Our Tests": {
-            "Loudspeaker": "\n-26.5 LUFS (Good)\n",
-            "Battery": "\n\n\n\n"
         },
         "EU LABEL": {
             "Energy": "Class B",
