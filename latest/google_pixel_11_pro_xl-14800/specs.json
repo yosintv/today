@@ -73,6 +73,9 @@
             "Models": "G4HCD, GBC0H",
             "Price": "$\u20091,299.00 / \u00a3\u20091,239.00 / \u20ac\u20091,366.00"
         },
+        "Our Tests": {
+            "Loudspeaker": "\n-25.0 LUFS (Very good)\n"
+        },
         "EU LABEL": {
             "Energy": "Class B",
             "Battery": "50:10h endurance, 1000 cycles",
