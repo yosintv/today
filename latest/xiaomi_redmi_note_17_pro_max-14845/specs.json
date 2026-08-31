@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, August 27",
-            "Status": "Coming soon. Exp. release 2026, September 03"
+            "Status": "Available. Released 2026, August 28"
         },
         "Body": {
             "Dimensions": "163.4 x 78.3 x 8.6 mm (6.43 x 3.08 x 0.34 in)",
@@ -65,7 +65,7 @@
             "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, compass, proximity"
         },
         "Battery": {
-            "Type": "Si/C Li-Ion 9210 mAh - EUSi/C Li-Ion 10000 mAh - ROW",
+            "Type": "Si/C Li-Ion 9210 mAh - version 1Si/C Li-Ion 10000 mAh - version 2",
             "Charging": "100W wired, PD3.0, PPS\r\n27W reverse wired"
         },
         "Misc": {
