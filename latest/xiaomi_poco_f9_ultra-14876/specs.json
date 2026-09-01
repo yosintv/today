@@ -74,6 +74,12 @@
             "Models": "26077PC53G",
             "Price": "\u00a3\u2009769.00 / \u20ac\u2009829.90"
         },
+        "Our Tests": {
+            "Performance": "\r\nGeekBench: 10500 (v6)",
+            "Display": "\n1283 nits max brightness (measured)",
+            "Loudspeaker": "\n-26.1 LUFS (Good)\n",
+            "Battery": "\n\nActive use score 24:35h\n\n"
+        },
         "EU LABEL": {
             "Energy": "Class A",
             "Battery": "80:44h endurance, 1000 cycles",
