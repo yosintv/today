@@ -1,0 +1,85 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-f9-pro.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, September 01",
+            "Status": "Coming soon. Exp. release 2026, September 10"
+        },
+        "Body": {
+            "Dimensions": "157.5 x 75.3 x 8.6 mm (6.20 x 2.96 x 0.34 in)",
+            "Weight": "218 g (7.69 oz)",
+            "Build": "Glass front (Gorilla Glass 7i), aluminum frame, glass-fiber reinforced plastic back",
+            "SIM": "Nano-SIM + Nano-SIM + eSIM + eSIM (max 2 at a time)",
+            "\u00a0": "IP68 dust tight and water resistant (immersible up to 1.5m for 30 min)"
+        },
+        "Display": {
+            "Type": "AMOLED, 68B colors, 185Hz, Dolby Vision, HDR Vivid, HDR10+, BT.2020, 4500 nits (peak)",
+            "Size": "6.59 inches, 106.5 cm2 (~89.8% screen-to-body ratio)",
+            "Resolution": "1156 x 2510 pixels, 19.5:9 ratio (~419 ppi density)",
+            "Protection": "Corning Gorilla Glass 7i, Mohs level 5"
+        },
+        "Platform": {
+            "OS": "Android 16, up to 4 major OS updates, HyperOS 3",
+            "Chipset": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
+            "CPU": "Octa-core (2x4.6 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M)",
+            "GPU": "Adreno 840"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM",
+            "\u00a0": "UFS 4.1"
+        },
+        "Main Camera": {
+            "Triple": "200 MP, f/1.7, 24mm (wide), 0.5\u00b5m, PDAF, OIS\r\n50 MP, f/2.0, 60mm (telephoto), 1/2.75\", 0.64\u00b5m, PDAF (10cm - \u221e), OIS, 2.5x optical zoom\r\n8 MP, 112\u02da (ultrawide)",
+            "Features": "Color spectrum sensor, LED flash, HDR, panorama",
+            "Video": "4K@30/60fps, 1080p@30/60/120/240/960/1920fps, gyro-EIS, HDR10+"
+        },
+        "Selfie camera": {
+            "Single": "32 MP, f/2.2, 21mm (wide), 1/3.44\", 0.64\u00b5m",
+            "Video": "4K@30fps, 1080p@30/60fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers (with Dolby Atmos)",
+            "3.5mm jack ": "No",
+            "\u00a0": "Tuned by Bose\r\nBose 2.1 stereo sound system with a woofer\r\n24-bit/192kHz Hi-Res & Hi-Res wireless audio"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band, Wi-Fi Direct",
+            "Bluetooth": "6.0, A2DP, LE, LHDC 5.0, ASHA, MIHC, Auracast",
+            "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5), NavIC, GLONASS",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, proximity, gyro, compass"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 6330 mAh",
+            "Charging": "100W wired, PD3.0, QC3+, 100W PPS\r\n50W wireless\r\n27W reverse wired\r\n22.5W reverse wireless"
+        },
+        "Misc": {
+            "Colors": "Black, White, Light Green",
+            "Models": "2607APCA5G",
+            "Price": "About 900 EUR"
+        },
+        "Our Tests": {
+            "Loudspeaker": "\n-24.0 LUFS (Very good)\n"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "67:50h endurance, 1000 cycles",
+            "Free fall": "Class C (90 falls)",
+            "Repairability": "Class C"
+        }
+    }
+}
