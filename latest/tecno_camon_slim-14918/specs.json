@@ -1,0 +1,71 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-slim-5g.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, September 02",
+            "Status": "Coming soon. Exp. release 2026, September"
+        },
+        "Body": {
+            "Dimensions": "162.6 x 77.3 x 6.4 mm (6.40 x 3.04 x 0.25 in)",
+            "Weight": "-",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)\r\nMIL-STD-810H compliant*\r\n* does not guarantee ruggedness or use in extreme conditions"
+        },
+        "Display": {
+            "Type": "AMOLED, 144Hz, 2160Hz PWM",
+            "Size": "6.78 inches, 112.1 cm2 (~89.2% screen-to-body ratio)",
+            "Resolution": "1208 x 2644 pixels, 19.5:9 ratio (~429 ppi density)"
+        },
+        "Platform": {
+            "OS": "Android 16, up to 3 major OS updates, HIOS 16",
+            "Chipset": "Mediatek Dimensity 7300e (6 nm)",
+            "CPU": "Octa-core (4x2.5 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+            "GPU": "Mali-G610"
+        },
+        "Memory": {
+            "Card slot": "Unspecified",
+            "Internal": "256GB 8GB RAM"
+        },
+        "Main Camera": {
+            "Triple": "50 MP, f/1.8, 23mm (wide), 1/1.56\", 1.0\u00b5m, PDAF, OIS\r\n8 MP, f/2.2, 14mm, 112\u02da (ultrawide), 1/4.0\", 1.12\u00b5m",
+            "Features": "LED flash, HDR, panorama",
+            "Video": "Yes"
+        },
+        "Selfie camera": {
+            "Single": "32 MP, (wide)",
+            "Video": "Yes"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers (with Dolby Atmos)",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Yes",
+            "Bluetooth": "Yes",
+            "Positioning": "GPS",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "FM radio",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, optical), accelerometer, proximity, compass"
+        },
+        "Battery": {
+            "Type": "6500 mAh",
+            "Charging": "45W wired"
+        },
+        "Misc": {
+            "Colors": "Matisse Black, Van Gogh Blue, Burgundy Red",
+            "Models": "CN6"
+        }
+    }
+}
