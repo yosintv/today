@@ -60,7 +60,7 @@
             "NFC": "Yes (market/region dependent)",
             "Infrared port": "Yes",
             "Radio": "No",
-            "USB": "USB Type-C 3.2, OTG"
+            "USB": "USB Type-C 3.2, OTG, video output"
         },
         "Features": {
             "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, proximity, gyro, compass"

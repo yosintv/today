@@ -25,7 +25,7 @@
             "Type": "Dynamic AMOLED 2X, 120Hz, HDR10+, 1900 nits (HBM)",
             "Size": "6.7 inches, 110.2 cm2 (~88.7% screen-to-body ratio)",
             "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~385 ppi density)",
-            "Protection": "Corning Gorilla Glass Victus+"
+            "Protection": "Corning Gorilla Glass Victus+, Mohs level 5"
         },
         "Platform": {
             "OS": "Android 17, up to 7 major OS updates, One UI 9",
@@ -72,6 +72,12 @@
             "Models": "SM-S741B, SM-S741B/DS",
             "SAR EU": "0.50 W/kg (head) \u00a0 \u00a0 1.32 W/kg (body) \u00a0 \u00a0 ",
             "Price": "\u00a3\u2009699.00 / \u20ac\u2009699.00"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "50:00h endurance, 1200 cycles",
+            "Free fall": "Class A (270 falls)",
+            "Repairability": "Class C"
         },
         "General": {}
     }

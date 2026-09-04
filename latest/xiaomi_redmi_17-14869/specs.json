@@ -56,7 +56,6 @@
             "Bluetooth": "5.1, A2DP, LE",
             "Positioning": "GPS, GLONASS, GALILEO, BDS",
             "NFC": "Yes (market/region dependent)",
-            "Infrared port": "Yes",
             "Radio": "FM radio",
             "USB": "USB Type-C 2.0"
         },
