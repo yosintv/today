@@ -71,10 +71,11 @@
         "Misc": {
             "Colors": "Canyon, Olive, Fog, Obsidian",
             "Models": "G4HCD, GBC0H",
-            "Price": "$\u20091,277.70 / \u00a3\u20091,239.00 / \u20ac\u20091,366.00"
+            "Price": "$\u20091,264.89 / \u00a3\u20091,239.00 / \u20ac\u20091,366.00"
         },
         "Our Tests": {
-            "Loudspeaker": "\n-25.0 LUFS (Very good)\n"
+            "Loudspeaker": "\n-25.0 LUFS (Very good)\n",
+            "Battery": "\n\nActive use score 16:45h\n\n"
         },
         "EU LABEL": {
             "Energy": "Class B",
