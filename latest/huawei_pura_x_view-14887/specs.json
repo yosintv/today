@@ -10,19 +10,21 @@
             "Speed": "HSPA, LTE, 5G"
         },
         "Launch": {
-            "Announced": "Expected announcement 2026, August 28",
-            "Status": "Rumored"
+            "Announced": "2026, September 07",
+            "Status": "Coming soon. Exp. release 2026, October 30"
         },
         "Body": {
-            "Dimensions": "6.7 mm thickness",
+            "Dimensions": "144.1 x 87 x 6.7 mm (5.67 x 3.43 x 0.26 in)",
             "Weight": "201 g (7.09 oz)",
-            "SIM": "Nano-SIM + Nano-SIM",
-            "\u00a0": "Dust/water resistant"
+            "Build": "Glass front (Kunlun Glass), glass back, aluminum frame",
+            "SIM": "Nano-SIM + Nano-SIM + eSIM + eSIM (max 2 at a time)",
+            "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)"
         },
         "Display": {
-            "Type": "LTPO2 OLED, 1B colors, 120Hz, 2160Hz PWM, HDR Vivid, 6500 nits (peak)",
-            "Size": "6.39 inches, 115.4 cm2",
-            "Resolution": "1320 x 2232 pixels, 5:3 ratio (~406 ppi density)"
+            "Type": "OLED, 1B colors, 120Hz, 2160Hz PWM, HDR Vivid, 6500 nits (peak)",
+            "Size": "6.39 inches, 115.4 cm2 (~92.1% screen-to-body ratio)",
+            "Resolution": "1320 x 2232 pixels, 5:3 ratio (~406 ppi density)",
+            "Protection": "Kunlun Glass"
         },
         "Platform": {
             "OS": "HarmonyOS 7.0",
@@ -35,21 +37,21 @@
             "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM"
         },
         "Main Camera": {
-            "Triple": "50 MP, f/1.6, 23mm (wide), PDAF, OIS\r\n50 MP (telephoto)\r\n50 MP (ultrawide)",
+            "Triple": "200 MP, f/1.8, 23mm (wide), PDAF, OIS\r\n50 MP, f/2.6, 88mm (periscope telephoto), PDAF, OIS, 3.7x optical zoom\r\n8 MP, f/2.2, 16mm (ultrawide), AF",
             "Features": "Laser AF, color spectrum sensor, LED flash, panorama, HDR",
             "Video": "4K, 1080p, gyro-EIS, HDR Vivid"
         },
         "Selfie camera": {
-            "Single": "10.7 MP, f/2.2, (wide)",
-            "Video": "1080p, HDR Vivid"
+            "Single": "50 MP, f/2.4, (wide)",
+            "Video": "4K@30fps, 1080p@30/120fps, HDR Vivid"
         },
         "Sound": {
             "Loudspeaker ": "Yes, with stereo speakers",
             "3.5mm jack ": "No"
         },
         "Comms": {
-            "WLAN": "Yes",
-            "Bluetooth": "Yes",
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band",
+            "Bluetooth": "6.0, A2DP, LE, L2HC",
             "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), GLONASS, NavIC",
             "NFC": "Yes",
             "Infrared port": "Yes",
@@ -57,14 +59,17 @@
             "USB": "USB Type-C 3.1, OTG, DisplayPort 1.2"
         },
         "Features": {
-            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, altimeter",
+            "\u00a0": "BDS Satellite Messaging - China only"
         },
         "Battery": {
             "Type": "7000 mAh",
-            "Charging": "66W wired"
+            "Charging": "66W wired\r\n50W wireless\r\n5W reverse wired"
         },
         "Misc": {
-            "Colors": "Red, Gray, White, Black"
+            "Colors": "Red, Gray, White, Black",
+            "Models": "VOL-AL00",
+            "Price": "About 770 EUR"
         }
     }
 }

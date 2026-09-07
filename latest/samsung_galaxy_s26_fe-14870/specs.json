@@ -64,7 +64,7 @@
             "\u00a0": "Samsung DeX, Samsung Wireless DeX (desktop experience support)"
         },
         "Battery": {
-            "Type": "Si/C Li-Ion 4900 mAh",
+            "Type": "Li-Ion 4900 mAh",
             "Charging": "45W wired, PD, QC2, 69% in 30 min\r\n15W wireless, Qi2 compatible\r\nReverse wireless"
         },
         "Misc": {
@@ -72,6 +72,9 @@
             "Models": "SM-S741B, SM-S741B/DS",
             "SAR EU": "0.50 W/kg (head) \u00a0 \u00a0 1.32 W/kg (body) \u00a0 \u00a0 ",
             "Price": "$\u2009699.99 / \u00a3\u2009699.00 / \u20ac\u2009699.00"
+        },
+        "Our Tests": {
+            "Loudspeaker": "\n-26.6 LUFS (Good)\n"
         },
         "EU LABEL": {
             "Energy": "Class A",
