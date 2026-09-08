@@ -73,6 +73,12 @@
             "SAR EU": "0.50 W/kg (head) \u00a0 \u00a0 1.32 W/kg (body) \u00a0 \u00a0 ",
             "Price": "$\u2009699.99 / \u00a3\u2009699.00 / \u20ac\u2009699.00"
         },
+        "Our Tests": {
+            "Performance": "\r\nAnTuTu: 2119022 (v10), 2535201 (v11)\r\nGeekBench: 8035 (v6), 7704 (v7)\r\n3DMark: 5275 (Wild Life Extreme)",
+            "Display": "\n1268 nits max brightness (measured)",
+            "Loudspeaker": "\n-26.6 LUFS (Good)\n",
+            "Battery": "\n\nActive use score 14:49h\n\n"
+        },
         "EU LABEL": {
             "Energy": "Class A",
             "Battery": "50:00h endurance, 1200 cycles",
