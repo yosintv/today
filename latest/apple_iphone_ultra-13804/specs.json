@@ -1,0 +1,74 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-ultra-r1.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "\u00a0": " SA/NSA/Sub6/mmWave - USA",
+            "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA/Sub6",
+            "Speed": "HSPA, LTE, 5G, EV-DO Rev.A 3.1 Mbps"
+        },
+        "Launch": {
+            "Announced": "Expected announcement 2026, September 09",
+            "Status": "Rumored. Exp. release 2026, Q4"
+        },
+        "Body": {
+            "Dimensions": "Unfolded: 120.6 x 167.6 x 4.5 mmFolded: 120.6 x 83.8 x 9.2 mm",
+            "Weight": "-",
+            "Build": "Amorphous alloy frame",
+            "SIM": "eSIM",
+            "\u00a0": "Apple Pay (Visa, MasterCard, AMEX certified)"
+        },
+        "Display": {
+            "Type": "Foldable LTPO OLED, 120Hz, HDR10+",
+            "Size": "7.76 inches, 183.2 cm2 (~90.6% screen-to-body ratio)",
+            "Resolution": "1920 x 2713 pixels (~428 ppi density)",
+            "\u00a0": "Self-healing memory glass technology (internal display)\r\nSmall display crease\r\nCover display:\r\nLTPO OLED, 120Hz, Ceramic Shield glass\r\n5.49 inches, 1422 x 2088 pixels"
+        },
+        "Platform": {
+            "OS": "iOS",
+            "Chipset": "3 nm"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM, 2TB 12GB RAM",
+            "\u00a0": "NVMe"
+        },
+        "Main Camera": {
+            "Dual": "48 MP, f/1.8, 24mm (wide), 1/1.28\", 1.22\u00b5m, dual pixel PDAF, sensor-shift OIS\r\n48 MP, f/2.2, 13mm (ultrawide), 1/2.55\", 0.7\u00b5m, PDAF\r\n* camera details are illustrative, no rumored information is available",
+            "Features": "Dual-LED dual-tone flash, HDR (photo/panorama)",
+            "Video": "4K@24/25/30/60/100/120fps, 1080p@25/30/60/120/240fps, 10-bit HDR, Dolby Vision HDR (up to 60fps), ProRes, 3D (spatial) video/audio, stereo sound rec."
+        },
+        "Selfie camera": {
+            "Single": "XX MP under display camera\r\nCover camera:\r\n24 MP multi-aspect, f/1.9, 20mm (ultrawide), PDAF",
+            "Features": "HDR, Dolby Vision HDR, 3D (spatial) audio, stereo sound rec.",
+            "Video": "4K@24/25/30/60fps, 1080p@25/30/60/120fps, gyro-EIS"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, hotspot",
+            "Bluetooth": "5.3, A2DP, LE",
+            "Positioning": "GPS (L1+L5), GLONASS, GALILEO, BDS, QZSS, NavIC",
+            "NFC": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer",
+            "\u00a0": "Ultra Wideband (UWB) support (gen2 chip)\r\nEmergency SOS, Messages and Find My via satellite"
+        },
+        "Battery": {
+            "Type": "5800 mAh",
+            "Charging": "Wired\r\nWireless MagSafe/Qi2 (no magnets)"
+        },
+        "Misc": {
+            "Colors": "Black, White",
+            "Price": "About 2200 EUR"
+        }
+    }
+}
