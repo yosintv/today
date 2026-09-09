@@ -11,7 +11,7 @@
             "Speed": "HSPA, LTE, 5G"
         },
         "Launch": {
-            "Announced": "Expected announcement 2026, September 09",
+            "Announced": "2026, September 09",
             "Status": "Rumored. Exp. release 2026, September 18"
         },
         "Body": {
@@ -31,8 +31,8 @@
         "Platform": {
             "OS": "iOS 27",
             "Chipset": "Apple A20 Pro (2 nm)",
-            "CPU": "Hexa-core (2x GHz + 4x GHz)",
-            "GPU": "Apple GPU (8-core graphics)"
+            "CPU": "Hexa-core (2x GHz high performance + 4x GHz)",
+            "GPU": "Apple GPU (7-core graphics)"
         },
         "Memory": {
             "Card slot": "No",
@@ -45,7 +45,7 @@
             "Video": "4K@24/25/30/60/100/120fps, 1080p@25/30/60/120/240fps, 10-bit HDR, Dolby Vision HDR (up to 120fps), ProRes, ProRes RAW (up to 120fps), Apple Log 2, 3D (spatial) video/audio, stereo sound rec."
         },
         "Selfie camera": {
-            "Single": "25 MP multi-aspect, f/1.9, 20mm (ultrawide), PDAF\r\nSL 3D, (depth/biometrics sensor)",
+            "Single": "18 MP multi-aspect, f/1.9, 20mm (ultrawide), PDAF\r\nSL 3D, (depth/biometrics sensor)",
             "Features": "HDR, Dolby Vision HDR, 3D (spatial) audio, stereo sound rec., ProRes RAW, Apple Log 2",
             "Video": "4K@24/25/30/60fps, 1080p@25/30/60/120fps, gyro-EIS"
         },
@@ -67,10 +67,10 @@
         },
         "Battery": {
             "Type": "Market-dependent versions:\u00b7 Li-Ion 5391 mAh - Nano SIM model\u00b7 Li-Ion 5567 mAh - eSIM only model",
-            "Charging": "Wired, PD3.2, AVS, 50% in 20 min\r\n25W wireless MagSafe/Qi2, 50% in 30 min (15W - China)\r\n4.5W reverse wired"
+            "Charging": "Wired, PD3.2, AVS, 50% in 15 min\r\n25W wireless MagSafe/Qi2, 50% in 30 min (15W - China)\r\n4.5W reverse wired"
         },
         "Misc": {
-            "Colors": "Coffee Brown, Purple, Burgundy"
+            "Colors": "Black, Glacier, Burgundy, Silver"
         }
     }
 }
