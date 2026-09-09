@@ -15,16 +15,16 @@
             "Status": "Rumored. Exp. release 2026, September 18"
         },
         "Body": {
-            "Dimensions": "9.0 mm thickness",
-            "Weight": "240 g (8.47 oz)",
+            "Dimensions": "-",
+            "Weight": "-",
             "Build": "Glass front (Ceramic Shield 2), aluminum frame, aluminum back/ glass back (Ceramic Shield)",
             "SIM": "\u00b7 Nano-SIM + eSIM + eSIM (max 2 at a time; International)\u00b7 eSIM + eSIM (8 or more, max 2 at a time; USA)\u00b7 Nano-SIM + Nano-SIM (China)",
             "\u00a0": "IP68 dust tight and water resistant (immersible up to 6m for 30 min)\r\nApple Pay (Visa, MasterCard, AMEX certified)"
         },
         "Display": {
             "Type": "LTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision",
-            "Size": "6.9 inches, 115.6 cm2 (~90.7% screen-to-body ratio)",
-            "Resolution": "1320 x 2868 pixels, 19.5:9 ratio (~460 ppi density)",
+            "Size": "6.3 inches, 97.2 cm2",
+            "Resolution": "1206 x 2622 pixels, 19.5:9 ratio (~458 ppi density)",
             "Protection": "Ceramic Shield 2",
             "\u00a0": "Anti-reflective coating"
         },
@@ -36,7 +36,7 @@
         },
         "Memory": {
             "Card slot": "No",
-            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM, 2TB 12GB RAM",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM",
             "\u00a0": "NVMe"
         },
         "Main Camera": {
@@ -66,7 +66,7 @@
             "\u00a0": "Ultra Wideband (UWB) support (gen2 chip)\r\nEmergency SOS, Messages and Find My via satellite"
         },
         "Battery": {
-            "Type": "Market-dependent versions:\u00b7 Li-Ion 5391 mAh - Nano SIM model\u00b7 Li-Ion 5567 mAh - eSIM only model",
+            "Type": "Market-dependent versions:\u00b7 Li-Ion 4056 mAh - Nano SIM model\u00b7 Li-Ion 4288 mAh - eSIM only model",
             "Charging": "Wired, PD3.2, AVS, 50% in 20 min\r\n25W wireless MagSafe/Qi2, 50% in 30 min (15W - China)\r\n4.5W reverse wired"
         },
         "Misc": {
