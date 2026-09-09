@@ -40,7 +40,7 @@
             "\u00a0": "NVMe"
         },
         "Main Camera": {
-            "Triple": "48 MP, f/1.5-4.0, 24mm (wide), dual pixel PDAF, sensor-shift OIS (gen2)\r\n48 MP, f/2.8, 100mm (periscope telephoto), 1/2.55\", 0.7\u00b5m, PDAF, 3D sensor\u2011shift OIS, 4x optical zoom\r\n48 MP, f/2.2, 13mm, 120\u02da (ultrawide), 1/2.55\", 0.7\u00b5m, PDAF\r\nTOF 3D LiDAR scanner (depth)",
+            "Triple": "48 MP, f/1.5-4.0, 24mm (wide), 1/1.28\", 1.22\u00b5m, dual pixel PDAF, sensor-shift OIS (gen2)\r\n48 MP, f/2.8, 100mm (periscope telephoto), 1/2.55\", 0.7\u00b5m, PDAF, 3D sensor\u2011shift OIS, 4x optical zoom\r\n48 MP, f/2.2, 13mm, 120\u02da (ultrawide), 1/2.55\", 0.7\u00b5m, PDAF\r\nTOF 3D LiDAR scanner (depth)",
             "Features": "Dual-LED dual-tone flash, HDR (photo/panorama), Cinematic from regular video",
             "Video": "4K@24/25/30/60/100/120fps, 1080p@25/30/60/120/240fps, 10-bit HDR, Dolby Vision HDR (up to 120fps), ProRes, ProRes RAW (up to 120fps), Apple Log 2, 3D (spatial) video/audio, stereo sound rec."
         },
