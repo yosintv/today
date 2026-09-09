@@ -1,0 +1,76 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-duo-12.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "\u00a0": " SA/NSA/Sub6/mmWave - USA",
+            "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA/Sub6",
+            "Speed": "HSPA, LTE, 5G, EV-DO Rev.A 3.1 Mbps"
+        },
+        "Launch": {
+            "Announced": "2026, September 09",
+            "Status": "Coming soon. Exp. release 2026, October 23"
+        },
+        "Body": {
+            "Dimensions": "Unfolded: 117.8 x 164.6 x 5.2 mmFolded: 117.8 x 84.1 x 11.3 mm",
+            "Weight": "254 g (8.96 oz)",
+            "Build": "Glass front (Ceramic Shield 2) (folded), titanium frame & hindge (grade 5), glass back (Ceramic Shield)",
+            "SIM": "eSIM + eSIM (8 or more, max 2 at a time; USA)",
+            "\u00a0": "IP68 dust tight and water resistant (immersible up to 6m for 30 min)\r\nStylus support"
+        },
+        "Display": {
+            "Type": "LTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (typ), 1600 nits (HBM), 3000 nits (peak)",
+            "Size": "7.6 inches, 175.4 cm2 (~90.4% screen-to-body ratio)",
+            "Resolution": "1878 x 2670 pixels (~430 ppi density)",
+            "Protection": "Nano Texture finish",
+            "\u00a0": "Anti\u2011reflective coating\r\nWide-angle OLED\r\nSmall display crease\n\r\nCover display:\r\nLTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (typ), 1600 nits (HBM), 3000 nits (peak)\r\n5.4 inches, 1398 x 2034 pixels, 460 ppi\r\nCeramic Shield 2, Anti\u2011reflective coating"
+        },
+        "Platform": {
+            "OS": "iOS 27",
+            "Chipset": "Apple A20 Pro (2 nm)",
+            "CPU": "Hexa-core (2x GHz high performance + 4x GHz)",
+            "GPU": "Apple GPU (7-core graphics)"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM, 2TB 12GB RAM"
+        },
+        "Main Camera": {
+            "Dual": "48 MP, f/1.6, 26mm (wide), 1/1.28\", 1.22\u00b5m, PDAF, sensor-shift OIS (gen2)\r\n48 MP, f/2.2, 13mm (ultrawide), 1/2.55\", 0.7\u00b5m, PDAF",
+            "Features": "Dual-LED dual-tone flash, HDR (photo/panorama)",
+            "Video": "4K@24/25/30/60/100/120fps, 1080p@25/30/60/120/240fps, 10-bit HDR, Dolby Vision HDR (up to 120fps), ProRes, 3D (spatial) video/audio, stereo sound rec."
+        },
+        "Selfie camera": {
+            "Single": "XX MP under display camera, f/1.8, 1080p@30/60fps video\r\nCover camera:\r\n12 MP multi-aspect, f/2.2, (wide), AF",
+            "Features": "HDR, Dolby Vision HDR, spatial audio, stereo sound rec.",
+            "Video": "4K@24/25/30/60fps, 1080p@25/30/60/120fps, gyro-EIS"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, hotspot",
+            "Bluetooth": "6.0, A2DP, LE",
+            "Positioning": "GPS (L1+L5), GLONASS, GALILEO, BDS, QZSS, NavIC",
+            "NFC": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 3.2 Gen 2, DisplayPort"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer",
+            "\u00a0": "Ultra Wideband (UWB) support (gen2 chip)\r\nEmergency SOS, Messages and Find My via satellite"
+        },
+        "Battery": {
+            "Type": "Li-Ion",
+            "Charging": "Wired, PD3.2, AVS, 50% in 20 min\r\n25W wireless MagSafe/Qi2, 50% in 30 min"
+        },
+        "Misc": {
+            "Colors": "Night Sky, Star White",
+            "Price": "About 2300 EUR"
+        }
+    }
+}

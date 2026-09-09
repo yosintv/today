@@ -1,5 +1,5 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-18-pro-max-r1.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-18-pro-max-2.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE / 5G",
@@ -12,17 +12,17 @@
         },
         "Launch": {
             "Announced": "2026, September 09",
-            "Status": "Rumored. Exp. release 2026, September 18"
+            "Status": "Coming soon. Exp. release 2026, September 18"
         },
         "Body": {
-            "Dimensions": "9.0 mm thickness",
-            "Weight": "240 g (8.47 oz)",
+            "Dimensions": "163.4 x 78 x 8.8 mm (6.43 x 3.07 x 0.35 in)",
+            "Weight": "249 g (8.78 oz)",
             "Build": "Glass front (Ceramic Shield 2), aluminum frame, aluminum back/ glass back (Ceramic Shield)",
             "SIM": "\u00b7 Nano-SIM + eSIM + eSIM (max 2 at a time; International)\u00b7 eSIM + eSIM (8 or more, max 2 at a time; USA)\u00b7 Nano-SIM + Nano-SIM (China)",
             "\u00a0": "IP68 dust tight and water resistant (immersible up to 6m for 30 min)\r\nApple Pay (Visa, MasterCard, AMEX certified)"
         },
         "Display": {
-            "Type": "LTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision",
+            "Type": "LTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (typ), 1600 nits (HBM), 3000 nits (peak)",
             "Size": "6.9 inches, 115.6 cm2 (~90.7% screen-to-body ratio)",
             "Resolution": "1320 x 2868 pixels, 19.5:9 ratio (~460 ppi density)",
             "Protection": "Ceramic Shield 2",
@@ -40,8 +40,8 @@
             "\u00a0": "NVMe"
         },
         "Main Camera": {
-            "Triple": "48 MP, f/1.6-4.0, 24mm (wide), 1/1.28\", 1.22\u00b5m, dual pixel PDAF, sensor-shift OIS\r\n48 MP, f/2.8, 100mm (periscope telephoto), 1/2.55\", 0.7\u00b5m, PDAF, 3D sensor\u2011shift OIS, 4x optical zoom\r\n48 MP, f/2.2, 13mm, 120\u02da (ultrawide), 1/2.55\", 0.7\u00b5m, PDAF\r\nTOF 3D LiDAR scanner (depth)",
-            "Features": "Dual-LED dual-tone flash, HDR (photo/panorama)",
+            "Triple": "48 MP, f/1.5-4.0, 24mm (wide), dual pixel PDAF, sensor-shift OIS (gen2)\r\n48 MP, f/2.8, 100mm (periscope telephoto), 1/2.55\", 0.7\u00b5m, PDAF, 3D sensor\u2011shift OIS, 4x optical zoom\r\n48 MP, f/2.2, 13mm, 120\u02da (ultrawide), 1/2.55\", 0.7\u00b5m, PDAF\r\nTOF 3D LiDAR scanner (depth)",
+            "Features": "Dual-LED dual-tone flash, HDR (photo/panorama), Cinematic from regular video",
             "Video": "4K@24/25/30/60/100/120fps, 1080p@25/30/60/120/240fps, 10-bit HDR, Dolby Vision HDR (up to 120fps), ProRes, ProRes RAW (up to 120fps), Apple Log 2, 3D (spatial) video/audio, stereo sound rec."
         },
         "Selfie camera": {
@@ -66,11 +66,12 @@
             "\u00a0": "Ultra Wideband (UWB) support (gen2 chip)\r\nEmergency SOS, Messages and Find My via satellite"
         },
         "Battery": {
-            "Type": "Market-dependent versions:\u00b7 Li-Ion 5391 mAh - Nano SIM model\u00b7 Li-Ion 5567 mAh - eSIM only model",
-            "Charging": "Wired, PD3.2, AVS, 50% in 15 min\r\n25W wireless MagSafe/Qi2, 50% in 30 min (15W - China)\r\n4.5W reverse wired"
+            "Type": "Market-dependent versions:\u00b7 Li-Ion 5391 mAh - Nano SIM model*\u00b7 Li-Ion 5567 mAh - eSIM only model*",
+            "Charging": "Wired, PD3.2, AVS, 50% in 15 min\r\n25W wireless MagSafe/Qi2, 50% in 30 min (15W - China)\r\n4.5W reverse wired\n\r\n* battery capacities are officially unconfirmed"
         },
         "Misc": {
-            "Colors": "Black, Glacier, Burgundy, Silver"
+            "Colors": "Black, Silver, Glacier, Burgundy",
+            "Price": "About 1600 EUR"
         }
     }
 }

@@ -38,7 +38,7 @@
             "\u00a0": "UFS 4.1"
         },
         "Main Camera": {
-            "Dual": "200 MP, f/1.7, 23mm (wide), 1/1.56\", 0.5\u00b5m, PDAF, OIS\r\n50 MP, f/2.8, 80mm (telephoto), PDAF, OIS, 3.x optical zoom\r\n50 MP, f/2.4, 17mm (ultrawide)",
+            "Triple": "200 MP, f/1.7, 23mm (wide), 1/1.56\", 0.5\u00b5m, PDAF, OIS\r\n50 MP, f/2.8, 80mm (telephoto), PDAF, OIS, 3.x optical zoom\r\n50 MP, f/2.4, 17mm (ultrawide)",
             "Features": "Laser AF, color spectrum sensor, Leica lenses, LED flash, HDR, panorama",
             "Video": "8K@24fps, 4K@30/60fps (Dolby Vision), 1080p@30/60/120/960fps, gyro-EIS, OIS"
         },
