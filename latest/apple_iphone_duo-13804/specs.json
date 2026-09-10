@@ -1,13 +1,13 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-duo.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-duo-fold.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE / 5G",
             "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
             "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
-            "4G bands": " LTE",
-            "5G bands": " SA/NSA/Sub6",
-            "\u00a0": " SA/NSA/Sub6/mmWave - USA",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 48, 53, 66, 71, 106 - A3447, A3719",
+            "\u00a0": "1, 2, 3, 5, 7, 8, 12, 14, 20, 25, 26, 28, 29, 30, 38, 40, 41, 48, 53, 66, 70, 71, 75, 77, 78, 79 SA/NSA/Sub6 - A3719",
+            "5G bands": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 53, 66, 70, 75, 77, 78, 79 SA/NSA/Sub6 - A3720",
             "Speed": "HSPA, LTE, 5G"
         },
         "Launch": {
@@ -18,7 +18,7 @@
             "Dimensions": "Unfolded: 117.8 x 164.6 x 5.2 mmFolded: 117.8 x 84.1 x 11.3 mm",
             "Weight": "254 g (8.96 oz)",
             "Build": "Glass front (Ceramic Shield 2) (folded), titanium frame & hindge (grade 5), glass back (Ceramic Shield)",
-            "SIM": "eSIM + eSIM (8 or more, max 2 at a time)",
+            "SIM": "\u00b7 eSIM + eSIM (8 or more, max 2 at a time) - Global\u00b7 eSIM + eSIM (China)",
             "\u00a0": "IP68 dust tight and water resistant (immersible up to 6m for 30 min)\r\nStylus support"
         },
         "Display": {
@@ -26,7 +26,7 @@
             "Size": "7.6 inches, 175.4 cm2 (~90.4% screen-to-body ratio)",
             "Resolution": "1878 x 2670 pixels (~430 ppi density)",
             "Protection": "Nano Texture finish",
-            "\u00a0": "Anti\u2011reflective coating\r\nWide-angle OLED\r\nSmall display crease\n\r\nCover display:\r\nLTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (typ), 1600 nits (HBM), 3000 nits (peak)\r\n5.4 inches, 1398 x 2034 pixels, 460 ppi\r\nCeramic Shield 2, Anti\u2011reflective coating"
+            "\u00a0": "Anti\u2011reflective coating\r\nWide-angle OLED matte display\r\nSmall display crease\n\r\nCover display:\r\nLTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (typ), 1600 nits (HBM), 3000 nits (peak)\r\n5.4 inches, 1398 x 2034 pixels, 460 ppi\r\nCeramic Shield 2, Anti\u2011reflective coating"
         },
         "Platform": {
             "OS": "iOS 27",
@@ -70,6 +70,7 @@
         },
         "Misc": {
             "Colors": "Night Sky, Star White",
+            "Models": "A3720, A3721, A3447, A3719",
             "Price": "About 2300 EUR"
         }
     }

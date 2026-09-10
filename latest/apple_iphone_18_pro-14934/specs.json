@@ -1,13 +1,13 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-18-pro-max-2.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone18-pro.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE / 5G",
             "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
             "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
-            "4G bands": " LTE",
-            "5G bands": " SA/NSA/Sub6 - International",
-            "\u00a0": " SA/NSA/Sub6/mmWave - USA",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 48, 53, 66, 106 - A3714",
+            "\u00a0": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 66, 70, 75, 77, 78, 79 SA/NSA/Sub6 - A3715",
+            "5G bands": "1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 53, 66, 70, 75, 77, 78, 79 SA/NSA/Sub6 - A3714",
             "Speed": "HSPA, LTE, 5G"
         },
         "Launch": {
@@ -18,20 +18,20 @@
             "Dimensions": "150 x 71.9 x 8.8 mm (5.91 x 2.83 x 0.35 in)",
             "Weight": "211 g (7.44 oz)",
             "Build": "Glass front (Ceramic Shield 2), aluminum frame, aluminum back/ glass back (Ceramic Shield)",
-            "SIM": "\u00b7 Nano-SIM + eSIM + eSIM (max 2 at a time; International)\u00b7 eSIM + eSIM (8 or more, max 2 at a time; USA)\u00b7 Nano-SIM + Nano-SIM (China)",
-            "\u00a0": "IP68 dust tight and water resistant (immersible up to 6m for 30 min)\r\nApple Pay (Visa, MasterCard, AMEX certified)"
+            "SIM": "\u00b7 Nano-SIM + eSIM + eSIM (max 2 at a time; International)\u00b7 eSIM + eSIM (8 or more, max 2 at a time; USA)\u00b7 Nano-SIM + Nano-SIM + eSIM + eSIM (max 2 at a time; China)",
+            "\u00a0": "IP68 dust tight and water resistant (immersible up to 6m for 30 min)"
         },
         "Display": {
             "Type": "LTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (typ), 1600 nits (HBM), 3000 nits (peak)",
             "Size": "6.3 inches, 96.4 cm2 (~89.4% screen-to-body ratio)",
             "Resolution": "1206 x 2622 pixels, 19.5:9 ratio (~460 ppi density)",
-            "Protection": "Ceramic Shield 2",
+            "Protection": "Ceramic Shield 2, Mohs level 5",
             "\u00a0": "Anti-reflective coating"
         },
         "Platform": {
             "OS": "iOS 27",
             "Chipset": "Apple A20 Pro (2 nm)",
-            "CPU": "Hexa-core (2x GHz high performance + 4x GHz)",
+            "CPU": "Hexa-core (2x4.93 GHz + 4x GHz)",
             "GPU": "Apple GPU (7-core graphics)"
         },
         "Memory": {
@@ -71,7 +71,14 @@
         },
         "Misc": {
             "Colors": "Black, Silver, Glacier, Burgundy",
+            "Models": "A3714, A3472, A3713, A3715",
             "Price": "About 1450 EUR"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "52:00h endurance, 1000 cycles",
+            "Free fall": "Class B (180 falls)",
+            "Repairability": "Class C"
         }
     }
 }
