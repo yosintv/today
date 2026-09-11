@@ -16,7 +16,7 @@
         "Body": {
             "Dimensions": "49 x 44 x 12 mm (1.93 x 1.73 x 0.47 in)",
             "Weight": "63 g (2.22 oz)",
-            "Build": "Sapphire crystal front, ceramic/zirconia back, titanium frame (grade 5)",
+            "Build": "Sapphire crystal front, ceramic and zirconia back, titanium frame (grade 5)",
             "SIM": "eSIM",
             "\u00a0": "IP6X certified \r\n100m water resistant (22810:2010)\r\n40m swimproof/diving (EN13319)\r\nMIL-STD-810H compliant\r\nECG certified (region dependent SW application; HW available on all models)"
         },
@@ -24,7 +24,7 @@
             "Type": "Retina LTPO3 OLED, 3000 nits (peak)",
             "Size": "1.98 inches",
             "Resolution": "514 x 422 pixels (~326 ppi density)",
-            "Protection": "Sapphire crystal glass",
+            "Protection": "Sapphire crystal",
             "\u00a0": "Wide-angle OLED"
         },
         "Platform": {

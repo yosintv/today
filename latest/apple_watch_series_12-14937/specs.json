@@ -1,12 +1,12 @@
 {
-    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-series12-ceramic.jpg",
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/apple-watch-series12-gold.jpg",
     "specifications": {
         "Network": {
             "Technology": "GSM / HSPA / LTE / 5G",
             "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
             "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
-            "4G bands": " LTE",
-            "5G bands": " SA/NSA",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 14, 17, 18, 19, 20, 25, 26, 28, 38, 39, 40, 41, 66, 71",
+            "5G bands": "1, 2, 3, 5, 7, 8, 12, 14, 20, 25, 26, 28, 38, 40, 41, 66, 71 SA/NSA",
             "Speed": "HSPA, LTE, 5G"
         },
         "Launch": {
@@ -16,14 +16,14 @@
         "Body": {
             "Dimensions": "46 x 40 x 9.7 mm - titanium47 x 41 x 9.9 mm - ceramic",
             "Weight": "36.5/41.7/42.8/44.9/51.3/52.9 g (1.31 oz)",
-            "Build": "Sapphire crystal front, ceramic/zirconia back, titanium frame (grade 5) or ceramic frame",
+            "Build": "Sapphire crystal front, zirconia back, titanium case (grade 5) or ceramic case",
             "SIM": "eSIM",
             "\u00a0": "IP6X certified\r\n50m water resistant\r\nECG certified (region dependent SW application; HW available on all models)\r\nDepth gauge to 6m"
         },
         "Display": {
             "Type": "Retina LTPO3 OLED, 2000 nits (peak)",
             "Size": "1.96 inches",
-            "Resolution": "496 x 416 pixels (~330 ppi density)",
+            "Resolution": "496 x 416 pixels (~326 ppi density)",
             "Protection": "Sapphire crystal",
             "\u00a0": "Wide-angle OLED"
         },
