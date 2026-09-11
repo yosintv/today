@@ -61,7 +61,8 @@
             "Charging": "Wireless, 0-80% in 30 min"
         },
         "Misc": {
-            "Colors": "Dark Bronze, Light Gold, Black, Space Gray"
+            "Colors": "Dark Bronze, Light Gold, Black, Space Gray",
+            "Models": "A3582, A3587"
         }
     }
 }

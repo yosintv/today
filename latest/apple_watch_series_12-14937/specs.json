@@ -61,7 +61,8 @@
             "Charging": "Wireless, 0-80% in 30 min"
         },
         "Misc": {
-            "Colors": "Radiant Gold Titanium, Natural Titanium, Silver Titanium (Herm\u00e8s only), Pearl White Ceramic, Night Blue Ceramic"
+            "Colors": "Radiant Gold Titanium, Natural Titanium, Silver Titanium (Herm\u00e8s only), Pearl White Ceramic, Night Blue Ceramic",
+            "Models": "A3582, A3587"
         }
     }
 }
