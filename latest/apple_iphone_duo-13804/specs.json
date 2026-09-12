@@ -39,7 +39,7 @@
             "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM, 2TB 12GB RAM"
         },
         "Main Camera": {
-            "Dual": "48 MP, f/1.6, 26mm (wide), 1/2.55\", 0.7\u00b5m, PDAF, sensor-shift OIS\r\n48 MP, f/2.2, 13mm, 120\u02da (ultrawide), 1/2.55\", 0.7\u00b5m, PDAF",
+            "Dual": "48 MP, f/1.6, 26mm (wide), 1/1.56\", 1.0\u00b5m, PDAF, sensor-shift OIS\r\n48 MP, f/2.2, 13mm, 120\u02da (ultrawide), 1/2.55\", 0.7\u00b5m, PDAF",
             "Features": "Dual-LED dual-tone flash, HDR (photo/panorama)",
             "Video": "4K@24/25/30/60/100/120fps, 1080p@25/30/60/120/240fps, 10-bit HDR, Dolby Vision HDR (up to 120fps), ProRes, 3D (spatial) video/audio, stereo sound rec."
         },
