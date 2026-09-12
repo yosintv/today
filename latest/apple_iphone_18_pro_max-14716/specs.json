@@ -72,13 +72,14 @@
         "Misc": {
             "Colors": "Black, Silver, Glacier, Burgundy",
             "Models": "A3717, A3473, A3716, A3718",
-            "Price": "About 1600 EUR"
+            "Price": "$\u20091,350.00"
         },
         "EU LABEL": {
             "Energy": "Class A",
             "Battery": "62:00h endurance, 1000 cycles",
             "Free fall": "Class B (180 falls)",
             "Repairability": "Class C"
-        }
+        },
+        "General": {}
     }
 }
