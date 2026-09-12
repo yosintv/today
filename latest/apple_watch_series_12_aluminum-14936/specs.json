@@ -62,7 +62,9 @@
         },
         "Misc": {
             "Colors": "Dark Bronze, Light Gold, Black, Space Gray",
-            "Models": "A3582, A3587"
-        }
+            "Models": "A3582, A3587",
+            "Price": "\u20ac\u2009449.00"
+        },
+        "General": {}
     }
 }
