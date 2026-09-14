@@ -75,7 +75,10 @@
             "Price": "\u00a3\u2009639.00 / \u20ac\u2009739.90"
         },
         "Our Tests": {
-            "Loudspeaker": "\n-24.0 LUFS (Very good)\n"
+            "Performance": "\r\nAnTuTu: 2596938 (v10)\r\nGeekBench: 10198 (v6)\n",
+            "Display": "\n1270 nits max brightness (measured)",
+            "Loudspeaker": "\n-24.0 LUFS (Very good)\n",
+            "Battery": "\n\nActive use score 19:06h\n\n"
         },
         "EU LABEL": {
             "Energy": "Class A",
