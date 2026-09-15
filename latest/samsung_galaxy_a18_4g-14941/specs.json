@@ -1,0 +1,73 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a18-4g.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 2100 ",
+            "4G bands": "1, 3, 5, 7, 8, 20, 28, 38, 40, 41",
+            "Speed": "HSPA, LTE"
+        },
+        "Launch": {
+            "Announced": "2026, September 15",
+            "Status": "Coming soon. Exp. release 2026, September 18"
+        },
+        "Body": {
+            "Dimensions": "164.4 x 77.9 x 7.7 mm (6.47 x 3.07 x 0.30 in)",
+            "Weight": "196 g (6.91 oz)",
+            "Build": "Glass front (Gorilla Glass 3), plastic back, plastic frame",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP64 dust tight and water resistant (water splashes)"
+        },
+        "Display": {
+            "Type": "Super AMOLED, 90Hz",
+            "Size": "6.7 inches, 110.2 cm2 (~86.0% screen-to-body ratio)",
+            "Resolution": "1080 x 2340 pixels, 19.5:9 ratio (~385 ppi density)",
+            "Protection": "Corning Gorilla Glass 3"
+        },
+        "Platform": {
+            "OS": "Android 17, up to 6 major OS updates, One UI 9",
+            "Chipset": "Exynos 1610",
+            "CPU": "Octa-core (2x2.4 GHz Cortex-A7X & 6x2.0 GHz Cortex-A55)"
+        },
+        "Memory": {
+            "Card slot": "microSDXC (uses shared SIM slot)",
+            "Internal": "64GB 4GB RAM, 128GB 4GB RAM, 256GB 4GB RAM"
+        },
+        "Main Camera": {
+            "Triple": "50 MP, f/1.8, (wide), 1/2.76\", 0.64\u00b5m, AF, OIS\r\n5 MP, f/2.2, (ultrawide), 1/5.0\", 1.12\u00b5m\r\n2 MP (macro)",
+            "Features": "LED flash, panorama, HDR",
+            "Video": "1080p@30fps"
+        },
+        "Selfie camera": {
+            "Single": "13 MP, f/2.0, (wide), 1/3.1\", 1.12\u00b5m",
+            "Video": "1080p@30fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+            "Bluetooth": "5.3, A2DP, LE",
+            "Positioning": "GPS, GALILEO, GLONASS, BDS, QZSS",
+            "NFC": "Yes (market/region dependent)",
+            "Radio": "Unspecified",
+            "USB": "USB Type-C 2.0"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, compass",
+            "\u00a0": "Virtual proximity sensing"
+        },
+        "Battery": {
+            "Type": "5000 mAh",
+            "Charging": "25W wired, 50% in 30 min"
+        },
+        "Misc": {
+            "Colors": "Black, Gray, Light blue",
+            "Models": "SM-A185F, SM-A185F/DS, SM-A185M, SM-A185M/DS, SM-A185F/DSB",
+            "SAR EU": "0.54 W/kg (head) \u00a0 \u00a0 1.37 W/kg (body) \u00a0 \u00a0 ",
+            "Price": "About 280 EUR"
+        }
+    }
+}
