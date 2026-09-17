@@ -4,7 +4,7 @@
         "Network": {
             "Technology": "GSM / HSPA / LTE / 5G",
             "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
-            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "3G bands": "HSDPA 850 / 900 / 1900 / 2100 ",
             "4G bands": " LTE",
             "5G bands": " SA/NSA",
             "Speed": "HSPA, LTE, 5G"
@@ -36,7 +36,7 @@
             "\u00a0": "UFS 4.1"
         },
         "Main Camera": {
-            "Triple": "50 MP, f/1.6, (wide), 1/1.4\", PDAF, OIS\r\n64 MP, (telephoto), dual-pixel PDAF, OIS, 3x optical zoom\r\n50 MP, f/2.0, 115\u02da (ultrawide), 1/2.88\", 0.61\u00b5m, AF",
+            "Triple": "200 MP, f/1.6, (wide), 1/1.4\", PDAF, OIS\r\n64 MP, (telephoto), dual pixel PDAF, OIS, 3x optical zoom\r\n50 MP, f/2.0, 115\u02da (ultrawide), 1/2.88\", 0.61\u00b5m, AF",
             "Features": "LED flash, HDR, panorama",
             "Video": "Yes"
         },
@@ -58,8 +58,8 @@
             "USB": "USB Type-C, OTG"
         },
         "Features": {
-            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass",
-            "\u00a0": "System-wide AI integration based on Doubao Mobile Assistant"
+            "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, gyro, proximity, compass",
+            "\u00a0": "System-wide AI integration based on Doubao Mobile Assistant\r\nSide-mounted fingerprint for AI identification"
         },
         "Battery": {
             "Type": "Si/C Li-Ion 7100 mAh",
