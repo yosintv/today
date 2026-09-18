@@ -39,12 +39,12 @@
             "\u00a0": "UFS 4.1"
         },
         "Main Camera": {
-            "Triple": "200 MP, f/1.7, 24mm (wide), 0.5\u00b5m, PDAF, OIS\r\n50 MP, f/3.0, 120mm (periscope telephoto), 1/2.75\", 0.64\u00b5m, PDAF, OIS, 5x optical zoom\r\n50 MP, f/2.4, 17mm, 102\u02da (ultrawide), 1/2.88\", 0.61\u00b5m",
+            "Triple": "200 MP, f/1.7, 24mm (wide), 1/1.56\", 0.5\u00b5m, PDAF, OIS\r\n50 MP, f/3.0, 114mm (periscope telephoto), 1/2.76\", 0.64\u00b5m, PDAF, OIS, 5x optical zoom\r\n50 MP, f/2.4, 17mm, 102\u02da (ultrawide), 1/2.88\", 0.61\u00b5m",
             "Features": "Color spectrum sensor, LED flash, HDR, panorama",
             "Video": "8K@30fps, 4K@30/60fps, 1080p@30/60/120/240/960/1920fps, gyro-EIS, HDR10+"
         },
         "Selfie camera": {
-            "Single": "32 MP, f/2.2, 21mm (wide), 1/3.44\", 0.64\u00b5m",
+            "Single": "32 MP, f/2.2, 22mm (wide), 1/3.4\", 0.61\u00b5m",
             "Features": "HDR",
             "Video": "4K@30fps, 1080p@30/60fps"
         },
