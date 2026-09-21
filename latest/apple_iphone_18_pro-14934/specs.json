@@ -31,7 +31,7 @@
         "Platform": {
             "OS": "iOS 27",
             "Chipset": "Apple A20 Pro (2 nm)",
-            "CPU": "Hexa-core (2x4.93 GHz + 4x GHz)",
+            "CPU": "Hexa-core (2x4.93 GHz + 4x2.64 GHz)",
             "GPU": "Apple GPU (7-core graphics)"
         },
         "Memory": {

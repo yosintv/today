@@ -1,0 +1,85 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x500-pro-max.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 18, 19, 20, 25, 26, 28, 34, 38, 39, 40, 41, 42, 43, 48, 66",
+            "5G bands": "1, 2, 3, 5, 7, 8, 18, 20, 25, 26, 28, 34, 38, 39, 40, 41, 48, 66, 77, 78, 79 SA/NSA/Sub6",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, September 21",
+            "Status": "Coming soon. Exp. release 2026, September 24"
+        },
+        "Body": {
+            "Dimensions": "163.3 x 76.8 x 8.1 mm (6.43 x 3.02 x 0.32 in)",
+            "Weight": "225 g or 229 g (7.94 oz)",
+            "Build": "Glass front, aluminum frame, glass back or glass-fiber reinforced plastic back",
+            "SIM": "\u00b7 Nano-SIM + Nano-SIM + eSIM (max 2 at a time) - International\u00b7 Nano-SIM + Nano-SIM - China",
+            "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
+        },
+        "Display": {
+            "Type": "LTPO AMOLED, 1B colors, 144Hz, HDR10+, Dolby Vision, 2000 nits (HBM), 4400 nits (peak)",
+            "Size": "6.85 inches, 114.5 cm2 (~91.3% screen-to-body ratio)",
+            "Resolution": "1440 x 3168 pixels (~507 ppi density)",
+            "Protection": "Armor Glass, Mohs level 4",
+            "\u00a0": "Ultra HDR image support"
+        },
+        "Platform": {
+            "OS": "Android 17, up to 5 major OS updates, OriginOS 7",
+            "Chipset": "Mediatek Dimensity 9600 Pro (2 nm)",
+            "CPU": "Octa-core (2x4.55 GHz & 3x4.35 GHz & 3x3.1 GHz)",
+            "GPU": "Mali-G2-Ultra-NX"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 12GB RAM, 1TB 16GB RAM",
+            "\u00a0": "UFS 4.1"
+        },
+        "Main Camera": {
+            "Triple": "50 MP, f/1.6, 24mm (wide), 1/1.28\", 1.22\u00b5m, PDAF, OIS\r\n200 MP, f/2.7, 85mm (periscope telephoto), 1/1.4\", 0.56\u00b5m, multi-directional PDAF, OIS, 3.5x optical zoom\r\n50 MP, f/2.0, 15mm, 119\u02da (ultrawide), 1/2.75\", 0.64\u00b5m, AF",
+            "Features": "Laser AF, color spectrum sensor, Zeiss optics, Zeiss T* lens coating, LED flash, panorama, HDR, 3D LUT import",
+            "Video": "8K@30fps, 4K@30/60/120/240fps, 1080p@30/60/120/240fps, 17 EV TrueDynamic Log, Dolby Vision HDR, 4K@120fps 10-bit Log, 10-bit 422 APV"
+        },
+        "Selfie camera": {
+            "Single": "50 MP, f/2.0, 20mm (wide), 1/2.76\", 0.64\u00b5m, AF",
+            "Features": "HDR",
+            "Video": "4K@30/60fps, 1080p@30/60fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No",
+            "\u00a0": "24-bit/192kHz Hi-Res audio"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band",
+            "Bluetooth": "5.4/6.0, A2DP, LE, aptX HD, LHDC 5",
+            "Positioning": "GPS (L1+L5), GLONASS (L1), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), NavIC (L1+L5)",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 3.2, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, gyro, proximity, compass",
+            "\u00a0": "Satellite connectivity support (1TB 12GB RAM only; for China)"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 8000 mAh",
+            "Charging": "90W wired\r\n40W wireless\r\nReverse wireless\r\nReverse wired"
+        },
+        "Misc": {
+            "Colors": "Black, Gray, White, Orange",
+            "Models": "V2610, V2602A",
+            "Price": "About 910 EUR"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "72:05h endurance, 1200 cycles",
+            "Free fall": "Class B (180 falls)",
+            "Repairability": "Class C"
+        }
+    }
+}

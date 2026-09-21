@@ -1,0 +1,76 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-x500.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 18, 19, 20, 25, 26, 28, 34, 38, 39, 40, 41, 42, 43, 48, 66",
+            "5G bands": "1, 2, 3, 5, 7, 8, 18, 20, 25, 26, 28, 34, 38, 39, 40, 41, 48, 66, 77, 78, 79 SA/NSA/Sub6",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, September 21",
+            "Status": "Coming soon. Exp. release 2026, September 24"
+        },
+        "Body": {
+            "Dimensions": "157 x 75 x 8.2 mm (6.18 x 2.95 x 0.32 in)",
+            "Weight": "211 g or 213 g (7.44 oz)",
+            "Build": "Glass front, aluminum frame, glass back",
+            "SIM": "\u00b7 Nano-SIM + Nano-SIM + eSIM (max 2 at a time) - International\u00b7 Nano-SIM + Nano-SIM - China",
+            "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
+        },
+        "Display": {
+            "Type": "AMOLED, 1B colors, 144Hz, HDR10+, 2000 nits (HBM), 4000 nits (peak)",
+            "Size": "6.59 inches, 106.1 cm2 (~90.1% screen-to-body ratio)",
+            "Resolution": "1260 x 2750 pixels, 19.5:9 ratio (~459 ppi density)"
+        },
+        "Platform": {
+            "OS": "Android 17, up to 5 major OS updates, OriginOS 7",
+            "Chipset": "Mediatek Dimensity 9600M (3 nm)",
+            "CPU": "Octa-core (1x4.21 GHz & 3x3.5 GHz & 4x2.7 GHz)",
+            "GPU": "ARM G1-Ultra"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM",
+            "\u00a0": "UFS 4.1"
+        },
+        "Main Camera": {
+            "Triple": "50 MP, f/1.7, 23mm (wide), 1/1.28\", 1.22\u00b5m, PDAF, OIS\r\n64 MP, f/2.6, 72mm (periscope telephoto), 1/2.0\", 0.7\u00b5m, PDAF (15cm - \u221e), OIS, 3x optical zoom\r\n50 MP, f/2.0, 15mm, 119\u02da (ultrawide), 1/2.76\", 0.64\u00b5m, AF",
+            "Features": "Laser AF, color spectrum sensor, Zeiss optics, Zeiss T* lens coating, LED flash, panorama, HDR, 3D LUT import",
+            "Video": "8K@30fps, 4K@30/60/120fps, 1080p@30/60/120/240fps, HDR, gyro-EIS, 4K@120fps 10-bit Log"
+        },
+        "Selfie camera": {
+            "Single": "50 MP, f/2.0, 20mm (wide), 1/2.76\", 0.64\u00b5m, AF",
+            "Features": "HDR",
+            "Video": "4K@30/60fps, 1080p@30/60fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No",
+            "\u00a0": "24-bit/192kHz Hi-Res audio"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band",
+            "Bluetooth": "5.4/6.0, A2DP, LE, aptX HD, LHDC 5",
+            "Positioning": "GPS (L1+L5), GLONASS (L1), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), NavIC (L1+L5)",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 3.2, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, gyro, proximity, compass"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 7500 mAh",
+            "Charging": "90W wired\r\n40W wireless\r\nReverse wired"
+        },
+        "Misc": {
+            "Colors": "Black, Gray, White, Pink",
+            "Models": "V2609A",
+            "Price": "About 720 EUR"
+        }
+    }
+}
