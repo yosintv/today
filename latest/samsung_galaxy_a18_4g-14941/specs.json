@@ -28,7 +28,8 @@
         "Platform": {
             "OS": "Android 17, up to 6 major OS updates, One UI 9",
             "Chipset": "Exynos 1610",
-            "CPU": "Octa-core (2x2.4 GHz Cortex-A7X & 6x2.0 GHz Cortex-A55)"
+            "CPU": "Octa-core (2x2.4 GHz Cortex-A7X & 6x2.0 GHz Cortex-A55)",
+            "GPU": "Mali-G68"
         },
         "Memory": {
             "Card slot": "microSDXC (uses shared SIM slot)",
