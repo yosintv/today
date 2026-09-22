@@ -52,7 +52,7 @@
         },
         "Comms": {
             "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band, Wi-Fi Direct",
-            "Bluetooth": "6.0, A2DP, LE, aptX HD, LHDC 5",
+            "Bluetooth": "6.2, A2DP, LE, aptX HD, LHDC 5",
             "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), GLONASS, NavIC (L5)",
             "NFC": "Yes",
             "Infrared port": "Yes",

@@ -5,25 +5,25 @@
             "Technology": "GSM / HSPA / LTE / 5G",
             "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
             "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
-            "4G bands": " LTE",
-            "5G bands": " SA/NSA",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 18, 19, 25, 26, 28, 34, 38, 39, 40, 41, 42, 43, 48, 66",
+            "5G bands": "1, 2, 3, 5, 7, 8, 18, 25, 26, 28, 34, 38, 39, 40, 41, 48, 66, 77, 78, 79 SA/NSA",
             "Speed": "HSPA, LTE, 5G"
         },
         "Launch": {
             "Announced": "2026, September 22",
-            "Status": "Coming soon. Exp. release 2026, September"
+            "Status": "Coming soon. Exp. release 2026, September 24"
         },
         "Body": {
-            "Dimensions": "-",
-            "Weight": "-",
+            "Dimensions": "156.5 x 74.3 x 8.4 mm (6.16 x 2.93 x 0.33 in)",
+            "Weight": "216 g (7.62 oz)",
             "Build": "Glass front (Gorilla Glass Victus 2), glass back, aluminum frame",
             "SIM": "\u00b7 Nano-SIM + eSIM\u00b7 Nano-SIM + Nano-SIM",
             "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
         },
         "Display": {
-            "Type": "LTPO AMOLED, 1B colors, 144Hz, 3840Hz PWM, Dolby Vision, HDR10+, HDR Vivid, BT.2020, 3600 nits (peak)",
-            "Size": "6.59 inches, 106.2 cm2",
-            "Resolution": "1272 x 2772 pixels, 19.5:9 ratio (~463 ppi density)",
+            "Type": "LTPO AMOLED, 1B colors, 144Hz, 3840Hz PWM, Dolby Vision, HDR10+, HDR Vivid, BT.2020, 800 nits (typ), 2000 nits (HBM), 3600 nits (peak)",
+            "Size": "6.59 inches, 106.7 cm2 (~91.7% screen-to-body ratio)",
+            "Resolution": "1272 x 2772 pixels, 19.5:9 ratio (~462 ppi density)",
             "Protection": "Corning Gorilla Glass Victus 2",
             "\u00a0": "Ultra HDR image support"
         },
@@ -39,14 +39,14 @@
             "\u00a0": "UFS 4.1"
         },
         "Main Camera": {
-            "Triple": "200 MP, f/1.6, 23mm (wide), 1/1.4\", 0.56\u00b5m, PDAF, OIS\r\n200 MP, f/2.6, 65mm (periscope telephoto), 1/1.56\", 0.5\u00b5m, PDAF, OIS, 3x optical zoom\r\n50 MP, f/2.0, 15mm (ultrawide), 1/2.75\", 0.64\u00b5m, PDAF",
+            "Triple": "200 MP, f/1.6, 23mm (wide), 1/1.4\", 0.56\u00b5m, PDAF, OIS\r\n200 MP, f/2.6, 65mm (periscope telephoto), 1/1.56\", 0.5\u00b5m, PDAF, OIS, 2.8x optical zoom\r\n50 MP, f/2.0, 15mm (ultrawide), 1/2.75\", 0.64\u00b5m, PDAF",
             "Features": "Laser AF, color spectrum sensor, Hasselblad Color Calibration, LED flash, HDR, panorama, LUT preview",
             "Video": "8K@30fps, 4K@30/60/120fps, 1080p@30/60/240fps; gyro-EIS; HDR, 10\u2011bit video, Dolby Vision, LOG"
         },
         "Selfie camera": {
-            "Single": "50 MP, f/2.0, (ultrawide), 1/2.76\", 0.64\u00b5m, PDAF",
+            "Single": "50 MP, f/2.0, 18mm (ultrawide), 1/2.76\", 0.64\u00b5m, PDAF",
             "Features": "Panorama",
-            "Video": "4K@30/60fps, 1080p@30/60fps, gyro-EIS"
+            "Video": "4K@30/60fps, 1080p@30/60fps, gyro-EIS, HDR"
         },
         "Sound": {
             "Loudspeaker ": "Yes, with stereo speakers",
@@ -54,7 +54,7 @@
         },
         "Comms": {
             "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band or tri-band, Wi-Fi Direct",
-            "Bluetooth": "6.0, A2DP, LE, aptX HD, LHDC 5",
+            "Bluetooth": "6.2, A2DP, LE, aptX HD, LHDC 5",
             "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), GLONASS, NavIC (L5)",
             "NFC": "Yes",
             "Infrared port": "Yes",
@@ -67,10 +67,12 @@
         },
         "Battery": {
             "Type": "Si/C Li-Ion 7150 mAh - EU Si/C Li-Ion 8000 mAh - Global",
-            "Charging": "80W wired, 80W UFCS, 55W PPS, 11.7W PD\r\n50W wireless\r\n10W reverse wireless"
+            "Charging": "80W wired, 44/80W UFCS, 55W PPS, 13.5W PD\r\n50W wireless\r\n10W reverse wireless"
         },
         "Misc": {
-            "Colors": "Glacier Blue, Glow Coral, Mist Grey"
+            "Colors": "Glacier Blue, Glow Coral, Mist Grey",
+            "Models": "PMW110",
+            "Price": "About 720 EUR"
         }
     }
 }
