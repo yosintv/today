@@ -1,0 +1,75 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/oppo-find-x10-e.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 18, 19, 25, 26, 28, 34, 38, 39, 40, 41, 42, 43, 48, 66",
+            "5G bands": "1, 2, 3, 5, 7, 8, 18, 25, 26, 28, 34, 38, 39, 40, 41, 48, 66, 77, 78 SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, September 22",
+            "Status": "Coming soon. Exp. release 2026, September 24"
+        },
+        "Body": {
+            "Dimensions": "157 x 73.9 x 8 mm (6.18 x 2.91 x 0.31 in)",
+            "Weight": "203 g (7.16 oz)",
+            "Build": "Glass front, aluminum frame",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
+        },
+        "Display": {
+            "Type": "AMOLED, 1B colors, 120Hz, 3840Hz PWM, Dolby Vision, HDR Vivid, 800 nits (typ), 1800 nits (peak)",
+            "Size": "6.59 inches, 105.6 cm2 (~91.0% screen-to-body ratio)",
+            "Resolution": "1256 x 2760 pixels (~460 ppi density)"
+        },
+        "Platform": {
+            "OS": "Android 17, ColorOS 17",
+            "Chipset": "Mediatek Dimensity 9500s (3 nm)",
+            "CPU": "Octa-core (1x3.73 GHz Cortex-X925 & 3x3.3 GHz Cortex-X4 & 4x2.4 GHz Cortex-A720)",
+            "GPU": "Immortalis-G925 MC11"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 16GB RAM",
+            "\u00a0": "UFS 4.1"
+        },
+        "Main Camera": {
+            "Triple": "50 MP, f/1.6, 23mm (wide), 1/1.4\", PDAF, OIS\r\n50 MP, f/2.6, 73mm (telephoto), 1/1.95\", PDAF, OIS, 3x optical zoom\r\n50 MP, f/2.0, 15mm (ultrawide), 1/2.75\", 0.64\u00b5m, PDAF",
+            "Features": "Laser AF, color spectrum sensor, Hasselblad Color Calibration, LED flash, HDR, panorama, LUT preview",
+            "Video": "4K@30/60fps, 1080p@30/60/240fps, gyro-EIS, Dolby Vision, 10-bit HDR"
+        },
+        "Selfie camera": {
+            "Single": "32 MP, f/2.4, 21mm (wide), 1/2.74\", 0.8\u00b5m",
+            "Features": "Panorama",
+            "Video": "4K@30/60fps, 1080p@30/60fps, gyro-EIS, HDR"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band, Wi-Fi Direct",
+            "Bluetooth": "6.0, A2DP, LE, aptX HD, LHDC 5",
+            "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), GLONASS, NavIC (L5)",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, gyro, proximity, compass"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 7025 mAh",
+            "Charging": "80W wired, 44/80W UFCS, 55W PPS, 13.5W PD\r\n50W wireless\r\n10W reverse wireless"
+        },
+        "Misc": {
+            "Colors": "Titanium Gray, Blue",
+            "Models": "PNA110",
+            "Price": "About 650 EUR"
+        }
+    }
+}
