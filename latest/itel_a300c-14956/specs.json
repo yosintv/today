@@ -1,0 +1,70 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/itel-a300c.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 2100 ",
+            "4G bands": " LTE",
+            "Speed": "HSPA, LTE"
+        },
+        "Launch": {
+            "Announced": "2026, September 18",
+            "Status": "Available. Released 2026, September 18"
+        },
+        "Body": {
+            "Dimensions": "8.5 mm thickness",
+            "Weight": "-",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "MIL-STD-810H compliant*\r\n* does not guarantee ruggedness or use in extreme conditions\r\nDrop resistant up to 1.8m"
+        },
+        "Display": {
+            "Type": "IPS LCD, 90Hz, 480 nits",
+            "Size": "6.6 inches, 104.6 cm2",
+            "Resolution": "720 x 1612 pixels, 20:9 ratio (~267 ppi density)"
+        },
+        "Platform": {
+            "OS": "Android 16 (Go edition)",
+            "Chipset": "Unisoc T7100",
+            "CPU": "Octa-core 1.8 GHz",
+            "GPU": "PowerVR GE8322"
+        },
+        "Memory": {
+            "Card slot": "microSDXC",
+            "Internal": "64GB 3GB RAM, 64GB 4GB RAM, 128GB 3GB RAM, 128GB 4GB RAM"
+        },
+        "Main Camera": {
+            "Single": "8 MP",
+            "Features": "LED flash",
+            "Video": "1080p@30fps"
+        },
+        "Selfie camera": {
+            "Single": "5 MP",
+            "Video": "Yes"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "Yes"
+        },
+        "Comms": {
+            "WLAN": "Yes",
+            "Bluetooth": "Yes",
+            "Positioning": "GPS",
+            "NFC": "No",
+            "Infrared port": "Yes",
+            "Radio": "Unspecified",
+            "USB": "USB Type-C"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer"
+        },
+        "Battery": {
+            "Type": "6000 mAh",
+            "Charging": "18W wired"
+        },
+        "Misc": {
+            "Colors": "Comet Orange, Lavender Purple, Classic Black, Silver Mist",
+            "Price": "About 100 EUR"
+        }
+    }
+}

@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, September 03",
-            "Status": "Coming soon. Exp. release 2026, September"
+            "Status": "Available. Released 2026, September 23"
         },
         "Body": {
             "Dimensions": "162.7 x 75.7 x 8.5 mm (6.41 x 2.98 x 0.33 in)",
@@ -68,7 +68,9 @@
             "Charging": "45W wired\r\n7.5W reverse wired\r\nBypass charging"
         },
         "Misc": {
-            "Colors": "Pantone: Mountain View, Sage, Milky Blue, Gray Lilac"
-        }
+            "Colors": "Pantone: Mountain View, Sage, Milky Blue, Gray Lilac",
+            "Price": "\u20ac\u2009599.00"
+        },
+        "General": {}
     }
 }
