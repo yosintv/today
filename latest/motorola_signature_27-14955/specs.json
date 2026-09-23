@@ -1,0 +1,74 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-signature-27.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA/Sub6",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, September 22",
+            "Status": "Coming soon. Exp. release 2026, Q4"
+        },
+        "Body": {
+            "Dimensions": "-",
+            "Weight": "-",
+            "Build": "Glass front (Gorilla Glass Victus 2), aluminum frame",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.2m for 30 min)\r\nMIL-STD-810H compliant*\r\n* does not guarantee ruggedness or use in extreme conditions"
+        },
+        "Display": {
+            "Type": "LTPO AMOLED, 1B colors, 165Hz, Dolby Vision, HDR10+",
+            "Size": "6.8 inches, 112.4 cm2",
+            "Resolution": "1264 x 2780 pixels (~449 ppi density)",
+            "Protection": "Corning Gorilla Glass Victus 2"
+        },
+        "Platform": {
+            "OS": "Android 17, up to 7 major OS updates",
+            "Chipset": "Qualcomm Snapdragon 8 Elite Extreme Gen 6 (2 nm)",
+            "GPU": "Adreno"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM",
+            "\u00a0": "UFS 4.1"
+        },
+        "Main Camera": {
+            "Triple": "50 MP, (wide), 1/1.28\", 1.22\u00b5m, PDAF, OIS\r\n200 MP, (periscope telephoto), PDAF, OIS, 5x optical zoom\r\n50 MP, f/2.0, 12mm, 122\u02da (ultrawide), 1/2.76\", 0.64\u00b5m, PDAF",
+            "Features": "Dual-LED flash, HDR, panorama",
+            "Video": "8K@30fps (Dolby Vision), 4K@30/60fps (Dolby Vision), 4K@120fps, 1080p@30/60/120/240fps, 10-bit HDR10+, gyro-EIS"
+        },
+        "Selfie camera": {
+            "Single": "50 MP, f/2.0, 21mm (wide), 1/2.93\", 0.6\u00b5m, dual-pixel PDAF",
+            "Features": "HDR",
+            "Video": "4K@30/60fps, 1080p@30/60/120/240fps, HDR"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers (with Dolby Atmos)",
+            "3.5mm jack ": "No",
+            "\u00a0": "24-bit/192kHz Hi-Res & Hi-Res Wireless audio\r\nSound by Bang & Olufsen"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6e/7, tri-band, Wi-Fi Direct",
+            "Bluetooth": "6.0, A2DP, LE",
+            "Positioning": "GPS, GLONASS, GALILEO, BDS, NavIC",
+            "NFC": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 3.1 Gen2, OTG, DisplayPort 1.4"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, gyro, proximity, compass",
+            "\u00a0": "Smart Connect (Ready For) support\r\nUltra Wideband (UWB) support"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 6000 mAh",
+            "Charging": "90W wired\r\n50W wireless\r\n10W reverse wireless\r\n5W reverse wired"
+        },
+        "Misc": {
+            "Colors": "Pantone: Coal Smoke, Capulet Olive"
+        }
+    }
+}
