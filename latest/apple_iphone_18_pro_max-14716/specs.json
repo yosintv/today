@@ -25,7 +25,7 @@
             "Type": "LTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (typ), 1600 nits (HBM), 3000 nits (peak)",
             "Size": "6.9 inches, 115.6 cm2 (~90.7% screen-to-body ratio)",
             "Resolution": "1320 x 2868 pixels, 19.5:9 ratio (~460 ppi density)",
-            "Protection": "Ceramic Shield 2, Mohs level 5",
+            "Protection": "Ceramic Shield 2",
             "\u00a0": "Anti-reflective coating"
         },
         "Platform": {
@@ -72,7 +72,7 @@
         "Misc": {
             "Colors": "Black, Silver, Glacier, Burgundy",
             "Models": "A3717, A3473, A3716, A3718",
-            "Price": "$\u20091,789.00 / \u00a3\u20091,299.00 / \u20ac\u20091,599.00 / \u20b9\u2009179,900"
+            "Price": "\u00a3\u20091,299.00 / \u20ac\u20091,599.00"
         },
         "Our Tests": {
             "Performance": "\r\nAnTuTu: 2331417 (v11)\r\nGeekBench: 12794 (v6), 11558 (v7)\r\n3DMark: 7931 (Wild Life Extreme)",
