@@ -1,0 +1,74 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/honor-x9e-pro.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, September 24",
+            "Status": "Coming soon. Exp. release 2026, October 08"
+        },
+        "Body": {
+            "Dimensions": "162.2 x 77 x 8.1 mm (6.39 x 3.03 x 0.32 in)",
+            "Weight": "203 g (7.16 oz)",
+            "Build": "Glass front (Gorilla Glass Victus 2), plastic frame, plastic back or silicone polymer back (eco leather)",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 10m)\r\nDrop resistant 1.2m"
+        },
+        "Display": {
+            "Type": "AMOLED, 1B colors, 120Hz, 3840Hz PWM, HDR, 2000 nits (HBM), 10000 nits (peak)*",
+            "Size": "6.8 inches, 113.1 cm2 (~90.6% screen-to-body ratio)",
+            "Resolution": "1280 x 2788 pixels, 19.5:9 ratio (~451 ppi density)",
+            "Protection": "Corning Gorilla Glass Victus 2",
+            "\u00a0": "* Measured at an isolated spot during video playback only"
+        },
+        "Platform": {
+            "OS": "Android 16, MagicOS 10",
+            "Chipset": "Qualcomm SM6850 Snapdragon 6 Gen 5 (4 nm)",
+            "CPU": "Octa-core (4x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+            "GPU": "Adreno 812"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 8GB RAM, 512GB 8GB RAM"
+        },
+        "Main Camera": {
+            "Dual": "108 MP, f/1.7, (wide), PDAF, OIS\r\n5 MP, f/2.2, (ultrawide)",
+            "Features": "LED flash, panorama, HDR",
+            "Video": "4K, 1080p, gyro-EIS, OIS"
+        },
+        "Selfie camera": {
+            "Single": "16 MP, f/2.5, (wide)",
+            "Video": "1080p@30fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6e, tri-band",
+            "Bluetooth": "6.0, A2DP, LE, aptX HD, aptX Adaptive, aptX Lossless, LHDC 5, Auracast, ASHA",
+            "Positioning": "GPS, GALILEO, GLONASS, BDS, QZSS",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, optical), accelerometer, compass, gyro, proximity (ultrasound)"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Po 11000 mAh",
+            "Charging": "80W wired\r\n27W reverse wired"
+        },
+        "Misc": {
+            "Colors": "Dawn Gold, Midnight Black, Reddish Brown, Royal Purple",
+            "Price": "About 390 EUR"
+        }
+    }
+}

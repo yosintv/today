@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, September 22",
-            "Status": "Coming soon. Exp. release 2026, Q4"
+            "Status": "Coming soon. Exp. release 2026, Oct-Nov"
         },
         "Body": {
             "Dimensions": "-",
@@ -64,7 +64,7 @@
             "\u00a0": "Smart Connect (Ready For) support\r\nUltra Wideband (UWB) support"
         },
         "Battery": {
-            "Type": "Si/C Li-Ion 6000 mAh",
+            "Type": "Si/C Li-Ion 7000 mAh",
             "Charging": "90W wired\r\n50W wireless\r\n10W reverse wireless\r\n5W reverse wired"
         },
         "Misc": {
