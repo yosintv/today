@@ -1,0 +1,74 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic9-super.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, September 28",
+            "Status": "Coming soon. Exp. release 2026, October 08"
+        },
+        "Body": {
+            "Dimensions": "161.8 x 76.7 x 8.1 mm (6.37 x 3.02 x 0.32 in)",
+            "Weight": "227 g (8.01 oz)",
+            "Build": "Glass front, aluminum frame",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)\r\nBuilt-in cooling fan"
+        },
+        "Display": {
+            "Type": "OLED, 1B colors, 120Hz, 3840Hz PWM, HDR, 2000 nits (HBM), 10000 nits (peak)*",
+            "Size": "6.81 inches, 113.5 cm2 (~91.4% screen-to-body ratio)",
+            "Resolution": "1280 x 2788 pixels, 19.5:9 ratio (~450 ppi density)",
+            "\u00a0": "HDR image support\r\n* Measured at an isolated spot during video playback only"
+        },
+        "Platform": {
+            "OS": "Android 17, MagicOS 11",
+            "Chipset": "Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)",
+            "CPU": "Octa-core (2x4.6 GHz Oryon V3 Phoenix L + 6x3.62 GHz Oryon V3 Phoenix M)",
+            "GPU": "Adreno 840"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM"
+        },
+        "Main Camera": {
+            "Triple": "200 MP, f/1.9, (wide), 1/1.55\", PDAF, OIS\r\n50 MP, f/2.4, 68mm (telephoto), 1/2.93\", PDAF, OIS, 3x optical zoom\r\n12 MP, f/2.2, (ultrawide), PDAF",
+            "Features": "Color spectrum sensor, LED flash, HDR, panorama",
+            "Video": "4K@30/60/120fps, 1080p@30/60fps, gyro-EIS, OIS, HDR"
+        },
+        "Selfie camera": {
+            "Single": "50 MP, f/2.0, 21mm (wide), 1/2.88\"",
+            "Features": "HDR",
+            "Video": "4K@30/60fps, 1080p@30/60fps, gyro-EIS"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band, Wi-Fi Direct",
+            "Bluetooth": "6.0, A2DP, LE, aptX HD, aptX Adaptive, aptX Lossless, LHDC 5, Auracast, ASHA",
+            "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), NavIC (L1+L5), GLONASS",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Po 11000 mAh",
+            "Charging": "80W wired\r\n50W wireless\r\n27W reverse wired\r\nReverse wireless"
+        },
+        "Misc": {
+            "Colors": "Black, White, Green, Yellow",
+            "Models": "MLM-AN00"
+        }
+    }
+}

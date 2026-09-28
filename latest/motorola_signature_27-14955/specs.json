@@ -28,7 +28,8 @@
         },
         "Platform": {
             "OS": "Android 17, up to 7 major OS updates",
-            "Chipset": "Qualcomm Snapdragon 8 Elite Extreme Gen 6 (2 nm)",
+            "Chipset": "Qualcomm SM8975 Snapdragon 8 Elite Extreme Gen 6 (2 nm)",
+            "CPU": "Octa-core (up to 5 GHz)",
             "GPU": "Adreno"
         },
         "Memory": {

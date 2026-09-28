@@ -29,7 +29,7 @@
         },
         "Platform": {
             "OS": "Android 17, HyperOS 4",
-            "Chipset": "Qualcomm Snapdragon 8 Elite Extreme Gen 6 (2 nm)",
+            "Chipset": "Qualcomm SM8975 Snapdragon 8 Elite Extreme Gen 6 (2 nm)",
             "CPU": "Octa-core (up to 5 GHz)",
             "GPU": "Adreno"
         },

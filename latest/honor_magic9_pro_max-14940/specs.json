@@ -1,0 +1,75 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/honor-magic9-pro-max.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, September 28",
+            "Status": "Coming soon. Exp. release 2026, September"
+        },
+        "Body": {
+            "Dimensions": "161.6 x 77 x 8.6 mm (6.36 x 3.03 x 0.34 in)",
+            "Weight": "233 g (8.22 oz)",
+            "Build": "Glass front, glass back / aluminum back, aluminum frame",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
+        },
+        "Display": {
+            "Type": "LTPO OLED, 1B colors, 120Hz, 4320Hz PWM, Dolby Vision, HDR Vivid, 2000 nits (HBM), 10000 nits (peak)*",
+            "Size": "6.8 inches, 113.3 cm2 (~91.1% screen-to-body ratio)",
+            "Resolution": "1320 x 2868 pixels, 19.5:9 ratio (~464 ppi density)",
+            "Protection": "NanoCrystal Shield",
+            "\u00a0": "HDR image support\r\nAnti-Reflective Coating\r\n* Measured at an isolated spot during video playback only"
+        },
+        "Platform": {
+            "OS": "Android 17, up to 7 major OS updates, MagicOS 11",
+            "Chipset": "Qualcomm SM8975 Snapdragon 8 Elite Extreme Gen 6 (2 nm)",
+            "CPU": "Octa-core (up to 5 GHz)",
+            "GPU": "Adreno"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM",
+            "\u00a0": "UFS 4.1"
+        },
+        "Main Camera": {
+            "Triple": "200 MP, f/1.6, 23mm (wide), 1/1.28\", PDAF, OIS\r\n200 MP, f/2.6, 85mm (periscope telephoto), 1/1.4\", 0.56\u00b5m, multi-directional PDAF, OIS, 3.7x optical zoom\r\n50 MP, f/2.0, 12mm, 122\u02da (ultrawide), 1/2.88\", 0.61\u00b5m, dual pixel PDAF",
+            "Features": "Laser AF, color spectrum sensor, LED flash, HDR, panorama, ARRI mode",
+            "Video": "4K@24/30/60fps, 1080p@24/30/60/120/240fps, gyro-EIS, OIS, HDR, 10-bit video, ARRI LogC3 Curve & Wide Gamut 3"
+        },
+        "Selfie camera": {
+            "Single": "55 MP multi-aspect, f/2.0, 21mm (wide), 1/2.74\"\r\nTOF 3D, (depth/biometrics sensor)",
+            "Video": "4K@30/60fps, 1080p@30/60fps, gyro-EIS"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with large amplitude stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band or tri-band, Wi-Fi Direct",
+            "Bluetooth": "6.3, A2DP, LE, aptX HD, aptX Adaptive, aptX Lossless, LHDC 5, Auracast, ASHA",
+            "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), NavIC (L1+L5), GLONASS",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 3.2, DisplayPort 1.2, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, gyro, proximity, compass",
+            "\u00a0": "Emergency SOS via satellite (messages and calls) - China only\r\nDesktop mode"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 8800 mAh",
+            "Charging": "100W wired, 100W PPS, 40W UFCS\r\n80W wireless\r\nReverse wireless\r\n5W reverse wired"
+        },
+        "Misc": {
+            "Colors": "Shadow Black, Glacier Silver, Moss Green"
+        }
+    }
+}
