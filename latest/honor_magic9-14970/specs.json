@@ -57,7 +57,7 @@
             "NFC": "Yes",
             "Infrared port": "Yes",
             "Radio": "No",
-            "USB": "USB Type-C, OTG"
+            "USB": "USB Type-C 2.0, OTG"
         },
         "Features": {
             "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, gyro, proximity, compass"
@@ -68,7 +68,8 @@
         },
         "Misc": {
             "Colors": "Black, White, Green, Yellow",
-            "Models": "MLY-AN00"
+            "Models": "MLY-AN00",
+            "Price": "About 660 EUR"
         }
     }
 }

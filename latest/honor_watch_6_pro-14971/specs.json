@@ -1,0 +1,65 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/honor-watch6-pro.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "No cellular connectivity",
+            "2G bands": " N/A",
+            "3G bands": " N/A",
+            "4G bands": " N/A",
+            "Speed": "No",
+            "GPRS": "No",
+            "EDGE": "No"
+        },
+        "Launch": {
+            "Announced": "2026, September 28",
+            "Status": "Available. Released 2026, September 28"
+        },
+        "Body": {
+            "Dimensions": "46.3 x 46.3 x 11.6 mm (1.82 x 1.82 x 0.46 in)",
+            "Weight": "51 g (1.80 oz)",
+            "Build": "Glass front, stainless steel 316L case or ceramic case, reinforced plastic back",
+            "SIM": "No",
+            "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)\r\n5 ATM water resistant\r\nECG certified"
+        },
+        "Display": {
+            "Type": "Dual-layer AMOLED, 4500 nits (HBM), 5500 nits (peak)",
+            "Size": "1.5 inches",
+            "Resolution": "466 x 466 pixels (~310 ppi density)"
+        },
+        "Platform": {
+            "OS": "MagicOS"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "Unspecified"
+        },
+        "Camera": {
+            "\u00a0": "No"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "No",
+            "Bluetooth": "5.4, LE, EDR",
+            "Positioning": "GPS (L1+L5), BDS, GALILEO, QZSS, GLONASS",
+            "NFC": "Yes",
+            "Radio": "No",
+            "USB": "No"
+        },
+        "Features": {
+            "Sensors": "Accelerometer, gyro, compass, barometer, heart rate, SpO2, blood glucose meter",
+            "\u00a0": "Cardiac arrest, blood pressure monitoring"
+        },
+        "Battery": {
+            "Type": "Li-Po 500 mAh",
+            "Charging": "Wireless charging"
+        },
+        "Misc": {
+            "Colors": "Black, Silver",
+            "Models": "HLO-B19",
+            "Price": "About 220 EUR"
+        }
+    }
+}
