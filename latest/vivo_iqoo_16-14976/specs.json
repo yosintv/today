@@ -1,0 +1,77 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-16.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 18, 19, 20, 25, 26, 28, 32, 34, 38, 39, 40, 41, 42, 43, 48, 66",
+            "5G bands": "1, 2, 3, 5, 7, 8, 18, 20, 25, 26, 28, 34, 38, 39, 40, 41, 48, 66, 75, 77, 78, 79, 80, 81, 83, 84, 89, 91, 92, 93, 94 SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, September 29",
+            "Status": "Available. Released 2026, September 29"
+        },
+        "Body": {
+            "Dimensions": "163.8 x 76.9 x 8.3 mm or 8.6 mm",
+            "Weight": "222.5/ 227.9/ 229.8 g (8.11 oz)",
+            "Build": "Glass front, aluminum frame, glass-fiber reinforced plastic back or glass back",
+            "SIM": "\u00b7 Nano-SIM + Nano-SIM + eSIM (max 2 at a time) - International\u00b7 Nano-SIM + Nano-SIM - China",
+            "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
+        },
+        "Display": {
+            "Type": "AMOLED, 1B colors, 165Hz, 3300Hz PWM, Dolby Vision, HDR10+, HDR Vivid, 2800 nits (HBM), 10000 nits (peak)*",
+            "Size": "6.85 inches, 114.0 cm2 (~90.5% screen-to-body ratio)",
+            "Resolution": "1440 x 3168 pixels (~508 ppi density)",
+            "\u00a0": "* Measured at an isolated spot during video playback only"
+        },
+        "Platform": {
+            "OS": "Android 17, OriginOS 7",
+            "Chipset": "Qualcomm SM8975 Snapdragon 8 Elite Extreme Gen 6 (2 nm)",
+            "CPU": "Octa-core (2x5.01 GHz Prime + 3x4.03 GHz Performance + 3x3.74 GHz Performance)",
+            "GPU": "Adreno 850"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM",
+            "\u00a0": "UFS 4.1"
+        },
+        "Main Camera": {
+            "Triple": "50 MP, f/1.7, (wide), 1/1.3\", PDAF, OIS\r\n50 MP, f/2.7, 85mm (periscope telephoto), 1/1.95\", 0.8\u00b5m, PDAF, OIS, 3x optical zoom\r\n50 MP, f/2.1, 15mm (ultrawide), 1/2.75\", 0.64\u00b5m, AF",
+            "Features": "LED flash, HDR, panorama",
+            "Video": "8K@30fps, 4K@24/30/60fps, 1080p@30/60/120/240fps, gyro-EIS"
+        },
+        "Selfie camera": {
+            "Single": "32 MP, f/2.2, 21mm (wide), 1/3.1\", 0.7\u00b5m",
+            "Features": "HDR",
+            "Video": "4K@30/60fps, 1080p@30/60fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No",
+            "\u00a0": "24-bit/192kHz Hi-Res audio\r\nSnapdragon Sound"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band, Wi-Fi Direct",
+            "Bluetooth": "5.4/6.0, A2DP, LE, aptX HD, aptX Adaptive, aptX Lossless, LHDC 5",
+            "Positioning": "GPS (L1+L5), GLONASS (G1), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5)",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 3.2, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, gyro, proximity, compass"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 8400 mAh",
+            "Charging": "100W wired, PPS, PD\r\n40W wireless\r\nBypass charging"
+        },
+        "Misc": {
+            "Colors": "Dark Blue, Silver, Chasing the Light",
+            "Models": "V2606A",
+            "Price": "About 790 EUR"
+        }
+    }
+}
