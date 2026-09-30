@@ -1,0 +1,71 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-pad-ultra.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "No cellular connectivity",
+            "2G bands": " N/A",
+            "3G bands": " N/A",
+            "4G bands": " N/A",
+            "GPRS": "No",
+            "EDGE": "No"
+        },
+        "Launch": {
+            "Announced": "2026, September 29",
+            "Status": "Coming soon. Exp. release 2026, October 05"
+        },
+        "Body": {
+            "Dimensions": "197.4 x 126.3 x 5.7 mm (7.77 x 4.97 x 0.22 in)",
+            "Weight": "298 g (10.51 oz)",
+            "Build": "Glass front, aluminum back, aluminum frame",
+            "SIM": "No",
+            "\u00a0": "Built-in bi-directional cooling fan"
+        },
+        "Display": {
+            "Type": "AMOLED, 1B colors, 165Hz, HDR10+, 1600 nits (HBM), 4500 nits (peak)",
+            "Size": "8.8 inches, 224.5 cm2 (~90.1% screen-to-body ratio)",
+            "Resolution": "1440 x 2304 pixels, 16:10 ratio (~309 ppi density)"
+        },
+        "Platform": {
+            "OS": "Android 17, OriginOS 7 HD",
+            "Chipset": "Qualcomm SM8975 Snapdragon 8 Elite Extreme Gen 6 (2 nm)",
+            "CPU": "Octa-core (2x5.01 GHz Prime + 3x4.03 GHz Performance + 3x3.74 GHz Performance)",
+            "GPU": "Adreno 850"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 256GB 16GB RAM, 512GB 16GB RAM, 1TB 16GB RAM",
+            "\u00a0": "UFS 4.1"
+        },
+        "Main Camera": {
+            "Single": "13 MP",
+            "Video": "4K, 1080p"
+        },
+        "Selfie camera": {
+            "Single": "8 MP",
+            "Video": "1080p@30fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band",
+            "Bluetooth": "5.4, A2DP, LE",
+            "Positioning": "No",
+            "NFC": "No",
+            "Radio": "No",
+            "USB": "USB Type-C 3.2 Gen2, OTG, video output"
+        },
+        "Features": {
+            "Sensors": "Accelerometer, gyro, proximity (accessories only)"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 9020 mAh",
+            "Charging": "66W wired, PD\r\n5W reverse wired"
+        },
+        "Misc": {
+            "Colors": "Black, Silver",
+            "Price": "About 860 EUR"
+        }
+    }
+}
