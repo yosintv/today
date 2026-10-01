@@ -1,0 +1,76 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate-90-pro.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, October 01",
+            "Status": "Available. Released 2026, October 01"
+        },
+        "Body": {
+            "Dimensions": "161.9 x 75.7 x 8 mm (6.37 x 2.98 x 0.31 in)",
+            "Weight": "222 g (7.83 oz)",
+            "Build": "Glass front (Kunlun Glass 3), aluminum frame, glass-fiber reinforced plastic back",
+            "SIM": "Nano-SIM + Nano-SIM + eSIM + eSIM (max 2 at a time)",
+            "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 6m for 30 min)"
+        },
+        "Display": {
+            "Type": "Dual-layer LTPO OLED, 1B colors, 120Hz, 1440Hz PWM, HDR Vivid, 12000 nits (peak)*",
+            "Size": "6.75 inches, 97.9 cm2 (~79.9% screen-to-body ratio)",
+            "Resolution": "1080 x 2832 pixels (~449 ppi density)",
+            "Protection": "Huawei Kunlun Glass 3",
+            "\u00a0": "* Measured at an isolated spot during video playback only"
+        },
+        "Platform": {
+            "OS": "HarmonyOS 7.0",
+            "Chipset": "Kirin 9035"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+        },
+        "Main Camera": {
+            "Triple": "50 MP, f/1.4-f/4.0, 24mm (wide), 1/1.28\", PDAF, OIS\r\n50 MP, f/2.1, 90mm (periscope telephoto), PDAF (5cm - \u221e), OIS, 4x optical zoom\r\n40 MP, f/2.2, 13mm, 120\u02da (ultrawide), PDAF",
+            "Features": "Laser AF, color spectrum sensor, LED flash, panorama, HDR",
+            "Video": "4K, 1080p, gyro-EIS, OIS, HDR Vivid"
+        },
+        "Selfie camera": {
+            "Single": "13 MP, f/2.0, 18mm (ultrawide), AF\r\nTOF 3D, (depth/biometrics sensor)",
+            "Features": "HDR, panorama",
+            "Video": "4K, 1080p@30/240fps, HDR Vivid, gyro-EIS"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No",
+            "\u00a0": "High-definition audio"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band, Wi-Fi Direct",
+            "Bluetooth": "6.0, A2DP, LE, L2HC",
+            "Positioning": "GPS (L1+L5), GLONASS (L1), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), NavIC",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 3.1, OTG, DisplayPort 1.2"
+        },
+        "Features": {
+            "Sensors": "Face ID, fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer, altimeter",
+            "\u00a0": "BDS Satellite Calling and Messaging - China only"
+        },
+        "Battery": {
+            "Type": "6600 mAh",
+            "Charging": "100W wired\r\n50W wireless\r\nReverse wireless\r\n18W reverse wired"
+        },
+        "Misc": {
+            "Colors": "White, Green, Black, Orange",
+            "Models": "CMS-AL20",
+            "Price": "About 930 EUR"
+        }
+    }
+}
