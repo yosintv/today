@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, September 30",
-            "Status": "Coming soon. Exp. release 2026, October 07"
+            "Status": "Available. Released 2026, October 07"
         },
         "Body": {
             "Dimensions": "289.5 x 187.8 x 5.3 mm (11.40 x 7.39 x 0.21 in)",
@@ -68,7 +68,15 @@
         },
         "Misc": {
             "Colors": "Gray, Silver",
+            "Models": "SM-X930, SM-X936",
+            "SAR EU": "0.77 W/kg (body) \u00a0 \u00a0 ",
             "Price": "About 1330 EUR"
+        },
+        "EU LABEL": {
+            "Energy": "Class G",
+            "Battery": "94:51h endurance, 1200 cycles",
+            "Free fall": "Class E",
+            "Repairability": "Class C"
         }
     }
 }

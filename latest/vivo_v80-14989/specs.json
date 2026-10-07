@@ -23,21 +23,22 @@
         "Display": {
             "Type": "AMOLED, 1B colors, 144Hz, HDR10+, 4320Hz PWM, 1800 nits (HBM), 5000 nits (peak)",
             "Size": "6.59 inches, 106.1 cm2 (~90.7% screen-to-body ratio)",
-            "Resolution": "1260 x 2750 pixels, 19.5:9 ratio (~459 ppi density)"
+            "Resolution": "1260 x 2750 pixels, 19.5:9 ratio (~459 ppi density)",
+            "Protection": "Schott Xensation Core"
         },
         "Platform": {
-            "OS": "Android 17, OriginOS 7",
+            "OS": "Android 17, up to 4 major OS updates, OriginOS 7",
             "Chipset": "Qualcomm SM7750-AB Snapdragon 7 Gen 4 (4 nm)",
             "CPU": "Octa-core (1x2.8 GHz Cortex-720 & 4x2.4 GHz Cortex-720 & 3x1.8 GHz Cortex-520)",
             "GPU": "Adreno 722"
         },
         "Memory": {
             "Card slot": "No",
-            "Internal": "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM, 512GB 12GB RAM",
+            "Internal": "128GB 8GB RAM, 256GB 8GB RAM, 512GB 8GB RAM",
             "\u00a0": "UFS 4.1\r\nUFS 3.1 (128GB only)"
         },
         "Main Camera": {
-            "Triple": "50 MP, f/1.9, 23mm (wide), 1/1.56\", 1.0\u00b5m, PDAF, OIS\r\n50 MP, f/2.7, 73mm (periscope telephoto), 1/1.95\", 0.8\u00b5m, PDAF, OIS, 3x optical zoom\r\n8 MP, f/2.2, 15mm, 110\u02da (ultrawide)",
+            "Triple": "50 MP, f/1.9, 23mm (wide), 1/1.56\", 1.0\u00b5m, PDAF, OIS\r\n50 MP, f/2.7, 73mm (periscope telephoto), 1/1.95\", 0.8\u00b5m, PDAF, OIS, 3x optical zoom\r\n8 MP, f/2.2, 15mm, 115\u02da (ultrawide)",
             "Features": "Zeiss optics, Ring-LED flash, panorama, HDR",
             "Video": "4K@30/60fps, 1080p@30/60fps, gyro-EIS, OIS, HDR, LUT"
         },
