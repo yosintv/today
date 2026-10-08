@@ -10,7 +10,7 @@
         },
         "Launch": {
             "Announced": "2026, October 06",
-            "Status": "Coming soon. Exp. release 2026, October"
+            "Status": "Available. Released 2026, October 06"
         },
         "Body": {
             "Dimensions": "169.6 x 79.2 x 8.7 mm (6.68 x 3.12 x 0.34 in)",
@@ -66,7 +66,8 @@
             "Charging": "44W wired\r\nReverse wired"
         },
         "Misc": {
-            "Colors": "Twilight Red, Sunset Orange"
+            "Colors": "Twilight Red, Sunset Orange",
+            "Price": "About 230 EUR"
         }
     }
 }

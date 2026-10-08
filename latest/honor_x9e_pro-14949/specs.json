@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, September 24",
-            "Status": "Coming soon. Exp. release 2026, October 08"
+            "Status": "Available. Released 2026, October 08"
         },
         "Body": {
             "Dimensions": "162.2 x 77 x 8.1 mm (6.39 x 3.03 x 0.32 in)",
@@ -68,6 +68,7 @@
         },
         "Misc": {
             "Colors": "Dawn Gold, Midnight Black, Reddish Brown, Royal Purple",
+            "Models": "BSN-NX1",
             "Price": "About 390 EUR"
         }
     }
