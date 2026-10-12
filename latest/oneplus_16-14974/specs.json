@@ -1,0 +1,77 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-16.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 18, 19, 25, 26, 28, 32, 34, 38, 39, 40, 41, 42, 43, 48, 66",
+            "5G bands": "1, 2, 3, 5, 7, 8, 18, 25, 26, 28, 34, 38, 39, 40, 41, 48, 66, 75, 77, 78, 79, 80, 81, 83, 84, 89, 91, 92, 93, 94, 95, 98 SA/NSA/Sub6",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, October 12",
+            "Status": "Coming soon. Exp. release 2026, October"
+        },
+        "Body": {
+            "Dimensions": "161.4 x 76.7 x 8.5 mm (6.35 x 3.02 x 0.33 in)",
+            "Weight": "217 g or 220 g (7.65 oz)",
+            "Build": "Glass front (Crystal Shield Glass), aluminum frame, glass back (Crystal Shield Glass) or glass-fiber reinforced plastic back",
+            "SIM": "\u00b7 Nano-SIM + Nano-SIM + eSIM (max 2 at a time)\u00b7 Nano-SIM + Nano-SIM",
+            "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)"
+        },
+        "Display": {
+            "Type": "LTPO AMOLED, 1B colors, 185Hz, 3840Hz PWM, Dolby Vision, HDR10+, HDR Vivid, 1000 nits, 2000 nits (HBM)",
+            "Size": "6.78 inches, 112.4 cm2 (~90.8% screen-to-body ratio)",
+            "Resolution": "1272 x 2772 pixels, 19.5:9 ratio (~450 ppi density)",
+            "Protection": "Crystal Shield Glass",
+            "\u00a0": "Ultra HDR image support"
+        },
+        "Platform": {
+            "OS": "Android 17, OxygenOS 17",
+            "Chipset": "Qualcomm SM8975 Snapdragon 8 Elite Extreme Gen 6 (2 nm)",
+            "CPU": "Octa-core (2x5.01 GHz Prime + 3x4.03 GHz Performance + 3x3.74 GHz Performance)",
+            "GPU": "Adreno 850"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM",
+            "\u00a0": "UFS 4.1"
+        },
+        "Main Camera": {
+            "Triple": "200 MP, f/1.6, 23mm (wide), 1/1.4\", PDAF, OIS\r\n50 MP, f/2.6, 73mm (telephoto), 1/1.95\", 3x optical zoom, PDAF, OIS\r\n50 MP, f/2.0, 16mm, 116\u02da (ultrawide), 1/2.88\", 0.61\u00b5m, PDAF",
+            "Features": "Laser focus, color spectrum sensor, LED flash, HDR, panorama, LUT preview",
+            "Video": "8K@30fps, 4K@30/60/120fps, 1080p@30/60/120/240fps, HDR, gyro-EIS, Dolby Vision, LUT"
+        },
+        "Selfie camera": {
+            "Single": "50 MP, f/2.0, 18mm (ultrawide), AF",
+            "Features": "HDR, panorama",
+            "Video": "4K@30/60fps, 1080p@30/60fps, gyro-EIS, HDR"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No",
+            "\u00a0": "24-bit/192kHz Hi-Res audio"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual or tri-band, Wi-Fi Direct",
+            "Bluetooth": "6.0, A2DP, LE, aptX HD, aptX Adaptive, LHDC 5",
+            "Positioning": "GPS (L1+L5), GLONASS (G1), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), NavIC (L5)",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 3.2, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, proximity, gyro (UAV-grade), compass, barometer (exc. China)"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 9000 mAh",
+            "Charging": "100W wired, 44/100W UFCS, 55W PPS, 18W PD/QC\r\n50W wireless\r\nReverse wireless\r\n5W reverse wired\r\nBypass charging"
+        },
+        "Misc": {
+            "Colors": "Black, Silver, Orange",
+            "Models": "PYB110"
+        }
+    }
+}
