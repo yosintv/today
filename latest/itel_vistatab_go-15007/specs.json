@@ -1,0 +1,66 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/itel-vista-go.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 2100 ",
+            "4G bands": " LTE",
+            "Speed": "HSPA, LTE"
+        },
+        "Launch": {
+            "Announced": "2026, September",
+            "Status": "Available. Released 2026, September"
+        },
+        "Body": {
+            "Dimensions": "-",
+            "Weight": "-",
+            "SIM": "Nano-SIM"
+        },
+        "Display": {
+            "Type": "IPS LCD, 400 nits",
+            "Size": "8.68 inches, 213.9 cm2",
+            "Resolution": "800 x 1340 pixels, 5:3 ratio (~180 ppi density)"
+        },
+        "Platform": {
+            "OS": "Android 15 (Go edition)",
+            "Chipset": "Unisoc T615 (12 nm)",
+            "CPU": "Octa-core (2x1.8 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
+            "GPU": "Mali-G57 MP1"
+        },
+        "Memory": {
+            "Card slot": "microSDXC",
+            "Internal": "64GB 4GB RAM"
+        },
+        "Main Camera": {
+            "Single": "8 MP",
+            "Features": "LED flash",
+            "Video": "1080p@30fps"
+        },
+        "Selfie camera": {
+            "Single": "5 MP",
+            "Video": "Yes"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with dual speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Yes, dual-band",
+            "Bluetooth": "5.0, A2DP, LE",
+            "Positioning": "Unspecified",
+            "NFC": "No",
+            "Radio": "FM radio",
+            "USB": "USB Type-C 2.0"
+        },
+        "Features": {
+            "Sensors": "Accelerometer"
+        },
+        "Battery": {
+            "Type": "7000 mAh"
+        },
+        "Misc": {
+            "Colors": "Gray"
+        }
+    }
+}

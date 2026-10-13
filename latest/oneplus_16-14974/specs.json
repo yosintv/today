@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, October 12",
-            "Status": "Coming soon. Exp. release 2026, October"
+            "Status": "Coming soon. Exp. release 2026, October 31"
         },
         "Body": {
             "Dimensions": "161.4 x 76.7 x 8.5 mm (6.35 x 3.02 x 0.33 in)",
@@ -71,7 +71,8 @@
         },
         "Misc": {
             "Colors": "Black, Silver, Orange",
-            "Models": "PYB110"
+            "Models": "PYB110",
+            "Price": "About 800 EUR (price in China)"
         }
     }
 }
