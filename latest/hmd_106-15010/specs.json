@@ -1,0 +1,63 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/hmd-101.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM",
+            "2G bands": "GSM 900 / 1800 ",
+            "GPRS": "Yes",
+            "EDGE": "Yes"
+        },
+        "Launch": {
+            "Announced": "2026, September",
+            "Status": "Available. Released 2026, September"
+        },
+        "Body": {
+            "Dimensions": "114.3 x 50 x 14.3 mm (4.5 x 1.97 x 0.56 in)",
+            "Weight": "73 g (2.57 oz)",
+            "SIM": "Mini-SIM + Mini-SIM"
+        },
+        "Display": {
+            "Type": "TFT",
+            "Size": "1.77 inches, 9.9 cm2 (~17.3% screen-to-body ratio)",
+            "Resolution": "128 x 160 pixels (~116 ppi density)"
+        },
+        "Platform": {
+            "Chipset": "Unisoc 6533G"
+        },
+        "Memory": {
+            "Card slot": "microSDHC",
+            "Phonebook": "Yes",
+            "Call records": "Yes",
+            "Internal": "4MB"
+        },
+        "Camera": {
+            "\u00a0": ""
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "Yes"
+        },
+        "Comms": {
+            "WLAN": "No",
+            "Bluetooth": "No",
+            "Positioning": "No",
+            "NFC": "No",
+            "Radio": "Wireless FM radio",
+            "USB": "microUSB"
+        },
+        "Features": {
+            "Sensors": "",
+            "Messaging": "SMS",
+            "Games": "Yes",
+            "Java": "No",
+            "\u00a0": "MP3 player"
+        },
+        "Battery": {
+            "Type": "Li-Ion 1000 mAh, removable"
+        },
+        "Misc": {
+            "Colors": "Gray, Blue, Teal",
+            "Price": "About 10 EUR"
+        }
+    }
+}
