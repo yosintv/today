@@ -5,8 +5,9 @@
             "Technology": "GSM / HSPA / LTE / 5G",
             "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
             "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
-            "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 20, 25, 26, 28, 34, 38, 39, 40, 41, 42, 43, 48, 66",
-            "5G bands": "1, 2, 3, 5, 7, 8, 12, 18, 20, 25, 26, 28, 34, 38, 39, 40, 41, 48, 66, 77, 78, 79 SA/NSA",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 32, 38, 39, 40, 41, 42, 48, 66, 71 - International",
+            "\u00a0": "1, 2, 3, 5, 7, 8, 12, 18, 20, 25, 26, 28, 34, 38, 39, 40, 41, 48, 66, 77, 78, 79 SA/NSA - China",
+            "5G bands": "1, 2, 3, 5, 7, 8, 12, 18, 20, 25, 26, 28, 38, 40, 41, 48, 66, 71, 75, 77, 78, 79 SA/NSA - International",
             "Speed": "HSPA, LTE, 5G"
         },
         "Launch": {
@@ -15,8 +16,8 @@
         },
         "Body": {
             "Dimensions": "161.3 x 76.6 x 8.4 mm (6.35 x 3.02 x 0.33 in)",
-            "Weight": "233 g (8.22 oz)",
-            "Build": "Glass front (Gorilla Glass Victus 2), glass back, aluminum frame",
+            "Weight": "233 g or 235 g (8.22 oz)",
+            "Build": "Glass front (Crystal Guard), glass back (Crystal Guard), aluminum frame",
             "SIM": "\u00b7 Nano-SIM + eSIM\u00b7 Nano-SIM + Nano-SIM",
             "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
         },
@@ -24,7 +25,7 @@
             "Type": "LTPO AMOLED, 1B colors, 144Hz, 3840Hz PWM, Dolby Vision, HDR10+, HDR Vivid, BT.2020, 800 nits (typ), 2000 nits (HBM), 3600 nits (peak)",
             "Size": "6.78 inches, 112.4 cm2 (~91.0% screen-to-body ratio)",
             "Resolution": "1272 x 2772 pixels, 19.5:9 ratio (~450 ppi density)",
-            "Protection": "Corning Gorilla Glass Victus 2",
+            "Protection": "Crystal Guard",
             "\u00a0": "Ultra HDR image support"
         },
         "Platform": {
@@ -72,7 +73,20 @@
         "Misc": {
             "Colors": "Titanium Grey, Luna White, Orange",
             "Models": "CPH2913, PMX110",
-            "Price": "About 890 EUR"
-        }
+            "Price": "\u00a3\u20091,399.00 / \u20ac\u20091,699.00"
+        },
+        "Our Tests": {
+            "Performance": "\r\nAnTuTu: 4128150 (v11), 4278288 (v12)\r\nGeekBench: 10614 (v6), 9657 (v7)\r\n3DMark: 7314 (Wild Life Extreme)",
+            "Display": "\n2337 nits max brightness (measured)",
+            "Loudspeaker": "\n-28.2 LUFS (Average)\n",
+            "Battery": "\n\nActive use score 25:24h\n\n"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "73:12h endurance, 1200 cycles",
+            "Free fall": "Class C (90 falls)",
+            "Repairability": "Class B"
+        },
+        "General": {}
     }
 }

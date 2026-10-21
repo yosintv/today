@@ -44,7 +44,7 @@
             "Video": "4K@24/25/30/60/100/120fps, 1080p@25/30/60/120/240fps, 10-bit HDR, Dolby Vision HDR (up to 120fps), ProRes, 3D (spatial) video/audio, stereo sound rec."
         },
         "Selfie camera": {
-            "Single": "XX MP under display camera, f/1.8, 1080p@30/60fps video\r\nCover camera:\r\n12 MP multi-aspect, f/2.2, (wide), AF",
+            "Single": "4 MP, f/1.8, 22mm (wide), under display camera (1080p@30/60fps)\r\nCover camera:\r\n12 MP multi-aspect, f/2.2, (wide), AF",
             "Features": "HDR, Dolby Vision HDR, spatial audio, stereo sound rec.",
             "Video": "4K@24/25/30/60fps, 1080p@25/30/60/120fps, gyro-EIS"
         },
