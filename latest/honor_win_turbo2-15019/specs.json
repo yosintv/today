@@ -21,7 +21,7 @@
             "\u00a0": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)"
         },
         "Display": {
-            "Type": "AMOLED, 1B colors, 185Hz, 5920Hz PWM, HDR Vivid, 10000 nits (peak)*",
+            "Type": "AMOLED, 1B colors, 185Hz, 5920Hz PWM, HDR Vivid, 2000 nits (HBM), 10000 nits (peak)*",
             "Size": "6.89 inches, 116.9 cm2 (~92.0% screen-to-body ratio)",
             "Resolution": "1440 x 3104 pixels, 19.5:9 ratio (~497 ppi density)",
             "\u00a0": "* Measured at an isolated spot during video playback only\r\nUltra HDR image support"
@@ -40,11 +40,11 @@
         "Main Camera": {
             "Dual": "50 MP, f/1.9, (wide), 1/2.0\", 0.8\u00b5m, PDAF, OIS\r\n12 MP, f/2.2, (ultrawide)",
             "Features": "LED flash, HDR, panorama",
-            "Video": "4K, 1080p, gyro-EIS, OIS"
+            "Video": "4K@30/60fps, 1080p@30/60/120/240fps; gyro-EIS, OIS"
         },
         "Selfie camera": {
             "Single": "50 MP, f/2.0, 22mm (wide)",
-            "Video": "4K, 1080p"
+            "Video": "4K, 1080p, gyro-EIS"
         },
         "Sound": {
             "Loudspeaker ": "Yes, with stereo speakers",
@@ -55,11 +55,12 @@
             "Bluetooth": "6.0, A2DP, LE, aptX HD, aptX Adaptive, aptX Lossless, LHDC 5, Auracast, ASHA",
             "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), GLONASS, NavIC (L1+L5)",
             "NFC": "Yes",
+            "Infrared port": "Yes",
             "Radio": "No",
             "USB": "USB Type-C 2.0, OTG"
         },
         "Features": {
-            "Sensors": "Fingerprint (under display, optical), accelerometer, gyro, compass, proximity"
+            "Sensors": "Fingerprint (under display, ultrasonic), accelerometer, gyro, compass, proximity (ultrasound)"
         },
         "Battery": {
             "Type": "Si/C Li-Po 12070 mAh",
