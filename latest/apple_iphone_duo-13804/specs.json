@@ -12,7 +12,7 @@
         },
         "Launch": {
             "Announced": "2026, September 09",
-            "Status": "Coming soon. Exp. release 2026, October 23"
+            "Status": "Available. Released 2026, October 23"
         },
         "Body": {
             "Dimensions": "Unfolded: 117.8 x 164.6 x 5.2 mmFolded: 117.8 x 84.1 x 11.3 mm",
@@ -71,13 +71,14 @@
         "Misc": {
             "Colors": "Night Sky, Star White",
             "Models": "A3720, A3721, A3447, A3719",
-            "Price": "About 2300 EUR"
+            "Price": "\u20ac\u20092,299.00"
         },
         "EU LABEL": {
             "Energy": "Class A",
             "Battery": "51:30h endurance, 1000 cycles",
             "Free fall": "Class B (140 falls)",
             "Repairability": "Class C"
-        }
+        },
+        "General": {}
     }
 }
