@@ -67,13 +67,19 @@
             "\u00a0": "Satellite connectivity support (1TB 12GB RAM only; for China)"
         },
         "Battery": {
-            "Type": "Si/C Li-Ion 8000 mAh",
+            "Type": "\u00b7 Si/C Li-Ion 6750 mAh (EU)\u00b7 Si/C Li-Ion 7800 mAh (Global)\u00b7 Si/C Li-Ion 8000 mAh (China)",
             "Charging": "90W wired\r\n40W wireless\r\nReverse wireless\r\nReverse wired"
         },
         "Misc": {
             "Colors": "Black, Gray, White, Orange",
             "Models": "V2610, V2602A",
-            "Price": "About 910 EUR"
+            "Price": "About 1500 EUR"
+        },
+        "Our Tests": {
+            "Performance": "\r\nAnTuTu: 4047399 (v11), 4249918 (v12)\r\nGeekBench: 10363 (v6), 9641 (v7)\r\n3DMark: 7632 (Wild Life Extreme)",
+            "Display": "\n2570 nits max brightness (measured)",
+            "Loudspeaker": "\n-26.4 LUFS (Good)\n",
+            "Battery": "\n\nActive use score 24:06h\n\n"
         },
         "EU LABEL": {
             "Energy": "Class A",
