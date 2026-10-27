@@ -29,7 +29,7 @@
             "\u00a0": "Anti\u2011reflective coating\r\nWide-angle OLED matte display\r\nCover display:\r\nLTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (typ), 1600 nits (HBM), 3000 nits (peak)\r\n5.4 inches, 1398 x 2034 pixels, 460 ppi\r\nCeramic Shield 2, Anti\u2011reflective coating"
         },
         "Platform": {
-            "OS": "iOS 27.1",
+            "OS": "iOS 27.1, upgradable to iOS 27.2",
             "Chipset": "Apple A20 Pro (2 nm)",
             "CPU": "Hexa-core (2x GHz high performance + 4x GHz)",
             "GPU": "Apple GPU (7-core graphics)"

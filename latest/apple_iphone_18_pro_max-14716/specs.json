@@ -29,7 +29,7 @@
             "\u00a0": "Anti-reflective coating"
         },
         "Platform": {
-            "OS": "iOS 27",
+            "OS": "iOS 27, upgradable to iOS 27.2",
             "Chipset": "Apple A20 Pro (2 nm)",
             "CPU": "Hexa-core (2x4.93 GHz + 4x2.64 GHz)",
             "GPU": "Apple GPU (7-core graphics)"

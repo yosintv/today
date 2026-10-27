@@ -28,7 +28,7 @@
             "\u00a0": "Anti-reflective coating\r\nNano-texture display glass (optional)"
         },
         "Platform": {
-            "OS": "iPadOS 27",
+            "OS": "iPadOS 27.2",
             "Chipset": "Apple A20 Pro (2 nm)",
             "CPU": "Penta-core (2x super cores + 3x efficiency cores) - 128/256GBHexa-core (2x super cores + 4x efficiency cores) - 512GB",
             "GPU": "Apple GPU (7-core graphics)"
