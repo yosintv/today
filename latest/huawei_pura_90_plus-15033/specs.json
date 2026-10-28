@@ -1,0 +1,74 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-pura-90-plus-.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA - China only",
+            "Speed": "HSPA, LTE, 5G (China only)"
+        },
+        "Launch": {
+            "Announced": "2026, October 28",
+            "Status": "Coming soon. Exp. release 2026, November 17"
+        },
+        "Body": {
+            "Dimensions": "163.1 x 76.1 x 8.3 mm (6.42 x 3.00 x 0.33 in)",
+            "Weight": "220 g (7.76 oz)",
+            "Build": "Glass front (Kunlun Glass 2), aluminum frame, aluminosilicate glass back",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)"
+        },
+        "Display": {
+            "Type": "LTPO OLED, 1B colors, 120Hz, 1440Hz PWM",
+            "Size": "6.8 inches, 109.4 cm2 (~88.1% screen-to-body ratio)",
+            "Resolution": "1276 x 2848 pixels, 20:9 ratio (~463 ppi density)",
+            "Protection": "Kunlun Glass 2"
+        },
+        "Platform": {
+            "OS": "HarmonyOS 7",
+            "Chipset": "Kirin 9025"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 1TB 12GB RAM"
+        },
+        "Main Camera": {
+            "Triple": "50 MP, f/1.6-4.0, 23mm (wide), 1-inch type, PDAF, OIS\r\n48 MP, f/2.1, 93mm (periscope telephoto), PDAF, OIS, 4x optical zoom\r\n40 MP, f/2.2, 13mm (ultrawide)",
+            "Features": "Laser AF, color spectrum sensor, LED flash, panorama, HDR",
+            "Video": "4K, 1080p, HDR Vivid, gyro-EIS, OIS"
+        },
+        "Selfie camera": {
+            "Single": "13 MP, f/2.0, (wide), AF",
+            "Features": "HDR",
+            "Video": "4K, 1080p"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band, Wi-Fi Direct",
+            "Bluetooth": "6.0, A2DP, LE, L2HC",
+            "Positioning": "GPS (L1+L5), GLONASS (L1), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), NavIC",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 3.2, Display Port 1.2, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer, altimeter",
+            "\u00a0": "BDS Satellite Messaging - China only"
+        },
+        "Battery": {
+            "Type": "5700 mAh",
+            "Charging": "100W wired\r\n80W wireless\r\n18W reverse wired\r\nReverse wireless"
+        },
+        "Misc": {
+            "Colors": "Black, White, Purple, Gold",
+            "Models": "LCI-AL00",
+            "Price": "About 740 EUR"
+        }
+    }
+}
