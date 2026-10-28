@@ -1,0 +1,73 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-enjoy-100-pro.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 2100 ",
+            "4G bands": " LTE",
+            "Speed": "HSPA, LTE"
+        },
+        "Launch": {
+            "Announced": "2026, October 28",
+            "Status": "Coming soon. Exp. release 2026, November 08"
+        },
+        "Body": {
+            "Dimensions": "161.4 x 74.8 x 7.9 mm (6.35 x 2.94 x 0.31 in)",
+            "Weight": "192 g (6.77 oz)",
+            "Build": "Glass front, aluminum back, plastic frame",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP64 dust tight and water resistant (water splashes)"
+        },
+        "Display": {
+            "Type": "OLED, 1B colors, 120Hz, 2160Hz PWM, 1300 nits (HBM)",
+            "Size": "6.7 inches, 108.0 cm2 (~89.5% screen-to-body ratio)",
+            "Resolution": "1080 x 2412 pixels, 20:9 ratio (~394 ppi density)",
+            "Protection": "Aluminosilicate glass (2x tougher)"
+        },
+        "Platform": {
+            "OS": "HarmonyOS 7.0",
+            "Chipset": "Kirin 8020A"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM"
+        },
+        "Main Camera": {
+            "Single": "50 MP, f/1.8, (wide), PDAF",
+            "Features": "LED flash, HDR, panorama",
+            "Video": "4K, 1080p@120fps"
+        },
+        "Selfie camera": {
+            "Single": "32 MP, f/2.2, (wide)",
+            "Features": "HDR, Panorama",
+            "Video": "4K, 1080p"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band",
+            "Bluetooth": "6.0, A2DP, LE, L2HC (320-960 kbps HD audio)",
+            "Positioning": "GPS, GLONASS, GALILEO, BDS, QZSS",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, compass",
+            "\u00a0": "Virtual proximity sensing"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 6100 mAh",
+            "Charging": "40W wired\r\n5W reverse wired"
+        },
+        "Misc": {
+            "Colors": "Black, White, Blue, Pink",
+            "Models": "CHZ-AL60",
+            "Price": "About 240 EUR"
+        }
+    }
+}

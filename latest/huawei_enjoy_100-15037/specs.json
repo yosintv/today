@@ -1,0 +1,71 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-enjoy-100.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 2100 ",
+            "4G bands": " LTE",
+            "Speed": "HSPA, LTE"
+        },
+        "Launch": {
+            "Announced": "2026, October 28",
+            "Status": "Coming soon. Exp. release 2026, November 08"
+        },
+        "Body": {
+            "Dimensions": "163.8 x 75.2 x 9 mm (6.45 x 2.96 x 0.35 in)",
+            "Weight": "204 g (7.20 oz)",
+            "Build": "Glass front, aluminum back, plastic frame",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP64 dust tight and water resistant (water splashes)"
+        },
+        "Display": {
+            "Type": "IPS LCD, 90Hz, 1150 nits (HBM)",
+            "Size": "6.56 inches, 103.4 cm2 (~83.9% screen-to-body ratio)",
+            "Resolution": "720 x 1612 pixels, 20:9 ratio (~269 ppi density)",
+            "Protection": "Aluminosilicate glass"
+        },
+        "Platform": {
+            "OS": "HarmonyOS 7.0",
+            "Chipset": "Kirin 8000S"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "128GB 6GB RAM, 256GB 6GB RAM"
+        },
+        "Main Camera": {
+            "Single": "13 MP, f/1.8, (wide), AF",
+            "Features": "LED flash, panorama",
+            "Video": "1080p"
+        },
+        "Selfie camera": {
+            "Single": "8 MP, f/2.0, (wide)",
+            "Video": "1080p"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band",
+            "Bluetooth": "6.0, A2DP, LE, L2HC",
+            "Positioning": "GPS, GALILEO, GLONASS, BDS, QZSS",
+            "NFC": "No",
+            "Radio": "No",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, compass",
+            "\u00a0": "Virtual proximity sensing"
+        },
+        "Battery": {
+            "Type": "6100 mAh",
+            "Charging": "40W wired\r\n6W reverse wired"
+        },
+        "Misc": {
+            "Colors": "Black, White, Orange, Blue",
+            "Models": "JAL-AL90",
+            "Price": "About 190 EUR"
+        }
+    }
+}

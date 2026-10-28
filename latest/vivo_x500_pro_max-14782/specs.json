@@ -73,7 +73,7 @@
         "Misc": {
             "Colors": "Black, Gray, White, Orange",
             "Models": "V2610, V2602A",
-            "Price": "About 1500 EUR"
+            "Price": "\u20ac\u20091,599.00"
         },
         "Our Tests": {
             "Performance": "\r\nAnTuTu: 4047399 (v11), 4249918 (v12)\r\nGeekBench: 10363 (v6), 9641 (v7)\r\n3DMark: 7632 (Wild Life Extreme)",
@@ -86,6 +86,7 @@
             "Battery": "72:05h endurance, 1200 cycles",
             "Free fall": "Class B (180 falls)",
             "Repairability": "Class C"
-        }
+        },
+        "General": {}
     }
 }
