@@ -70,8 +70,14 @@
         },
         "Misc": {
             "Colors": "Black, Gray, White, Orange",
-            "Models": "V2608A",
+            "Models": "V2621, V2608A",
             "Price": "About 1260 EUR"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "64:31h endurance, 1200 cycles",
+            "Free fall": "Class B (180 falls)",
+            "Repairability": "Class C"
         }
     }
 }

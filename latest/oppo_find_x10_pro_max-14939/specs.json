@@ -67,7 +67,7 @@
             "\u00a0": "Satellite connectivity support (1TB 16GB RAM model only)"
         },
         "Battery": {
-            "Type": "Si/C Li-Ion 7150 mAh - EU Si/C Li-Ion 8000 mAh - Global",
+            "Type": "Si/C Li-Ion 7150 mAh - EU, AU, NZ Si/C Li-Ion 8000 mAh - Global",
             "Charging": "80W wired, 44/80W UFCS, 55W PPS, 13.5W PD\r\n50W wireless\r\n10W reverse wireless"
         },
         "Misc": {

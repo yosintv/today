@@ -29,7 +29,7 @@
             "OS": "Android 17, up to 5 major OS updates, OriginOS 7",
             "Chipset": "Mediatek Dimensity 9600M (3 nm)",
             "CPU": "Octa-core (1x4.21 GHz & 3x3.5 GHz & 4x2.7 GHz)",
-            "GPU": "ARM G1-Ultra"
+            "GPU": "ARM Mali-G1 Ultra MC12"
         },
         "Memory": {
             "Card slot": "No",
