@@ -35,7 +35,7 @@
         },
         "Memory": {
             "Card slot": "No",
-            "Internal": "128GB, 256GB, 512GB"
+            "Internal": "128GB 12GB RAM, 256GB 12GB RAM, 512GB 12GB RAM"
         },
         "Main Camera": {
             "Single": "12 MP, f/1.8, (wide), AF",
@@ -64,13 +64,19 @@
             "Sensors": "Fingerprint (top-mounted), accelerometer, gyro, compass, barometer"
         },
         "Battery": {
-            "Type": "Li-Ion (18.9 Wh)",
+            "Type": "Li-Ion 4900 mAh",
             "Charging": "Wired, 50% in 30 min"
         },
         "Misc": {
             "Colors": "Midnight, Starlight",
             "Models": "A3596, A3597",
             "Price": "About 750 EUR"
+        },
+        "EU LABEL": {
+            "Energy": "Class D",
+            "Battery": "78:00h endurance, 1000 cycles",
+            "Free fall": "Class D (57 falls)",
+            "Repairability": "Class C"
         }
     }
 }

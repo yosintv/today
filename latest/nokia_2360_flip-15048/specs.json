@@ -1,0 +1,68 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/nokia-2360-flip.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM",
+            "2G bands": "GSM 900 / 1800 ",
+            "3G bands": " N/A",
+            "4G bands": " N/A",
+            "GPRS": "Yes",
+            "EDGE": "Yes"
+        },
+        "Launch": {
+            "Announced": "2026, October 30",
+            "Status": "Coming soon. Exp. release 2026, November"
+        },
+        "Body": {
+            "Dimensions": "111.9 x 55.6 x 19 mm (4.41 x 2.19 x 0.75 in)",
+            "Weight": "121 g (4.27 oz)",
+            "SIM": "Mini-SIM + Mini-SIM",
+            "\u00a0": "Dedicated SOS button"
+        },
+        "Display": {
+            "Type": "TFT",
+            "Size": "2.8 inches, 24.3 cm2 (~39.0% screen-to-body ratio)",
+            "Resolution": "240 x 320 pixels, 4:3 ratio (~143 ppi density)",
+            "\u00a0": "Secondary external 1.77\" display"
+        },
+        "Memory": {
+            "Card slot": "microSDHC",
+            "Phonebook": "Yes",
+            "Call records": "Yes",
+            "Internal": "4MB 4MB RAM"
+        },
+        "Main Camera": {
+            "Single": "QVGA",
+            "Features": "LED flash",
+            "Video": "Unspecified"
+        },
+        "Selfie camera": {
+            "\u00a0": "No"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "Yes"
+        },
+        "Comms": {
+            "WLAN": "No",
+            "Bluetooth": "Unspecified",
+            "Positioning": "No",
+            "NFC": "No",
+            "Radio": "FM radio",
+            "USB": "USB Type-C"
+        },
+        "Features": {
+            "Sensors": "",
+            "Messaging": "SMS, MMS",
+            "Games": "Yes",
+            "Java": "No",
+            "\u00a0": "Family Assist: Remote device management by family members"
+        },
+        "Battery": {
+            "Type": "Li-Ion 1450 mAh, removable"
+        },
+        "Misc": {
+            "Colors": "Burgundy Red, Charcoal, Teal"
+        }
+    }
+}
