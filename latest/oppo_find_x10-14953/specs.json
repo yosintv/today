@@ -73,10 +73,13 @@
         "Misc": {
             "Colors": "Glacier Blue, Glow Coral, Mist Grey",
             "Models": "CPH2911, PMW110",
-            "Price": "$\u20091,840.00 / \u00a3\u2009999.00 / \u20ac\u20091,199.00 / \u20b9\u2009139,999"
+            "Price": "$\u20091,829.00 / \u00a3\u2009999.00 / \u20ac\u20091,199.00 / \u20b9\u2009139,999"
         },
         "Our Tests": {
-            "Loudspeaker": "\n-27.5 LUFS (Good)\n"
+            "Performance": "\r\nAnTuTu: 3448843 (v11)\r\nGeekBench: 9509 (v6), 8709 (v7)\r\n3DMark: 6878 (Wild Life Extreme)",
+            "Display": "\n2314 nits max brightness (measured)",
+            "Loudspeaker": "\n-27.5 LUFS (Good)\n",
+            "Battery": "\n\nActive use score 25:21h\n\n"
         },
         "EU LABEL": {
             "Energy": "Class A",
