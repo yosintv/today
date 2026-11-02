@@ -11,7 +11,7 @@
         },
         "Launch": {
             "Announced": "2026, October 30",
-            "Status": "Coming soon. Exp. release 2026, November"
+            "Status": "Available. Released 2026, November 02"
         },
         "Body": {
             "Dimensions": "111.9 x 55.6 x 19 mm (4.41 x 2.19 x 0.75 in)",
@@ -62,7 +62,8 @@
             "Type": "Li-Ion 1450 mAh, removable"
         },
         "Misc": {
-            "Colors": "Burgundy Red, Charcoal, Teal"
+            "Colors": "Burgundy Red, Charcoal, Teal",
+            "Price": "About 50 EUR"
         }
     }
 }
