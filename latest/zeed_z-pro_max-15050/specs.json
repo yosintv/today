@@ -68,7 +68,8 @@
         },
         "Misc": {
             "Colors": "Orange, Black",
-            "SAR": "1.44 W/kg (head) \u00a0 \u00a0 1.79 W/kg (body) \u00a0 \u00a0 "
+            "SAR": "1.44 W/kg (head) \u00a0 \u00a0 1.79 W/kg (body) \u00a0 \u00a0 ",
+            "Price": "About 410 EUR"
         }
     }
 }
