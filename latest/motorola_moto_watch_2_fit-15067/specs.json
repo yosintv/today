@@ -1,0 +1,60 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/motorola-moto-watch-2-fit.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "No cellular connectivity",
+            "2G bands": " N/A",
+            "GPRS": "No",
+            "EDGE": "No"
+        },
+        "Launch": {
+            "Announced": "2026, November 05",
+            "Status": "Coming soon. Exp. release 2026, November"
+        },
+        "Body": {
+            "Dimensions": "42.9 x 38.7 x 10 mm (1.69 x 1.52 x 0.39 in)",
+            "Weight": "28 g (0.99 oz)",
+            "Build": "Glass front (Gorilla Glass 3), aluminum frame, plastic back",
+            "SIM": "No",
+            "\u00a0": "IP68 dust tight and water resistant (immersible up to 1.5m for 30 min)\r\n5 ATM"
+        },
+        "Display": {
+            "Type": "LTPO OLED, 1500 nits (peak)",
+            "Size": "1.85 inches",
+            "Resolution": "390 x 450 pixels (~322 ppi density)",
+            "Protection": "Corning Gorilla Glass 3"
+        },
+        "Platform": {
+            "OS": "RTOS"
+        },
+        "Memory": {
+            "Card slot": "No"
+        },
+        "Camera": {
+            "\u00a0": "No"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "No",
+            "Bluetooth": "5.4, A2DP, LE",
+            "Positioning": "GPS (L1+L5)",
+            "NFC": "No",
+            "Radio": "No",
+            "USB": "No"
+        },
+        "Features": {
+            "Sensors": "Accelerometer, gyro, compass, PPG (SpO2, heart rate)"
+        },
+        "Battery": {
+            "Type": "400 mAh"
+        },
+        "Misc": {
+            "Colors": "Pantone: Tracing Gray, Elegance",
+            "Models": "XT2649-1",
+            "Price": "About 120 EUR"
+        }
+    }
+}
