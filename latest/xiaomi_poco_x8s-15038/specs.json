@@ -52,7 +52,7 @@
             "\u00a0": "24-bit/192kHz Hi-Res & Hi-Res Wireless audio"
         },
         "Comms": {
-            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6e, dual-band, Wi-Fi Direct",
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6e, dual-band or tri-band, Wi-Fi Direct",
             "Bluetooth": "5.4, A2DP, LE, aptX HD, aptX Adaptive, LHDC 5, Auracast, ASHA",
             "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a), GALILEO (E1+E5a), QZSS (L1+L5), NavIC (L5), GLONASS",
             "NFC": "Yes",
@@ -69,7 +69,15 @@
         },
         "Misc": {
             "Colors": "White, Blue, Black",
-            "Price": "About 360 EUR"
-        }
+            "Models": "2609CPC5FG",
+            "Price": "\u00a3\u2009349.00 / \u20ac\u2009429.90"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "67:55h endurance, 1000 cycles",
+            "Free fall": "Class A (270 falls)",
+            "Repairability": "Class C"
+        },
+        "General": {}
     }
 }
