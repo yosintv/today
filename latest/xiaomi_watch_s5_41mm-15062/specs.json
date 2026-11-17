@@ -23,7 +23,7 @@
         "Display": {
             "Type": "AMOLED, 1500 nits (HBM), 3000 nits (peak)",
             "Size": "1.32 inches",
-            "Resolution": "466 x 466 pixels (~499 ppi density)",
+            "Resolution": "466 x 466 pixels (~352 ppi density)",
             "Protection": "Xiaomi Crystal Glass"
         },
         "Platform": {
@@ -56,7 +56,8 @@
         "Misc": {
             "Colors": "Gray, Silver, Ceramic, Transparent",
             "Models": "M2606W1, M2607W1",
-            "Price": "About 170 EUR"
-        }
+            "Price": "\u20ac\u2009229.99"
+        },
+        "General": {}
     }
 }
