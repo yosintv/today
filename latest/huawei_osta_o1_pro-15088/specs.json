@@ -17,7 +17,7 @@
             "Dimensions": "144.1 x 87 x 6.7 mm (5.67 x 3.43 x 0.26 in)",
             "Weight": "200 g (7.05 oz)",
             "Build": "Glass front (Kunlun Glass), glass back, aluminum frame",
-            "SIM": "Nano-SIM + Nano-SIM",
+            "SIM": "Nano-SIM + Nano-SIM + eSIM + eSIM (max 2 at a time)",
             "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)"
         },
         "Display": {
@@ -56,11 +56,11 @@
             "NFC": "Yes",
             "Infrared port": "Yes",
             "Radio": "No",
-            "USB": "USB Type-C 3.1, OTG, DisplayPort 1.2"
+            "USB": "USB Type-C"
         },
         "Features": {
-            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, altimeter",
-            "\u00a0": "BDS Satellite Messaging - China only"
+            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, compass, altimeter",
+            "\u00a0": "Virtual proximity sensing"
         },
         "Battery": {
             "Type": "7000 mAh",
@@ -68,6 +68,7 @@
         },
         "Misc": {
             "Colors": "White, Black, Purple",
+            "Models": "ACO-AL00",
             "Price": "About 750 EUR"
         }
     }
