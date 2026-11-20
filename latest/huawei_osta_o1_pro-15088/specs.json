@@ -1,0 +1,74 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-osta-o1-pro.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, November 20",
+            "Status": "Available. Released 2026, November 20"
+        },
+        "Body": {
+            "Dimensions": "144.1 x 87 x 6.7 mm (5.67 x 3.43 x 0.26 in)",
+            "Weight": "200 g (7.05 oz)",
+            "Build": "Glass front (Kunlun Glass), glass back, aluminum frame",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)"
+        },
+        "Display": {
+            "Type": "OLED, 1B colors, 120Hz, 2160Hz PWM, HDR Vivid, 6500 nits (peak)",
+            "Size": "6.39 inches, 115.4 cm2 (~92.1% screen-to-body ratio)",
+            "Resolution": "1320 x 2232 pixels, 5:3 ratio (~406 ppi density)",
+            "Protection": "Kunlun Glass"
+        },
+        "Platform": {
+            "OS": "HarmonyOS 7.0",
+            "Chipset": "Kirin 9030S (5 nm)",
+            "CPU": "Octa-core (1x2.7 GHz Taishan Big & 3x2.15 GHz Taishan Mid & 4x1.62 GHz Taishan Little)",
+            "GPU": "Maleoon 935F"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM"
+        },
+        "Main Camera": {
+            "Dual": "200 MP, f/1.8, 23mm (wide), PDAF, OIS\r\n50 MP, f/2.6, 88mm (periscope telephoto), PDAF, OIS, 3.7x optical zoom",
+            "Features": "Laser AF, color spectrum sensor, LED flash, panorama, HDR",
+            "Video": "4K, 1080p, gyro-EIS, HDR Vivid"
+        },
+        "Selfie camera": {
+            "Single": "50 MP, f/2.4, (wide)",
+            "Video": "4K@30fps, 1080p@30/120fps, HDR Vivid"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band",
+            "Bluetooth": "6.0, A2DP, LE, L2HC",
+            "Positioning": "GPS (L1+L5), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), GLONASS, NavIC",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 3.1, OTG, DisplayPort 1.2"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, altimeter",
+            "\u00a0": "BDS Satellite Messaging - China only"
+        },
+        "Battery": {
+            "Type": "7000 mAh",
+            "Charging": "66W wired\r\n50W wireless\r\n5W reverse wired"
+        },
+        "Misc": {
+            "Colors": "White, Black, Purple",
+            "Price": "About 750 EUR"
+        }
+    }
+}
