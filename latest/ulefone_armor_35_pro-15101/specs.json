@@ -1,0 +1,78 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/ulefone-armor35-pro.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 32, 34, 38, 39, 40, 41, 66, 71",
+            "Speed": "HSPA, LTE"
+        },
+        "Launch": {
+            "Announced": "2026, November 23",
+            "Status": "Coming soon. Exp. release 2026, December 07"
+        },
+        "Body": {
+            "Dimensions": "179.7 x 84.1 x 19.8 mm (7.07 x 3.31 x 0.78 in)",
+            "Weight": "460 g (1.01 lb)",
+            "SIM": "Nano-SIM + Nano-SIM + eSIM (max 2 at a time)",
+            "\u00a0": "IP68 dust tight and water resistant (immersible up to 1.5m for 30 min)\r\nMIL-STD-810H compliant\r\nAccessory connector (ulefone endoscope, microscope)\r\n800 lumens dedicated flood flashlight\r\nLaser rangefinder"
+        },
+        "Display": {
+            "Type": "IPS LCD, 120Hz, 700 nits",
+            "Size": "6.78 inches, 109.2 cm2 (~72.2% screen-to-body ratio)",
+            "Resolution": "1080 x 2460 pixels (~396 ppi density)",
+            "Protection": "Corning Gorilla Glass 3"
+        },
+        "Platform": {
+            "OS": "Android 16, up to 2 major OS updates",
+            "Chipset": "Mediatek Helio G200 (6 nm)",
+            "CPU": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+            "GPU": "Mali-G57 MC2"
+        },
+        "Memory": {
+            "Card slot": "microSDXC (dedicated slot)",
+            "Internal": "256GB 12GB RAM",
+            "\u00a0": "UFS 2.2"
+        },
+        "Main Camera": {
+            "Triple": "50 MP, f/1.9, (wide), 1.0\u00b5m, PDAF, OIS\r\n20 MP, f/1.8, (night vision), infrared lights\r\n16 MP, f/2.2, 123\u02da (ultrawide), 1.2\u00b5m",
+            "Features": "LED flash, HDR, panorama",
+            "Video": "1440p@30fps, 1080p@30fps"
+        },
+        "Selfie camera": {
+            "Single": "16 MP, f/2.3, (wide), 1.0\u00b5m",
+            "Video": "1080p@30fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, 107 dB",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+            "Bluetooth": "5.2, A2DP, LE",
+            "Positioning": "GPS, GALILEO, GLONASS, QZSS, BDS",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "Wireless FM radio, RDS, recording",
+            "USB": "USB Type-C 2.0, OTG, accessory connector pins"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer"
+        },
+        "Battery": {
+            "Type": "Li-Po 11000 mAh",
+            "Charging": "33W wired\r\n10W reverse wired"
+        },
+        "Misc": {
+            "Colors": "Black",
+            "Price": "About 430 EUR"
+        },
+        "EU LABEL": {
+            "Energy": "Class A",
+            "Battery": "139:02h endurance, 1000 cycles",
+            "Free fall": "Class A (300 falls)",
+            "Repairability": "Class B"
+        }
+    }
+}
