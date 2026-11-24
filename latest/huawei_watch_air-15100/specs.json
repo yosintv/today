@@ -1,0 +1,64 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-watch-air.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "No cellular connectivity",
+            "2G bands": " N/A",
+            "3G bands": " N/A",
+            "4G bands": " N/A",
+            "Speed": "No",
+            "GPRS": "No",
+            "EDGE": "No"
+        },
+        "Launch": {
+            "Announced": "2026, November 24",
+            "Status": "Available. Released 2026, November 24"
+        },
+        "Body": {
+            "Dimensions": "43.1 x 39.2 x 6.9 mm (1.70 x 1.54 x 0.27 in)",
+            "Weight": "27 g (0.95 oz)",
+            "Build": "Sapphire crystal front, titanium case, glass back (sensors zone)",
+            "SIM": "No",
+            "\u00a0": "5 ATM water resistant\r\nIP6X dust tight\r\nECG certified"
+        },
+        "Display": {
+            "Type": "LTPO2 AMOLED, 3500 nits (80% APL)",
+            "Size": "1.92 inches",
+            "Resolution": "480 x 408 pixels (~328 ppi density)"
+        },
+        "Platform": {
+            "OS": "HarmonyOS 7 (for watches)"
+        },
+        "Memory": {
+            "Card slot": "No"
+        },
+        "Camera": {
+            "\u00a0": "No"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "No",
+            "Bluetooth": "6.0, LE",
+            "Positioning": "GPS (L1+L5), GALILEO (E1+E5a), QZSS (L1+L5), BDS (B1l+B1C+B2a), GLONASS, NavIC",
+            "NFC": "Yes",
+            "Radio": "No",
+            "USB": "No"
+        },
+        "Features": {
+            "Sensors": "Accelerometer, gyro, heart rate, SpO2, compass, barometer, thermometer (body temperature), electrocardiogram",
+            "\u00a0": "Pulse wave arrhythmia analysis\n"
+        },
+        "Battery": {
+            "Type": "Li-Ion 350 mAh",
+            "Charging": "Wireless charging"
+        },
+        "Misc": {
+            "Colors": "Silver, Black, Gold",
+            "Models": "KTA-B19",
+            "Price": "About 370 EUR"
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate-90-air.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA",
+            "Speed": "HSPA, LTE, 5G"
+        },
+        "Launch": {
+            "Announced": "2026, November 23",
+            "Status": "Coming soon. Exp. release 2026, December 05"
+        },
+        "Body": {
+            "Dimensions": "165 x 81.4 x 6.6 mm (6.50 x 3.20 x 0.26 in)",
+            "Weight": "208 g (7.34 oz)",
+            "SIM": "Nano-SIM + Nano-SIM",
+            "\u00a0": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)\r\nStylus support"
+        },
+        "Display": {
+            "Type": "LTPO OLED, 1B colors, 120Hz, 2160Hz PWM, HDR Vivid, 4000 nits (peak)",
+            "Size": "7.0 inches, 121.9 cm2 (~90.8% screen-to-body ratio)",
+            "Resolution": "1320 x 2760 pixels, 19:9 ratio (~439 ppi density)",
+            "Protection": "Kunlun Glass"
+        },
+        "Platform": {
+            "OS": "HarmonyOS 7.0",
+            "Chipset": "Kirin 9020 (7 nm)",
+            "CPU": "Octa-core (1x2.5GHz & 3x2.15 GHz & 4x1.6GHz)",
+            "GPU": "Maleoon 920"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM"
+        },
+        "Main Camera": {
+            "Triple": "50 MP, f/1.8, 24mm (wide), 1/1.3\", PDAF, OIS\r\n12 MP, f/2.4, 69mm (telephoto), PDAF, OIS, 3x optical zoom\r\n8 MP, f/2.2, 16mm (ultrawide)",
+            "Features": "Laser AF, color spectrum sensor, LED flash, panorama, HDR",
+            "Video": "4K, 1080p, HDR, gyro-EIS, OIS"
+        },
+        "Selfie camera": {
+            "Single": "10.7 MP, f/2.2, (wide)",
+            "Features": "HDR, panorama",
+            "Video": "4K, 1080p"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No",
+            "\u00a0": "High-bitrate audio support"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band, Wi-Fi Direct",
+            "Bluetooth": "6.0, A2DP, LE, L2HC",
+            "Positioning": "GPS (L1+L5), GLONASS (L1), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), NavIC",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 2.0, OTG"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer",
+            "\u00a0": "BDS Satellite Messaging (Two-way) - China only"
+        },
+        "Battery": {
+            "Type": "Si/C Li-Ion 6500 mAh",
+            "Charging": "66W wired\r\n5W reverse wired"
+        },
+        "Misc": {
+            "Colors": "Black, White, Gold",
+            "Models": "SUP-AL91",
+            "Price": "About 690 EUR"
+        }
+    }
+}

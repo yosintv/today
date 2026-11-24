@@ -1,0 +1,77 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/huawei-mate-x8.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 800 / 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": " LTE",
+            "5G bands": " SA/NSA - China model only",
+            "Speed": "HSPA, LTE, 5G (China only)"
+        },
+        "Launch": {
+            "Announced": "2026, November 24",
+            "Status": "Available. Released 2026, November 24"
+        },
+        "Body": {
+            "Dimensions": "Unfolded: 156.9 x 152 x 4.2 mmFolded: 156.9 x 77.3 x 9 mm",
+            "Weight": "237 g (8.36 oz)",
+            "Build": "Glass front, nylon fiber or silicone polymer back (eco leather), aluminum frame",
+            "SIM": "Nano-SIM + Nano-SIM + eSIM + eSIM (max 3 at a time)",
+            "\u00a0": "IP58/IP59 dust protected and water resistant (high pressure water jets; immersible up to 2m for 30 min)\r\nAerospace-grade aluminum"
+        },
+        "Display": {
+            "Type": "Foldable LTPO OLED, 1B colors, 120Hz, 1440Hz PWM, HDR Vivid, 8000 nits (local HDR peak)",
+            "Size": "8.2 inches, 215.7 cm2 (~90.5% screen-to-body ratio)",
+            "Resolution": "2340 x 2424 pixels, 1:1 ratio (~412 ppi density)",
+            "\u00a0": "Privacy Display (optional)\r\nCover display:\r\nLTPO OLED, 120Hz, 1440Hz PWM, HDR, 12000 nits (local HDR peak)\r\n6.54 inches, 1132 x 2444 pixels, 412 ppi, Kunlun Glass 3"
+        },
+        "Platform": {
+            "OS": "HarmonyOS 7.0",
+            "Chipset": "Kirin 9050 Pro (5 nm)",
+            "CPU": "9-core (1x3.10 GHz & 2x2.70 GHz & 4x2.20 GHz & 2x1.75 GHz)",
+            "GPU": "Maleoon 955"
+        },
+        "Memory": {
+            "Card slot": "No",
+            "Internal": "256GB 12GB RAM, 512GB 12GB RAM, 512GB 16GB RAM, 1TB 16GB RAM",
+            "\u00a0": "UFS 4.x"
+        },
+        "Main Camera": {
+            "Triple": "50 MP, f/1.5-f/4.0, 23mm (wide), 1/1.56\", 1.0\u00b5m, PDAF, OIS\r\n50 MP, f/2.2, 81mm (periscope telephoto), PDAF, OIS, 3.5x optical zoom\r\n40 MP, f/2.2, 13mm, 120\u02da (ultrawide), PDAF",
+            "Features": "Laser AF, color spectrum sensor, LED flash, panorama, HDR",
+            "Video": "4K, 1080p, 1080p@960fps, HDR, gyro-EIS, OIS, HDR Vivid"
+        },
+        "Selfie camera": {
+            "Single": "8 MP, f/2.4, (ultrawide)\r\nCover camera:\r\n8 MP, f/2.4, (ultrawide)",
+            "Features": "HDR, panorama",
+            "Video": "4K, 1080p"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers",
+            "3.5mm jack ": "No"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac/6/7, dual-band, Wi-Fi Direct",
+            "Bluetooth": "6.0, A2DP, LE, L2HC",
+            "Positioning": "GPS (L1+L5), GLONASS (L1), BDS (B1I+B1c+B2a+B2b), GALILEO (E1+E5a+E5b), QZSS (L1+L5), NavIC",
+            "NFC": "Yes",
+            "Infrared port": "Yes",
+            "Radio": "No",
+            "USB": "USB Type-C 3.1, OTG, DisplayPort 1.2"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer",
+            "\u00a0": "BDS Satellite and Messaging - China only"
+        },
+        "Battery": {
+            "Type": "6200 mAh",
+            "Charging": "66W wired\r\n50W wireless (magnetic)\r\n7.5W reverse wireless\r\n5W reverse wired"
+        },
+        "Misc": {
+            "Colors": "Black, White, Red, Purple, Green",
+            "Models": "SKY-AL00",
+            "Price": "About 1790 EUR"
+        }
+    }
+}
