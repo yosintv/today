@@ -1,0 +1,74 @@
+{
+    "device_image_url": "https://fdn2.gsmarena.com/vv/bigpic/tcl-k70-5g.jpg",
+    "specifications": {
+        "Network": {
+            "Technology": "GSM / HSPA / LTE / 5G",
+            "2G bands": "GSM 850 / 900 / 1800 / 1900 ",
+            "3G bands": "HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 ",
+            "4G bands": "1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 20, 26, 28, 32, 38, 39, 40, 41, 42, 66, 71  - ver. 1",
+            "\u00a0": "2, 5, 48, 66, 77, 78 SA/NSA - ver. 2",
+            "5G bands": "1, 3, 5, 7, 8, 20, 26, 28, 38, 40, 41, 66, 77, 78 SA/NSA - ver. 1",
+            "Speed": "HSPA, LTE"
+        },
+        "Launch": {
+            "Announced": "2026, November 04",
+            "Status": "Available. Released 2026, November"
+        },
+        "Body": {
+            "Dimensions": "168.1 x 79.5 x 8.3 mm (6.62 x 3.13 x 0.33 in)",
+            "Weight": "198 g (6.98 oz)",
+            "Build": "Glass front (Gorilla Glass 3), plastic frame, silicone polymer back (eco leather)",
+            "SIM": "\u00b7 Nano-SIM + eSIM\u00b7 Nano-SIM + Nano-SIM",
+            "\u00a0": "IP64 dust tight and water resistant (water splashes)\r\nMIL-STD-810H compliant*\r\n* does not guarantee ruggedness or use in extreme conditions"
+        },
+        "Display": {
+            "Type": "IPS LCD, 120Hz, 750 nits",
+            "Size": "6.8 inches, 113.0 cm2 (~84.6% screen-to-body ratio)",
+            "Resolution": "720 x 1570 pixels, 19.5:9 ratio (~254 ppi density)",
+            "Protection": "Corning Gorilla Glass 3"
+        },
+        "Platform": {
+            "OS": "Android 16",
+            "Chipset": "Qualcomm SM4450 Snapdragon 4 Gen 2 (4 nm) - ver.1Qualcomm SM4635 Snapdragon 4s Gen 2 (4 nm) - ver.2",
+            "CPU": "Octa-core (2x2.2 GHz Cortex-A78 & 6x1.95 GHz Cortex-A55) - ver.1Octa-core (2x2.0 GHz Cortex-A78 & 6x1.8 GHz Cortex-A55) - ver.2",
+            "GPU": "Adreno 613 - ver.1Adreno 611 - ver.2"
+        },
+        "Memory": {
+            "Card slot": "microSDXC (uses shared SIM slot)",
+            "Internal": "128GB 4GB RAM"
+        },
+        "Main Camera": {
+            "Dual": "50 MP, f/1.8, (wide), 1/2.88\", 0.61\u00b5m, PDAF\r\nAuxiliary lens\r\n5 MP (ultrawide) - ver.2 only",
+            "Features": "LED flash, HDR, panorama",
+            "Video": "1080p@30fps"
+        },
+        "Selfie camera": {
+            "Single": "8 MP, f/2.1, (wide), 1/4.0\", 1.12\u00b5m - ver.1\r\n32 MP (wide) - ver.2",
+            "Video": "1080p@30fps"
+        },
+        "Sound": {
+            "Loudspeaker ": "Yes, with stereo speakers (DTS)",
+            "3.5mm jack ": "Yes"
+        },
+        "Comms": {
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct",
+            "Bluetooth": "5.0, A2DP, LE",
+            "Positioning": "GPS, GLONASS, GALILEO, BDS",
+            "NFC": "Yes",
+            "Radio": "Unspecified",
+            "USB": "USB Type-C 2.0"
+        },
+        "Features": {
+            "Sensors": "Fingerprint (side-mounted), accelerometer, proximity, compass - ver.1Fingerprint (side-mounted), accelerometer, gyro, proximity, compass, barometer - ver.2"
+        },
+        "Battery": {
+            "Type": "5200 mAh",
+            "Charging": "18W wired - ver.1\r\n33W wired - ver.2"
+        },
+        "Misc": {
+            "Colors": "Midnight Black, Stardust Blue",
+            "Price": "$\u200959.88 / \u00a3\u2009149.00 / \u20ac\u2009159.00"
+        },
+        "General": {}
+    }
+}
